@@ -1,7 +1,7 @@
 {
     "project": "Maize Leaf Classification",
-    "model": "riceleaf_dmnet",
-    "run_name": "final_riceleaf_dmnet_v2_seed123",
+    "model": "maizeleaf_dmnet",
+    "run_name": "final_maizeleaf_dmnet_v2_seed123",
     "ollama_model": "qwen2.5:3b",
     "generated_at": "2026-11-16T21:10:34.033665",
     "language_outputs": [

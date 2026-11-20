@@ -1,68 +1,132 @@
 Stage: efficiency_benchmark
 Started: 2026-11-14T12:25:22.311447+06:00
-Command: D:\MaizeLeaf\.venv\Scripts\python.exe -m src.benchmarking.efficiency_benchmark --run-dir D:\MaizeLeaf\Results\riceleaf_dmnet\final_riceleaf_dmnet_v2_seed42 --device cuda:0 --batch-sizes 1 8 16 --warmup 5 --iterations 20 --amp --amp-dtype float16
+Command: D:\MaizeLeaf\.venv\Scripts\python.exe -m src.benchmarking.efficiency_benchmark --run-dir D:\MaizeLeaf\Results\maizeleaf_dmnet\final_maizeleaf_dmnet_v2_seed42 --device cuda:0 --batch-sizes 1 8 16 --warmup 5 --iterations 20 --amp --amp-dtype float16
 
-
-============================================================================
-MAIZE LEAF - EFFICIENCY BENCHMARKING ENGINE
-============================================================================
-Run directory : D:\MaizeLeaf\Results\riceleaf_dmnet\final_riceleaf_dmnet_v2_seed42
-Device        : cuda:0
-GPU           : NVIDIA GeForce RTX 3060 Laptop GPU
-[PASS] Fixed split fingerprint
-
-BUILDING MODEL
-Loading best checkpoint...
-[PASS] Model architecture reconstructed
-[PASS] Best checkpoint loaded
-
-MODEL INFORMATION
-Total parameters     : 13,745,531
-Trainable parameters : 13,745,531
-Frozen parameters    : 0
-Checkpoint size      : 158.54 MB
-
-COMPUTATIONAL COMPLEXITY
-MACs/image : 3,075,426,884
-FLOPs/image: 6,150,853,768
-
-INFERENCE BENCHMARK
-AMP        : True
-Warmup     : 5
-Iterations : 20
-
-----------------------------------------------------------------------
-Benchmarking batch size: 1
-Mean latency : 45.1073 ms
-Median       : 43.0316 ms
-P95          : 58.1654 ms
-Throughput   : 22.13 images/sec
-Peak GPU RAM : 85.8291015625 MB
-[PASS] Batch benchmark
-
-----------------------------------------------------------------------
-Benchmarking batch size: 8
-Mean latency : 50.1946 ms
-Median       : 48.0338 ms
-P95          : 74.7890 ms
-Throughput   : 159.22 images/sec
-Peak GPU RAM : 97.1181640625 MB
-[PASS] Batch benchmark
-
-----------------------------------------------------------------------
-Benchmarking batch size: 16
-Mean latency : 39.7697 ms
-Median       : 39.6375 ms
-P95          : 41.4057 ms
-Throughput   : 401.89 images/sec
-Peak GPU RAM : 140.33984375 MB
-[PASS] Batch benchmark
-
-============================================================================
-EFFICIENCY BENCHMARK COMPLETED
-============================================================================
-Training time : 01:17:14
-JSON          : D:\MaizeLeaf\Results\riceleaf_dmnet\final_riceleaf_dmnet_v2_seed42\benchmarking\efficiency_benchmark.json
-CSV           : D:\MaizeLeaf\Results\riceleaf_dmnet\final_riceleaf_dmnet_v2_seed42\benchmarking\efficiency_benchmark.csv
-Report        : D:\MaizeLeaf\Results\riceleaf_dmnet\final_riceleaf_dmnet_v2_seed42\benchmarking\efficiency_benchmark_report.txt
-============================================================================
+
+
+============================================================================
+
+MAIZE LEAF - EFFICIENCY BENCHMARKING ENGINE
+
+============================================================================
+
+Run directory : D:\MaizeLeaf\Results\maizeleaf_dmnet\final_maizeleaf_dmnet_v2_seed42
+
+Device        : cuda:0
+
+GPU           : NVIDIA GeForce RTX 3060 Laptop GPU
+
+[PASS] Fixed split fingerprint
+
+
+
+BUILDING MODEL
+
+Loading best checkpoint...
+
+[PASS] Model architecture reconstructed
+
+[PASS] Best checkpoint loaded
+
+
+
+MODEL INFORMATION
+
+Total parameters     : 13,745,531
+
+Trainable parameters : 13,745,531
+
+Frozen parameters    : 0
+
+Checkpoint size      : 158.54 MB
+
+
+
+COMPUTATIONAL COMPLEXITY
+
+MACs/image : 3,075,426,884
+
+FLOPs/image: 6,150,853,768
+
+
+
+INFERENCE BENCHMARK
+
+AMP        : True
+
+Warmup     : 5
+
+Iterations : 20
+
+
+
+----------------------------------------------------------------------
+
+Benchmarking batch size: 1
+
+Mean latency : 45.1073 ms
+
+Median       : 43.0316 ms
+
+P95          : 58.1654 ms
+
+Throughput   : 22.13 images/sec
+
+Peak GPU RAM : 85.8291015625 MB
+
+[PASS] Batch benchmark
+
+
+
+----------------------------------------------------------------------
+
+Benchmarking batch size: 8
+
+Mean latency : 50.1946 ms
+
+Median       : 48.0338 ms
+
+P95          : 74.7890 ms
+
+Throughput   : 159.22 images/sec
+
+Peak GPU RAM : 97.1181640625 MB
+
+[PASS] Batch benchmark
+
+
+
+----------------------------------------------------------------------
+
+Benchmarking batch size: 16
+
+Mean latency : 39.7697 ms
+
+Median       : 39.6375 ms
+
+P95          : 41.4057 ms
+
+Throughput   : 401.89 images/sec
+
+Peak GPU RAM : 140.33984375 MB
+
+[PASS] Batch benchmark
+
+
+
+============================================================================
+
+EFFICIENCY BENCHMARK COMPLETED
+
+============================================================================
+
+Training time : 01:17:14
+
+JSON          : D:\MaizeLeaf\Results\maizeleaf_dmnet\final_maizeleaf_dmnet_v2_seed42\benchmarking\efficiency_benchmark.json
+
+CSV           : D:\MaizeLeaf\Results\maizeleaf_dmnet\final_maizeleaf_dmnet_v2_seed42\benchmarking\efficiency_benchmark.csv
+
+Report        : D:\MaizeLeaf\Results\maizeleaf_dmnet\final_maizeleaf_dmnet_v2_seed42\benchmarking\efficiency_benchmark_report.txt
+
+============================================================================
+

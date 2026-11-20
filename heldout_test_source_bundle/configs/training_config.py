@@ -46,7 +46,7 @@ SUPPORTED_MODELS = [
     "densenet121",
     "convnext_tiny",
     "small_vit",
-    "riceleaf_dmnet",
+    "mazeleaf_dmnet",
     "mobnetfine",
 ]
 

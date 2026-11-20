@@ -1,6 +1,6 @@
 {
-    "model_name": "riceleaf_dmnet",
-    "run_name": "final_riceleaf_dmnet_v2_seed123",
+    "model_name": "maizeleaf_dmnet",
+    "run_name": "final_maizeleaf_dmnet_v2_seed123",
     "timestamp": "2026-11-16T21:02:33.972148+06:00",
     "device": "cuda:0",
     "gpu_name": "NVIDIA GeForce RTX 3060 Laptop GPU",
@@ -10,7 +10,7 @@
     "image_size": 224,
     "num_classes": 7,
     "split_assignment_fingerprint_sha256": "8a64e1a8a53eecd2dd2eeedbfb63c7e783a193304a2529da1be4e8c7bff441de",
-    "checkpoint": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed123\\checkpoints\\best_model.pth",
+    "checkpoint": "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\final_maizeleaf_dmnet_v2_seed123\\checkpoints\\best_model.pth",
     "training_duration_seconds": 4449.199750899999,
     "training_duration_formatted": "01:14:09",
     "amp": {
@@ -19,15 +19,15 @@
         "reason": "CUDA FP16 mixed precision enabled."
     },
     "model_metadata": {
-        "model_name": "riceleaf_dmnet",
-        "display_name": "RiceLeaf-DMNet (MobileNetV3-Large + DenseNet121)",
+        "model_name": "maizeleaf_dmnet",
+        "display_name": "MaizeLeaf-DMNet (MobileNetV3-Large + DenseNet121)",
         "num_classes": 7,
         "pretrained_requested": false,
         "pretrained_used": false,
         "freeze_backbone": false,
         "architecture": {
             "architecture": "attention-guided multi-scale dual-backbone fusion",
-            "model_name": "RiceLeaf-DMNet",
+            "model_name": "MaizeLeaf-DMNet",
             "architecture_version": "2.0",
             "mobilenet_backbone": "MobileNetV3-Large",
             "densenet_backbone": "DenseNet121",

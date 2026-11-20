@@ -2,9 +2,9 @@
 MAIZE LEAF CLASSIFICATION - LIME EXPLANATION REPORT
 ==============================================================================
 
-Model: riceleaf_dmnet
+Model: maizeleaf_dmnet
 Run: finetuned_eval_seed123_b4
-Checkpoint: D:\MaizeLeaf\Results\riceleaf_dmnet\finetuned_eval_seed123_b4\checkpoints\best_model.pth
+Checkpoint: D:\MaizeLeaf\Results\maizeleaf_dmnet\finetuned_eval_seed123_b4\checkpoints\best_model.pth
 Checkpoint epoch: 10
 Method: LIME
 Partition: test

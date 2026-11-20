@@ -1,7 +1,7 @@
-RICELEAF-DMNET v2 — THREE-STAGE FINE-TUNING
+MAIZELEAF-DMNET v2 — THREE-STAGE FINE-TUNING
 
 WHAT THIS PACKAGE DOES
-- Reuses the exact RiceLeaf-DMNet v2 architecture.
+- Reuses the exact MaizeLeaf-DMNet v2 architecture.
 - Strictly loads the existing epoch-21 best_model.pth checkpoint.
 - Stage 1: trains the classifier only.
 - Stage 2: unfreezes MobileNetV3-Large's final four feature blocks, DenseNet121 denseblock4/norm5, both feature encoders, fusion gate and classifier.
@@ -15,18 +15,18 @@ WHAT THIS PACKAGE DOES
 
 INSTALL
 1. Extract the package into the existing D:\MaizeLeaf project root, preserving folders.
-2. Ensure the original project already contains Dataset\, data_splits\, configs\, Models\RiceLeaf-DMNet.py and the other pipeline modules.
+2. Ensure the original project already contains Dataset\, data_splits\, configs\, Models\MaizeLeaf-DMNet.py and the other pipeline modules.
 3. Ensure the source checkpoint exists at:
-   D:\MaizeLeaf\Results\riceleaf_dmnet\final_riceleaf_dmnet_v2_seed42\checkpoints\best_model.pth
+   D:\MaizeLeaf\Results\Maizeleaf_dmnet\final_Maizeleaf_dmnet_v2_seed42\checkpoints\best_model.pth
 4. Activate the same project virtual environment.
 5. Run from D:\MaizeLeaf:
-   powershell -ExecutionPolicy Bypass -File .\RUN_RiceLeaf-DMNet-Finetune.ps1
+   powershell -ExecutionPolicy Bypass -File .\RUN_MaizeLeaf-DMNet-Finetune.ps1
 
 VALIDATE WITHOUT TRAINING
-python -m src.engine.finetune_trainer --validate-only --checkpoint "D:\MaizeLeaf\Results\riceleaf_dmnet\final_riceleaf_dmnet_v2_seed42\checkpoints\best_model.pth"
+python -m src.engine.finetune_trainer --validate-only --checkpoint "D:\MaizeLeaf\Results\maizeleaf_dmnet\final_maizeleaf_dmnet_v2_seed42\checkpoints\best_model.pth"
 
 OUTPUT
-Results\riceleaf_dmnet_finetuned\RiceLeaf-DMNet-Finetuned_seed42\
+Results\maizeleaf_dmnet_finetuned\MaizeLeaf-DMNet-Finetuned_seed42\
   history.csv
   training_summary.json
   checkpoints\best_model.pth

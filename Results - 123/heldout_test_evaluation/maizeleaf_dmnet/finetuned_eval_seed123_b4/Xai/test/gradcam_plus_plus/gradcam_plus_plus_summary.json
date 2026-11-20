@@ -1,9 +1,9 @@
 {
   "status": "COMPLETED",
   "method": "Grad-CAM++",
-  "model_name": "riceleaf_dmnet",
+  "model_name": "maizeleaf_dmnet",
   "run_name": "finetuned_eval_seed123_b4",
-  "checkpoint": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\finetuned_eval_seed123_b4\\checkpoints\\best_model.pth",
+  "checkpoint": "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\finetuned_eval_seed123_b4\\checkpoints\\best_model.pth",
   "checkpoint_epoch": 10,
   "checkpoint_sha256": "07e506aa37c0dc5d49521ced91ac01ca9cfd128dee3f767db7cb84b605104782",
   "partition": "test",
@@ -127,8 +127,8 @@
       "mean_runtime_seconds": 0.05553729999228381
     }
   ],
-  "contact_sheet": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\riceleaf_dmnet\\finetuned_eval_seed123_b4\\Xai\\test\\gradcam_plus_plus\\gradcam_plus_plus_contact_sheet.jpg",
-  "output_directory": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\riceleaf_dmnet\\finetuned_eval_seed123_b4\\Xai\\test\\gradcam_plus_plus",
+  "contact_sheet": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\maizeleaf_dmnet\\finetuned_eval_seed123_b4\\Xai\\test\\gradcam_plus_plus\\gradcam_plus_plus_contact_sheet.jpg",
+  "output_directory": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\maizeleaf_dmnet\\finetuned_eval_seed123_b4\\Xai\\test\\gradcam_plus_plus",
   "held_out_test_used": false,
   "limitations": [
     "Grad-CAM++ is a post-hoc visual explanation method.",

@@ -11,7 +11,7 @@ Supported architectures:
     5. DenseNet121
     6. ConvNeXt-Tiny
     7. Small ViT
-    8. RiceLeaf-DMNet (MobileNetV3-Large + DenseNet121)
+    8. MaizeLeaf-DMNet (MobileNetV3-Large + DenseNet121)
     9. MobNetFine (MobileNetV3-Large + MSAF)
 
 Responsibilities:
@@ -73,9 +73,9 @@ from Models.small_vit import (
 
 # The requested filename contains a hyphen, so load it through importlib
 # instead of a normal Python import statement.
-def _load_riceleaf_dmnet_builder():
-    model_path = Path(__file__).resolve().with_name("RiceLeaf-DMNet.py")
-    module_name = "Models._riceleaf_dmnet_dynamic"
+def _load_maizeleaf_dmnet_builder():
+    model_path = Path(__file__).resolve().with_name("MaizeLeaf-DMNet.py")
+    module_name = "Models._maizeleaf_dmnet_dynamic"
 
     spec = importlib.util.spec_from_file_location(
         module_name,
@@ -83,22 +83,22 @@ def _load_riceleaf_dmnet_builder():
     )
     if spec is None or spec.loader is None:
         raise ImportError(
-            f"Could not load RiceLeaf-DMNet model file: {model_path}"
+            f"Could not load MaizeLeaf-DMNet model file: {model_path}"
         )
 
     module = importlib.util.module_from_spec(spec)
     sys.modules[module_name] = module
     spec.loader.exec_module(module)
 
-    builder = getattr(module, "build_riceleaf_dmnet", None)
+    builder = getattr(module, "build_maizeleaf_dmnet", None)
     if not callable(builder):
         raise ImportError(
-            "RiceLeaf-DMNet.py must define build_riceleaf_dmnet()."
+            "MaizeLeaf-DMNet.py must define build_maizeleaf_dmnet()."
         )
     return builder
 
 
-build_riceleaf_dmnet = _load_riceleaf_dmnet_builder()
+build_maizeleaf_dmnet = _load_maizeleaf_dmnet_builder()
 
 
 # ============================================================
@@ -203,11 +203,11 @@ MODEL_REGISTRY = {
 
     },
 
-    "riceleaf_dmnet": {
+    "maizeleaf_dmnet": {
 
-        "builder": build_riceleaf_dmnet,
+        "builder": build_maizeleaf_dmnet,
 
-        "display_name": "RiceLeaf-DMNet (MobileNetV3-Large + DenseNet121)",
+        "display_name": "MaizeLeaf-DMNet (MobileNetV3-Large + DenseNet121)",
 
         "pretrained_supported": True,
 
@@ -288,7 +288,7 @@ def get_classifier_module(model_name, model):
 
         return model.classifier
 
-    if model_name == "riceleaf_dmnet":
+    if model_name == "maizeleaf_dmnet":
 
         return model.classifier
 

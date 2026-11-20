@@ -1,7 +1,7 @@
-"""Complete validation evaluation for the fine-tuned RiceLeaf-DMNet checkpoint.
+"""Complete validation evaluation for the fine-tuned MaizeLeaf-DMNet checkpoint.
 
 Creates an isolated compatibility run under:
-    Results/riceleaf_dmnet/finetuned_eval_seed42
+    Results/maizeleaf_dmnet/finetuned_eval_seed42
 
 Uses ONLY the fixed validation split. The held-out test manifest is never opened.
 The original fine-tuning checkpoint and training results are never modified.
@@ -39,15 +39,15 @@ EXPECTED_SPLIT_FINGERPRINT = (
 DEFAULT_CHECKPOINT = (
     PROJECT_ROOT
     / "Results"
-    / "riceleaf_dmnet_finetuned"
-    / "RiceLeaf-DMNet-Finetuned_seed42"
+    / "maizeleaf_dmnet_finetuned"
+    / "MaizeLeaf-DMNet-Finetuned_seed42"
     / "checkpoints"
     / "best_model.pth"
 )
 DEFAULT_RUN_DIR = (
     PROJECT_ROOT
     / "Results"
-    / "riceleaf_dmnet"
+    / "maizeleaf_dmnet"
     / "finetuned_eval_seed42"
 )
 
@@ -123,16 +123,16 @@ def _prepare_eval_run(
     if not checkpoint_path.is_file():
         raise FileNotFoundError(
             f"Fine-tuned best checkpoint not found: {checkpoint_path}\n"
-            "Expected Results/riceleaf_dmnet_finetuned/"
-            "RiceLeaf-DMNet-Finetuned_seed42/checkpoints/best_model.pth"
+            "Expected Results/maizeleaf_dmnet_finetuned/"
+            "MaizeLeaf-DMNet-Finetuned_seed42/checkpoints/best_model.pth"
         )
 
     checkpoint = _load_torch(checkpoint_path)
     if "model_state_dict" not in checkpoint:
         raise KeyError("Checkpoint is missing model_state_dict.")
     if checkpoint.get("model_name") not in (
-        "riceleaf_dmnet_finetuned",
-        "riceleaf_dmnet",
+        "maizeleaf_dmnet_finetuned",
+        "maizeleaf_dmnet",
     ):
         raise RuntimeError(
             f"Unexpected checkpoint model_name: {checkpoint.get('model_name')!r}"
@@ -150,9 +150,9 @@ def _prepare_eval_run(
             )
         shutil.rmtree(run_dir)
 
-    if run_dir.parent.name != "riceleaf_dmnet":
+    if run_dir.parent.name != "maizeleaf_dmnet":
         raise ValueError(
-            "The evaluation run directory must be inside Results/riceleaf_dmnet/ "
+            "The evaluation run directory must be inside Results/maizeleaf_dmnet/ "
             "so the existing model factory and XAI tools can reconstruct DMNet."
         )
 
@@ -160,8 +160,8 @@ def _prepare_eval_run(
     (run_dir / "evaluation" / "validation").mkdir(parents=True, exist_ok=True)
 
     eval_checkpoint = dict(checkpoint)
-    eval_checkpoint["model_name"] = "riceleaf_dmnet"
-    eval_checkpoint["base_model_name"] = "riceleaf_dmnet"
+    eval_checkpoint["model_name"] = "maizeleaf_dmnet"
+    eval_checkpoint["base_model_name"] = "maizeleaf_dmnet"
     eval_checkpoint["evaluation_checkpoint_alias"] = True
     torch.save(eval_checkpoint, run_dir / "checkpoints" / "best_model.pth")
 
@@ -170,8 +170,8 @@ def _prepare_eval_run(
     source_config_path = (
         PROJECT_ROOT
         / "Results"
-        / "riceleaf_dmnet"
-        / "final_riceleaf_dmnet_v2_seed42"
+        / "maizeleaf_dmnet"
+        / "final_maizeleaf_dmnet_v2_seed42"
         / "training_config.json"
     )
     if source_config_path.is_file():
@@ -180,7 +180,7 @@ def _prepare_eval_run(
         training_config = {}
 
     training_config.update({
-        "model": "riceleaf_dmnet",
+        "model": "maizeleaf_dmnet",
         "pretrained": False,
         "freeze_backbone": False,
         "num_classes": NUM_CLASSES,
@@ -197,7 +197,7 @@ def _prepare_eval_run(
     _write_json(run_dir / "training_config.json", training_config)
 
     run_summary = {
-        "model": "riceleaf_dmnet",
+        "model": "maizeleaf_dmnet",
         "run_name": run_dir.name,
         "status": "evaluation_only",
         "best_epoch": int(checkpoint.get("best_epoch", checkpoint.get("epoch", 0))),
@@ -205,7 +205,7 @@ def _prepare_eval_run(
         "best_monitor_value": float(checkpoint.get("best_metric", 0.0)),
         "split_assignment_fingerprint_sha256": fingerprint,
         "test_partition_accessed": False,
-        "source_model_name": "riceleaf_dmnet_finetuned",
+        "source_model_name": "maizeleaf_dmnet_finetuned",
         "source_checkpoint": str(checkpoint_path.resolve()),
         "backbone_initialization": "ImageNet pretrained, then fine-tuned; reconstruction uses checkpoint weights only.",
     }
@@ -216,8 +216,8 @@ def _prepare_eval_run(
     source_snapshot = (
         PROJECT_ROOT
         / "Results"
-        / "riceleaf_dmnet"
-        / "final_riceleaf_dmnet_v2_seed42"
+        / "maizeleaf_dmnet"
+        / "final_maizeleaf_dmnet_v2_seed42"
         / "split_metadata_snapshot.json"
     )
     if not source_snapshot.is_file():
@@ -233,12 +233,12 @@ def _prepare_eval_run(
 
     _write_json(run_dir / "evaluation_metadata.json", {
         "evaluation_type": "post-training validation evaluation",
-        "model": "RiceLeaf-DMNet Fine-Tuned",
+        "model": "MaizeLeaf-DMNet Fine-Tuned",
         "checkpoint_used": str(checkpoint_path.resolve()),
         "checkpoint_epoch": int(checkpoint.get("best_epoch", checkpoint.get("epoch", 0))),
         "checkpoint_stage": checkpoint.get("fine_tuning_stage"),
         "checkpoint_macro_f1": checkpoint.get("best_metric"),
-        "base_model": checkpoint.get("base_model_name", "riceleaf_dmnet"),
+        "base_model": checkpoint.get("base_model_name", "maizeleaf_dmnet"),
         "num_classes": NUM_CLASSES,
         "class_names": list(CLASS_NAMES),
         "image_size": training_config["image_size"],
@@ -262,7 +262,7 @@ def _export_validation_predictions(
 ) -> Path:
     print("\n[1/7] EXPORTING VALIDATION PREDICTIONS")
     model = build_model(
-        model_name="riceleaf_dmnet",
+        model_name="maizeleaf_dmnet",
         num_classes=NUM_CLASSES,
         pretrained=False,
         freeze_backbone=False,
@@ -300,7 +300,7 @@ def _export_validation_predictions(
         batch_size=batch_size,
         num_workers=num_workers,
         pin_memory=(device.type == "cuda"),
-        model_name="riceleaf_dmnet_finetuned",
+        model_name="maizeleaf_dmnet_finetuned",
         run_name=run_dir.name,
         split_name="validation",
         split_fingerprint=EXPECTED_SPLIT_FINGERPRINT,
@@ -310,7 +310,7 @@ def _export_validation_predictions(
             "test_partition_accessed": False,
         },
         training_metadata={
-            "source_model": "RiceLeaf-DMNet v2",
+            "source_model": "MaizeLeaf-DMNet v2",
             "fine_tuned": True,
             "checkpoint_epoch": int(checkpoint.get("best_epoch", 0)),
             "checkpoint_stage": checkpoint.get("fine_tuning_stage"),
@@ -468,7 +468,7 @@ def _correct_benchmark_provenance(run_dir: Path) -> None:
     if isinstance(architecture, dict):
         architecture["pretrained_backbones"] = True
         architecture["fine_tuned_from_pretrained_checkpoint"] = True
-    data["evaluation_model_name"] = "riceleaf_dmnet_finetuned"
+    data["evaluation_model_name"] = "maizeleaf_dmnet_finetuned"
     data["checkpoint_provenance"] = metadata["checkpoint_initialization"]
     _write_json(path, data)
 
@@ -482,7 +482,7 @@ def _correct_benchmark_provenance(run_dir: Path) -> None:
 
 def _parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Complete validation evaluation for fine-tuned RiceLeaf-DMNet."
+        description="Complete validation evaluation for fine-tuned MaizeLeaf-DMNet."
     )
     parser.add_argument("--checkpoint", type=Path, default=DEFAULT_CHECKPOINT)
     parser.add_argument("--run-dir", type=Path, default=DEFAULT_RUN_DIR)
@@ -521,7 +521,7 @@ def main() -> None:
     run_dir = args.run_dir.expanduser().resolve()
 
     print("=" * 76)
-    print("RICELEAF-DMNET FINE-TUNED - COMPLETE VALIDATION EVALUATION")
+    print("MAIZELEAF-DMNET FINE-TUNED - COMPLETE VALIDATION EVALUATION")
     print("=" * 76)
     print("Project root :", PROJECT_ROOT)
     print("Checkpoint  :", checkpoint_path)
@@ -540,14 +540,14 @@ def main() -> None:
 
     # Strictly verify architecture reconstruction before running any pipeline.
     model_check = build_model(
-        model_name="riceleaf_dmnet",
+        model_name="maizeleaf_dmnet",
         num_classes=NUM_CLASSES,
         pretrained=False,
         freeze_backbone=False,
     )
     model_check.load_state_dict(checkpoint["model_state_dict"], strict=True)
     del model_check
-    print("[PASS] Fine-tuned checkpoint strictly matches RiceLeaf-DMNet v2 architecture")
+    print("[PASS] Fine-tuned checkpoint strictly matches MaizeLeaf-DMNet v2 architecture")
 
     prediction_csv = _export_validation_predictions(
         checkpoint=checkpoint,
@@ -632,8 +632,8 @@ def main() -> None:
         _correct_benchmark_provenance(run_dir)
 
     final_summary = {
-        "model": "riceleaf_dmnet_finetuned",
-        "display_name": "RiceLeaf-DMNet Fine-Tuned",
+        "model": "maizeleaf_dmnet_finetuned",
+        "display_name": "MaizeLeaf-DMNet Fine-Tuned",
         "run_dir": str(run_dir),
         "checkpoint": str(checkpoint_path),
         "checkpoint_epoch": int(checkpoint.get("best_epoch", checkpoint.get("epoch", 0))),

@@ -1,5 +1,5 @@
 {
-    "model_name": "riceleaf_dmnet_finetuned",
+    "model_name": "maizeleaf_dmnet_finetuned",
     "run_name": "finetuned_eval_seed42",
     "split_name": "validation",
     "created_at": "2026-11-15T15:30:02.560584+06:00",
@@ -155,14 +155,14 @@
         "test_partition_accessed": false
     },
     "training_metadata": {
-        "source_model": "RiceLeaf-DMNet v2",
+        "source_model": "MaizeLeaf-DMNet v2",
         "fine_tuned": true,
         "checkpoint_epoch": 8,
         "checkpoint_stage": "progressive",
         "best_validation_macro_f1_during_finetuning": 0.9400874296815038
     },
-    "output_csv": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\finetuned_eval_seed42\\evaluation\\validation\\predictions.csv",
-    "metadata_path": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\finetuned_eval_seed42\\evaluation\\validation\\predictions_metadata.json",
+    "output_csv": "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\finetuned_eval_seed42\\evaluation\\validation\\predictions.csv",
+    "metadata_path": "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\finetuned_eval_seed42\\evaluation\\validation\\predictions_metadata.json",
     "csv_sha256": "2a170652a8bae3ae273322102837338c010a14362e0b15ba7d1ce3f736bc0239",
     "probability_columns": [
         "prob_class_0",

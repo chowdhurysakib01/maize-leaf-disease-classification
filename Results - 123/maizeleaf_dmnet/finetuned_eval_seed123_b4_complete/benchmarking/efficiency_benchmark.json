@@ -1,5 +1,5 @@
 {
-    "model_name": "riceleaf_dmnet",
+    "model_name": "maizeleaf_dmnet",
     "run_name": "finetuned_eval_seed123_b4_complete",
     "timestamp": "2026-11-17T15:52:32.785324+06:00",
     "device": "cuda",
@@ -10,7 +10,7 @@
     "image_size": 224,
     "num_classes": 7,
     "split_assignment_fingerprint_sha256": "8a64e1a8a53eecd2dd2eeedbfb63c7e783a193304a2529da1be4e8c7bff441de",
-    "checkpoint": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\finetuned_eval_seed123_b4_complete\\checkpoints\\best_model.pth",
+    "checkpoint": "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\finetuned_eval_seed123_b4_complete\\checkpoints\\best_model.pth",
     "training_duration_seconds": null,
     "training_duration_formatted": "N/A",
     "amp": {
@@ -19,15 +19,15 @@
         "reason": "CUDA FP16 mixed precision enabled."
     },
     "model_metadata": {
-        "model_name": "riceleaf_dmnet",
-        "display_name": "RiceLeaf-DMNet (MobileNetV3-Large + DenseNet121)",
+        "model_name": "maizeleaf_dmnet",
+        "display_name": "MaizeLeaf-DMNet (MobileNetV3-Large + DenseNet121)",
         "num_classes": 7,
         "pretrained_requested": true,
         "pretrained_used": true,
         "freeze_backbone": false,
         "architecture": {
             "architecture": "attention-guided multi-scale dual-backbone fusion",
-            "model_name": "RiceLeaf-DMNet",
+            "model_name": "MaizeLeaf-DMNet",
             "architecture_version": "2.0",
             "mobilenet_backbone": "MobileNetV3-Large",
             "densenet_backbone": "DenseNet121",
@@ -182,6 +182,6 @@
         "warmup_excluded_from_latency": true,
         "throughput_includes_python_loop_overhead": true
     },
-    "evaluation_model_name": "riceleaf_dmnet_finetuned",
+    "evaluation_model_name": "maizeleaf_dmnet_finetuned",
     "checkpoint_provenance": "ImageNet pretrained MobileNetV3-Large and DenseNet121, then fine-tuned; evaluation reconstruction loaded checkpoint weights without downloading pretrained weights."
 }

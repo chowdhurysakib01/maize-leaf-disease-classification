@@ -1,10 +1,10 @@
 {
   "evaluation_type": "post-training held-out test evaluation",
-  "model": "RiceLeaf-DMNet Fine-Tuned",
-  "model_key": "riceleaf_dmnet",
+  "model": "MaizeLeaf-DMNet Fine-Tuned",
+  "model_key": "maizeleaf_dmnet",
   "run_name": "finetuned_eval_seed123_b4_complete",
   "seed": 123,
-  "checkpoint_used": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\finetuned_eval_seed123_b4_complete\\checkpoints\\best_model.pth",
+  "checkpoint_used": "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\finetuned_eval_seed123_b4_complete\\checkpoints\\best_model.pth",
   "checkpoint_sha256": "30a99d8d6c52269a9f09fd58aa895caf198a5033ad4be5ba09b815fc0d2a5cca",
   "checkpoint_size_bytes": 55770063,
   "num_classes": 7,

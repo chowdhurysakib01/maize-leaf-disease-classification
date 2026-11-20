@@ -2,7 +2,7 @@
 MAIZE LEAF CLASSIFICATION - EFFICIENCY BENCHMARK REPORT
 ========================================================================================
 
-Model: riceleaf_dmnet
+Model: maizeleaf_dmnet
 Run: finetuned_eval_seed123_b4_complete
 Timestamp: 2026-11-17T15:52:32.785324+06:00
 Device: cuda

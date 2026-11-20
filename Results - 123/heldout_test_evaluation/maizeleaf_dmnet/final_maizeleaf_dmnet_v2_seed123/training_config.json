@@ -1,5 +1,5 @@
 {
-  "model": "riceleaf_dmnet",
+  "model": "maizeleaf_dmnet",
   "pretrained": false,
   "freeze_backbone": false,
   "epochs": 50,
@@ -48,7 +48,7 @@
   "pin_memory": null,
   "seed": 123,
   "deterministic": true,
-  "run_name": "final_riceleaf_dmnet_v2_seed123",
+  "run_name": "final_maizeleaf_dmnet_v2_seed123",
   "results_dir": "D:\\MaizeLeaf\\Results",
   "resume": null,
   "run_evaluation": true,

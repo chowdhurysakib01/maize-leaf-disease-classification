@@ -1,11 +1,11 @@
 {
     "evaluation_type": "post-training validation evaluation",
-    "model": "RiceLeaf-DMNet Fine-Tuned",
+    "model": "MaizeLeaf-DMNet Fine-Tuned",
     "checkpoint_used": "D:\\MaizeLeaf\\Results\\finetuned_eval_seed123_b4\\checkpoints\\best_model.pth",
     "checkpoint_epoch": 10,
     "checkpoint_stage": "full",
     "checkpoint_macro_f1": 0.9496709418459977,
-    "base_model": "riceleaf_dmnet",
+    "base_model": "maizeleaf_dmnet",
     "num_classes": 7,
     "class_names": [
         "Fall Armyworm (Insect) Damage",

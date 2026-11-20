@@ -1,7 +1,7 @@
 {
-  "model_name": "riceleaf_dmnet_finetuned",
-  "base_model": "RiceLeaf-DMNet v2",
-  "source_checkpoint": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed123\\checkpoints\\best_model.pth",
+  "model_name": "maizeleaf_dmnet_finetuned",
+  "base_model": "MaizeLeaf-DMNet v2",
+  "source_checkpoint": "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\final_maizeleaf_dmnet_v2_seed123\\checkpoints\\best_model.pth",
   "source_best_epoch": 18,
   "source_recorded_val_macro_f1": 0.9345986191136497,
   "fine_tuning_objective": "balanced_class_weighted_cross_entropy",

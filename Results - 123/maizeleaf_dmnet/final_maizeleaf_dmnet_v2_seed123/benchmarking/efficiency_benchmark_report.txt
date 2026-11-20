@@ -2,8 +2,8 @@
 MAIZE LEAF CLASSIFICATION - EFFICIENCY BENCHMARK REPORT
 ========================================================================================
 
-Model: riceleaf_dmnet
-Run: final_riceleaf_dmnet_v2_seed123
+Model: maizeleaf_dmnet
+Run: final_maizeleaf_dmnet_v2_seed123
 Timestamp: 2026-11-16T21:02:33.972148+06:00
 Device: cuda:0
 GPU: NVIDIA GeForce RTX 3060 Laptop GPU

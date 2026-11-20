@@ -62,7 +62,7 @@ def make_training_plots(history_path: Path, summary: dict[str, Any], fine_dir: P
         ax.axhline(float(baseline_loss), linestyle="--", linewidth=1.4, label="Base DMNet validation loss")
     ax.set_xlabel("Fine-tuning epoch")
     ax.set_ylabel("Loss")
-    ax.set_title("RiceLeaf-DMNet Fine-Tuning: Training vs Validation Loss")
+    ax.set_title("MaizeLeaf-DMNet Fine-Tuning: Training vs Validation Loss")
     ax.grid(True, alpha=0.25)
     ax.legend()
     fig.tight_layout()
@@ -84,7 +84,7 @@ def make_training_plots(history_path: Path, summary: dict[str, Any], fine_dir: P
     ax.set_xlabel("Fine-tuning epoch")
     ax.set_ylabel("Score")
     ax.set_ylim(0.0, 1.0)
-    ax.set_title("RiceLeaf-DMNet Fine-Tuning: Validation Metrics")
+    ax.set_title("MaizeLeaf-DMNet Fine-Tuning: Validation Metrics")
     ax.grid(True, alpha=0.25)
     ax.legend()
     fig.tight_layout()
@@ -190,7 +190,7 @@ def main() -> None:
 
     complete_summary = {
         "pipeline_status": "complete",
-        "model": "RiceLeaf-DMNet Fine-Tuned",
+        "model": "MaizeLeaf-DMNet Fine-Tuned",
         "training": training_summary,
         "evaluation": evaluation_summary,
         "training_artifacts_dir": str(fine_dir),

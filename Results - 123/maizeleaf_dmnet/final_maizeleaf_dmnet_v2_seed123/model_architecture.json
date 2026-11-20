@@ -1,14 +1,14 @@
 {
   "model_metadata": {
-    "model_name": "riceleaf_dmnet",
-    "display_name": "RiceLeaf-DMNet (MobileNetV3-Large + DenseNet121)",
+    "model_name": "maizeleaf_dmnet",
+    "display_name": "MaizeLeaf-DMNet (MobileNetV3-Large + DenseNet121)",
     "num_classes": 7,
     "pretrained_requested": true,
     "pretrained_used": true,
     "freeze_backbone": false,
     "architecture": {
       "architecture": "attention-guided multi-scale dual-backbone fusion",
-      "model_name": "RiceLeaf-DMNet",
+      "model_name": "MaizeLeaf-DMNet",
       "architecture_version": "2.0",
       "mobilenet_backbone": "MobileNetV3-Large",
       "densenet_backbone": "DenseNet121",

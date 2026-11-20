@@ -1,5 +1,5 @@
 {
-  "model": "riceleaf_dmnet",
+  "model": "maizeleaf_dmnet",
   "pretrained": false,
   "freeze_backbone": false,
   "num_classes": 7,

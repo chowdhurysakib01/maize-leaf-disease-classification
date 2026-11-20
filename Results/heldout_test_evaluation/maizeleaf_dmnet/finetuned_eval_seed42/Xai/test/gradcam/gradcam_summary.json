@@ -1,9 +1,9 @@
 {
   "status": "COMPLETED",
   "method": "Grad-CAM",
-  "model_name": "riceleaf_dmnet",
+  "model_name": "maizeleaf_dmnet",
   "run_name": "finetuned_eval_seed42",
-  "checkpoint": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\finetuned_eval_seed42\\checkpoints\\best_model.pth",
+  "checkpoint": "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\finetuned_eval_seed42\\checkpoints\\best_model.pth",
   "checkpoint_epoch": 8,
   "checkpoint_sha256": "606a83fef8f3dcfa629791c6666c89bde4bbc5216f7bd385eebc53bffeb74634",
   "partition": "test",
@@ -126,8 +126,8 @@
       "mean_runtime_seconds": 0.11339817999978549
     }
   ],
-  "contact_sheet": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\riceleaf_dmnet\\finetuned_eval_seed42\\Xai\\test\\gradcam\\gradcam_contact_sheet.jpg",
-  "output_directory": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\riceleaf_dmnet\\finetuned_eval_seed42\\Xai\\test\\gradcam",
+  "contact_sheet": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\maizeleaf_dmnet\\finetuned_eval_seed42\\Xai\\test\\gradcam\\gradcam_contact_sheet.jpg",
+  "output_directory": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\maizeleaf_dmnet\\finetuned_eval_seed42\\Xai\\test\\gradcam",
   "held_out_test_used": false,
   "interpretation": "Grad-CAM highlights spatial features that contribute to the selected class score. It does not establish biological causality.",
   "limitations": [

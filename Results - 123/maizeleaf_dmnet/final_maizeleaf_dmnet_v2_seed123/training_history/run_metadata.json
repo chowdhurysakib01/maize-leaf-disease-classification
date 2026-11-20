@@ -1,11 +1,11 @@
 {
-    "run_name": "final_riceleaf_dmnet_v2_seed123",
+    "run_name": "final_maizeleaf_dmnet_v2_seed123",
     "start_timestamp": {
         "local": "2026-11-16T19:45:03.054103+06:00",
         "utc": "2026-11-16T13:45:03.054103+00:00"
     },
     "config": {
-        "model": "riceleaf_dmnet",
+        "model": "maizeleaf_dmnet",
         "pretrained": true,
         "freeze_backbone": false,
         "epochs": 50,
@@ -54,7 +54,7 @@
         "pin_memory": null,
         "seed": 123,
         "deterministic": true,
-        "run_name": "final_riceleaf_dmnet_v2_seed123",
+        "run_name": "final_maizeleaf_dmnet_v2_seed123",
         "results_dir": "D:\\MaizeLeaf\\Results",
         "resume": null,
         "run_evaluation": true,
@@ -65,15 +65,15 @@
         "save_last_checkpoint": true
     },
     "model": {
-        "model_name": "riceleaf_dmnet",
-        "display_name": "RiceLeaf-DMNet (MobileNetV3-Large + DenseNet121)",
+        "model_name": "maizeleaf_dmnet",
+        "display_name": "MaizeLeaf-DMNet (MobileNetV3-Large + DenseNet121)",
         "num_classes": 7,
         "pretrained_requested": true,
         "pretrained_used": true,
         "freeze_backbone": false,
         "architecture": {
             "architecture": "attention-guided multi-scale dual-backbone fusion",
-            "model_name": "RiceLeaf-DMNet",
+            "model_name": "MaizeLeaf-DMNet",
             "architecture_version": "2.0",
             "mobilenet_backbone": "MobileNetV3-Large",
             "densenet_backbone": "DenseNet121",

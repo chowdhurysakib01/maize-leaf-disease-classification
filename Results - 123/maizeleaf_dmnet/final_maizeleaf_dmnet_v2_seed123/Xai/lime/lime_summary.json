@@ -1,9 +1,9 @@
 {
     "status": "COMPLETED",
     "method": "LIME",
-    "model_name": "riceleaf_dmnet",
-    "run_name": "final_riceleaf_dmnet_v2_seed123",
-    "checkpoint": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed123\\checkpoints\\best_model.pth",
+    "model_name": "maizeleaf_dmnet",
+    "run_name": "final_maizeleaf_dmnet_v2_seed123",
+    "checkpoint": "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\final_maizeleaf_dmnet_v2_seed123\\checkpoints\\best_model.pth",
     "checkpoint_epoch": 18,
     "checkpoint_sha256": "bd453caeba1a4e25b84988f06f7fe013674d2231caa89d757f5d7579f16ec534",
     "partition": "validation",
@@ -135,8 +135,8 @@
             "mean_explanation_runtime": 8.746696740000335
         }
     ],
-    "contact_sheet": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed123\\Xai\\lime\\lime_contact_sheet.jpg",
-    "output_directory": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed123\\Xai\\lime",
+    "contact_sheet": "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\final_maizeleaf_dmnet_v2_seed123\\Xai\\lime\\lime_contact_sheet.jpg",
+    "output_directory": "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\final_maizeleaf_dmnet_v2_seed123\\Xai\\lime",
     "limitations": [
         "LIME is a local model-agnostic surrogate explanation.",
         "Positive features support the selected target class locally.",

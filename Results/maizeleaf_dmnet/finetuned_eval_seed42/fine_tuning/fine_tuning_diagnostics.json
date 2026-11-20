@@ -33,8 +33,8 @@
   "last_epoch_train_validation_loss_gap": 0.5631542269105457,
   "interpretation_note": "A positive train-validation loss gap alone does not prove overfitting; inspect the full curves and validation metrics together.",
   "plots": {
-    "training_validation_loss": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\finetuned_eval_seed42\\fine_tuning\\training_curves\\training_validation_loss.png",
-    "validation_metrics": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\finetuned_eval_seed42\\fine_tuning\\training_curves\\validation_metrics.png",
-    "learning_rate": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\finetuned_eval_seed42\\fine_tuning\\training_curves\\learning_rate.png"
+    "training_validation_loss": "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\finetuned_eval_seed42\\fine_tuning\\training_curves\\training_validation_loss.png",
+    "validation_metrics": "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\finetuned_eval_seed42\\fine_tuning\\training_curves\\validation_metrics.png",
+    "learning_rate": "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\finetuned_eval_seed42\\fine_tuning\\training_curves\\learning_rate.png"
   }
 }

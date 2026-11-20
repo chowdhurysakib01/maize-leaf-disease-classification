@@ -1,7 +1,7 @@
 {
-  "model_name": "riceleaf_dmnet_finetuned",
-  "base_model": "RiceLeaf-DMNet v2",
-  "source_checkpoint": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed42\\checkpoints\\best_model.pth",
+  "model_name": "maizeleaf_dmnet_finetuned",
+  "base_model": "MaizeLeaf-DMNet v2",
+  "source_checkpoint": "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\final_maizeleaf_dmnet_v2_seed42\\checkpoints\\best_model.pth",
   "source_best_epoch": 21,
   "source_recorded_val_macro_f1": 0.9369143790276306,
   "fine_tuning_objective": "balanced_class_weighted_cross_entropy",
@@ -51,6 +51,6 @@
       "best_macro_f1_after_stage": 0.9400874296815038
     }
   ],
-  "history_csv": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\finetuned_eval_seed42\\fine_tuning\\history.csv",
-  "best_checkpoint": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\finetuned_eval_seed42\\fine_tuning\\checkpoints\\best_model.pth"
+  "history_csv": "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\finetuned_eval_seed42\\fine_tuning\\history.csv",
+  "best_checkpoint": "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\finetuned_eval_seed42\\fine_tuning\\checkpoints\\best_model.pth"
 }

@@ -1,10 +1,10 @@
-Based on the provided data, here is the comprehensive report for the validation evaluation of the model in the context of identifying and classifying different types of leaf diseases and deficiencies in rice plants:
+Based on the provided data, here is the comprehensive report for the validation evaluation of the model in the context of identifying and classifying different types of leaf diseases and deficiencies in maize plants:
 
 ### Overview
 The evaluation was conducted on a dataset with 564 samples divided into five classes: Fall Armyworm (Insect) Damage, Healthy Leaf, Leaf Spot, Magnesium Deficiency, and Nitrogen Deficiency. 
 
 ### Model Metrics
-The model performed very well on the validation dataset. The precision, recall, and F1 score for all class indices were consistently high, indicating that the model can accurately classify the different types of issues affecting rice leaves.
+The model performed very well on the validation dataset. The precision, recall, and F1 score for all class indices were consistently high, indicating that the model can accurately classify the different types of issues affecting maize leaves.
 
 - **Precision**: The model achieved a precision score of 0.9467, meaning that when the model predicts a sample belongs to a particular class, it is correct 94.67% of the time.
 - **Recall**: The recall score was 0.9450, which means that the model is correctly identifying 94.50% of the samples that actually belong to the class it is predicting.
@@ -55,6 +55,6 @@ The error analysis reveals that the model correctly identified all samples for e
 - **Confusion Matrix**: The model performs optimally with no errors, indicating a very reliable and accurate model.
 
 ### Conclusion
-The model performs exceptionally well in identifying and classifying different types of leaf diseases and deficiencies in rice plants. The high precision, recall, and F1 scores across all classes, coupled with the error analysis results, confirm the model’s robustness and reliability. These results suggest that the model can effectively be used for real-world applications in monitoring and managing rice plant health. 
+The model performs exceptionally well in identifying and classifying different types of leaf diseases and deficiencies in maize plants. The high precision, recall, and F1 scores across all classes, coupled with the error analysis results, confirm the model’s robustness and reliability. These results suggest that the model can effectively be used for real-world applications in monitoring and managing maize plant health. 
 
 This model could be further tuned or applied to larger datasets to further validate its effectiveness.

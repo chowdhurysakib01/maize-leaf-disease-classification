@@ -117,3 +117,4 @@ build/
 **/[Xx][Aa][Ii]/**/weight_maps/**/*.[tT][iI][fF]
 **/[Xx][Aa][Ii]/**/weight_maps/**/*.[tT][iI][fF][fF]
 **/[Xx][Aa][Ii]/**/weight_maps/**/*.[gG][iI][fF]
+**/checkpoints/ 

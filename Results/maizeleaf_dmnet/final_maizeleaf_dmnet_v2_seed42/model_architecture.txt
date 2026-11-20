@@ -2,8 +2,8 @@
 MAIZE LEAF CLASSIFICATION - MODEL ARCHITECTURE REPORT
 ========================================================================================
 
-Model: RiceLeaf-DMNet (MobileNetV3-Large + DenseNet121)
-Model key: riceleaf_dmnet
+Model: MaizeLeaf-DMNet (MobileNetV3-Large + DenseNet121)
+Model key: maizeleaf_dmnet
 Number of classes: 7
 Pretrained requested: True
 Pretrained actually used: True
@@ -21,7 +21,7 @@ Parameter storage estimate: 52.852 MB
 
 FULL PYTORCH ARCHITECTURE
 ----------------------------------------------------------------------------------------
-RiceLeafDMNet(
+NaizeLeafDMNet(
   (mobilenet_features): Sequential(
     (0): Conv2dNormActivation(
       (0): Conv2d(3, 16, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
@@ -917,7 +917,7 @@ RiceLeafDMNet(
 ARCHITECTURE CONFIGURATION
 {
   "architecture": "attention-guided multi-scale dual-backbone fusion",
-  "model_name": "RiceLeaf-DMNet",
+  "model_name": "MaizeLeaf-DMNet",
   "architecture_version": "2.0",
   "mobilenet_backbone": "MobileNetV3-Large",
   "densenet_backbone": "DenseNet121",

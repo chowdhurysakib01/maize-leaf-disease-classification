@@ -1,7 +1,7 @@
 {
     "completed": true,
     "model": "qwen2.5:3b",
-    "run_name": "final_riceleaf_dmnet_v2_seed42",
+    "run_name": "final_maizeleaf_dmnet_v2_seed42",
     "elapsed_seconds": 82.3,
     "completed_at": "2026-11-14T12:32:47.150383"
 }

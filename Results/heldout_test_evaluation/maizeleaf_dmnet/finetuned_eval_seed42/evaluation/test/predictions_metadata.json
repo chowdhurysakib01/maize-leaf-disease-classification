@@ -1,5 +1,5 @@
 {
-    "model_name": "riceleaf_dmnet",
+    "model_name": "maizeleaf_dmnet",
     "run_name": "finetuned_eval_seed42",
     "split_name": "test",
     "created_at": "2026-11-18T03:39:57.059766+06:00",
@@ -156,13 +156,13 @@
         "test_manifest_sha256": "60502c39895885eebbad0957c5916c3fbdf93dba9694e41180ed9bc044f7250b"
     },
     "training_metadata": {
-        "source_run": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\finetuned_eval_seed42",
+        "source_run": "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\finetuned_eval_seed42",
         "seed": 42,
         "checkpoint_sha256": "606a83fef8f3dcfa629791c6666c89bde4bbc5216f7bd385eebc53bffeb74634",
         "fine_tuned": true
     },
-    "output_csv": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\riceleaf_dmnet\\finetuned_eval_seed42\\evaluation\\test\\predictions.csv",
-    "metadata_path": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\riceleaf_dmnet\\finetuned_eval_seed42\\evaluation\\test\\predictions_metadata.json",
+    "output_csv": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\maizeleaf_dmnet\\finetuned_eval_seed42\\evaluation\\test\\predictions.csv",
+    "metadata_path": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\maizeleaf_dmnet\\finetuned_eval_seed42\\evaluation\\test\\predictions_metadata.json",
     "csv_sha256": "65a6aa42d2e06d42780792eaa10d5b6b5b695ba06cd6ac807a0415fce7d15f8b",
     "probability_columns": [
         "prob_class_0",

@@ -2,9 +2,9 @@
 MAIZE LEAF CLASSIFICATION - GRAD-CAM++ REPORT
 ==============================================================================
 
-Model: riceleaf_dmnet
-Run: final_riceleaf_dmnet_v2_seed123
-Checkpoint: D:\MaizeLeaf\Results\riceleaf_dmnet\final_riceleaf_dmnet_v2_seed123\checkpoints\best_model.pth
+Model: maizeleaf_dmnet
+Run: final_maizeleaf_dmnet_v2_seed123
+Checkpoint: D:\MaizeLeaf\Results\maizeleaf_dmnet\final_maizeleaf_dmnet_v2_seed123\checkpoints\best_model.pth
 Checkpoint epoch: 18
 Partition: validation
 Target layer: densenet_features.denseblock4.denselayer16.conv2

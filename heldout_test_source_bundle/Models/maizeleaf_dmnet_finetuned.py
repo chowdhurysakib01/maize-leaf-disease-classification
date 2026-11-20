@@ -1,6 +1,6 @@
-"""Loader and staged-unfreezing helpers for RiceLeaf-DMNet fine-tuning.
+"""Loader and staged-unfreezing helpers for MaizeLeaf-DMNet fine-tuning.
 
-This is not a new architecture: it reuses the exact RiceLeaf-DMNet v2
+This is not a new architecture: it reuses the exact MaizeLeaf-DMNet v2
 architecture and strictly initializes it from the selected epoch-21 checkpoint.
 """
 
@@ -31,18 +31,18 @@ def build_finetuned_dmnet(checkpoint_path, num_classes=7):
     checkpoint = _load_torch_checkpoint(checkpoint_path)
     if not isinstance(checkpoint, dict) or "model_state_dict" not in checkpoint:
         raise ValueError("Expected a full training checkpoint containing 'model_state_dict'.")
-    if checkpoint.get("model_name") not in (None, "riceleaf_dmnet", "riceleaf_dmnet_finetuned"):
-        raise ValueError(f"Checkpoint model is not RiceLeaf-DMNet: {checkpoint.get('model_name')}")
+    if checkpoint.get("model_name") not in (None, "maizeleaf_dmnet", "maizeleaf_dmnet_finetuned"):
+        raise ValueError(f"Checkpoint model is not MaizeLeaf-DMNet: {checkpoint.get('model_name')}")
 
     model = build_model(
-        model_name="riceleaf_dmnet",
+        model_name="maizeleaf_dmnet",
         num_classes=num_classes,
         pretrained=False,
         freeze_backbone=False,
     )
     model.load_state_dict(checkpoint["model_state_dict"], strict=True)
     # Keep the original factory key so existing Grad-CAM/model-factory helpers work.
-    model.finetune_model_name = "riceleaf_dmnet_finetuned"
+    model.finetune_model_name = "maizeleaf_dmnet_finetuned"
     model.finetune_source_checkpoint = str(checkpoint_path)
     model.finetune_source_epoch = int(checkpoint.get("best_epoch", checkpoint.get("epoch", 0)))
     model.finetune_source_macro_f1 = float(checkpoint.get("best_metric", float("nan")))

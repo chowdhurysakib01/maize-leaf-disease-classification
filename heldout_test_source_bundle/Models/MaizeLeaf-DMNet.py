@@ -1,11 +1,11 @@
 """
-RiceLeaf-DMNet v2
+MaizeLeaf-DMNet v2
 Dual-backbone MobileNetV3-Large + DenseNet121 with attention-guided,
 multi-scale feature fusion.
 
 Compatibility:
-- Keeps the existing model key: riceleaf_dmnet
-- Keeps the existing builder: build_riceleaf_dmnet
+- Keeps the existing model key: maizeleaf_dmnet
+- Keeps the existing builder: build_maizeleaf_dmnet
 - Returns raw seven-class logits for the existing trainer
 - Exposes get_target_layer() for Grad-CAM / Grad-CAM++
 - Exposes get_architecture_config() for existing metadata export
@@ -111,7 +111,7 @@ class MultiScaleBranchEncoder(nn.Module):
         return self.embedding(multi_scale)
 
 
-class RiceLeafDMNet(nn.Module):
+class MaizeLeafDMNet(nn.Module):
     """Attention-guided dual-backbone classifier."""
 
     def __init__(
@@ -269,7 +269,7 @@ class RiceLeafDMNet(nn.Module):
     def get_architecture_config(self) -> Dict[str, object]:
         return {
             "architecture": "attention-guided multi-scale dual-backbone fusion",
-            "model_name": "RiceLeaf-DMNet",
+            "model_name": "MaizeLeaf-DMNet",
             "architecture_version": "2.0",
             "mobilenet_backbone": "MobileNetV3-Large",
             "densenet_backbone": "DenseNet121",
@@ -289,14 +289,14 @@ class RiceLeafDMNet(nn.Module):
         }
 
 
-def build_riceleaf_dmnet(
+def build_maizeleaf_dmnet(
     num_classes: int = 7,
     pretrained: bool = True,
     freeze_backbone: bool = False,
     **model_kwargs,
-) -> RiceLeafDMNet:
+) -> MaizeLeafDMNet:
     """Factory-compatible builder used by Models.model_factory."""
-    return RiceLeafDMNet(
+    return MaizeLeafDMNet(
         num_classes=num_classes,
         pretrained=pretrained,
         freeze_backbone=freeze_backbone,

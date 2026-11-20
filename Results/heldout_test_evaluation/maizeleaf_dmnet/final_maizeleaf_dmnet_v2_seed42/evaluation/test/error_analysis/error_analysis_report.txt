@@ -2,8 +2,8 @@
 MAIZE LEAF CLASSIFICATION - ERROR ANALYSIS REPORT
 ========================================================================================
 
-Model: riceleaf_dmnet
-Run: final_riceleaf_dmnet_v2_seed42
+Model: maizeleaf_dmnet
+Run: final_maizeleaf_dmnet_v2_seed42
 Split: test
 Timestamp: 2026-11-18T03:33:41.305044+06:00
 

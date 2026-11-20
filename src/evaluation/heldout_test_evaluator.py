@@ -144,8 +144,8 @@ def normalize_model_key(value):
         return None
     key = str(value).strip().lower()
     return {
-        "riceleaf_dmnet_finetuned": "riceleaf_dmnet",
-        "riceleaf-dmnet": "riceleaf_dmnet",
+        "maizeleaf_dmnet_finetuned": "maizeleaf_dmnet",
+        "maizeleaf-dmnet": "maizeleaf_dmnet",
         "mobilenetv3": "mobilenet_v3",
         "mobilenet_v3_large": "mobilenet_v3",
         "customcnn": "custom_cnn",
@@ -191,17 +191,17 @@ def discover_unique_checkpoints(results_root: Path, output_root: Path):
 
         model_key = normalize_model_key(config.get("model") or checkpoint.get("model_name"))
         if not model_key and "finetuned_eval" in canonical["run_root"].name.lower():
-            model_key = "riceleaf_dmnet"
+            model_key = "maizeleaf_dmnet"
 
         run_name = canonical["run_root"].name
         seed = infer_seed(run_name, config, checkpoint)
 
-        if model_key == "riceleaf_dmnet" and "finetuned_eval" in run_name.lower():
-            display_name = "RiceLeaf-DMNet Fine-Tuned"
-        elif model_key == "riceleaf_dmnet" and "_v2_" in run_name.lower():
-            display_name = "RiceLeaf-DMNet v2"
-        elif model_key == "riceleaf_dmnet" and run_name.lower() == "final_riceleaf_dmnet_seed42":
-            display_name = "RiceLeaf-DMNet v1 (legacy)"
+        if model_key == "maizeleaf_dmnet" and "finetuned_eval" in run_name.lower():
+            display_name = "MaizeLeaf-DMNet Fine-Tuned"
+        elif model_key == "maizeleaf_dmnet" and "_v2_" in run_name.lower():
+            display_name = "MaizeLeaf-DMNet v2"
+        elif model_key == "maizeleaf_dmnet" and run_name.lower() == "final_maizeleaf_dmnet_seed42":
+            display_name = "MaizeLeaf-DMNet v1 (legacy)"
         else:
             display_name = model_key or "unknown"
 
@@ -235,7 +235,7 @@ def build_model_for_run(item):
     model_key = item["model_key"]
     supported = {
         "custom_cnn", "resnet50", "efficientnet_b0", "mobilenet_v3",
-        "densenet121", "convnext_tiny", "small_vit", "riceleaf_dmnet",
+        "densenet121", "convnext_tiny", "small_vit", "maizeleaf_dmnet",
         "mobnetfine",
     }
     if model_key not in supported:
@@ -243,9 +243,9 @@ def build_model_for_run(item):
 
     # The uploaded source bundle contains DMNet v2 only. The old v1 run used
     # a different concatenation architecture, so do not mis-reconstruct it.
-    if model_key == "riceleaf_dmnet" and item["run_name"].lower() == "final_riceleaf_dmnet_seed42":
+    if model_key == "maizeleaf_dmnet" and item["run_name"].lower() == "final_maizeleaf_dmnet_seed42":
         raise RuntimeError(
-            "Legacy RiceLeaf-DMNet v1 checkpoint: current Models/RiceLeaf-DMNet.py "
+            "Legacy MaizeLeaf-DMNet v1 checkpoint: current Models/MaizeLeaf-DMNet.py "
             "contains v2 only. Original v1 model source is required for strict reconstruction."
         )
 

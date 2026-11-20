@@ -1,9 +1,9 @@
 {
-    "model_name": "riceleaf_dmnet",
+    "model_name": "maizeleaf_dmnet",
     "best_epoch": 21,
     "best_metric_name": "val_macro_f1",
     "best_metric_value": 0.9369143790276306,
-    "checkpoint": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed42\\checkpoints\\best_model.pth",
+    "checkpoint": "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\final_maizeleaf_dmnet_v2_seed42\\checkpoints\\best_model.pth",
     "created_at": "2026-11-14T06:02:55.674940+00:00",
     "completed_epoch": 21,
     "global_step": 6880

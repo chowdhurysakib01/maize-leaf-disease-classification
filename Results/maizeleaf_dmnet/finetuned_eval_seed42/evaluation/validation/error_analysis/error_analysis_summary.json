@@ -1,6 +1,6 @@
 {
     "timestamp": "2026-11-15T15:32:01.289059+06:00",
-    "model_name": "riceleaf_dmnet",
+    "model_name": "maizeleaf_dmnet",
     "run_name": "finetuned_eval_seed42",
     "split_name": "validation",
     "num_classes": 7,
@@ -461,9 +461,9 @@
     "split_fingerprint_verified": true,
     "expected_split_fingerprint": "8a64e1a8a53eecd2dd2eeedbfb63c7e783a193304a2529da1be4e8c7bff441de",
     "prediction_csv_sha256": "2a170652a8bae3ae273322102837338c010a14362e0b15ba7d1ce3f736bc0239",
-    "prediction_csv": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\finetuned_eval_seed42\\evaluation\\validation\\predictions.csv",
-    "output_directory": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\finetuned_eval_seed42\\evaluation\\validation\\error_analysis",
-    "contact_sheet": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\finetuned_eval_seed42\\evaluation\\validation\\error_analysis\\misclassified_contact_sheet.jpg",
+    "prediction_csv": "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\finetuned_eval_seed42\\evaluation\\validation\\predictions.csv",
+    "output_directory": "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\finetuned_eval_seed42\\evaluation\\validation\\error_analysis",
+    "contact_sheet": "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\finetuned_eval_seed42\\evaluation\\validation\\error_analysis\\misclassified_contact_sheet.jpg",
     "analysis_method": "Prediction-based classification error analysis",
     "limitations": [
         "Confusion patterns do not establish the biological cause of an error.",

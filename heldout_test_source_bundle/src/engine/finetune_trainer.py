@@ -1,4 +1,4 @@
-"""Three-stage fine-tuning for RiceLeaf-DMNet v2.
+"""Three-stage fine-tuning for MaizeLeaf-DMNet v2.
 
 Initializes strictly from the epoch-21 best checkpoint, checks the fixed split
 fingerprint, trains only on train.csv, selects using validation.csv macro-F1,
@@ -27,7 +27,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-from Models.riceleaf_dmnet_finetuned import (
+from Models.maizeleaf_dmnet_finetuned import (
     build_finetuned_dmnet,
     get_stage_parameter_groups,
     set_trainable_stage,
@@ -58,8 +58,8 @@ from src.utils.seed import create_generator, seed_everything
 DEFAULT_CHECKPOINT = (
     PROJECT_ROOT
     / "Results"
-    / "riceleaf_dmnet"
-    / "final_riceleaf_dmnet_v2_seed42"
+    / "maizeleaf_dmnet"
+    / "final_maizeleaf_dmnet_v2_seed42"
     / "checkpoints"
     / "best_model.pth"
 )
@@ -67,11 +67,11 @@ DEFAULT_CHECKPOINT = (
 
 def parse_args(argv=None):
     parser = argparse.ArgumentParser(
-        description="Fine-tune RiceLeaf-DMNet v2 from its best checkpoint."
+        description="Fine-tune MaizeLeaf-DMNet v2 from its best checkpoint."
     )
     parser.add_argument("--checkpoint", type=Path, default=DEFAULT_CHECKPOINT)
     parser.add_argument("--run-name", default="finetune_from_epoch21_seed42")
-    parser.add_argument("--results-dir", type=Path, default=PROJECT_ROOT / "Results" / "riceleaf_dmnet_finetuned")
+    parser.add_argument("--results-dir", type=Path, default=PROJECT_ROOT / "Results" / "maizeleaf_dmnet_finetuned")
     parser.add_argument("--device", choices=["auto", "cpu", "cuda", "cuda:0"], default="auto")
     parser.add_argument("--batch-size", type=int, default=4)
     parser.add_argument("--accumulation-steps", type=int, default=2)
@@ -292,7 +292,7 @@ def train(args):
     seed_everything(args.seed, deterministic=True, warn_only=True)
     device = torch.device(select_device(args.device))
     print("\n" + "=" * 76)
-    print("RICELEAF-DMNET v2 — THREE-STAGE FINE-TUNING")
+    print("MAIZELEAF-DMNET v2 — THREE-STAGE FINE-TUNING")
     print("=" * 76)
     print(f"Project : {PROJECT_ROOT}")
     print(f"Device  : {device}")
@@ -373,8 +373,8 @@ def train(args):
     def make_payload(state, epoch, stage, metric):
         return {
             "checkpoint_version": 1,
-            "model_name": "riceleaf_dmnet_finetuned",
-            "base_model_name": "riceleaf_dmnet",
+            "model_name": "maizeleaf_dmnet_finetuned",
+            "base_model_name": "maizeleaf_dmnet",
             "epoch": int(epoch),
             "completed_epoch": int(epoch),
             "best_epoch": int(best_epoch if epoch != 0 else 0),
@@ -399,8 +399,8 @@ def train(args):
 
     _atomic_torch_save(make_payload(best_state, 0, best_stage, best_metric), checkpoint_dir / "best_model.pth")
     _write_json({
-        "model_name": "riceleaf_dmnet_finetuned",
-        "base_model_name": "riceleaf_dmnet",
+        "model_name": "maizeleaf_dmnet_finetuned",
+        "base_model_name": "maizeleaf_dmnet",
         "best_epoch": 0,
         "best_stage": best_stage,
         "best_metric_name": "val_macro_f1",
@@ -500,8 +500,8 @@ def train(args):
                     checkpoint_dir / "best_model.pth",
                 )
                 _write_json({
-                    "model_name": "riceleaf_dmnet_finetuned",
-                    "base_model_name": "riceleaf_dmnet",
+                    "model_name": "maizeleaf_dmnet_finetuned",
+                    "base_model_name": "maizeleaf_dmnet",
                     "best_epoch": best_epoch,
                     "best_stage": best_stage,
                     "best_metric_name": "val_macro_f1",
@@ -546,8 +546,8 @@ def train(args):
 
     model.load_state_dict(best_state, strict=True)
     summary = {
-        "model_name": "riceleaf_dmnet_finetuned",
-        "base_model": "RiceLeaf-DMNet v2",
+        "model_name": "maizeleaf_dmnet_finetuned",
+        "base_model": "MaizeLeaf-DMNet v2",
         "source_checkpoint": str(args.checkpoint.resolve()),
         "source_best_epoch": source_best_epoch,
         "source_recorded_val_macro_f1": source_best,

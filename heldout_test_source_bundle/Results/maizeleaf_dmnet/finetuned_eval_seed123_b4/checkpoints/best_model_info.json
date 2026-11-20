@@ -1,12 +1,12 @@
 {
-  "model_name": "riceleaf_dmnet_finetuned",
-  "base_model_name": "riceleaf_dmnet",
+  "model_name": "maizeleaf_dmnet_finetuned",
+  "base_model_name": "maizeleaf_dmnet",
   "best_epoch": 10,
   "best_stage": "full",
   "best_metric_name": "val_macro_f1",
   "best_metric_value": 0.9496709418459977,
-  "source_checkpoint": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed123\\checkpoints\\best_model.pth",
+  "source_checkpoint": "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\final_maizeleaf_dmnet_v2_seed123\\checkpoints\\best_model.pth",
   "source_best_epoch": 18,
   "source_best_macro_f1": 0.9345986191136497,
-  "checkpoint": "D:\\MaizeLeaf\\Results\\finetuned_eval_seed123_b4\\checkpoints\\best_model.pth"
+  "checkpoint": "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\finetuned_eval_seed123_b4\\checkpoints\\best_model.pth"
 }

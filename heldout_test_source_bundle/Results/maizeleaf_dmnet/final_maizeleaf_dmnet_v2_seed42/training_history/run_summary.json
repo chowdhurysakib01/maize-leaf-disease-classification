@@ -1,5 +1,5 @@
 {
-    "run_name": "final_riceleaf_dmnet_v2_seed42",
+    "run_name": "final_maizeleaf_dmnet_v2_seed42",
     "status": "early_stopped",
     "start_timestamp": {
         "local": "2026-11-14T11:05:26.469061+06:00",
@@ -20,8 +20,8 @@
         "value": 0.9369143790276306
     },
     "additional_information": {
-        "model": "riceleaf_dmnet",
-        "run_name": "final_riceleaf_dmnet_v2_seed42",
+        "model": "maizeleaf_dmnet",
+        "run_name": "final_maizeleaf_dmnet_v2_seed42",
         "status": "early_stopped",
         "best_epoch": 21,
         "best_monitor": "val_macro_f1",
@@ -30,7 +30,7 @@
         "total_training_time_seconds": 4634.937897100026,
         "total_training_time_minutes": 77.2489649516671,
         "global_optimizer_steps": 9175,
-        "best_checkpoint": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed42\\checkpoints\\best_model.pth",
+        "best_checkpoint": "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\final_maizeleaf_dmnet_v2_seed42\\checkpoints\\best_model.pth",
         "best_checkpoint_size_mb": 158.54472255706787,
         "total_parameters": 13745531,
         "trainable_parameters": 13745531,
@@ -48,28 +48,28 @@
         },
         "validation_loss": 0.6206317254414795,
         "training_curve_files": [
-            "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed42\\training_curves\\loss_curve.png",
-            "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed42\\training_curves\\accuracy_curve.png",
-            "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed42\\training_curves\\macro_f1_curve.png",
-            "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed42\\training_curves\\learning_rate_curve.png"
+            "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\final_maizeleaf_dmnet_v2_seed42\\training_curves\\loss_curve.png",
+            "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\final_maizeleaf_dmnet_v2_seed42\\training_curves\\accuracy_curve.png",
+            "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\final_maizeleaf_dmnet_v2_seed42\\training_curves\\macro_f1_curve.png",
+            "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\final_maizeleaf_dmnet_v2_seed42\\training_curves\\learning_rate_curve.png"
         ],
         "validation_artifacts": {
-            "metrics_json": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed42\\evaluation\\validation\\metrics.json",
-            "classification_report": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed42\\evaluation\\validation\\classification_report.csv",
-            "confusion_matrix_csv": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed42\\evaluation\\validation\\confusion_matrix.csv",
-            "normalized_confusion_matrix_csv": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed42\\evaluation\\validation\\normalized_confusion_matrix.csv",
-            "confusion_matrix_png": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed42\\evaluation\\validation\\confusion_matrix.png",
-            "normalized_confusion_matrix_png": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed42\\evaluation\\validation\\normalized_confusion_matrix.png",
-            "roc_auc_csv": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed42\\evaluation\\validation\\roc_auc_per_class.csv",
-            "pr_auc_csv": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed42\\evaluation\\validation\\pr_auc_per_class.csv",
-            "roc_curve_png": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed42\\evaluation\\validation\\roc_curves.png",
-            "pr_curve_png": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed42\\evaluation\\validation\\precision_recall_curves.png",
-            "roc_curve_data_csv": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed42\\evaluation\\validation\\roc_curve_data.csv",
-            "pr_curve_data_csv": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed42\\evaluation\\validation\\pr_curve_data.csv"
+            "metrics_json": "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\final_maizeleaf_dmnet_v2_seed42\\evaluation\\validation\\metrics.json",
+            "classification_report": "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\final_maizeleaf_dmnet_v2_seed42\\evaluation\\validation\\classification_report.csv",
+            "confusion_matrix_csv": "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\final_maizeleaf_dmnet_v2_seed42\\evaluation\\validation\\confusion_matrix.csv",
+            "normalized_confusion_matrix_csv": "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\final_maizeleaf_dmnet_v2_seed42\\evaluation\\validation\\normalized_confusion_matrix.csv",
+            "confusion_matrix_png": "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\final_maizeleaf_dmnet_v2_seed42\\evaluation\\validation\\confusion_matrix.png",
+            "normalized_confusion_matrix_png": "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\final_maizeleaf_dmnet_v2_seed42\\evaluation\\validation\\normalized_confusion_matrix.png",
+            "roc_auc_csv": "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\final_maizeleaf_dmnet_v2_seed42\\evaluation\\validation\\roc_auc_per_class.csv",
+            "pr_auc_csv": "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\final_maizeleaf_dmnet_v2_seed42\\evaluation\\validation\\pr_auc_per_class.csv",
+            "roc_curve_png": "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\final_maizeleaf_dmnet_v2_seed42\\evaluation\\validation\\roc_curves.png",
+            "pr_curve_png": "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\final_maizeleaf_dmnet_v2_seed42\\evaluation\\validation\\precision_recall_curves.png",
+            "roc_curve_data_csv": "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\final_maizeleaf_dmnet_v2_seed42\\evaluation\\validation\\roc_curve_data.csv",
+            "pr_curve_data_csv": "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\final_maizeleaf_dmnet_v2_seed42\\evaluation\\validation\\pr_curve_data.csv"
         },
         "prediction_export": {
-            "model_name": "riceleaf_dmnet",
-            "run_name": "final_riceleaf_dmnet_v2_seed42",
+            "model_name": "maizeleaf_dmnet",
+            "run_name": "final_maizeleaf_dmnet_v2_seed42",
             "split_name": "validation",
             "created_at": "2026-11-14T12:23:35.014212+06:00",
             "completed_at": "2026-11-14T12:25:21.558699+06:00",
@@ -275,10 +275,10 @@
                 "best_epoch": 21,
                 "best_monitor": "val_macro_f1",
                 "best_monitor_value": 0.9369143790276306,
-                "training_config_path": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed42\\training_config.json"
+                "training_config_path": "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\final_maizeleaf_dmnet_v2_seed42\\training_config.json"
             },
-            "output_csv": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed42\\evaluation\\validation\\predictions.csv",
-            "metadata_path": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed42\\evaluation\\validation\\predictions_metadata.json",
+            "output_csv": "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\final_maizeleaf_dmnet_v2_seed42\\evaluation\\validation\\predictions.csv",
+            "metadata_path": "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\final_maizeleaf_dmnet_v2_seed42\\evaluation\\validation\\predictions_metadata.json",
             "csv_sha256": "5bb1baf4197f25f951a39b5237c4ac5eb15ff14608fbb47e0662e26a8418f325",
             "probability_columns": [
                 "prob_class_0",
@@ -327,7 +327,7 @@
                         "-m",
                         "src.benchmarking.efficiency_benchmark",
                         "--run-dir",
-                        "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed42",
+                        "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\final_maizeleaf_dmnet_v2_seed42",
                         "--device",
                         "cuda:0",
                         "--batch-sizes",
@@ -342,7 +342,7 @@
                         "--amp-dtype",
                         "float16"
                     ],
-                    "log_file": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed42\\pipeline_logs\\efficiency_benchmark.log"
+                    "log_file": "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\final_maizeleaf_dmnet_v2_seed42\\pipeline_logs\\efficiency_benchmark.log"
                 },
                 "error_analysis": {
                     "stage": "error_analysis",
@@ -357,7 +357,7 @@
                         "-m",
                         "src.evaluation.error_analysis",
                         "--evaluation-dir",
-                        "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed42\\evaluation\\validation",
+                        "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\final_maizeleaf_dmnet_v2_seed42\\evaluation\\validation",
                         "--top-k",
                         "10",
                         "--confidence-threshold",
@@ -365,7 +365,7 @@
                         "--contact-sheet-limit",
                         "48"
                     ],
-                    "log_file": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed42\\pipeline_logs\\error_analysis.log"
+                    "log_file": "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\final_maizeleaf_dmnet_v2_seed42\\pipeline_logs\\error_analysis.log"
                 },
                 "gradcam": {
                     "stage": "gradcam",
@@ -380,7 +380,7 @@
                         "-m",
                         "src.explainability.gradcam",
                         "--run-dir",
-                        "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed42",
+                        "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\final_maizeleaf_dmnet_v2_seed42",
                         "--device",
                         "cuda:0",
                         "--samples-per-class",
@@ -392,7 +392,7 @@
                         "--seed",
                         "42"
                     ],
-                    "log_file": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed42\\pipeline_logs\\gradcam.log"
+                    "log_file": "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\final_maizeleaf_dmnet_v2_seed42\\pipeline_logs\\gradcam.log"
                 },
                 "gradcam_plus_plus": {
                     "stage": "gradcam_plus_plus",
@@ -407,7 +407,7 @@
                         "-m",
                         "src.explainability.gradcam_plus_plus",
                         "--run-dir",
-                        "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed42",
+                        "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\final_maizeleaf_dmnet_v2_seed42",
                         "--device",
                         "cuda:0",
                         "--samples-per-class",
@@ -419,7 +419,7 @@
                         "--seed",
                         "42"
                     ],
-                    "log_file": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed42\\pipeline_logs\\gradcam_plus_plus.log"
+                    "log_file": "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\final_maizeleaf_dmnet_v2_seed42\\pipeline_logs\\gradcam_plus_plus.log"
                 },
                 "lime": {
                     "stage": "lime",
@@ -434,7 +434,7 @@
                         "-m",
                         "src.explainability.lime_explainer",
                         "--run-dir",
-                        "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed42",
+                        "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\final_maizeleaf_dmnet_v2_seed42",
                         "--device",
                         "cuda:0",
                         "--samples-per-class",
@@ -446,7 +446,7 @@
                         "--seed",
                         "42"
                     ],
-                    "log_file": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed42\\pipeline_logs\\lime.log"
+                    "log_file": "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\final_maizeleaf_dmnet_v2_seed42\\pipeline_logs\\lime.log"
                 },
                 "llm_reports": {
                     "stage": "llm_reports",
@@ -460,18 +460,18 @@
                         "D:\\MaizeLeaf\\.venv\\Scripts\\python.exe",
                         "D:\\MaizeLeaf\\LLM\\report_generator.py",
                         "--run-dir",
-                        "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed42",
+                        "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\final_maizeleaf_dmnet_v2_seed42",
                         "--model",
                         "qwen2.5:3b",
                         "--timeout",
                         "1800"
                     ],
-                    "log_file": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed42\\pipeline_logs\\llm_reports.log"
+                    "log_file": "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\final_maizeleaf_dmnet_v2_seed42\\pipeline_logs\\llm_reports.log"
                 }
             }
         },
         "pipeline_status": "completed",
-        "pipeline_summary_path": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed42\\pipeline_summary.json",
+        "pipeline_summary_path": "D:\\MaizeLeaf\\Results\\maizeleaf_dmnet\\final_maizeleaf_dmnet_v2_seed42\\pipeline_summary.json",
         "post_training_pipeline_time_seconds": 444.8793416999979,
         "post_training_pipeline_time_minutes": 7.414655694999965,
         "total_run_time_seconds": 5240.72257079999,
