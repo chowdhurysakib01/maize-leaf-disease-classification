@@ -1,0 +1,237 @@
+========================================================================================
+MAIZE LEAF CLASSIFICATION - ERROR ANALYSIS REPORT
+========================================================================================
+
+Model: resnet50
+Run: final_resnet50_seed42
+Split: validation
+Timestamp: 2026-11-12T23:39:33.720227+06:00
+
+OVERALL PERFORMANCE
+----------------------------------------------------------------------------------------
+Total predictions: 564
+Correct: 525
+Incorrect: 39
+Accuracy: 0.930851
+Error rate: 0.069149
+High-confidence errors: 22
+
+CLASS-WISE ERROR ANALYSIS
+----------------------------------------------------------------------------------------
+
+Fall Armyworm (Insect) Damage
+  Support: 126
+  Correct: 116
+  Incorrect: 10
+  Precision: 0.8923
+  Recall: 0.9206
+  F1: 0.9062
+  False positives: 14
+  False negatives: 10
+  Error rate: 0.0794
+  Most confused with: Northern Leaf Blight
+
+Healthy Leaf
+  Support: 75
+  Correct: 75
+  Incorrect: 0
+  Precision: 0.9494
+  Recall: 1.0000
+  F1: 0.9740
+  False positives: 4
+  False negatives: 0
+  Error rate: 0.0000
+  Most confused with: None
+
+Leaf Spot
+  Support: 61
+  Correct: 52
+  Incorrect: 9
+  Precision: 0.8125
+  Recall: 0.8525
+  F1: 0.8320
+  False positives: 12
+  False negatives: 9
+  Error rate: 0.1475
+  Most confused with: Fall Armyworm (Insect) Damage
+
+Magnesium Deficiency
+  Support: 83
+  Correct: 81
+  Incorrect: 2
+  Precision: 1.0000
+  Recall: 0.9759
+  F1: 0.9878
+  False positives: 0
+  False negatives: 2
+  Error rate: 0.0241
+  Most confused with: Fall Armyworm (Insect) Damage
+
+Nitrogen Deficiency
+  Support: 64
+  Correct: 60
+  Incorrect: 4
+  Precision: 0.9524
+  Recall: 0.9375
+  F1: 0.9449
+  False positives: 3
+  False negatives: 4
+  Error rate: 0.0625
+  Most confused with: Fall Armyworm (Insect) Damage
+
+Northern Leaf Blight
+  Support: 80
+  Correct: 67
+  Incorrect: 13
+  Precision: 0.9306
+  Recall: 0.8375
+  F1: 0.8816
+  False positives: 5
+  False negatives: 13
+  Error rate: 0.1625
+  Most confused with: Leaf Spot
+
+Phosphorus Deficiency
+  Support: 75
+  Correct: 74
+  Incorrect: 1
+  Precision: 0.9867
+  Recall: 0.9867
+  F1: 0.9867
+  False positives: 1
+  False negatives: 1
+  Error rate: 0.0133
+  Most confused with: Healthy Leaf
+
+TOP CONFUSION PAIRS
+----------------------------------------------------------------------------------------
+1. Leaf Spot -> Fall Armyworm (Insect) Damage: 7 images (11.48%)
+2. Northern Leaf Blight -> Leaf Spot: 7 images (8.75%)
+3. Fall Armyworm (Insect) Damage -> Northern Leaf Blight: 5 images (3.97%)
+4. Northern Leaf Blight -> Fall Armyworm (Insect) Damage: 4 images (5.00%)
+5. Fall Armyworm (Insect) Damage -> Leaf Spot: 3 images (2.38%)
+6. Fall Armyworm (Insect) Damage -> Healthy Leaf: 2 images (1.59%)
+7. Nitrogen Deficiency -> Fall Armyworm (Insect) Damage: 2 images (3.12%)
+8. Nitrogen Deficiency -> Leaf Spot: 2 images (3.12%)
+9. Northern Leaf Blight -> Nitrogen Deficiency: 2 images (2.50%)
+10. Leaf Spot -> Healthy Leaf: 1 images (1.64%)
+
+HIGH-CONFIDENCE INCORRECT PREDICTIONS
+----------------------------------------------------------------------------------------
+
+Actual: Leaf Spot
+Predicted: Fall Armyworm (Insect) Damage
+Confidence: 0.9990075231
+Image: D:\MaizeLeaf\Dataset\Leaf Spot\1772179047402.jpg
+
+Actual: Fall Armyworm (Insect) Damage
+Predicted: Healthy Leaf
+Confidence: 0.9960038066
+Image: D:\MaizeLeaf\Dataset\Fall Armyworm (Insect) Damage\1772179290794.jpg
+
+Actual: Northern Leaf Blight
+Predicted: Fall Armyworm (Insect) Damage
+Confidence: 0.993262589
+Image: D:\MaizeLeaf\Dataset\Northern Leaf Blight\1772179683864.jpg
+
+Actual: Nitrogen Deficiency
+Predicted: Leaf Spot
+Confidence: 0.9805817008
+Image: D:\MaizeLeaf\Dataset\Nitrogen Deficiency\1772178082932.jpg
+
+Actual: Northern Leaf Blight
+Predicted: Leaf Spot
+Confidence: 0.9765515327
+Image: D:\MaizeLeaf\Dataset\Northern Leaf Blight\1772179526333.jpg
+
+Actual: Northern Leaf Blight
+Predicted: Nitrogen Deficiency
+Confidence: 0.9707121253
+Image: D:\MaizeLeaf\Dataset\Northern Leaf Blight\1772179524683.jpg
+
+Actual: Northern Leaf Blight
+Predicted: Leaf Spot
+Confidence: 0.9678452611
+Image: D:\MaizeLeaf\Dataset\Northern Leaf Blight\1772179526595.jpg
+
+Actual: Nitrogen Deficiency
+Predicted: Leaf Spot
+Confidence: 0.9640722871
+Image: D:\MaizeLeaf\Dataset\Nitrogen Deficiency\1772178082145.jpg
+
+Actual: Fall Armyworm (Insect) Damage
+Predicted: Leaf Spot
+Confidence: 0.9571037889
+Image: D:\MaizeLeaf\Dataset\Fall Armyworm (Insect) Damage\1772179292605.jpg
+
+Actual: Northern Leaf Blight
+Predicted: Nitrogen Deficiency
+Confidence: 0.9465849996
+Image: D:\MaizeLeaf\Dataset\Northern Leaf Blight\1772179522569.jpg
+
+Actual: Northern Leaf Blight
+Predicted: Fall Armyworm (Insect) Damage
+Confidence: 0.938939333
+Image: D:\MaizeLeaf\Dataset\Northern Leaf Blight\1772179527304.jpg
+
+Actual: Fall Armyworm (Insect) Damage
+Predicted: Northern Leaf Blight
+Confidence: 0.9268558621
+Image: D:\MaizeLeaf\Dataset\Fall Armyworm (Insect) Damage\1772179293000.jpg
+
+Actual: Nitrogen Deficiency
+Predicted: Fall Armyworm (Insect) Damage
+Confidence: 0.9084426165
+Image: D:\MaizeLeaf\Dataset\Nitrogen Deficiency\1772178082891.jpg
+
+Actual: Northern Leaf Blight
+Predicted: Fall Armyworm (Insect) Damage
+Confidence: 0.9047093391
+Image: D:\MaizeLeaf\Dataset\Northern Leaf Blight\1772179527236.jpg
+
+Actual: Northern Leaf Blight
+Predicted: Leaf Spot
+Confidence: 0.899776876
+Image: D:\MaizeLeaf\Dataset\Northern Leaf Blight\1772179525951.jpg
+
+Actual: Fall Armyworm (Insect) Damage
+Predicted: Leaf Spot
+Confidence: 0.8901894689
+Image: D:\MaizeLeaf\Dataset\Fall Armyworm (Insect) Damage\1772179292589.jpg
+
+Actual: Fall Armyworm (Insect) Damage
+Predicted: Northern Leaf Blight
+Confidence: 0.8495890498
+Image: D:\MaizeLeaf\Dataset\Fall Armyworm (Insect) Damage\1772179289081.jpg
+
+Actual: Leaf Spot
+Predicted: Fall Armyworm (Insect) Damage
+Confidence: 0.8490909934
+Image: D:\MaizeLeaf\Dataset\Leaf Spot\1772179047075.jpg
+
+Actual: Northern Leaf Blight
+Predicted: Fall Armyworm (Insect) Damage
+Confidence: 0.8396835327
+Image: D:\MaizeLeaf\Dataset\Northern Leaf Blight\1772179526488.jpg
+
+Actual: Phosphorus Deficiency
+Predicted: Healthy Leaf
+Confidence: 0.8295733333
+Image: D:\MaizeLeaf\Dataset\Phosphorus Deficiency\1772179969862.jpg
+
+CONFIDENCE ANALYSIS
+----------------------------------------------------------------------------------------
+Mean confidence: 0.959761
+Mean correct confidence: 0.9750007590790475
+Mean incorrect confidence: 0.7546035914897435
+Expected Calibration Error: 0.034201
+
+DATA INTEGRITY
+----------------------------------------------------------------------------------------
+Prediction CSV SHA256: e66ba37b105f00b32c7bb32c5594507e6a49e2da56ff68e60d242528d4a03a2a
+Split fingerprint verified: True
+Correct-field mismatches: 0
+
+========================================================================================
+END OF ERROR ANALYSIS REPORT
+========================================================================================

@@ -1,0 +1,13 @@
+{
+  "model": "densenet121",
+  "run_name": "final_densenet121_seed42",
+  "seed": 42,
+  "status": "heldout_test_evaluation",
+  "source_checkpoint": "D:\\MaizeLeaf\\Results\\densenet121\\final_densenet121_seed42\\checkpoints\\best_model.pth",
+  "source_run_directory": "D:\\MaizeLeaf\\Results\\densenet121\\final_densenet121_seed42",
+  "checkpoint_sha256": "ee8eb919dd90ad5c8b88b776197d34d4a0721dbf3f28f5cd623c9a98a5693cdd",
+  "split_assignment_fingerprint_sha256": "8a64e1a8a53eecd2dd2eeedbfb63c7e783a193304a2529da1be4e8c7bff441de",
+  "test_manifest_sha256": "60502c39895885eebbad0957c5916c3fbdf93dba9694e41180ed9bc044f7250b",
+  "test_partition_accessed": true,
+  "training_or_finetuning_performed": false
+}

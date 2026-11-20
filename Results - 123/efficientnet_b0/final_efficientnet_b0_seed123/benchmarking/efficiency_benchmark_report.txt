@@ -1,0 +1,71 @@
+========================================================================================
+MAIZE LEAF CLASSIFICATION - EFFICIENCY BENCHMARK REPORT
+========================================================================================
+
+Model: efficientnet_b0
+Run: final_efficientnet_b0_seed123
+Timestamp: 2026-11-16T12:23:03.325207+06:00
+Device: cuda:0
+GPU: NVIDIA GeForce RTX 3060 Laptop GPU
+Image size: 224x224
+Classes: 7
+
+MODEL PARAMETERS
+----------------------------------------------------------------------------------------
+Total parameters: 4,016,515
+Trainable parameters: 4,016,515
+Frozen parameters: 0
+Parameter storage: 15.322 MB
+State dict storage: 15.482 MB
+Best checkpoint size: 46.429 MB
+
+COMPUTATIONAL COMPLEXITY
+----------------------------------------------------------------------------------------
+MACs/image: 384,543,712
+GMACs/image: 0.384544
+FLOPs/image: 769,087,424
+GFLOPs/image: 0.769087
+
+NOTE: MAC/FLOP counts are estimates from supported module hooks. See JSON for excluded operations.
+
+TRAINING INFORMATION
+----------------------------------------------------------------------------------------
+Total training duration: 00:33:10
+Training duration seconds: 1990.7021980999925
+
+INFERENCE PERFORMANCE
+----------------------------------------------------------------------------------------
+
+Batch size: 1
+Status: success
+Mean latency: 15.3958 ms
+Median latency: 15.1311 ms
+P95 latency: 16.7809 ms
+Per-image latency: 15.3958 ms
+Throughput: 64.6196 images/sec
+GPU peak allocated: 21.10986328125 MB
+GPU peak reserved: 38.0 MB
+
+Batch size: 8
+Status: success
+Mean latency: 17.5964 ms
+Median latency: 17.0184 ms
+P95 latency: 20.8256 ms
+Per-image latency: 2.1995 ms
+Throughput: 453.4294 images/sec
+GPU peak allocated: 60.15283203125 MB
+GPU peak reserved: 78.0 MB
+
+Batch size: 16
+Status: success
+Mean latency: 15.1777 ms
+Median latency: 14.3221 ms
+P95 latency: 16.0630 ms
+Per-image latency: 0.9486 ms
+Throughput: 1051.4145 images/sec
+GPU peak allocated: 104.37158203125 MB
+GPU peak reserved: 154.0 MB
+
+========================================================================================
+END OF EFFICIENCY BENCHMARK REPORT
+========================================================================================

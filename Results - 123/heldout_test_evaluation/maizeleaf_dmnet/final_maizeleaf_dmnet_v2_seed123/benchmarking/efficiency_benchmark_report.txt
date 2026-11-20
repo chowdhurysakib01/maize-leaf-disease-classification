@@ -1,0 +1,11 @@
+HELD-OUT EVALUATION - INFERENCE BENCHMARK
+Device: cuda:0
+Input: 3x224x224
+Synthetic inputs only; no test labels used.
+Checkpoint size: 158.545 MB
+Parameters: 13,745,531
+
+Batch | per-image latency ms | throughput img/s | peak GPU MB | status
+1 | 41.33577000029618 | 24.192122222298867 | 806.23974609375 | completed
+8 | 4.700393124949187 | 212.74816242328887 | 841.46630859375 | completed
+16 | 2.332864687559777 | 428.6575236586139 | 885.12158203125 | completed

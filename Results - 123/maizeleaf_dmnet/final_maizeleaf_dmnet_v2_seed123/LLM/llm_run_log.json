@@ -1,0 +1,7 @@
+{
+    "completed": true,
+    "model": "qwen2.5:3b",
+    "run_name": "final_riceleaf_dmnet_v2_seed123",
+    "elapsed_seconds": 110.61,
+    "completed_at": "2026-11-16T21:10:34.033665"
+}

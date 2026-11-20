@@ -1,0 +1,104 @@
+{
+    "project": "Maize Leaf Classification",
+    "created_at_utc": "2026-11-11T09:52:53.686636+00:00",
+    "dataset_path": "D:\\MaizeLeaf\\Dataset",
+    "num_classes": 7,
+    "class_names": [
+        "Fall Armyworm (Insect) Damage",
+        "Healthy Leaf",
+        "Leaf Spot",
+        "Magnesium Deficiency",
+        "Nitrogen Deficiency",
+        "Northern Leaf Blight",
+        "Phosphorus Deficiency"
+    ],
+    "class_to_idx": {
+        "Fall Armyworm (Insect) Damage": 0,
+        "Healthy Leaf": 1,
+        "Leaf Spot": 2,
+        "Magnesium Deficiency": 3,
+        "Nitrogen Deficiency": 4,
+        "Northern Leaf Blight": 5,
+        "Phosphorus Deficiency": 6
+    },
+    "original_image_count": 3754,
+    "effective_image_count": 3749,
+    "excluded_duplicate_copies": 5,
+    "duplicate_groups": 5,
+    "duplicate_policy": "SHA-256 exact duplicate detection. Same-class duplicates keep the lexicographically first relative path. Extra copies excluded without modifying original files.",
+    "split_unit": "image",
+    "grouping_method": "Stratified random image-level split. Plant/session identifiers unavailable.",
+    "random_seed": 42,
+    "split_ratios": {
+        "train": 0.7,
+        "validation": 0.15,
+        "test": 0.15
+    },
+    "source_class_counts": {
+        "Fall Armyworm (Insect) Damage": 838,
+        "Healthy Leaf": 496,
+        "Leaf Spot": 407,
+        "Magnesium Deficiency": 553,
+        "Nitrogen Deficiency": 425,
+        "Northern Leaf Blight": 535,
+        "Phosphorus Deficiency": 500
+    },
+    "effective_class_counts": {
+        "Fall Armyworm (Insect) Damage": 838,
+        "Healthy Leaf": 496,
+        "Leaf Spot": 406,
+        "Magnesium Deficiency": 553,
+        "Nitrogen Deficiency": 425,
+        "Northern Leaf Blight": 531,
+        "Phosphorus Deficiency": 500
+    },
+    "class_split_counts": {
+        "Fall Armyworm (Insect) Damage": {
+            "train": 586,
+            "validation": 126,
+            "test": 126
+        },
+        "Healthy Leaf": {
+            "train": 347,
+            "validation": 75,
+            "test": 74
+        },
+        "Leaf Spot": {
+            "train": 284,
+            "validation": 61,
+            "test": 61
+        },
+        "Magnesium Deficiency": {
+            "train": 387,
+            "validation": 83,
+            "test": 83
+        },
+        "Nitrogen Deficiency": {
+            "train": 297,
+            "validation": 64,
+            "test": 64
+        },
+        "Northern Leaf Blight": {
+            "train": 372,
+            "validation": 80,
+            "test": 79
+        },
+        "Phosphorus Deficiency": {
+            "train": 350,
+            "validation": 75,
+            "test": 75
+        }
+    },
+    "total_split_counts": {
+        "train": 2623,
+        "validation": 564,
+        "test": 562
+    },
+    "source_dataset_fingerprint_sha256": "38200f93a22c02e2f7673e0a02b0bc42a08394213b353425f63f914d964cfa2b",
+    "effective_dataset_fingerprint_sha256": "ca1eb0c56e0a2a10a184cc32a374aefbe9fdae10283136fa8409ad06318d9fbe",
+    "split_assignment_fingerprint_sha256": "8a64e1a8a53eecd2dd2eeedbfb63c7e783a193304a2529da1be4e8c7bff441de",
+    "image_integrity_verified": true,
+    "all_retained_images_assigned": true,
+    "exact_duplicates_removed_from_split": true,
+    "cross_class_duplicate_conflicts": 0
+}

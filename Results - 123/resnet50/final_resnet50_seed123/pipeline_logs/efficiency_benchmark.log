@@ -1,0 +1,68 @@
+Stage: efficiency_benchmark
+Started: 2026-11-16T11:08:05.808328+06:00
+Command: D:\MaizeLeaf\.venv\Scripts\python.exe -m src.benchmarking.efficiency_benchmark --run-dir D:\MaizeLeaf\Results\resnet50\final_resnet50_seed123 --device cuda:0 --batch-sizes 1 8 16 --warmup 5 --iterations 20 --amp --amp-dtype float16
+
+
+============================================================================
+MAIZE LEAF - EFFICIENCY BENCHMARKING ENGINE
+============================================================================
+Run directory : D:\MaizeLeaf\Results\resnet50\final_resnet50_seed123
+Device        : cuda:0
+GPU           : NVIDIA GeForce RTX 3060 Laptop GPU
+[PASS] Fixed split fingerprint
+
+BUILDING MODEL
+Loading best checkpoint...
+[PASS] Model architecture reconstructed
+[PASS] Best checkpoint loaded
+
+MODEL INFORMATION
+Total parameters     : 23,522,375
+Trainable parameters : 23,522,375
+Frozen parameters    : 0
+Checkpoint size      : 269.64 MB
+
+COMPUTATIONAL COMPLEXITY
+MACs/image : 4,087,150,592
+FLOPs/image: 8,174,301,184
+
+INFERENCE BENCHMARK
+AMP        : True
+Warmup     : 5
+Iterations : 20
+
+----------------------------------------------------------------------
+Benchmarking batch size: 1
+Mean latency : 13.8286 ms
+Median       : 13.6704 ms
+P95          : 16.4422 ms
+Throughput   : 71.71 images/sec
+Peak GPU RAM : 100.6533203125 MB
+[PASS] Batch benchmark
+
+----------------------------------------------------------------------
+Benchmarking batch size: 8
+Mean latency : 15.1042 ms
+Median       : 14.9847 ms
+P95          : 15.1960 ms
+Throughput   : 528.75 images/sec
+Peak GPU RAM : 137.6865234375 MB
+[PASS] Batch benchmark
+
+----------------------------------------------------------------------
+Benchmarking batch size: 16
+Mean latency : 26.3690 ms
+Median       : 26.3552 ms
+P95          : 26.3890 ms
+Throughput   : 606.50 images/sec
+Peak GPU RAM : 185.1552734375 MB
+[PASS] Batch benchmark
+
+============================================================================
+EFFICIENCY BENCHMARK COMPLETED
+============================================================================
+Training time : 00:43:53
+JSON          : D:\MaizeLeaf\Results\resnet50\final_resnet50_seed123\benchmarking\efficiency_benchmark.json
+CSV           : D:\MaizeLeaf\Results\resnet50\final_resnet50_seed123\benchmarking\efficiency_benchmark.csv
+Report        : D:\MaizeLeaf\Results\resnet50\final_resnet50_seed123\benchmarking\efficiency_benchmark_report.txt
+============================================================================

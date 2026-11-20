@@ -1,0 +1,7 @@
+{
+    "completed": true,
+    "model": "qwen2.5:3b",
+    "run_name": "finetuned_eval_seed123_b4_complete",
+    "elapsed_seconds": 38.51,
+    "completed_at": "2026-11-17T15:55:15.425722"
+}

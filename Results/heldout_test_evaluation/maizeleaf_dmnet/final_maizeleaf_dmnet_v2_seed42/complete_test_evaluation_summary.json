@@ -1,0 +1,80 @@
+{
+  "status": "completed",
+  "model": "riceleaf_dmnet",
+  "display_name": "RiceLeaf-DMNet v2",
+  "run_name": "final_riceleaf_dmnet_v2_seed42",
+  "seed": 42,
+  "source_run_directory": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed42",
+  "checkpoint_path": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed42\\checkpoints\\best_model.pth",
+  "checkpoint_sha256": "3e13de8821a5691d557de391b777761377d9e0bf267752de1ce85a198dcb5078",
+  "checkpoint_size_mb": 158.545,
+  "test_samples": 562,
+  "test_accuracy": 0.9306049822064056,
+  "test_precision_macro": 0.9307429191772403,
+  "test_recall_macro": 0.9355587255953818,
+  "test_macro_f1": 0.9310300365466623,
+  "test_balanced_accuracy": 0.9355587255953818,
+  "test_roc_auc_ovr_macro": 0.9913016961125445,
+  "test_pr_auc_macro_average_precision": 0.9658451221699841,
+  "test_ece_10_bins": 0.06357901153879003,
+  "test_multiclass_brier_score": 0.13257761185389208,
+  "parameters": 13745531,
+  "parameters_millions": 13.7455,
+  "benchmark_batch_results": [
+    {
+      "batch_size": 1,
+      "iterations": 20,
+      "total_elapsed_seconds": 0.8321967000083532,
+      "batch_latency_ms": 41.60983500041766,
+      "per_image_latency_ms": 41.60983500041766,
+      "throughput_images_per_second": 24.032779750026947,
+      "peak_gpu_allocated_mb": 737.06494140625,
+      "status": "completed"
+    },
+    {
+      "batch_size": 8,
+      "iterations": 20,
+      "total_elapsed_seconds": 0.7515487000055145,
+      "batch_latency_ms": 37.57743500027573,
+      "per_image_latency_ms": 4.697179375034466,
+      "throughput_images_per_second": 212.89372198877595,
+      "peak_gpu_allocated_mb": 772.79150390625,
+      "status": "completed"
+    },
+    {
+      "batch_size": 16,
+      "iterations": 20,
+      "total_elapsed_seconds": 0.7288063000014517,
+      "batch_latency_ms": 36.44031500007259,
+      "per_image_latency_ms": 2.2775196875045367,
+      "throughput_images_per_second": 439.074140823649,
+      "peak_gpu_allocated_mb": 815.47998046875,
+      "status": "completed"
+    }
+  ],
+  "xai": {
+    "status": "completed",
+    "samples_per_class": 5,
+    "images_per_method": 35
+  },
+  "metric_artifacts": {
+    "metrics_json": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed42\\evaluation\\test\\metrics.json",
+    "classification_report": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed42\\evaluation\\test\\classification_report.csv",
+    "confusion_matrix_csv": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed42\\evaluation\\test\\confusion_matrix.csv",
+    "normalized_confusion_matrix_csv": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed42\\evaluation\\test\\normalized_confusion_matrix.csv",
+    "confusion_matrix_png": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed42\\evaluation\\test\\confusion_matrix.png",
+    "normalized_confusion_matrix_png": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed42\\evaluation\\test\\normalized_confusion_matrix.png",
+    "roc_auc_csv": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed42\\evaluation\\test\\roc_auc_per_class.csv",
+    "pr_auc_csv": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed42\\evaluation\\test\\pr_auc_per_class.csv",
+    "roc_curve_png": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed42\\evaluation\\test\\roc_curves.png",
+    "pr_curve_png": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed42\\evaluation\\test\\precision_recall_curves.png",
+    "roc_curve_data_csv": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed42\\evaluation\\test\\roc_curve_data.csv",
+    "pr_curve_data_csv": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed42\\evaluation\\test\\pr_curve_data.csv"
+  },
+  "test_manifest_sha256": "60502c39895885eebbad0957c5916c3fbdf93dba9694e41180ed9bc044f7250b",
+  "split_assignment_fingerprint_sha256": "8a64e1a8a53eecd2dd2eeedbfb63c7e783a193304a2529da1be4e8c7bff441de",
+  "test_partition_accessed": true,
+  "training_or_finetuning_performed": false,
+  "elapsed_seconds": 491.3336857999966,
+  "note": null
+}

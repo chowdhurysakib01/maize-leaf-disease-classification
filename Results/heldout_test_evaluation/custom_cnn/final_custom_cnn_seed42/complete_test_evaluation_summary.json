@@ -1,0 +1,80 @@
+{
+  "status": "completed",
+  "model": "custom_cnn",
+  "display_name": "custom_cnn",
+  "run_name": "final_custom_cnn_seed42",
+  "seed": 42,
+  "source_run_directory": "D:\\MaizeLeaf\\Results\\custom_cnn\\final_custom_cnn_seed42",
+  "checkpoint_path": "D:\\MaizeLeaf\\Results\\custom_cnn\\final_custom_cnn_seed42\\checkpoints\\best_model.pth",
+  "checkpoint_sha256": "56ccd7955e65836cd7f45aab9bc1c9be57a15186a7afda670bb9f914135cf160",
+  "checkpoint_size_mb": 13.51,
+  "test_samples": 562,
+  "test_accuracy": 0.7953736654804271,
+  "test_precision_macro": 0.8076525497651617,
+  "test_recall_macro": 0.8197900852475,
+  "test_macro_f1": 0.8067100060811198,
+  "test_balanced_accuracy": 0.8197900852475,
+  "test_roc_auc_ovr_macro": 0.970322603245391,
+  "test_pr_auc_macro_average_precision": 0.8777951653989735,
+  "test_ece_10_bins": 0.03176879397686827,
+  "test_multiclass_brier_score": 0.29468338693737894,
+  "parameters": 1175015,
+  "parameters_millions": 1.175,
+  "benchmark_batch_results": [
+    {
+      "batch_size": 1,
+      "iterations": 20,
+      "total_elapsed_seconds": 0.17481109997606836,
+      "batch_latency_ms": 8.740554998803418,
+      "per_image_latency_ms": 8.740554998803418,
+      "throughput_images_per_second": 114.40921087241027,
+      "peak_gpu_allocated_mb": 135.28515625,
+      "status": "completed"
+    },
+    {
+      "batch_size": 8,
+      "iterations": 20,
+      "total_elapsed_seconds": 0.09713470001588576,
+      "batch_latency_ms": 4.856735000794288,
+      "per_image_latency_ms": 0.607091875099286,
+      "throughput_images_per_second": 1647.1971393727786,
+      "peak_gpu_allocated_mb": 226.03662109375,
+      "status": "completed"
+    },
+    {
+      "batch_size": 16,
+      "iterations": 20,
+      "total_elapsed_seconds": 0.17436460001044907,
+      "batch_latency_ms": 8.718230000522453,
+      "per_image_latency_ms": 0.5448893750326533,
+      "throughput_images_per_second": 1835.2349042226663,
+      "peak_gpu_allocated_mb": 329.6484375,
+      "status": "completed"
+    }
+  ],
+  "xai": {
+    "status": "completed",
+    "samples_per_class": 5,
+    "images_per_method": 35
+  },
+  "metric_artifacts": {
+    "metrics_json": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\custom_cnn\\final_custom_cnn_seed42\\evaluation\\test\\metrics.json",
+    "classification_report": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\custom_cnn\\final_custom_cnn_seed42\\evaluation\\test\\classification_report.csv",
+    "confusion_matrix_csv": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\custom_cnn\\final_custom_cnn_seed42\\evaluation\\test\\confusion_matrix.csv",
+    "normalized_confusion_matrix_csv": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\custom_cnn\\final_custom_cnn_seed42\\evaluation\\test\\normalized_confusion_matrix.csv",
+    "confusion_matrix_png": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\custom_cnn\\final_custom_cnn_seed42\\evaluation\\test\\confusion_matrix.png",
+    "normalized_confusion_matrix_png": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\custom_cnn\\final_custom_cnn_seed42\\evaluation\\test\\normalized_confusion_matrix.png",
+    "roc_auc_csv": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\custom_cnn\\final_custom_cnn_seed42\\evaluation\\test\\roc_auc_per_class.csv",
+    "pr_auc_csv": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\custom_cnn\\final_custom_cnn_seed42\\evaluation\\test\\pr_auc_per_class.csv",
+    "roc_curve_png": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\custom_cnn\\final_custom_cnn_seed42\\evaluation\\test\\roc_curves.png",
+    "pr_curve_png": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\custom_cnn\\final_custom_cnn_seed42\\evaluation\\test\\precision_recall_curves.png",
+    "roc_curve_data_csv": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\custom_cnn\\final_custom_cnn_seed42\\evaluation\\test\\roc_curve_data.csv",
+    "pr_curve_data_csv": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\custom_cnn\\final_custom_cnn_seed42\\evaluation\\test\\pr_curve_data.csv"
+  },
+  "test_manifest_sha256": "60502c39895885eebbad0957c5916c3fbdf93dba9694e41180ed9bc044f7250b",
+  "split_assignment_fingerprint_sha256": "8a64e1a8a53eecd2dd2eeedbfb63c7e783a193304a2529da1be4e8c7bff441de",
+  "test_partition_accessed": true,
+  "training_or_finetuning_performed": false,
+  "elapsed_seconds": 390.3873201000097,
+  "note": null
+}

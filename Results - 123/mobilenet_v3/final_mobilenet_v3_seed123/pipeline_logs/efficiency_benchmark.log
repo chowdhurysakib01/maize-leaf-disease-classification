@@ -1,0 +1,68 @@
+Stage: efficiency_benchmark
+Started: 2026-11-16T14:44:41.995085+06:00
+Command: D:\MaizeLeaf\.venv\Scripts\python.exe -m src.benchmarking.efficiency_benchmark --run-dir D:\MaizeLeaf\Results\mobilenet_v3\final_mobilenet_v3_seed123 --device cuda:0 --batch-sizes 1 8 16 --warmup 5 --iterations 20 --amp --amp-dtype float16
+
+
+============================================================================
+MAIZE LEAF - EFFICIENCY BENCHMARKING ENGINE
+============================================================================
+Run directory : D:\MaizeLeaf\Results\mobilenet_v3\final_mobilenet_v3_seed123
+Device        : cuda:0
+GPU           : NVIDIA GeForce RTX 3060 Laptop GPU
+[PASS] Fixed split fingerprint
+
+BUILDING MODEL
+Loading best checkpoint...
+[PASS] Model architecture reconstructed
+[PASS] Best checkpoint loaded
+
+MODEL INFORMATION
+Total parameters     : 4,210,999
+Trainable parameters : 4,210,999
+Frozen parameters    : 0
+Checkpoint size      : 48.54 MB
+
+COMPUTATIONAL COMPLEXITY
+MACs/image : 215,318,720
+FLOPs/image: 430,637,440
+
+INFERENCE BENCHMARK
+AMP        : True
+Warmup     : 5
+Iterations : 20
+
+----------------------------------------------------------------------
+Benchmarking batch size: 1
+Mean latency : 11.2484 ms
+Median       : 10.9440 ms
+P95          : 12.1209 ms
+Throughput   : 88.25 images/sec
+Peak GPU RAM : 20.25439453125 MB
+[PASS] Batch benchmark
+
+----------------------------------------------------------------------
+Benchmarking batch size: 8
+Mean latency : 11.7479 ms
+Median       : 11.7693 ms
+P95          : 12.3249 ms
+Throughput   : 678.51 images/sec
+Peak GPU RAM : 48.39111328125 MB
+[PASS] Batch benchmark
+
+----------------------------------------------------------------------
+Benchmarking batch size: 16
+Mean latency : 11.1929 ms
+Median       : 11.1713 ms
+P95          : 11.4873 ms
+Throughput   : 1424.38 images/sec
+Peak GPU RAM : 80.54736328125 MB
+[PASS] Batch benchmark
+
+============================================================================
+EFFICIENCY BENCHMARK COMPLETED
+============================================================================
+Training time : 01:10:40
+JSON          : D:\MaizeLeaf\Results\mobilenet_v3\final_mobilenet_v3_seed123\benchmarking\efficiency_benchmark.json
+CSV           : D:\MaizeLeaf\Results\mobilenet_v3\final_mobilenet_v3_seed123\benchmarking\efficiency_benchmark.csv
+Report        : D:\MaizeLeaf\Results\mobilenet_v3\final_mobilenet_v3_seed123\benchmarking\efficiency_benchmark_report.txt
+============================================================================

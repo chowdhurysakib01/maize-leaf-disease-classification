@@ -1,0 +1,80 @@
+{
+  "status": "completed",
+  "model": "custom_cnn",
+  "display_name": "custom_cnn",
+  "run_name": "final_custom_cnn_seed123",
+  "seed": 123,
+  "source_run_directory": "D:\\MaizeLeaf\\Results\\custom_cnn\\final_custom_cnn_seed123",
+  "checkpoint_path": "D:\\MaizeLeaf\\Results\\custom_cnn\\final_custom_cnn_seed123\\checkpoints\\best_model.pth",
+  "checkpoint_sha256": "aeedfdb18201c9cde3f41c1cf54ce3786ee456acd7e996e1e230557f033dda81",
+  "checkpoint_size_mb": 13.51,
+  "test_samples": 562,
+  "test_accuracy": 0.7900355871886121,
+  "test_precision_macro": 0.8016457051411925,
+  "test_recall_macro": 0.8039052154207001,
+  "test_macro_f1": 0.7977646569977317,
+  "test_balanced_accuracy": 0.8039052154207001,
+  "test_roc_auc_ovr_macro": 0.9636424049811129,
+  "test_pr_auc_macro_average_precision": 0.858125276350368,
+  "test_ece_10_bins": 0.05172262025427052,
+  "test_multiclass_brier_score": 0.32131343829257075,
+  "parameters": 1175015,
+  "parameters_millions": 1.175,
+  "benchmark_batch_results": [
+    {
+      "batch_size": 1,
+      "iterations": 20,
+      "total_elapsed_seconds": 0.18745229998603463,
+      "batch_latency_ms": 9.372614999301732,
+      "per_image_latency_ms": 9.372614999301732,
+      "throughput_images_per_second": 106.69380957977053,
+      "peak_gpu_allocated_mb": 194.60498046875,
+      "status": "completed"
+    },
+    {
+      "batch_size": 8,
+      "iterations": 20,
+      "total_elapsed_seconds": 0.0970820999937132,
+      "batch_latency_ms": 4.85410499968566,
+      "per_image_latency_ms": 0.6067631249607075,
+      "throughput_images_per_second": 1648.0896067386388,
+      "peak_gpu_allocated_mb": 284.9814453125,
+      "status": "completed"
+    },
+    {
+      "batch_size": 16,
+      "iterations": 20,
+      "total_elapsed_seconds": 0.1743146000080742,
+      "batch_latency_ms": 8.71573000040371,
+      "per_image_latency_ms": 0.5447331250252319,
+      "throughput_images_per_second": 1835.7613188176877,
+      "peak_gpu_allocated_mb": 388.59326171875,
+      "status": "completed"
+    }
+  ],
+  "xai": {
+    "status": "completed",
+    "samples_per_class": 5,
+    "images_per_method": 35
+  },
+  "metric_artifacts": {
+    "metrics_json": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\custom_cnn\\final_custom_cnn_seed123\\evaluation\\test\\metrics.json",
+    "classification_report": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\custom_cnn\\final_custom_cnn_seed123\\evaluation\\test\\classification_report.csv",
+    "confusion_matrix_csv": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\custom_cnn\\final_custom_cnn_seed123\\evaluation\\test\\confusion_matrix.csv",
+    "normalized_confusion_matrix_csv": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\custom_cnn\\final_custom_cnn_seed123\\evaluation\\test\\normalized_confusion_matrix.csv",
+    "confusion_matrix_png": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\custom_cnn\\final_custom_cnn_seed123\\evaluation\\test\\confusion_matrix.png",
+    "normalized_confusion_matrix_png": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\custom_cnn\\final_custom_cnn_seed123\\evaluation\\test\\normalized_confusion_matrix.png",
+    "roc_auc_csv": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\custom_cnn\\final_custom_cnn_seed123\\evaluation\\test\\roc_auc_per_class.csv",
+    "pr_auc_csv": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\custom_cnn\\final_custom_cnn_seed123\\evaluation\\test\\pr_auc_per_class.csv",
+    "roc_curve_png": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\custom_cnn\\final_custom_cnn_seed123\\evaluation\\test\\roc_curves.png",
+    "pr_curve_png": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\custom_cnn\\final_custom_cnn_seed123\\evaluation\\test\\precision_recall_curves.png",
+    "roc_curve_data_csv": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\custom_cnn\\final_custom_cnn_seed123\\evaluation\\test\\roc_curve_data.csv",
+    "pr_curve_data_csv": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\custom_cnn\\final_custom_cnn_seed123\\evaluation\\test\\pr_curve_data.csv"
+  },
+  "test_manifest_sha256": "60502c39895885eebbad0957c5916c3fbdf93dba9694e41180ed9bc044f7250b",
+  "split_assignment_fingerprint_sha256": "8a64e1a8a53eecd2dd2eeedbfb63c7e783a193304a2529da1be4e8c7bff441de",
+  "test_partition_accessed": true,
+  "training_or_finetuning_performed": false,
+  "elapsed_seconds": 376.215294900001,
+  "note": null
+}

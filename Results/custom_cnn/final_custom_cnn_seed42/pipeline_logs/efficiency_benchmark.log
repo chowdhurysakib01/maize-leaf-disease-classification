@@ -1,0 +1,68 @@
+Stage: efficiency_benchmark
+Started: 2026-11-12T22:16:57.856618+06:00
+Command: D:\MaizeLeaf\.venv\Scripts\python.exe -m src.benchmarking.efficiency_benchmark --run-dir D:\MaizeLeaf\Results\custom_cnn\final_custom_cnn_seed42 --device cuda:0 --batch-sizes 1 8 16 --warmup 5 --iterations 20 --amp --amp-dtype float16
+
+
+============================================================================
+MAIZE LEAF - EFFICIENCY BENCHMARKING ENGINE
+============================================================================
+Run directory : D:\MaizeLeaf\Results\custom_cnn\final_custom_cnn_seed42
+Device        : cuda:0
+GPU           : NVIDIA GeForce RTX 3060 Laptop GPU
+[PASS] Fixed split fingerprint
+
+BUILDING MODEL
+Loading best checkpoint...
+[PASS] Model architecture reconstructed
+[PASS] Best checkpoint loaded
+
+MODEL INFORMATION
+Total parameters     : 1,175,015
+Trainable parameters : 1,175,015
+Frozen parameters    : 0
+Checkpoint size      : 13.51 MB
+
+COMPUTATIONAL COMPLEXITY
+MACs/image : 2,586,674,944
+FLOPs/image: 5,173,349,888
+
+INFERENCE BENCHMARK
+AMP        : True
+Warmup     : 5
+Iterations : 20
+
+----------------------------------------------------------------------
+Benchmarking batch size: 1
+Mean latency : 2.4679 ms
+Median       : 2.4731 ms
+P95          : 2.6332 ms
+Throughput   : 391.45 images/sec
+Peak GPU RAM : 17.359375 MB
+[PASS] Batch benchmark
+
+----------------------------------------------------------------------
+Benchmarking batch size: 8
+Mean latency : 4.7571 ms
+Median       : 4.8425 ms
+P95          : 4.8647 ms
+Throughput   : 1678.25 images/sec
+Peak GPU RAM : 108.11083984375 MB
+[PASS] Batch benchmark
+
+----------------------------------------------------------------------
+Benchmarking batch size: 16
+Mean latency : 8.6556 ms
+Median       : 8.6523 ms
+P95          : 8.6730 ms
+Throughput   : 1846.54 images/sec
+Peak GPU RAM : 211.72265625 MB
+[PASS] Batch benchmark
+
+============================================================================
+EFFICIENCY BENCHMARK COMPLETED
+============================================================================
+Training time : 01:50:20
+JSON          : D:\MaizeLeaf\Results\custom_cnn\final_custom_cnn_seed42\benchmarking\efficiency_benchmark.json
+CSV           : D:\MaizeLeaf\Results\custom_cnn\final_custom_cnn_seed42\benchmarking\efficiency_benchmark.csv
+Report        : D:\MaizeLeaf\Results\custom_cnn\final_custom_cnn_seed42\benchmarking\efficiency_benchmark_report.txt
+============================================================================

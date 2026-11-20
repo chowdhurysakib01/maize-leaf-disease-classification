@@ -1,0 +1,34 @@
+﻿actual_class,predicted_class,actual_class_index,predicted_class_index,confusion_count,percentage_of_actual_class
+Fall Armyworm (Insect) Damage,Healthy Leaf,0,1,13,10.317460317460316
+Fall Armyworm (Insect) Damage,Leaf Spot,0,2,12,9.523809523809524
+Healthy Leaf,Fall Armyworm (Insect) Damage,1,0,11,14.864864864864865
+Magnesium Deficiency,Fall Armyworm (Insect) Damage,3,0,11,13.253012048192772
+Fall Armyworm (Insect) Damage,Northern Leaf Blight,0,5,7,5.555555555555555
+Northern Leaf Blight,Fall Armyworm (Insect) Damage,5,0,7,8.860759493670885
+Leaf Spot,Phosphorus Deficiency,2,6,6,9.836065573770492
+Phosphorus Deficiency,Fall Armyworm (Insect) Damage,6,0,6,8.0
+Fall Armyworm (Insect) Damage,Magnesium Deficiency,0,3,5,3.968253968253968
+Leaf Spot,Fall Armyworm (Insect) Damage,2,0,5,8.19672131147541
+Northern Leaf Blight,Leaf Spot,5,2,5,6.329113924050633
+Northern Leaf Blight,Phosphorus Deficiency,5,6,5,6.329113924050633
+Phosphorus Deficiency,Leaf Spot,6,2,5,6.666666666666667
+Magnesium Deficiency,Healthy Leaf,3,1,3,3.614457831325301
+Magnesium Deficiency,Phosphorus Deficiency,3,6,3,3.614457831325301
+Phosphorus Deficiency,Healthy Leaf,6,1,3,4.0
+Fall Armyworm (Insect) Damage,Phosphorus Deficiency,0,6,2,1.5873015873015872
+Leaf Spot,Magnesium Deficiency,2,3,2,3.278688524590164
+Nitrogen Deficiency,Leaf Spot,4,2,2,3.125
+Northern Leaf Blight,Healthy Leaf,5,1,2,2.5316455696202533
+Northern Leaf Blight,Nitrogen Deficiency,5,4,2,2.5316455696202533
+Healthy Leaf,Leaf Spot,1,2,1,1.3513513513513513
+Healthy Leaf,Magnesium Deficiency,1,3,1,1.3513513513513513
+Leaf Spot,Healthy Leaf,2,1,1,1.639344262295082
+Leaf Spot,Nitrogen Deficiency,2,4,1,1.639344262295082
+Leaf Spot,Northern Leaf Blight,2,5,1,1.639344262295082
+Magnesium Deficiency,Leaf Spot,3,2,1,1.2048192771084338
+Magnesium Deficiency,Nitrogen Deficiency,3,4,1,1.2048192771084338
+Nitrogen Deficiency,Healthy Leaf,4,1,1,1.5625
+Nitrogen Deficiency,Magnesium Deficiency,4,3,1,1.5625
+Nitrogen Deficiency,Northern Leaf Blight,4,5,1,1.5625
+Northern Leaf Blight,Magnesium Deficiency,5,3,1,1.2658227848101267
+Phosphorus Deficiency,Magnesium Deficiency,6,3,1,1.3333333333333335

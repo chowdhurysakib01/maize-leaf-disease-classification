@@ -1,0 +1,10 @@
+{
+    "model_name": "resnet50",
+    "best_epoch": 5,
+    "best_metric_name": "val_macro_f1",
+    "best_metric_value": 0.9464112506384291,
+    "checkpoint": "D:\\MaizeLeaf\\Results\\resnet50\\final_resnet50_seed123\\checkpoints\\best_model.pth",
+    "created_at": "2026-11-16T04:39:30.016235+00:00",
+    "completed_epoch": 5,
+    "global_step": 1639
+}

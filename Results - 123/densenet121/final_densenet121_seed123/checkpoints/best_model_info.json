@@ -1,0 +1,10 @@
+{
+    "model_name": "densenet121",
+    "best_epoch": 12,
+    "best_metric_name": "val_macro_f1",
+    "best_metric_value": 0.9468749594783396,
+    "checkpoint": "D:\\MaizeLeaf\\Results\\densenet121\\final_densenet121_seed123\\checkpoints\\best_model.pth",
+    "created_at": "2026-11-16T09:31:26.606091+00:00",
+    "completed_epoch": 12,
+    "global_step": 3932
+}

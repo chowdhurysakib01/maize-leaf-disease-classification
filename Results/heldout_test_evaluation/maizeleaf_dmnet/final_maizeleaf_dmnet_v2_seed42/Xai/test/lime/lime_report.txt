@@ -1,0 +1,113 @@
+==============================================================================
+MAIZE LEAF CLASSIFICATION - LIME EXPLANATION REPORT
+==============================================================================
+
+Model: riceleaf_dmnet
+Run: final_riceleaf_dmnet_v2_seed42
+Checkpoint: D:\MaizeLeaf\Results\riceleaf_dmnet\final_riceleaf_dmnet_v2_seed42\checkpoints\best_model.pth
+Checkpoint epoch: 21
+Method: LIME
+Partition: test
+Samples explained: 35
+
+LIME CONFIGURATION
+------------------------------------------------------------------------------
+Perturbation samples: 1000
+Maximum features: 10
+Requested superpixels: 80
+SLIC compactness: 10.0
+SLIC sigma: 0.8
+Prediction batch size: 8
+Target class policy: predicted
+
+OVERALL RESULTS
+------------------------------------------------------------------------------
+Correct: 21
+Incorrect: 14
+Subset accuracy: 0.600000
+Mean confidence: 0.975436
+Mean local model R2: 0.214993
+Mean absolute feature weight: 0.056740
+Mean explanation time: 9.4327 seconds
+Total runtime: 339.68 seconds
+
+CLASS-WISE RESULTS
+------------------------------------------------------------------------------
+
+Fall Armyworm (Insect) Damage
+  Selected: 5
+  Correct: 3
+  Incorrect: 2
+  Subset accuracy: 0.6
+  Mean local model R2: 0.13987858225719138
+  Mean absolute feature weight: 0.0046707441790884725
+
+Healthy Leaf
+  Selected: 5
+  Correct: 3
+  Incorrect: 2
+  Subset accuracy: 0.6
+  Mean local model R2: 0.08584652293544612
+  Mean absolute feature weight: 0.018966323868915953
+
+Leaf Spot
+  Selected: 5
+  Correct: 3
+  Incorrect: 2
+  Subset accuracy: 0.6
+  Mean local model R2: 0.28851861336388956
+  Mean absolute feature weight: 0.08690948981347515
+
+Magnesium Deficiency
+  Selected: 5
+  Correct: 3
+  Incorrect: 2
+  Subset accuracy: 0.6
+  Mean local model R2: 0.14920757412287683
+  Mean absolute feature weight: 0.04014922359252503
+
+Nitrogen Deficiency
+  Selected: 5
+  Correct: 3
+  Incorrect: 2
+  Subset accuracy: 0.6
+  Mean local model R2: 0.3157222916249862
+  Mean absolute feature weight: 0.09587736288947364
+
+Northern Leaf Blight
+  Selected: 5
+  Correct: 3
+  Incorrect: 2
+  Subset accuracy: 0.6
+  Mean local model R2: 0.40462682255406685
+  Mean absolute feature weight: 0.12253044896762395
+
+Phosphorus Deficiency
+  Selected: 5
+  Correct: 3
+  Incorrect: 2
+  Subset accuracy: 0.6
+  Mean local model R2: 0.12114870161318789
+  Mean absolute feature weight: 0.028077095977381755
+
+DATA INTEGRITY
+------------------------------------------------------------------------------
+Split fingerprint: 8a64e1a8a53eecd2dd2eeedbfb63c7e783a193304a2529da1be4e8c7bff441de
+Seed: 42
+Test manifest only: YES
+Train manifest loaded: NO
+Test manifest loaded: NO
+Held-out test set used: NO
+Group IDs available: False
+
+INTERPRETATION
+------------------------------------------------------------------------------
+Positive superpixels support the selected target class
+under the local surrogate model.
+Negative superpixels weigh against the selected target class.
+Local model R2 measures the surrogate's local fit.
+LIME weights are not biological causal effects.
+Superpixel importance does not establish disease severity.
+Interpretations depend on segmentation and perturbation settings.
+
+==============================================================================

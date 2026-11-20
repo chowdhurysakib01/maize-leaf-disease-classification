@@ -1,0 +1,12 @@
+{
+  "model_name": "riceleaf_dmnet_finetuned",
+  "base_model_name": "riceleaf_dmnet",
+  "best_epoch": 8,
+  "best_stage": "progressive",
+  "best_metric_name": "val_macro_f1",
+  "best_metric_value": 0.9400874296815038,
+  "source_checkpoint": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed42\\checkpoints\\best_model.pth",
+  "source_best_epoch": 21,
+  "source_best_macro_f1": 0.9369143790276306,
+  "checkpoint": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\finetuned_eval_seed42\\fine_tuning\\checkpoints\\best_model.pth"
+}

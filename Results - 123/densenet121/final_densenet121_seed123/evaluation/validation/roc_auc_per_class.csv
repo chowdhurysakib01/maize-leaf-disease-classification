@@ -1,0 +1,8 @@
+﻿class_index,class_name,auc,support
+0,Fall Armyworm (Insect) Damage,0.9886569544103792,126
+1,Healthy Leaf,0.9997818677573278,75
+2,Leaf Spot,0.9911677476126846,61
+3,Magnesium Deficiency,1.0,83
+4,Nitrogen Deficiency,0.999375,64
+5,Northern Leaf Blight,0.9866477272727272,80
+6,Phosphorus Deficiency,0.9995910020449899,75

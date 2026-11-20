@@ -1,0 +1,480 @@
+{
+    "run_name": "final_resnet50_seed42",
+    "status": "early_stopped",
+    "start_timestamp": {
+        "local": "2026-11-12T23:09:16.669751+06:00",
+        "utc": "2026-11-12T17:09:16.669751+00:00"
+    },
+    "end_timestamp": {
+        "local": "2026-11-12T23:45:17.229382+06:00",
+        "utc": "2026-11-12T17:45:17.229382+00:00"
+    },
+    "total_training_time_seconds": 2160.5600437999965,
+    "total_training_time_minutes": 36.00933406333328,
+    "total_training_time_hours": 0.6001555677222212,
+    "epochs_completed": 10,
+    "batch_records_saved": 3990,
+    "best_epoch": 3,
+    "best_metric": {
+        "name": "val_macro_f1",
+        "value": 0.9304583365533745
+    },
+    "additional_information": {
+        "model": "resnet50",
+        "run_name": "final_resnet50_seed42",
+        "status": "early_stopped",
+        "best_epoch": 3,
+        "best_monitor": "val_macro_f1",
+        "best_monitor_value": 0.9304583365533745,
+        "epochs_completed_this_run": 10,
+        "total_training_time_seconds": 1681.1875306000293,
+        "total_training_time_minutes": 28.019792176667156,
+        "global_optimizer_steps": 3277,
+        "best_checkpoint": "D:\\MaizeLeaf\\Results\\resnet50\\final_resnet50_seed42\\checkpoints\\best_model.pth",
+        "best_checkpoint_size_mb": 269.64212226867676,
+        "total_parameters": 23522375,
+        "trainable_parameters": 23522375,
+        "frozen_parameters": 0,
+        "optimizer_parameters": 23522375,
+        "split_assignment_fingerprint_sha256": "8a64e1a8a53eecd2dd2eeedbfb63c7e783a193304a2529da1be4e8c7bff441de",
+        "validation_metrics": {
+            "accuracy": 0.9308510638297872,
+            "precision_macro": 0.9319682793597802,
+            "recall_macro": 0.9300948883075516,
+            "f1_macro": 0.9304583365533745,
+            "balanced_accuracy": 0.9300948883075516,
+            "roc_auc_ovr_macro": 0.9945043972488883,
+            "pr_auc_macro_average_precision": 0.9752952889880656
+        },
+        "validation_loss": 0.22563497183170725,
+        "training_curve_files": [
+            "D:\\MaizeLeaf\\Results\\resnet50\\final_resnet50_seed42\\training_curves\\loss_curve.png",
+            "D:\\MaizeLeaf\\Results\\resnet50\\final_resnet50_seed42\\training_curves\\accuracy_curve.png",
+            "D:\\MaizeLeaf\\Results\\resnet50\\final_resnet50_seed42\\training_curves\\macro_f1_curve.png",
+            "D:\\MaizeLeaf\\Results\\resnet50\\final_resnet50_seed42\\training_curves\\learning_rate_curve.png"
+        ],
+        "validation_artifacts": {
+            "metrics_json": "D:\\MaizeLeaf\\Results\\resnet50\\final_resnet50_seed42\\evaluation\\validation\\metrics.json",
+            "classification_report": "D:\\MaizeLeaf\\Results\\resnet50\\final_resnet50_seed42\\evaluation\\validation\\classification_report.csv",
+            "confusion_matrix_csv": "D:\\MaizeLeaf\\Results\\resnet50\\final_resnet50_seed42\\evaluation\\validation\\confusion_matrix.csv",
+            "normalized_confusion_matrix_csv": "D:\\MaizeLeaf\\Results\\resnet50\\final_resnet50_seed42\\evaluation\\validation\\normalized_confusion_matrix.csv",
+            "confusion_matrix_png": "D:\\MaizeLeaf\\Results\\resnet50\\final_resnet50_seed42\\evaluation\\validation\\confusion_matrix.png",
+            "normalized_confusion_matrix_png": "D:\\MaizeLeaf\\Results\\resnet50\\final_resnet50_seed42\\evaluation\\validation\\normalized_confusion_matrix.png",
+            "roc_auc_csv": "D:\\MaizeLeaf\\Results\\resnet50\\final_resnet50_seed42\\evaluation\\validation\\roc_auc_per_class.csv",
+            "pr_auc_csv": "D:\\MaizeLeaf\\Results\\resnet50\\final_resnet50_seed42\\evaluation\\validation\\pr_auc_per_class.csv",
+            "roc_curve_png": "D:\\MaizeLeaf\\Results\\resnet50\\final_resnet50_seed42\\evaluation\\validation\\roc_curves.png",
+            "pr_curve_png": "D:\\MaizeLeaf\\Results\\resnet50\\final_resnet50_seed42\\evaluation\\validation\\precision_recall_curves.png",
+            "roc_curve_data_csv": "D:\\MaizeLeaf\\Results\\resnet50\\final_resnet50_seed42\\evaluation\\validation\\roc_curve_data.csv",
+            "pr_curve_data_csv": "D:\\MaizeLeaf\\Results\\resnet50\\final_resnet50_seed42\\evaluation\\validation\\pr_curve_data.csv"
+        },
+        "prediction_export": {
+            "model_name": "resnet50",
+            "run_name": "final_resnet50_seed42",
+            "split_name": "validation",
+            "created_at": "2026-11-12T23:38:09.193384+06:00",
+            "completed_at": "2026-11-12T23:39:09.949770+06:00",
+            "elapsed_seconds": 60.757168799987994,
+            "images_per_second": 9.282855194531571,
+            "total_images": 564,
+            "correct_predictions": 525,
+            "incorrect_predictions": 39,
+            "accuracy": 0.9308510638297872,
+            "mean_confidence": 0.959760529405259,
+            "num_classes": 7,
+            "class_names": [
+                "Fall Armyworm (Insect) Damage",
+                "Healthy Leaf",
+                "Leaf Spot",
+                "Magnesium Deficiency",
+                "Nitrogen Deficiency",
+                "Northern Leaf Blight",
+                "Phosphorus Deficiency"
+            ],
+            "per_class_summary": {
+                "Fall Armyworm (Insect) Damage": {
+                    "class_index": 0,
+                    "total_images": 126,
+                    "correct_predictions": 116,
+                    "incorrect_predictions": 10,
+                    "accuracy": 0.9206349206349206
+                },
+                "Healthy Leaf": {
+                    "class_index": 1,
+                    "total_images": 75,
+                    "correct_predictions": 75,
+                    "incorrect_predictions": 0,
+                    "accuracy": 1.0
+                },
+                "Leaf Spot": {
+                    "class_index": 2,
+                    "total_images": 61,
+                    "correct_predictions": 52,
+                    "incorrect_predictions": 9,
+                    "accuracy": 0.8524590163934426
+                },
+                "Magnesium Deficiency": {
+                    "class_index": 3,
+                    "total_images": 83,
+                    "correct_predictions": 81,
+                    "incorrect_predictions": 2,
+                    "accuracy": 0.9759036144578314
+                },
+                "Nitrogen Deficiency": {
+                    "class_index": 4,
+                    "total_images": 64,
+                    "correct_predictions": 60,
+                    "incorrect_predictions": 4,
+                    "accuracy": 0.9375
+                },
+                "Northern Leaf Blight": {
+                    "class_index": 5,
+                    "total_images": 80,
+                    "correct_predictions": 67,
+                    "incorrect_predictions": 13,
+                    "accuracy": 0.8375
+                },
+                "Phosphorus Deficiency": {
+                    "class_index": 6,
+                    "total_images": 75,
+                    "correct_predictions": 74,
+                    "incorrect_predictions": 1,
+                    "accuracy": 0.9866666666666667
+                }
+            },
+            "confusion_matrix": [
+                [
+                    116,
+                    2,
+                    3,
+                    0,
+                    0,
+                    5,
+                    0
+                ],
+                [
+                    0,
+                    75,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    7,
+                    1,
+                    52,
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    0,
+                    0,
+                    81,
+                    1,
+                    0,
+                    0
+                ],
+                [
+                    2,
+                    0,
+                    2,
+                    0,
+                    60,
+                    0,
+                    0
+                ],
+                [
+                    4,
+                    0,
+                    7,
+                    0,
+                    2,
+                    67,
+                    0
+                ],
+                [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    74
+                ]
+            ],
+            "device": "cuda:0",
+            "amp": {
+                "enabled": true,
+                "dtype": "float16",
+                "grad_scaler": true,
+                "reason": "CUDA FP16 mixed precision enabled."
+            },
+            "batch_size": 8,
+            "num_batches": 71,
+            "num_workers": 4,
+            "pin_memory": true,
+            "split_assignment_fingerprint_sha256": "8a64e1a8a53eecd2dd2eeedbfb63c7e783a193304a2529da1be4e8c7bff441de",
+            "dataset_metadata": {
+                "project_root": "D:\\MaizeLeaf",
+                "dataset_directory": "D:\\MaizeLeaf\\Dataset",
+                "class_names": [
+                    "Fall Armyworm (Insect) Damage",
+                    "Healthy Leaf",
+                    "Leaf Spot",
+                    "Magnesium Deficiency",
+                    "Nitrogen Deficiency",
+                    "Northern Leaf Blight",
+                    "Phosphorus Deficiency"
+                ],
+                "class_to_idx": {
+                    "Fall Armyworm (Insect) Damage": 0,
+                    "Healthy Leaf": 1,
+                    "Leaf Spot": 2,
+                    "Magnesium Deficiency": 3,
+                    "Nitrogen Deficiency": 4,
+                    "Northern Leaf Blight": 5,
+                    "Phosphorus Deficiency": 6
+                },
+                "num_classes": 7,
+                "split_counts": {
+                    "train": 2623,
+                    "validation": 564,
+                    "test": 562
+                },
+                "training_class_counts": {
+                    "Fall Armyworm (Insect) Damage": 586,
+                    "Healthy Leaf": 347,
+                    "Leaf Spot": 284,
+                    "Magnesium Deficiency": 387,
+                    "Nitrogen Deficiency": 297,
+                    "Northern Leaf Blight": 372,
+                    "Phosphorus Deficiency": 350
+                },
+                "split_assignment_fingerprint_sha256": "8a64e1a8a53eecd2dd2eeedbfb63c7e783a193304a2529da1be4e8c7bff441de",
+                "split_unit": "image",
+                "group_ids_available": false,
+                "test_partition_policy": "Held out; not used during training or validation-based model selection.",
+                "split_metadata": {
+                    "split_assignment_fingerprint_sha256": "8a64e1a8a53eecd2dd2eeedbfb63c7e783a193304a2529da1be4e8c7bff441de",
+                    "split_unit": "image",
+                    "grouping_method": "Stratified random image-level split. Plant/session identifiers unavailable.",
+                    "random_seed": 42,
+                    "split_ratios": {
+                        "train": 0.7,
+                        "validation": 0.15,
+                        "test": 0.15
+                    },
+                    "effective_dataset_fingerprint_sha256": "ca1eb0c56e0a2a10a184cc32a374aefbe9fdae10283136fa8409ad06318d9fbe"
+                }
+            },
+            "training_metadata": {
+                "best_epoch": 3,
+                "best_monitor": "val_macro_f1",
+                "best_monitor_value": 0.9304583365533745,
+                "training_config_path": "D:\\MaizeLeaf\\Results\\resnet50\\final_resnet50_seed42\\training_config.json"
+            },
+            "output_csv": "D:\\MaizeLeaf\\Results\\resnet50\\final_resnet50_seed42\\evaluation\\validation\\predictions.csv",
+            "metadata_path": "D:\\MaizeLeaf\\Results\\resnet50\\final_resnet50_seed42\\evaluation\\validation\\predictions_metadata.json",
+            "csv_sha256": "e66ba37b105f00b32c7bb32c5594507e6a49e2da56ff68e60d242528d4a03a2a",
+            "probability_columns": [
+                "prob_class_0",
+                "prob_class_1",
+                "prob_class_2",
+                "prob_class_3",
+                "prob_class_4",
+                "prob_class_5",
+                "prob_class_6"
+            ]
+        },
+        "test_partition_accessed": false,
+        "post_training_pipeline": {
+            "project": "Maize Leaf Classification",
+            "pipeline_status": "completed",
+            "started_at": "2026-11-12T23:39:12.286512+06:00",
+            "finished_at": "2026-11-12T23:45:17.224463+06:00",
+            "duration_seconds": 364.93899819999933,
+            "duration_minutes": 6.082316636666656,
+            "device": "cuda:0",
+            "llm_model": "qwen2.5:3b",
+            "shap_enabled": false,
+            "test_partition_accessed": false,
+            "xai_samples_per_class": 5,
+            "completed_stages": [
+                "efficiency_benchmark",
+                "error_analysis",
+                "gradcam",
+                "gradcam_plus_plus",
+                "lime",
+                "llm_reports"
+            ],
+            "failed_stages": [],
+            "skipped_stages": [],
+            "stage_results": {
+                "efficiency_benchmark": {
+                    "stage": "efficiency_benchmark",
+                    "status": "completed",
+                    "started_at": "2026-11-12T23:39:12.287512+06:00",
+                    "finished_at": "2026-11-12T23:39:20.613597+06:00",
+                    "duration_seconds": 8.325603699981002,
+                    "return_code": 0,
+                    "error": null,
+                    "command": [
+                        "D:\\MaizeLeaf\\.venv\\Scripts\\python.exe",
+                        "-m",
+                        "src.benchmarking.efficiency_benchmark",
+                        "--run-dir",
+                        "D:\\MaizeLeaf\\Results\\resnet50\\final_resnet50_seed42",
+                        "--device",
+                        "cuda:0",
+                        "--batch-sizes",
+                        "1",
+                        "8",
+                        "16",
+                        "--warmup",
+                        "5",
+                        "--iterations",
+                        "20",
+                        "--amp",
+                        "--amp-dtype",
+                        "float16"
+                    ],
+                    "log_file": "D:\\MaizeLeaf\\Results\\resnet50\\final_resnet50_seed42\\pipeline_logs\\efficiency_benchmark.log"
+                },
+                "error_analysis": {
+                    "stage": "error_analysis",
+                    "status": "completed",
+                    "started_at": "2026-11-12T23:39:20.615679+06:00",
+                    "finished_at": "2026-11-12T23:39:33.839734+06:00",
+                    "duration_seconds": 13.2241134000069,
+                    "return_code": 0,
+                    "error": null,
+                    "command": [
+                        "D:\\MaizeLeaf\\.venv\\Scripts\\python.exe",
+                        "-m",
+                        "src.evaluation.error_analysis",
+                        "--evaluation-dir",
+                        "D:\\MaizeLeaf\\Results\\resnet50\\final_resnet50_seed42\\evaluation\\validation",
+                        "--top-k",
+                        "10",
+                        "--confidence-threshold",
+                        "0.8",
+                        "--contact-sheet-limit",
+                        "48"
+                    ],
+                    "log_file": "D:\\MaizeLeaf\\Results\\resnet50\\final_resnet50_seed42\\pipeline_logs\\error_analysis.log"
+                },
+                "gradcam": {
+                    "stage": "gradcam",
+                    "status": "completed",
+                    "started_at": "2026-11-12T23:39:33.840738+06:00",
+                    "finished_at": "2026-11-12T23:39:55.285757+06:00",
+                    "duration_seconds": 21.444932400016114,
+                    "return_code": 0,
+                    "error": null,
+                    "command": [
+                        "D:\\MaizeLeaf\\.venv\\Scripts\\python.exe",
+                        "-m",
+                        "src.explainability.gradcam",
+                        "--run-dir",
+                        "D:\\MaizeLeaf\\Results\\resnet50\\final_resnet50_seed42",
+                        "--device",
+                        "cuda:0",
+                        "--samples-per-class",
+                        "5",
+                        "--sample-strategy",
+                        "balanced",
+                        "--target-class",
+                        "predicted",
+                        "--seed",
+                        "42"
+                    ],
+                    "log_file": "D:\\MaizeLeaf\\Results\\resnet50\\final_resnet50_seed42\\pipeline_logs\\gradcam.log"
+                },
+                "gradcam_plus_plus": {
+                    "stage": "gradcam_plus_plus",
+                    "status": "completed",
+                    "started_at": "2026-11-12T23:39:55.286786+06:00",
+                    "finished_at": "2026-11-12T23:40:16.562658+06:00",
+                    "duration_seconds": 21.276266599976225,
+                    "return_code": 0,
+                    "error": null,
+                    "command": [
+                        "D:\\MaizeLeaf\\.venv\\Scripts\\python.exe",
+                        "-m",
+                        "src.explainability.gradcam_plus_plus",
+                        "--run-dir",
+                        "D:\\MaizeLeaf\\Results\\resnet50\\final_resnet50_seed42",
+                        "--device",
+                        "cuda:0",
+                        "--samples-per-class",
+                        "5",
+                        "--sample-strategy",
+                        "balanced",
+                        "--target-class",
+                        "predicted",
+                        "--seed",
+                        "42"
+                    ],
+                    "log_file": "D:\\MaizeLeaf\\Results\\resnet50\\final_resnet50_seed42\\pipeline_logs\\gradcam_plus_plus.log"
+                },
+                "lime": {
+                    "stage": "lime",
+                    "status": "completed",
+                    "started_at": "2026-11-12T23:40:16.563665+06:00",
+                    "finished_at": "2026-11-12T23:44:33.931572+06:00",
+                    "duration_seconds": 257.3681411000143,
+                    "return_code": 0,
+                    "error": null,
+                    "command": [
+                        "D:\\MaizeLeaf\\.venv\\Scripts\\python.exe",
+                        "-m",
+                        "src.explainability.lime_explainer",
+                        "--run-dir",
+                        "D:\\MaizeLeaf\\Results\\resnet50\\final_resnet50_seed42",
+                        "--device",
+                        "cuda:0",
+                        "--samples-per-class",
+                        "5",
+                        "--sample-strategy",
+                        "balanced",
+                        "--target-class",
+                        "predicted",
+                        "--seed",
+                        "42"
+                    ],
+                    "log_file": "D:\\MaizeLeaf\\Results\\resnet50\\final_resnet50_seed42\\pipeline_logs\\lime.log"
+                },
+                "llm_reports": {
+                    "stage": "llm_reports",
+                    "status": "completed",
+                    "started_at": "2026-11-12T23:44:33.932630+06:00",
+                    "finished_at": "2026-11-12T23:45:17.224463+06:00",
+                    "duration_seconds": 43.29178480000701,
+                    "return_code": 0,
+                    "error": null,
+                    "command": [
+                        "D:\\MaizeLeaf\\.venv\\Scripts\\python.exe",
+                        "D:\\MaizeLeaf\\LLM\\report_generator.py",
+                        "--run-dir",
+                        "D:\\MaizeLeaf\\Results\\resnet50\\final_resnet50_seed42",
+                        "--model",
+                        "qwen2.5:3b",
+                        "--timeout",
+                        "1800"
+                    ],
+                    "log_file": "D:\\MaizeLeaf\\Results\\resnet50\\final_resnet50_seed42\\pipeline_logs\\llm_reports.log"
+                }
+            }
+        },
+        "pipeline_status": "completed",
+        "pipeline_summary_path": "D:\\MaizeLeaf\\Results\\resnet50\\final_resnet50_seed42\\pipeline_summary.json",
+        "post_training_pipeline_time_seconds": 364.93899819999933,
+        "post_training_pipeline_time_minutes": 6.082316636666656,
+        "total_run_time_seconds": 2160.5580501000077,
+        "total_run_time_minutes": 36.009300835000126
+    }
+}

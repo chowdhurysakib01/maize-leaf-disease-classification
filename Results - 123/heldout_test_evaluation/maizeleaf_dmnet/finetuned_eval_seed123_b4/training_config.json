@@ -1,0 +1,10 @@
+{
+  "model": "riceleaf_dmnet",
+  "pretrained": false,
+  "freeze_backbone": false,
+  "num_classes": 7,
+  "seed": 123,
+  "run_name": "finetuned_eval_seed123_b4",
+  "normalization": "imagenet",
+  "image_size": 224
+}

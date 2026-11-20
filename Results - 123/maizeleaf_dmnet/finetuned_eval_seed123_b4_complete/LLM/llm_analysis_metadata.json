@@ -1,0 +1,32 @@
+{
+    "project": "Maize Leaf Classification",
+    "model": "riceleaf_dmnet",
+    "run_name": "finetuned_eval_seed123_b4_complete",
+    "ollama_model": "qwen2.5:3b",
+    "generated_at": "2026-11-17T15:55:15.424722",
+    "language_outputs": [
+        "English",
+        "Bangla"
+    ],
+    "source_files": [
+        "training_config.json",
+        "run_summary.json",
+        "evaluation\\validation\\metrics.json",
+        "evaluation\\validation\\classification_report.csv",
+        "evaluation\\validation\\confusion_matrix.csv",
+        "evaluation\\validation\\error_analysis\\confusion_matrix.csv",
+        "benchmarking\\efficiency_benchmark.json",
+        "evaluation\\validation\\error_analysis\\error_analysis_summary.json",
+        "evaluation\\validation\\error_analysis\\per_class_error_analysis.csv",
+        "evaluation\\validation\\error_analysis\\confusion_pairs.csv",
+        "evaluation\\validation\\error_analysis\\confidence_bins.csv"
+    ],
+    "source_file_count": 11,
+    "xai_methods_expected": [
+        "gradcam",
+        "gradcam_plus_plus",
+        "lime"
+    ],
+    "shap_included": false,
+    "evidence_based_generation": true
+}

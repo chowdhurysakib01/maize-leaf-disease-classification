@@ -1,0 +1,13 @@
+{
+    "model": "riceleaf_dmnet",
+    "run_name": "finetuned_eval_seed123_b4_complete",
+    "status": "evaluation_only",
+    "best_epoch": 10,
+    "best_monitor": "val_macro_f1",
+    "best_monitor_value": 0.9496709418459977,
+    "split_assignment_fingerprint_sha256": "8a64e1a8a53eecd2dd2eeedbfb63c7e783a193304a2529da1be4e8c7bff441de",
+    "test_partition_accessed": false,
+    "source_model_name": "riceleaf_dmnet_finetuned",
+    "source_checkpoint": "D:\\MaizeLeaf\\Results\\finetuned_eval_seed123_b4\\checkpoints\\best_model.pth",
+    "backbone_initialization": "ImageNet pretrained, then fine-tuned; reconstruction uses checkpoint weights only."
+}

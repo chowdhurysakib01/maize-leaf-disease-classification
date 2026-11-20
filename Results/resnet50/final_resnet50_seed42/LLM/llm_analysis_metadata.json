@@ -1,0 +1,30 @@
+{
+    "project": "Maize Leaf Classification",
+    "model": "resnet50",
+    "run_name": "final_resnet50_seed42",
+    "ollama_model": "qwen2.5:3b",
+    "generated_at": "2026-11-12T23:45:17.209996",
+    "language_outputs": [
+        "English",
+        "Bangla"
+    ],
+    "source_files": [
+        "training_config.json",
+        "training_history\\training_history.json",
+        "run_summary.json",
+        "evaluation\\validation\\metrics.json",
+        "evaluation\\validation\\final_validation_metrics.json",
+        "evaluation\\validation\\classification_report.csv",
+        "evaluation\\validation\\confusion_matrix.csv",
+        "evaluation\\validation\\error_analysis\\confusion_matrix.csv",
+        "benchmarking\\efficiency_benchmark_report.txt"
+    ],
+    "source_file_count": 9,
+    "xai_methods_expected": [
+        "gradcam",
+        "gradcam_plus_plus",
+        "lime"
+    ],
+    "shap_included": false,
+    "evidence_based_generation": true
+}

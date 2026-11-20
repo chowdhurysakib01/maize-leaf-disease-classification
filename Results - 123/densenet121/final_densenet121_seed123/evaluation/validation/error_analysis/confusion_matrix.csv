@@ -1,0 +1,8 @@
+﻿actual_class,Fall Armyworm (Insect) Damage,Healthy Leaf,Leaf Spot,Magnesium Deficiency,Nitrogen Deficiency,Northern Leaf Blight,Phosphorus Deficiency
+Fall Armyworm (Insect) Damage,112,3,6,0,0,5,0
+Healthy Leaf,1,74,0,0,0,0,0
+Leaf Spot,2,0,57,0,1,1,0
+Magnesium Deficiency,0,0,0,83,0,0,0
+Nitrogen Deficiency,0,0,0,0,63,1,0
+Northern Leaf Blight,4,0,5,0,0,71,0
+Phosphorus Deficiency,0,1,1,0,0,0,73

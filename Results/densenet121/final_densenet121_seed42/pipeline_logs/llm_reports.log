@@ -1,0 +1,101 @@
+Stage: llm_reports
+Started: 2026-11-13T11:09:06.174708+06:00
+Command: D:\MaizeLeaf\.venv\Scripts\python.exe D:\MaizeLeaf\LLM\report_generator.py --run-dir D:\MaizeLeaf\Results\densenet121\final_densenet121_seed42 --model qwen2.5:3b --timeout 1800
+
+
+============================================================================
+MAIZE LEAF - LOCAL LLM REPORT GENERATOR
+============================================================================
+Project root : D:\MaizeLeaf
+Run directory: D:\MaizeLeaf\Results\densenet121\final_densenet121_seed42
+Output       : D:\MaizeLeaf\Results\densenet121\final_densenet121_seed42\LLM
+LLM model    : qwen2.5:3b
+Language     : English + Bangla
+SHAP         : Excluded
+[PASS] Ollama model available: qwen2.5:3b
+
+============================================================================
+COLLECTING EXPERIMENTAL EVIDENCE
+============================================================================
+Discovered files: 41
+[PASS] benchmarking\efficiency_benchmark.json
+[PASS] benchmarking\efficiency_benchmark_report.txt
+[PASS] evaluation\validation\classification_report.csv
+[PASS] evaluation\validation\confusion_matrix.csv
+[PASS] evaluation\validation\error_analysis\confidence_bins.csv
+[PASS] evaluation\validation\error_analysis\confusion_matrix.csv
+[PASS] evaluation\validation\error_analysis\confusion_pairs.csv
+[PASS] evaluation\validation\error_analysis\error_analysis_report.txt
+[PASS] evaluation\validation\error_analysis\error_analysis_summary.json
+[PASS] evaluation\validation\error_analysis\high_confidence_errors.csv
+[PASS] evaluation\validation\error_analysis\normalized_confusion_matrix.csv
+[PASS] evaluation\validation\error_analysis\per_class_error_analysis.csv
+[PASS] evaluation\validation\final_validation_metrics.json
+[PASS] evaluation\validation\metrics.json
+[PASS] evaluation\validation\normalized_confusion_matrix.csv
+[PASS] evaluation\validation\pr_auc_per_class.csv
+[PASS] evaluation\validation\predictions_metadata.json
+[PASS] evaluation\validation\roc_auc_per_class.csv
+[PASS] experiment_metadata.json
+[PASS] model_architecture.json
+[PASS] model_architecture.txt
+[PASS] run_summary.json
+[PASS] split_metadata_snapshot.json
+[PASS] training_config.json
+[PASS] training_history\run_metadata.json
+[PASS] training_history\training_history.csv
+[PASS] training_history\training_history.json
+[PASS] training_history\training_log.txt
+[PASS] Xai\gradcam\class_summary.csv
+[PASS] Xai\gradcam\gradcam_report.txt
+[PASS] Xai\gradcam\gradcam_results.csv
+[PASS] Xai\gradcam\gradcam_summary.json
+[PASS] Xai\gradcam_plus_plus\class_summary.csv
+[PASS] Xai\gradcam_plus_plus\gradcam_plus_plus_report.txt
+[PASS] Xai\gradcam_plus_plus\gradcam_plus_plus_results.csv
+[PASS] Xai\gradcam_plus_plus\gradcam_plus_plus_summary.json
+[PASS] Xai\lime\class_summary.csv
+[PASS] Xai\lime\lime_features.csv
+[PASS] Xai\lime\lime_report.txt
+[PASS] Xai\lime\lime_results.csv
+[PASS] Xai\lime\lime_summary.json
+[WARNING] Evidence exceeds context budget. Less essential sources will be excluded.
+
+Evidence files included: 9
+Evidence characters: 41064
+[PASS] Evidence bundle saved
+
+============================================================================
+GENERATING ENGLISH REPORT
+============================================================================
+Generation time: 0.73 minutes
+[PASS] English report saved
+
+============================================================================
+GENERATING BANGLA REPORT
+============================================================================
+Generation time: 0.46 minutes
+[PASS] Bangla report saved
+[PASS] Research findings extracted
+[PASS] XAI interpretation extracted
+[PASS] Strengths and limitations extracted
+[PASS] LLM metadata saved
+
+============================================================================
+LLM REPORT GENERATION COMPLETED
+============================================================================
+Model       : qwen2.5:3b
+Time        : 1.20 minutes
+Output      : D:\MaizeLeaf\Results\densenet121\final_densenet121_seed42\LLM
+
+Generated files:
+ - evidence_bundle.json
+ - llm_analysis_bangla.md
+ - llm_analysis_english.md
+ - llm_analysis_metadata.json
+ - llm_run_log.json
+ - model_strengths_limitations.md
+ - research_findings.md
+ - xai_interpretation.md
+
+ALL LLM REPORTS GENERATED SUCCESSFULLY

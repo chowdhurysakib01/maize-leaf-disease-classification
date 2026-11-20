@@ -1,0 +1,69 @@
+{
+  "model_metadata": {
+    "model_name": "riceleaf_dmnet",
+    "display_name": "RiceLeaf-DMNet (MobileNetV3-Large + DenseNet121)",
+    "num_classes": 7,
+    "pretrained_requested": true,
+    "pretrained_used": true,
+    "freeze_backbone": false,
+    "architecture": {
+      "architecture": "attention-guided multi-scale dual-backbone fusion",
+      "model_name": "RiceLeaf-DMNet",
+      "architecture_version": "2.0",
+      "mobilenet_backbone": "MobileNetV3-Large",
+      "densenet_backbone": "DenseNet121",
+      "mobilenet_feature_dim": 960,
+      "densenet_feature_dim": 1024,
+      "branch_projection_channels": 256,
+      "branch_embedding_dim": 512,
+      "attention": "CBAM channel and spatial attention",
+      "pooling": [
+        "global_average",
+        "global_max",
+        "2x2_regional_average"
+      ],
+      "fusion_method": "learned_gated_fusion_plus_branch_residuals_and_absolute_difference",
+      "fusion_feature_dim": 2048,
+      "classifier_hidden_dim": 512,
+      "classifier_dropout": 0.35,
+      "pretrained_backbones": true,
+      "backbone_frozen": false,
+      "num_classes": 7
+    },
+    "parameters": {
+      "total_parameters": 13745531,
+      "trainable_parameters": 13745531,
+      "frozen_parameters": 0,
+      "non_trainable_percentage": 0.0,
+      "trainable_percentage": 100.0,
+      "buffer_elements": 109241
+    }
+  },
+  "parameter_information": {
+    "total_parameters": 13745531,
+    "trainable_parameters": 13745531,
+    "frozen_parameters": 0,
+    "non_trainable_percentage": 0.0,
+    "trainable_percentage": 100.0,
+    "buffer_elements": 109241
+  },
+  "optimizer_information": {
+    "optimizer": "AdamW",
+    "parameter_groups": 1,
+    "total_optimized_parameters": 13745531,
+    "groups": [
+      {
+        "group": 0,
+        "parameters": 13745531,
+        "learning_rate": 0.0001,
+        "weight_decay": 0.0001,
+        "momentum": null,
+        "betas": [
+          0.9,
+          0.999
+        ]
+      }
+    ]
+  },
+  "parameter_and_buffer_storage_estimate_mb": 52.8524055480957
+}

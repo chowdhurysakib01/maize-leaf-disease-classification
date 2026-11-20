@@ -1,0 +1,113 @@
+{
+  "pipeline_status": "complete",
+  "model": "RiceLeaf-DMNet Fine-Tuned",
+  "training": {
+    "model_name": "riceleaf_dmnet_finetuned",
+    "base_model": "RiceLeaf-DMNet v2",
+    "source_checkpoint": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed42\\checkpoints\\best_model.pth",
+    "source_best_epoch": 21,
+    "source_recorded_val_macro_f1": 0.9369143790276306,
+    "fine_tuning_objective": "balanced_class_weighted_cross_entropy",
+    "loss_name": "cross_entropy",
+    "class_weighting": "inverse_frequency",
+    "class_weights_from_training_split": {
+      "Fall Armyworm (Insect) Damage": 0.6394441723823547,
+      "Healthy Leaf": 1.0798683166503906,
+      "Leaf Spot": 1.3194165229797363,
+      "Magnesium Deficiency": 0.9682539701461792,
+      "Nitrogen Deficiency": 1.2616642713546753,
+      "Northern Leaf Blight": 1.0072964429855347,
+      "Phosphorus Deficiency": 1.0706121921539307
+    },
+    "best_checkpoint_selection_metric": "validation_macro_f1",
+    "reproduced_baseline_val_loss": 0.6120102853749608,
+    "reproduced_baseline_val_accuracy": 0.9379432624113475,
+    "reproduced_baseline_val_macro_f1": 0.9369143790276306,
+    "best_finetuned_val_macro_f1": 0.9400874296815038,
+    "absolute_macro_f1_change": 0.0031730506538731884,
+    "best_epoch": 8,
+    "best_stage": "progressive",
+    "split_assignment_fingerprint_sha256": "8a64e1a8a53eecd2dd2eeedbfb63c7e783a193304a2529da1be4e8c7bff441de",
+    "train_images": 2623,
+    "validation_images": 564,
+    "test_set_accessed": false,
+    "stages": [
+      {
+        "stage": "classifier_only",
+        "requested_epochs": 3,
+        "completed_epochs": 3,
+        "trainable_parameters": 1187335,
+        "best_macro_f1_after_stage": 0.9369143790276306
+      },
+      {
+        "stage": "progressive",
+        "requested_epochs": 6,
+        "completed_epochs": 6,
+        "trainable_parameters": 8159315,
+        "best_macro_f1_after_stage": 0.9400874296815038
+      },
+      {
+        "stage": "full",
+        "requested_epochs": 12,
+        "completed_epochs": 6,
+        "trainable_parameters": 13745531,
+        "best_macro_f1_after_stage": 0.9400874296815038
+      }
+    ],
+    "history_csv": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\finetuned_eval_seed42\\fine_tuning\\history.csv",
+    "best_checkpoint": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\finetuned_eval_seed42\\fine_tuning\\checkpoints\\best_model.pth"
+  },
+  "evaluation": {
+    "model": "riceleaf_dmnet_finetuned",
+    "display_name": "RiceLeaf-DMNet Fine-Tuned",
+    "run_dir": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\finetuned_eval_seed42",
+    "checkpoint": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\finetuned_eval_seed42\\fine_tuning\\checkpoints\\best_model.pth",
+    "checkpoint_epoch": 8,
+    "checkpoint_stage": "progressive",
+    "checkpoint_validation_macro_f1_during_finetuning": 0.9400874296815038,
+    "split": "validation",
+    "split_fingerprint": "8a64e1a8a53eecd2dd2eeedbfb63c7e783a193304a2529da1be4e8c7bff441de",
+    "test_partition_accessed": false,
+    "classification_metrics": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\finetuned_eval_seed42\\evaluation\\validation\\metrics.json",
+    "classification_report": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\finetuned_eval_seed42\\evaluation\\validation\\classification_report.csv",
+    "confusion_matrix": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\finetuned_eval_seed42\\evaluation\\validation\\confusion_matrix.png",
+    "roc_curve": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\finetuned_eval_seed42\\evaluation\\validation\\roc_curves.png",
+    "pr_curve": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\finetuned_eval_seed42\\evaluation\\validation\\precision_recall_curves.png",
+    "calibration_report": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\finetuned_eval_seed42\\evaluation\\validation\\calibration_report.json",
+    "calibration_reliability": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\finetuned_eval_seed42\\evaluation\\validation\\calibration_reliability.png",
+    "error_analysis_dir": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\finetuned_eval_seed42\\evaluation\\validation\\error_analysis",
+    "gradcam_dir": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\finetuned_eval_seed42\\Xai\\gradcam",
+    "gradcam_plus_plus_dir": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\finetuned_eval_seed42\\Xai\\gradcam_plus_plus",
+    "lime_dir": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\finetuned_eval_seed42\\Xai\\lime",
+    "benchmark_dir": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\finetuned_eval_seed42\\benchmarking",
+    "validation_accuracy": 0.9397163120567376,
+    "validation_macro_f1": 0.9400874296815038,
+    "validation_macro_roc_auc": 0.9904883359333415,
+    "validation_macro_average_precision": 0.9674529552398802,
+    "top_label_ece_10_bins": 0.0555906431106383,
+    "multiclass_brier_score": 0.11822457996200039,
+    "elapsed_seconds": 553.0403560000123,
+    "metric_artifacts": {
+      "metrics_json": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\finetuned_eval_seed42\\evaluation\\validation\\metrics.json",
+      "classification_report": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\finetuned_eval_seed42\\evaluation\\validation\\classification_report.csv",
+      "confusion_matrix_csv": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\finetuned_eval_seed42\\evaluation\\validation\\confusion_matrix.csv",
+      "normalized_confusion_matrix_csv": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\finetuned_eval_seed42\\evaluation\\validation\\normalized_confusion_matrix.csv",
+      "confusion_matrix_png": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\finetuned_eval_seed42\\evaluation\\validation\\confusion_matrix.png",
+      "normalized_confusion_matrix_png": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\finetuned_eval_seed42\\evaluation\\validation\\normalized_confusion_matrix.png",
+      "roc_auc_csv": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\finetuned_eval_seed42\\evaluation\\validation\\roc_auc_per_class.csv",
+      "pr_auc_csv": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\finetuned_eval_seed42\\evaluation\\validation\\pr_auc_per_class.csv",
+      "roc_curve_png": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\finetuned_eval_seed42\\evaluation\\validation\\roc_curves.png",
+      "pr_curve_png": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\finetuned_eval_seed42\\evaluation\\validation\\precision_recall_curves.png",
+      "roc_curve_data_csv": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\finetuned_eval_seed42\\evaluation\\validation\\roc_curve_data.csv",
+      "pr_curve_data_csv": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\finetuned_eval_seed42\\evaluation\\validation\\pr_curve_data.csv"
+    }
+  },
+  "training_artifacts_dir": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\finetuned_eval_seed42\\fine_tuning",
+  "training_history_csv": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\finetuned_eval_seed42\\fine_tuning\\history.csv",
+  "training_plots": {
+    "training_validation_loss": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\finetuned_eval_seed42\\fine_tuning\\training_curves\\training_validation_loss.png",
+    "validation_metrics": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\finetuned_eval_seed42\\fine_tuning\\training_curves\\validation_metrics.png",
+    "learning_rate": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\finetuned_eval_seed42\\fine_tuning\\training_curves\\learning_rate.png"
+  },
+  "test_partition_accessed": false
+}

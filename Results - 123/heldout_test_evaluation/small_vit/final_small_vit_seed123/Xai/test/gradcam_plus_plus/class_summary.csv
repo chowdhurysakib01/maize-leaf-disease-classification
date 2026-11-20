@@ -1,0 +1,8 @@
+﻿class_index,class,selected_images,correct_predictions,incorrect_predictions,sample_accuracy,mean_confidence,mean_cam_intensity,mean_cam_std,mean_runtime_seconds
+0,Fall Armyworm (Insect) Damage,5,3,2,0.6,0.7876604437828064,0.0,0.0,0.011455559998285025
+1,Healthy Leaf,5,3,2,0.6,0.741710901260376,0.0,0.0,0.011450159997912124
+2,Leaf Spot,5,3,2,0.6,0.7909054160118103,0.0,0.0,0.011334139993414283
+3,Magnesium Deficiency,5,3,2,0.6,0.8478022396564484,0.0,0.0,0.011780780006665737
+4,Nitrogen Deficiency,5,3,2,0.6,0.8726838111877442,0.0,0.0,0.011324560001958162
+5,Northern Leaf Blight,5,3,2,0.6,0.9438394546508789,0.0,0.0,0.011635959998238831
+6,Phosphorus Deficiency,5,3,2,0.6,0.8395649909973144,0.0,0.0,0.01137702000560239

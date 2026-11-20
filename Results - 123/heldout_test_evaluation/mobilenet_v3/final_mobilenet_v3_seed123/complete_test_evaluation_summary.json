@@ -1,0 +1,80 @@
+{
+  "status": "completed",
+  "model": "mobilenet_v3",
+  "display_name": "mobilenet_v3",
+  "run_name": "final_mobilenet_v3_seed123",
+  "seed": 123,
+  "source_run_directory": "D:\\MaizeLeaf\\Results\\mobilenet_v3\\final_mobilenet_v3_seed123",
+  "checkpoint_path": "D:\\MaizeLeaf\\Results\\mobilenet_v3\\final_mobilenet_v3_seed123\\checkpoints\\best_model.pth",
+  "checkpoint_sha256": "3e576e2f2579607f28e0fd153c335abfe86a3bdbd2450f3e96f28a669a682707",
+  "checkpoint_size_mb": 48.536,
+  "test_samples": 562,
+  "test_accuracy": 0.9466192170818505,
+  "test_precision_macro": 0.945935054955327,
+  "test_recall_macro": 0.9476795674360969,
+  "test_macro_f1": 0.9462587276711051,
+  "test_balanced_accuracy": 0.9476795674360969,
+  "test_roc_auc_ovr_macro": 0.9958133323273218,
+  "test_pr_auc_macro_average_precision": 0.980700785942317,
+  "test_ece_10_bins": 0.04607719543701084,
+  "test_multiclass_brier_score": 0.09697069024416136,
+  "parameters": 4210999,
+  "parameters_millions": 4.211,
+  "benchmark_batch_results": [
+    {
+      "batch_size": 1,
+      "iterations": 20,
+      "total_elapsed_seconds": 0.2431835999886971,
+      "batch_latency_ms": 12.159179999434855,
+      "per_image_latency_ms": 12.159179999434855,
+      "throughput_images_per_second": 82.24238805959604,
+      "peak_gpu_allocated_mb": 410.7666015625,
+      "status": "completed"
+    },
+    {
+      "batch_size": 8,
+      "iterations": 20,
+      "total_elapsed_seconds": 0.24121999999624677,
+      "batch_latency_ms": 12.060999999812339,
+      "per_image_latency_ms": 1.5076249999765423,
+      "throughput_images_per_second": 663.2949175130151,
+      "peak_gpu_allocated_mb": 438.9033203125,
+      "status": "completed"
+    },
+    {
+      "batch_size": 16,
+      "iterations": 20,
+      "total_elapsed_seconds": 0.26402189998771064,
+      "batch_latency_ms": 13.201094999385532,
+      "per_image_latency_ms": 0.8250684374615957,
+      "throughput_images_per_second": 1212.020669553908,
+      "peak_gpu_allocated_mb": 471.0595703125,
+      "status": "completed"
+    }
+  ],
+  "xai": {
+    "status": "completed",
+    "samples_per_class": 5,
+    "images_per_method": 35
+  },
+  "metric_artifacts": {
+    "metrics_json": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\mobilenet_v3\\final_mobilenet_v3_seed123\\evaluation\\test\\metrics.json",
+    "classification_report": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\mobilenet_v3\\final_mobilenet_v3_seed123\\evaluation\\test\\classification_report.csv",
+    "confusion_matrix_csv": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\mobilenet_v3\\final_mobilenet_v3_seed123\\evaluation\\test\\confusion_matrix.csv",
+    "normalized_confusion_matrix_csv": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\mobilenet_v3\\final_mobilenet_v3_seed123\\evaluation\\test\\normalized_confusion_matrix.csv",
+    "confusion_matrix_png": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\mobilenet_v3\\final_mobilenet_v3_seed123\\evaluation\\test\\confusion_matrix.png",
+    "normalized_confusion_matrix_png": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\mobilenet_v3\\final_mobilenet_v3_seed123\\evaluation\\test\\normalized_confusion_matrix.png",
+    "roc_auc_csv": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\mobilenet_v3\\final_mobilenet_v3_seed123\\evaluation\\test\\roc_auc_per_class.csv",
+    "pr_auc_csv": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\mobilenet_v3\\final_mobilenet_v3_seed123\\evaluation\\test\\pr_auc_per_class.csv",
+    "roc_curve_png": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\mobilenet_v3\\final_mobilenet_v3_seed123\\evaluation\\test\\roc_curves.png",
+    "pr_curve_png": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\mobilenet_v3\\final_mobilenet_v3_seed123\\evaluation\\test\\precision_recall_curves.png",
+    "roc_curve_data_csv": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\mobilenet_v3\\final_mobilenet_v3_seed123\\evaluation\\test\\roc_curve_data.csv",
+    "pr_curve_data_csv": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\mobilenet_v3\\final_mobilenet_v3_seed123\\evaluation\\test\\pr_curve_data.csv"
+  },
+  "test_manifest_sha256": "60502c39895885eebbad0957c5916c3fbdf93dba9694e41180ed9bc044f7250b",
+  "split_assignment_fingerprint_sha256": "8a64e1a8a53eecd2dd2eeedbfb63c7e783a193304a2529da1be4e8c7bff441de",
+  "test_partition_accessed": true,
+  "training_or_finetuning_performed": false,
+  "elapsed_seconds": 347.15529899997637,
+  "note": null
+}

@@ -1,0 +1,13 @@
+{
+  "model": "riceleaf_dmnet",
+  "run_name": "finetuned_eval_seed123_b4",
+  "seed": 123,
+  "status": "heldout_test_evaluation",
+  "source_checkpoint": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\finetuned_eval_seed123_b4\\checkpoints\\best_model.pth",
+  "source_run_directory": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\finetuned_eval_seed123_b4",
+  "checkpoint_sha256": "07e506aa37c0dc5d49521ced91ac01ca9cfd128dee3f767db7cb84b605104782",
+  "split_assignment_fingerprint_sha256": "8a64e1a8a53eecd2dd2eeedbfb63c7e783a193304a2529da1be4e8c7bff441de",
+  "test_manifest_sha256": "60502c39895885eebbad0957c5916c3fbdf93dba9694e41180ed9bc044f7250b",
+  "test_partition_accessed": true,
+  "training_or_finetuning_performed": false
+}

@@ -1,0 +1,223 @@
+{
+    "model_name": "small_vit",
+    "run_name": "final_small_vit_seed42",
+    "split_name": "validation",
+    "created_at": "2026-11-13T16:03:45.129063+06:00",
+    "completed_at": "2026-11-13T16:05:15.350118+06:00",
+    "elapsed_seconds": 90.22075549999136,
+    "images_per_second": 6.251333153600715,
+    "total_images": 564,
+    "correct_predictions": 432,
+    "incorrect_predictions": 132,
+    "accuracy": 0.7659574468085106,
+    "mean_confidence": 0.844498262760487,
+    "num_classes": 7,
+    "class_names": [
+        "Fall Armyworm (Insect) Damage",
+        "Healthy Leaf",
+        "Leaf Spot",
+        "Magnesium Deficiency",
+        "Nitrogen Deficiency",
+        "Northern Leaf Blight",
+        "Phosphorus Deficiency"
+    ],
+    "per_class_summary": {
+        "Fall Armyworm (Insect) Damage": {
+            "class_index": 0,
+            "total_images": 126,
+            "correct_predictions": 89,
+            "incorrect_predictions": 37,
+            "accuracy": 0.7063492063492064
+        },
+        "Healthy Leaf": {
+            "class_index": 1,
+            "total_images": 75,
+            "correct_predictions": 56,
+            "incorrect_predictions": 19,
+            "accuracy": 0.7466666666666667
+        },
+        "Leaf Spot": {
+            "class_index": 2,
+            "total_images": 61,
+            "correct_predictions": 44,
+            "incorrect_predictions": 17,
+            "accuracy": 0.7213114754098361
+        },
+        "Magnesium Deficiency": {
+            "class_index": 3,
+            "total_images": 83,
+            "correct_predictions": 62,
+            "incorrect_predictions": 21,
+            "accuracy": 0.7469879518072289
+        },
+        "Nitrogen Deficiency": {
+            "class_index": 4,
+            "total_images": 64,
+            "correct_predictions": 59,
+            "incorrect_predictions": 5,
+            "accuracy": 0.921875
+        },
+        "Northern Leaf Blight": {
+            "class_index": 5,
+            "total_images": 80,
+            "correct_predictions": 66,
+            "incorrect_predictions": 14,
+            "accuracy": 0.825
+        },
+        "Phosphorus Deficiency": {
+            "class_index": 6,
+            "total_images": 75,
+            "correct_predictions": 56,
+            "incorrect_predictions": 19,
+            "accuracy": 0.7466666666666667
+        }
+    },
+    "confusion_matrix": [
+        [
+            89,
+            13,
+            9,
+            3,
+            1,
+            5,
+            6
+        ],
+        [
+            17,
+            56,
+            2,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            7,
+            1,
+            44,
+            1,
+            0,
+            1,
+            7
+        ],
+        [
+            12,
+            1,
+            3,
+            62,
+            0,
+            3,
+            2
+        ],
+        [
+            2,
+            0,
+            2,
+            1,
+            59,
+            0,
+            0
+        ],
+        [
+            5,
+            0,
+            4,
+            1,
+            3,
+            66,
+            1
+        ],
+        [
+            6,
+            1,
+            11,
+            0,
+            1,
+            0,
+            56
+        ]
+    ],
+    "device": "cuda:0",
+    "amp": {
+        "enabled": true,
+        "dtype": "float16",
+        "grad_scaler": true,
+        "reason": "CUDA FP16 mixed precision enabled."
+    },
+    "batch_size": 8,
+    "num_batches": 71,
+    "num_workers": 0,
+    "pin_memory": true,
+    "split_assignment_fingerprint_sha256": "8a64e1a8a53eecd2dd2eeedbfb63c7e783a193304a2529da1be4e8c7bff441de",
+    "dataset_metadata": {
+        "project_root": "D:\\MaizeLeaf",
+        "dataset_directory": "D:\\MaizeLeaf\\Dataset",
+        "class_names": [
+            "Fall Armyworm (Insect) Damage",
+            "Healthy Leaf",
+            "Leaf Spot",
+            "Magnesium Deficiency",
+            "Nitrogen Deficiency",
+            "Northern Leaf Blight",
+            "Phosphorus Deficiency"
+        ],
+        "class_to_idx": {
+            "Fall Armyworm (Insect) Damage": 0,
+            "Healthy Leaf": 1,
+            "Leaf Spot": 2,
+            "Magnesium Deficiency": 3,
+            "Nitrogen Deficiency": 4,
+            "Northern Leaf Blight": 5,
+            "Phosphorus Deficiency": 6
+        },
+        "num_classes": 7,
+        "split_counts": {
+            "train": 2623,
+            "validation": 564,
+            "test": 562
+        },
+        "training_class_counts": {
+            "Fall Armyworm (Insect) Damage": 586,
+            "Healthy Leaf": 347,
+            "Leaf Spot": 284,
+            "Magnesium Deficiency": 387,
+            "Nitrogen Deficiency": 297,
+            "Northern Leaf Blight": 372,
+            "Phosphorus Deficiency": 350
+        },
+        "split_assignment_fingerprint_sha256": "8a64e1a8a53eecd2dd2eeedbfb63c7e783a193304a2529da1be4e8c7bff441de",
+        "split_unit": "image",
+        "group_ids_available": false,
+        "test_partition_policy": "Held out; not used during training or validation-based model selection.",
+        "split_metadata": {
+            "split_assignment_fingerprint_sha256": "8a64e1a8a53eecd2dd2eeedbfb63c7e783a193304a2529da1be4e8c7bff441de",
+            "split_unit": "image",
+            "grouping_method": "Stratified random image-level split. Plant/session identifiers unavailable.",
+            "random_seed": 42,
+            "split_ratios": {
+                "train": 0.7,
+                "validation": 0.15,
+                "test": 0.15
+            },
+            "effective_dataset_fingerprint_sha256": "ca1eb0c56e0a2a10a184cc32a374aefbe9fdae10283136fa8409ad06318d9fbe"
+        }
+    },
+    "training_metadata": {
+        "best_epoch": 42,
+        "best_monitor": "val_macro_f1",
+        "best_monitor_value": 0.7771129611124712,
+        "training_config_path": "D:\\MaizeLeaf\\Results\\small_vit\\final_small_vit_seed42\\training_config.json"
+    },
+    "output_csv": "D:\\MaizeLeaf\\Results\\small_vit\\final_small_vit_seed42\\evaluation\\validation\\predictions.csv",
+    "metadata_path": "D:\\MaizeLeaf\\Results\\small_vit\\final_small_vit_seed42\\evaluation\\validation\\predictions_metadata.json",
+    "csv_sha256": "4ff8c7559357086d398185df191a166f3a24a2650065bc860710f39f7e0929ee",
+    "probability_columns": [
+        "prob_class_0",
+        "prob_class_1",
+        "prob_class_2",
+        "prob_class_3",
+        "prob_class_4",
+        "prob_class_5",
+        "prob_class_6"
+    ]
+}

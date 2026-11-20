@@ -1,0 +1,7 @@
+{
+    "completed": true,
+    "model": "qwen2.5:3b",
+    "run_name": "final_densenet121_seed42",
+    "elapsed_seconds": 72.05,
+    "completed_at": "2026-11-13T11:10:18.435525"
+}

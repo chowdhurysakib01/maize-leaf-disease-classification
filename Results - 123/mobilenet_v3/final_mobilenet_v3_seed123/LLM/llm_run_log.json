@@ -1,0 +1,7 @@
+{
+    "completed": true,
+    "model": "qwen2.5:3b",
+    "run_name": "final_mobilenet_v3_seed123",
+    "elapsed_seconds": 34.49,
+    "completed_at": "2026-11-16T14:49:47.904225"
+}

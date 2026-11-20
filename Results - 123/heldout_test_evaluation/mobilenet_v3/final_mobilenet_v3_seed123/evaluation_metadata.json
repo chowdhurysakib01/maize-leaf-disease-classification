@@ -1,0 +1,28 @@
+{
+  "evaluation_type": "post-training held-out test evaluation",
+  "model": "mobilenet_v3",
+  "model_key": "mobilenet_v3",
+  "run_name": "final_mobilenet_v3_seed123",
+  "seed": 123,
+  "checkpoint_used": "D:\\MaizeLeaf\\Results\\mobilenet_v3\\final_mobilenet_v3_seed123\\checkpoints\\best_model.pth",
+  "checkpoint_sha256": "3e576e2f2579607f28e0fd153c335abfe86a3bdbd2450f3e96f28a669a682707",
+  "checkpoint_size_bytes": 50893181,
+  "num_classes": 7,
+  "class_names": [
+    "Fall Armyworm (Insect) Damage",
+    "Healthy Leaf",
+    "Leaf Spot",
+    "Magnesium Deficiency",
+    "Nitrogen Deficiency",
+    "Northern Leaf Blight",
+    "Phosphorus Deficiency"
+  ],
+  "image_size": 224,
+  "normalization": "imagenet",
+  "split_fingerprint": "8a64e1a8a53eecd2dd2eeedbfb63c7e783a193304a2529da1be4e8c7bff441de",
+  "split_used": "test",
+  "test_images": 562,
+  "test_manifest_sha256": "60502c39895885eebbad0957c5916c3fbdf93dba9694e41180ed9bc044f7250b",
+  "test_partition_accessed": true,
+  "checkpoint_copied_to_output": false
+}

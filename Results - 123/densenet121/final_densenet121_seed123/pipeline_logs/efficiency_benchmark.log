@@ -1,0 +1,68 @@
+Stage: efficiency_benchmark
+Started: 2026-11-16T15:53:57.765752+06:00
+Command: D:\MaizeLeaf\.venv\Scripts\python.exe -m src.benchmarking.efficiency_benchmark --run-dir D:\MaizeLeaf\Results\densenet121\final_densenet121_seed123 --device cuda:0 --batch-sizes 1 8 16 --warmup 5 --iterations 20 --amp --amp-dtype float16
+
+
+============================================================================
+MAIZE LEAF - EFFICIENCY BENCHMARKING ENGINE
+============================================================================
+Run directory : D:\MaizeLeaf\Results\densenet121\final_densenet121_seed123
+Device        : cuda:0
+GPU           : NVIDIA GeForce RTX 3060 Laptop GPU
+[PASS] Fixed split fingerprint
+
+BUILDING MODEL
+Loading best checkpoint...
+[PASS] Model architecture reconstructed
+[PASS] Best checkpoint loaded
+
+MODEL INFORMATION
+Total parameters     : 6,961,031
+Trainable parameters : 6,961,031
+Frozen parameters    : 0
+Checkpoint size      : 80.54 MB
+
+COMPUTATIONAL COMPLEXITY
+MACs/image : 2,833,144,832
+FLOPs/image: 5,666,289,664
+
+INFERENCE BENCHMARK
+AMP        : True
+Warmup     : 5
+Iterations : 20
+
+----------------------------------------------------------------------
+Benchmarking batch size: 1
+Mean latency : 27.4913 ms
+Median       : 27.4319 ms
+P95          : 27.8878 ms
+Throughput   : 36.25 images/sec
+Peak GPU RAM : 33.9228515625 MB
+[PASS] Batch benchmark
+
+----------------------------------------------------------------------
+Benchmarking batch size: 8
+Mean latency : 31.5849 ms
+Median       : 32.7890 ms
+P95          : 39.2642 ms
+Throughput   : 252.89 images/sec
+Peak GPU RAM : 69.90673828125 MB
+[PASS] Batch benchmark
+
+----------------------------------------------------------------------
+Benchmarking batch size: 16
+Mean latency : 23.3624 ms
+Median       : 23.2959 ms
+P95          : 24.1492 ms
+Throughput   : 683.75 images/sec
+Peak GPU RAM : 113.34423828125 MB
+[PASS] Batch benchmark
+
+============================================================================
+EFFICIENCY BENCHMARK COMPLETED
+============================================================================
+Training time : 00:54:00
+JSON          : D:\MaizeLeaf\Results\densenet121\final_densenet121_seed123\benchmarking\efficiency_benchmark.json
+CSV           : D:\MaizeLeaf\Results\densenet121\final_densenet121_seed123\benchmarking\efficiency_benchmark.csv
+Report        : D:\MaizeLeaf\Results\densenet121\final_densenet121_seed123\benchmarking\efficiency_benchmark_report.txt
+============================================================================

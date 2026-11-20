@@ -1,0 +1,100 @@
+{
+  "split": "test",
+  "num_samples": 562,
+  "accuracy": 0.9199288256227758,
+  "mean_top_label_confidence": 0.9812052717106761,
+  "top_label_ece_10_bins": 0.061276446087900574,
+  "multiclass_brier_score": 0.12678900769707566,
+  "classwise_brier_scores": {
+    "Fall Armyworm (Insect) Damage": 0.02845227856259136,
+    "Healthy Leaf": 0.012014801974747741,
+    "Leaf Spot": 0.03766812712432936,
+    "Magnesium Deficiency": 0.00783185916105502,
+    "Nitrogen Deficiency": 0.008660242060142001,
+    "Northern Leaf Blight": 0.02609047850198749,
+    "Phosphorus Deficiency": 0.006071220312222653
+  },
+  "calibration_bins": [
+    {
+      "bin": 1,
+      "confidence_lower": 0.0,
+      "confidence_upper": 0.1,
+      "sample_count": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "bin": 2,
+      "confidence_lower": 0.1,
+      "confidence_upper": 0.2,
+      "sample_count": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "bin": 3,
+      "confidence_lower": 0.2,
+      "confidence_upper": 0.30000000000000004,
+      "sample_count": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "bin": 4,
+      "confidence_lower": 0.30000000000000004,
+      "confidence_upper": 0.4,
+      "sample_count": 0,
+      "mean_confidence": null,
+      "accuracy": null
+    },
+    {
+      "bin": 5,
+      "confidence_lower": 0.4,
+      "confidence_upper": 0.5,
+      "sample_count": 2,
+      "mean_confidence": 0.47217215595,
+      "accuracy": 0.0
+    },
+    {
+      "bin": 6,
+      "confidence_lower": 0.5,
+      "confidence_upper": 0.6000000000000001,
+      "sample_count": 8,
+      "mean_confidence": 0.5505225062374999,
+      "accuracy": 0.125
+    },
+    {
+      "bin": 7,
+      "confidence_lower": 0.6000000000000001,
+      "confidence_upper": 0.7000000000000001,
+      "sample_count": 5,
+      "mean_confidence": 0.6327849269000001,
+      "accuracy": 0.2
+    },
+    {
+      "bin": 8,
+      "confidence_lower": 0.7000000000000001,
+      "confidence_upper": 0.8,
+      "sample_count": 5,
+      "mean_confidence": 0.7382242560400001,
+      "accuracy": 0.6
+    },
+    {
+      "bin": 9,
+      "confidence_lower": 0.8,
+      "confidence_upper": 0.9,
+      "sample_count": 11,
+      "mean_confidence": 0.8587797067454546,
+      "accuracy": 0.36363636363636365
+    },
+    {
+      "bin": 10,
+      "confidence_lower": 0.9,
+      "confidence_upper": 1.0,
+      "sample_count": 531,
+      "mean_confidence": 0.9977160370069682,
+      "accuracy": 0.9566854990583804
+    }
+  ],
+  "test_partition_accessed": true
+}

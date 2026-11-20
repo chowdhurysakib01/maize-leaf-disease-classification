@@ -1,0 +1,10 @@
+{
+    "model_name": "efficientnet_b0",
+    "best_epoch": 5,
+    "best_metric_name": "val_macro_f1",
+    "best_metric_value": 0.9315318386350138,
+    "checkpoint": "D:\\MaizeLeaf\\Results\\efficientnet_b0\\final_efficientnet_b0_seed123\\checkpoints\\best_model.pth",
+    "created_at": "2026-11-16T06:01:41.722386+00:00",
+    "completed_epoch": 5,
+    "global_step": 1637
+}

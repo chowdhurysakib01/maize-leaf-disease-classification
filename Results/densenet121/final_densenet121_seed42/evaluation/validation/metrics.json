@@ -1,0 +1,291 @@
+{
+    "num_classes": 7,
+    "num_samples": 564,
+    "class_names": [
+        "Fall Armyworm (Insect) Damage",
+        "Healthy Leaf",
+        "Leaf Spot",
+        "Magnesium Deficiency",
+        "Nitrogen Deficiency",
+        "Northern Leaf Blight",
+        "Phosphorus Deficiency"
+    ],
+    "metrics": {
+        "accuracy": 0.9379432624113475,
+        "precision_macro": 0.9359554602996026,
+        "recall_macro": 0.9454920157377587,
+        "f1_macro": 0.9387936003901646,
+        "balanced_accuracy": 0.9454920157377587,
+        "roc_auc_ovr_macro": 0.9944643663359266,
+        "pr_auc_macro_average_precision": 0.9732732300807235
+    },
+    "per_class": [
+        {
+            "class_index": 0,
+            "class_name": "Fall Armyworm (Insect) Damage",
+            "support": 126,
+            "precision": 0.9568965517241379,
+            "recall": 0.8809523809523809,
+            "f1_score": 0.9173553719008265,
+            "roc_auc": 0.9840545046024497,
+            "average_precision": 0.9697387176813304
+        },
+        {
+            "class_index": 1,
+            "class_name": "Healthy Leaf",
+            "support": 75,
+            "precision": 0.9259259259259259,
+            "recall": 1.0,
+            "f1_score": 0.9615384615384616,
+            "roc_auc": 0.9996182685753238,
+            "average_precision": 0.9975814847082002
+        },
+        {
+            "class_index": 2,
+            "class_name": "Leaf Spot",
+            "support": 61,
+            "precision": 0.8082191780821918,
+            "recall": 0.9672131147540983,
+            "f1_score": 0.8805970149253731,
+            "roc_auc": 0.9875827005182023,
+            "average_precision": 0.9335757556016555
+        },
+        {
+            "class_index": 3,
+            "class_name": "Magnesium Deficiency",
+            "support": 83,
+            "precision": 0.9759036144578314,
+            "recall": 0.9759036144578314,
+            "f1_score": 0.9759036144578314,
+            "roc_auc": 0.9993236981188789,
+            "average_precision": 0.9967457241553628
+        },
+        {
+            "class_index": 4,
+            "class_name": "Nitrogen Deficiency",
+            "support": 64,
+            "precision": 0.9402985074626866,
+            "recall": 0.984375,
+            "f1_score": 0.9618320610687023,
+            "roc_auc": 0.999375,
+            "average_precision": 0.9952120472869501
+        },
+        {
+            "class_index": 5,
+            "class_name": "Northern Leaf Blight",
+            "support": 80,
+            "precision": 0.9444444444444444,
+            "recall": 0.85,
+            "f1_score": 0.8947368421052632,
+            "roc_auc": 0.9917871900826447,
+            "average_precision": 0.9226395262928568
+        },
+        {
+            "class_index": 6,
+            "class_name": "Phosphorus Deficiency",
+            "support": 75,
+            "precision": 1.0,
+            "recall": 0.96,
+            "f1_score": 0.9795918367346939,
+            "roc_auc": 0.9995092024539878,
+            "average_precision": 0.9974193548387096
+        }
+    ],
+    "confusion_matrix": [
+        [
+            111,
+            6,
+            5,
+            0,
+            1,
+            3,
+            0
+        ],
+        [
+            0,
+            75,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            59,
+            0,
+            1,
+            1,
+            0
+        ],
+        [
+            1,
+            0,
+            1,
+            81,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            1,
+            0,
+            63,
+            0,
+            0
+        ],
+        [
+            4,
+            0,
+            5,
+            1,
+            2,
+            68,
+            0
+        ],
+        [
+            0,
+            0,
+            2,
+            1,
+            0,
+            0,
+            72
+        ]
+    ],
+    "normalized_confusion_matrix": [
+        [
+            0.8809523809523809,
+            0.047619047619047616,
+            0.03968253968253968,
+            0.0,
+            0.007936507936507936,
+            0.023809523809523808,
+            0.0
+        ],
+        [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            0.0,
+            0.0,
+            0.9672131147540983,
+            0.0,
+            0.01639344262295082,
+            0.01639344262295082,
+            0.0
+        ],
+        [
+            0.012048192771084338,
+            0.0,
+            0.012048192771084338,
+            0.9759036144578314,
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            0.0,
+            0.0,
+            0.015625,
+            0.0,
+            0.984375,
+            0.0,
+            0.0
+        ],
+        [
+            0.05,
+            0.0,
+            0.0625,
+            0.0125,
+            0.025,
+            0.85,
+            0.0
+        ],
+        [
+            0.0,
+            0.0,
+            0.02666666666666667,
+            0.013333333333333334,
+            0.0,
+            0.0,
+            0.96
+        ]
+    ],
+    "classification_report": {
+        "Fall Armyworm (Insect) Damage": {
+            "precision": 0.9568965517241379,
+            "recall": 0.8809523809523809,
+            "f1-score": 0.9173553719008265,
+            "support": 126.0
+        },
+        "Healthy Leaf": {
+            "precision": 0.9259259259259259,
+            "recall": 1.0,
+            "f1-score": 0.9615384615384616,
+            "support": 75.0
+        },
+        "Leaf Spot": {
+            "precision": 0.8082191780821918,
+            "recall": 0.9672131147540983,
+            "f1-score": 0.8805970149253731,
+            "support": 61.0
+        },
+        "Magnesium Deficiency": {
+            "precision": 0.9759036144578314,
+            "recall": 0.9759036144578314,
+            "f1-score": 0.9759036144578314,
+            "support": 83.0
+        },
+        "Nitrogen Deficiency": {
+            "precision": 0.9402985074626866,
+            "recall": 0.984375,
+            "f1-score": 0.9618320610687023,
+            "support": 64.0
+        },
+        "Northern Leaf Blight": {
+            "precision": 0.9444444444444444,
+            "recall": 0.85,
+            "f1-score": 0.8947368421052632,
+            "support": 80.0
+        },
+        "Phosphorus Deficiency": {
+            "precision": 1.0,
+            "recall": 0.96,
+            "f1-score": 0.9795918367346939,
+            "support": 75.0
+        },
+        "accuracy": 0.9379432624113475,
+        "macro avg": {
+            "precision": 0.9359554602996026,
+            "recall": 0.9454920157377587,
+            "f1-score": 0.9387936003901646,
+            "support": 564.0
+        },
+        "weighted avg": {
+            "precision": 0.9415770210245867,
+            "recall": 0.9379432624113475,
+            "f1-score": 0.9379861106688946,
+            "support": 564.0
+        }
+    },
+    "auc_definition": {
+        "roc_auc": "Macro average of one-vs-rest per-class ROC-AUC.",
+        "pr_auc": "Macro average of per-class Average Precision scores."
+    },
+    "split_name": "validation",
+    "prediction_summary": {
+        "total_predictions": 564,
+        "correct_predictions": 529,
+        "incorrect_predictions": 35
+    }
+}

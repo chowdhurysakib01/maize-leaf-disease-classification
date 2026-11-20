@@ -1,0 +1,480 @@
+{
+    "run_name": "final_mobilenet_v3_seed42",
+    "status": "early_stopped",
+    "start_timestamp": {
+        "local": "2026-11-13T01:35:11.770488+06:00",
+        "utc": "2026-11-12T19:35:11.770488+00:00"
+    },
+    "end_timestamp": {
+        "local": "2026-11-13T02:34:03.275951+06:00",
+        "utc": "2026-11-12T20:34:03.275951+00:00"
+    },
+    "total_training_time_seconds": 3531.506169899978,
+    "total_training_time_minutes": 58.85843616499963,
+    "total_training_time_hours": 0.9809739360833272,
+    "epochs_completed": 20,
+    "batch_records_saved": 7980,
+    "best_epoch": 13,
+    "best_metric": {
+        "name": "val_macro_f1",
+        "value": 0.9366359648377847
+    },
+    "additional_information": {
+        "model": "mobilenet_v3",
+        "run_name": "final_mobilenet_v3_seed42",
+        "status": "early_stopped",
+        "best_epoch": 13,
+        "best_monitor": "val_macro_f1",
+        "best_monitor_value": 0.9366359648377847,
+        "epochs_completed_this_run": 20,
+        "total_training_time_seconds": 3094.807847200078,
+        "total_training_time_minutes": 51.580130786667965,
+        "global_optimizer_steps": 6554,
+        "best_checkpoint": "D:\\MaizeLeaf\\Results\\mobilenet_v3\\final_mobilenet_v3_seed42\\checkpoints\\best_model.pth",
+        "best_checkpoint_size_mb": 48.5354585647583,
+        "total_parameters": 4210999,
+        "trainable_parameters": 4210999,
+        "frozen_parameters": 0,
+        "optimizer_parameters": 4210999,
+        "split_assignment_fingerprint_sha256": "8a64e1a8a53eecd2dd2eeedbfb63c7e783a193304a2529da1be4e8c7bff441de",
+        "validation_metrics": {
+            "accuracy": 0.9379432624113475,
+            "precision_macro": 0.9329714254899347,
+            "recall_macro": 0.9414835415040333,
+            "f1_macro": 0.9366359648377847,
+            "balanced_accuracy": 0.9414835415040333,
+            "roc_auc_ovr_macro": 0.9943419696496789,
+            "pr_auc_macro_average_precision": 0.9742556247754731
+        },
+        "validation_loss": 0.3564187951967226,
+        "training_curve_files": [
+            "D:\\MaizeLeaf\\Results\\mobilenet_v3\\final_mobilenet_v3_seed42\\training_curves\\loss_curve.png",
+            "D:\\MaizeLeaf\\Results\\mobilenet_v3\\final_mobilenet_v3_seed42\\training_curves\\accuracy_curve.png",
+            "D:\\MaizeLeaf\\Results\\mobilenet_v3\\final_mobilenet_v3_seed42\\training_curves\\macro_f1_curve.png",
+            "D:\\MaizeLeaf\\Results\\mobilenet_v3\\final_mobilenet_v3_seed42\\training_curves\\learning_rate_curve.png"
+        ],
+        "validation_artifacts": {
+            "metrics_json": "D:\\MaizeLeaf\\Results\\mobilenet_v3\\final_mobilenet_v3_seed42\\evaluation\\validation\\metrics.json",
+            "classification_report": "D:\\MaizeLeaf\\Results\\mobilenet_v3\\final_mobilenet_v3_seed42\\evaluation\\validation\\classification_report.csv",
+            "confusion_matrix_csv": "D:\\MaizeLeaf\\Results\\mobilenet_v3\\final_mobilenet_v3_seed42\\evaluation\\validation\\confusion_matrix.csv",
+            "normalized_confusion_matrix_csv": "D:\\MaizeLeaf\\Results\\mobilenet_v3\\final_mobilenet_v3_seed42\\evaluation\\validation\\normalized_confusion_matrix.csv",
+            "confusion_matrix_png": "D:\\MaizeLeaf\\Results\\mobilenet_v3\\final_mobilenet_v3_seed42\\evaluation\\validation\\confusion_matrix.png",
+            "normalized_confusion_matrix_png": "D:\\MaizeLeaf\\Results\\mobilenet_v3\\final_mobilenet_v3_seed42\\evaluation\\validation\\normalized_confusion_matrix.png",
+            "roc_auc_csv": "D:\\MaizeLeaf\\Results\\mobilenet_v3\\final_mobilenet_v3_seed42\\evaluation\\validation\\roc_auc_per_class.csv",
+            "pr_auc_csv": "D:\\MaizeLeaf\\Results\\mobilenet_v3\\final_mobilenet_v3_seed42\\evaluation\\validation\\pr_auc_per_class.csv",
+            "roc_curve_png": "D:\\MaizeLeaf\\Results\\mobilenet_v3\\final_mobilenet_v3_seed42\\evaluation\\validation\\roc_curves.png",
+            "pr_curve_png": "D:\\MaizeLeaf\\Results\\mobilenet_v3\\final_mobilenet_v3_seed42\\evaluation\\validation\\precision_recall_curves.png",
+            "roc_curve_data_csv": "D:\\MaizeLeaf\\Results\\mobilenet_v3\\final_mobilenet_v3_seed42\\evaluation\\validation\\roc_curve_data.csv",
+            "pr_curve_data_csv": "D:\\MaizeLeaf\\Results\\mobilenet_v3\\final_mobilenet_v3_seed42\\evaluation\\validation\\pr_curve_data.csv"
+        },
+        "prediction_export": {
+            "model_name": "mobilenet_v3",
+            "run_name": "final_mobilenet_v3_seed42",
+            "split_name": "validation",
+            "created_at": "2026-11-13T02:27:20.606008+06:00",
+            "completed_at": "2026-11-13T02:28:41.134057+06:00",
+            "elapsed_seconds": 80.52820949998568,
+            "images_per_second": 7.003756863613121,
+            "total_images": 564,
+            "correct_predictions": 529,
+            "incorrect_predictions": 35,
+            "accuracy": 0.9379432624113475,
+            "mean_confidence": 0.9785271768874311,
+            "num_classes": 7,
+            "class_names": [
+                "Fall Armyworm (Insect) Damage",
+                "Healthy Leaf",
+                "Leaf Spot",
+                "Magnesium Deficiency",
+                "Nitrogen Deficiency",
+                "Northern Leaf Blight",
+                "Phosphorus Deficiency"
+            ],
+            "per_class_summary": {
+                "Fall Armyworm (Insect) Damage": {
+                    "class_index": 0,
+                    "total_images": 126,
+                    "correct_predictions": 112,
+                    "incorrect_predictions": 14,
+                    "accuracy": 0.8888888888888888
+                },
+                "Healthy Leaf": {
+                    "class_index": 1,
+                    "total_images": 75,
+                    "correct_predictions": 74,
+                    "incorrect_predictions": 1,
+                    "accuracy": 0.9866666666666667
+                },
+                "Leaf Spot": {
+                    "class_index": 2,
+                    "total_images": 61,
+                    "correct_predictions": 54,
+                    "incorrect_predictions": 7,
+                    "accuracy": 0.8852459016393442
+                },
+                "Magnesium Deficiency": {
+                    "class_index": 3,
+                    "total_images": 83,
+                    "correct_predictions": 83,
+                    "incorrect_predictions": 0,
+                    "accuracy": 1.0
+                },
+                "Nitrogen Deficiency": {
+                    "class_index": 4,
+                    "total_images": 64,
+                    "correct_predictions": 62,
+                    "incorrect_predictions": 2,
+                    "accuracy": 0.96875
+                },
+                "Northern Leaf Blight": {
+                    "class_index": 5,
+                    "total_images": 80,
+                    "correct_predictions": 71,
+                    "incorrect_predictions": 9,
+                    "accuracy": 0.8875
+                },
+                "Phosphorus Deficiency": {
+                    "class_index": 6,
+                    "total_images": 75,
+                    "correct_predictions": 73,
+                    "incorrect_predictions": 2,
+                    "accuracy": 0.9733333333333334
+                }
+            },
+            "confusion_matrix": [
+                [
+                    112,
+                    6,
+                    3,
+                    1,
+                    0,
+                    4,
+                    0
+                ],
+                [
+                    1,
+                    74,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    54,
+                    0,
+                    1,
+                    4,
+                    2
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    83,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    0,
+                    1,
+                    0,
+                    62,
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    0,
+                    5,
+                    0,
+                    3,
+                    71,
+                    0
+                ],
+                [
+                    0,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    73
+                ]
+            ],
+            "device": "cuda:0",
+            "amp": {
+                "enabled": true,
+                "dtype": "float16",
+                "grad_scaler": true,
+                "reason": "CUDA FP16 mixed precision enabled."
+            },
+            "batch_size": 8,
+            "num_batches": 71,
+            "num_workers": 4,
+            "pin_memory": true,
+            "split_assignment_fingerprint_sha256": "8a64e1a8a53eecd2dd2eeedbfb63c7e783a193304a2529da1be4e8c7bff441de",
+            "dataset_metadata": {
+                "project_root": "D:\\MaizeLeaf",
+                "dataset_directory": "D:\\MaizeLeaf\\Dataset",
+                "class_names": [
+                    "Fall Armyworm (Insect) Damage",
+                    "Healthy Leaf",
+                    "Leaf Spot",
+                    "Magnesium Deficiency",
+                    "Nitrogen Deficiency",
+                    "Northern Leaf Blight",
+                    "Phosphorus Deficiency"
+                ],
+                "class_to_idx": {
+                    "Fall Armyworm (Insect) Damage": 0,
+                    "Healthy Leaf": 1,
+                    "Leaf Spot": 2,
+                    "Magnesium Deficiency": 3,
+                    "Nitrogen Deficiency": 4,
+                    "Northern Leaf Blight": 5,
+                    "Phosphorus Deficiency": 6
+                },
+                "num_classes": 7,
+                "split_counts": {
+                    "train": 2623,
+                    "validation": 564,
+                    "test": 562
+                },
+                "training_class_counts": {
+                    "Fall Armyworm (Insect) Damage": 586,
+                    "Healthy Leaf": 347,
+                    "Leaf Spot": 284,
+                    "Magnesium Deficiency": 387,
+                    "Nitrogen Deficiency": 297,
+                    "Northern Leaf Blight": 372,
+                    "Phosphorus Deficiency": 350
+                },
+                "split_assignment_fingerprint_sha256": "8a64e1a8a53eecd2dd2eeedbfb63c7e783a193304a2529da1be4e8c7bff441de",
+                "split_unit": "image",
+                "group_ids_available": false,
+                "test_partition_policy": "Held out; not used during training or validation-based model selection.",
+                "split_metadata": {
+                    "split_assignment_fingerprint_sha256": "8a64e1a8a53eecd2dd2eeedbfb63c7e783a193304a2529da1be4e8c7bff441de",
+                    "split_unit": "image",
+                    "grouping_method": "Stratified random image-level split. Plant/session identifiers unavailable.",
+                    "random_seed": 42,
+                    "split_ratios": {
+                        "train": 0.7,
+                        "validation": 0.15,
+                        "test": 0.15
+                    },
+                    "effective_dataset_fingerprint_sha256": "ca1eb0c56e0a2a10a184cc32a374aefbe9fdae10283136fa8409ad06318d9fbe"
+                }
+            },
+            "training_metadata": {
+                "best_epoch": 13,
+                "best_monitor": "val_macro_f1",
+                "best_monitor_value": 0.9366359648377847,
+                "training_config_path": "D:\\MaizeLeaf\\Results\\mobilenet_v3\\final_mobilenet_v3_seed42\\training_config.json"
+            },
+            "output_csv": "D:\\MaizeLeaf\\Results\\mobilenet_v3\\final_mobilenet_v3_seed42\\evaluation\\validation\\predictions.csv",
+            "metadata_path": "D:\\MaizeLeaf\\Results\\mobilenet_v3\\final_mobilenet_v3_seed42\\evaluation\\validation\\predictions_metadata.json",
+            "csv_sha256": "b4936518f245bc87cdc13cbb16f97ec36f87719f35f25d1f6c30c0eee5e2ab9c",
+            "probability_columns": [
+                "prob_class_0",
+                "prob_class_1",
+                "prob_class_2",
+                "prob_class_3",
+                "prob_class_4",
+                "prob_class_5",
+                "prob_class_6"
+            ]
+        },
+        "test_partition_accessed": false,
+        "post_training_pipeline": {
+            "project": "Maize Leaf Classification",
+            "pipeline_status": "completed",
+            "started_at": "2026-11-13T02:28:43.219198+06:00",
+            "finished_at": "2026-11-13T02:34:03.272390+06:00",
+            "duration_seconds": 320.05313839999144,
+            "duration_minutes": 5.334218973333191,
+            "device": "cuda:0",
+            "llm_model": "qwen2.5:3b",
+            "shap_enabled": false,
+            "test_partition_accessed": false,
+            "xai_samples_per_class": 5,
+            "completed_stages": [
+                "efficiency_benchmark",
+                "error_analysis",
+                "gradcam",
+                "gradcam_plus_plus",
+                "lime",
+                "llm_reports"
+            ],
+            "failed_stages": [],
+            "skipped_stages": [],
+            "stage_results": {
+                "efficiency_benchmark": {
+                    "stage": "efficiency_benchmark",
+                    "status": "completed",
+                    "started_at": "2026-11-13T02:28:43.220206+06:00",
+                    "finished_at": "2026-11-13T02:28:52.140670+06:00",
+                    "duration_seconds": 8.921222500008298,
+                    "return_code": 0,
+                    "error": null,
+                    "command": [
+                        "D:\\MaizeLeaf\\.venv\\Scripts\\python.exe",
+                        "-m",
+                        "src.benchmarking.efficiency_benchmark",
+                        "--run-dir",
+                        "D:\\MaizeLeaf\\Results\\mobilenet_v3\\final_mobilenet_v3_seed42",
+                        "--device",
+                        "cuda:0",
+                        "--batch-sizes",
+                        "1",
+                        "8",
+                        "16",
+                        "--warmup",
+                        "5",
+                        "--iterations",
+                        "20",
+                        "--amp",
+                        "--amp-dtype",
+                        "float16"
+                    ],
+                    "log_file": "D:\\MaizeLeaf\\Results\\mobilenet_v3\\final_mobilenet_v3_seed42\\pipeline_logs\\efficiency_benchmark.log"
+                },
+                "error_analysis": {
+                    "stage": "error_analysis",
+                    "status": "completed",
+                    "started_at": "2026-11-13T02:28:52.142776+06:00",
+                    "finished_at": "2026-11-13T02:29:03.354018+06:00",
+                    "duration_seconds": 11.21122130000731,
+                    "return_code": 0,
+                    "error": null,
+                    "command": [
+                        "D:\\MaizeLeaf\\.venv\\Scripts\\python.exe",
+                        "-m",
+                        "src.evaluation.error_analysis",
+                        "--evaluation-dir",
+                        "D:\\MaizeLeaf\\Results\\mobilenet_v3\\final_mobilenet_v3_seed42\\evaluation\\validation",
+                        "--top-k",
+                        "10",
+                        "--confidence-threshold",
+                        "0.8",
+                        "--contact-sheet-limit",
+                        "48"
+                    ],
+                    "log_file": "D:\\MaizeLeaf\\Results\\mobilenet_v3\\final_mobilenet_v3_seed42\\pipeline_logs\\error_analysis.log"
+                },
+                "gradcam": {
+                    "stage": "gradcam",
+                    "status": "completed",
+                    "started_at": "2026-11-13T02:29:03.355023+06:00",
+                    "finished_at": "2026-11-13T02:29:21.374241+06:00",
+                    "duration_seconds": 18.019439999974566,
+                    "return_code": 0,
+                    "error": null,
+                    "command": [
+                        "D:\\MaizeLeaf\\.venv\\Scripts\\python.exe",
+                        "-m",
+                        "src.explainability.gradcam",
+                        "--run-dir",
+                        "D:\\MaizeLeaf\\Results\\mobilenet_v3\\final_mobilenet_v3_seed42",
+                        "--device",
+                        "cuda:0",
+                        "--samples-per-class",
+                        "5",
+                        "--sample-strategy",
+                        "balanced",
+                        "--target-class",
+                        "predicted",
+                        "--seed",
+                        "42"
+                    ],
+                    "log_file": "D:\\MaizeLeaf\\Results\\mobilenet_v3\\final_mobilenet_v3_seed42\\pipeline_logs\\gradcam.log"
+                },
+                "gradcam_plus_plus": {
+                    "stage": "gradcam_plus_plus",
+                    "status": "completed",
+                    "started_at": "2026-11-13T02:29:21.375268+06:00",
+                    "finished_at": "2026-11-13T02:29:38.767254+06:00",
+                    "duration_seconds": 17.391881999996258,
+                    "return_code": 0,
+                    "error": null,
+                    "command": [
+                        "D:\\MaizeLeaf\\.venv\\Scripts\\python.exe",
+                        "-m",
+                        "src.explainability.gradcam_plus_plus",
+                        "--run-dir",
+                        "D:\\MaizeLeaf\\Results\\mobilenet_v3\\final_mobilenet_v3_seed42",
+                        "--device",
+                        "cuda:0",
+                        "--samples-per-class",
+                        "5",
+                        "--sample-strategy",
+                        "balanced",
+                        "--target-class",
+                        "predicted",
+                        "--seed",
+                        "42"
+                    ],
+                    "log_file": "D:\\MaizeLeaf\\Results\\mobilenet_v3\\final_mobilenet_v3_seed42\\pipeline_logs\\gradcam_plus_plus.log"
+                },
+                "lime": {
+                    "stage": "lime",
+                    "status": "completed",
+                    "started_at": "2026-11-13T02:29:38.768255+06:00",
+                    "finished_at": "2026-11-13T02:32:56.810978+06:00",
+                    "duration_seconds": 198.04230319999624,
+                    "return_code": 0,
+                    "error": null,
+                    "command": [
+                        "D:\\MaizeLeaf\\.venv\\Scripts\\python.exe",
+                        "-m",
+                        "src.explainability.lime_explainer",
+                        "--run-dir",
+                        "D:\\MaizeLeaf\\Results\\mobilenet_v3\\final_mobilenet_v3_seed42",
+                        "--device",
+                        "cuda:0",
+                        "--samples-per-class",
+                        "5",
+                        "--sample-strategy",
+                        "balanced",
+                        "--target-class",
+                        "predicted",
+                        "--seed",
+                        "42"
+                    ],
+                    "log_file": "D:\\MaizeLeaf\\Results\\mobilenet_v3\\final_mobilenet_v3_seed42\\pipeline_logs\\lime.log"
+                },
+                "llm_reports": {
+                    "stage": "llm_reports",
+                    "status": "completed",
+                    "started_at": "2026-11-13T02:32:56.810978+06:00",
+                    "finished_at": "2026-11-13T02:34:03.271384+06:00",
+                    "duration_seconds": 66.45993440001621,
+                    "return_code": 0,
+                    "error": null,
+                    "command": [
+                        "D:\\MaizeLeaf\\.venv\\Scripts\\python.exe",
+                        "D:\\MaizeLeaf\\LLM\\report_generator.py",
+                        "--run-dir",
+                        "D:\\MaizeLeaf\\Results\\mobilenet_v3\\final_mobilenet_v3_seed42",
+                        "--model",
+                        "qwen2.5:3b",
+                        "--timeout",
+                        "1800"
+                    ],
+                    "log_file": "D:\\MaizeLeaf\\Results\\mobilenet_v3\\final_mobilenet_v3_seed42\\pipeline_logs\\llm_reports.log"
+                }
+            }
+        },
+        "pipeline_status": "completed",
+        "pipeline_summary_path": "D:\\MaizeLeaf\\Results\\mobilenet_v3\\final_mobilenet_v3_seed42\\pipeline_summary.json",
+        "post_training_pipeline_time_seconds": 320.05313839999144,
+        "post_training_pipeline_time_minutes": 5.334218973333191,
+        "total_run_time_seconds": 3531.5044740999874,
+        "total_run_time_minutes": 58.85840790166646
+    }
+}

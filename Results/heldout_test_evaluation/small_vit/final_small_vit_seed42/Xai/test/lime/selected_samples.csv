@@ -1,0 +1,36 @@
+﻿sample_id,image_path,relative_path,group_id,split,actual_class,actual_class_index
+sample_0001,D:\MaizeLeaf\Dataset\Fall Armyworm (Insect) Damage\1772178760368.jpg,Dataset\Fall Armyworm (Insect) Damage\1772178760368.jpg,,validation,Fall Armyworm (Insect) Damage,0
+sample_0002,D:\MaizeLeaf\Dataset\Fall Armyworm (Insect) Damage\1772179289333.jpg,Dataset\Fall Armyworm (Insect) Damage\1772179289333.jpg,,validation,Fall Armyworm (Insect) Damage,0
+sample_0003,D:\MaizeLeaf\Dataset\Fall Armyworm (Insect) Damage\1772179291029.jpg,Dataset\Fall Armyworm (Insect) Damage\1772179291029.jpg,,validation,Fall Armyworm (Insect) Damage,0
+sample_0004,D:\MaizeLeaf\Dataset\Fall Armyworm (Insect) Damage\1772179292432.jpg,Dataset\Fall Armyworm (Insect) Damage\1772179292432.jpg,,validation,Fall Armyworm (Insect) Damage,0
+sample_0005,D:\MaizeLeaf\Dataset\Fall Armyworm (Insect) Damage\1772179293046.jpg,Dataset\Fall Armyworm (Insect) Damage\1772179293046.jpg,,validation,Fall Armyworm (Insect) Damage,0
+sample_0006,D:\MaizeLeaf\Dataset\Healthy Leaf\1772179783389.jpg,Dataset\Healthy Leaf\1772179783389.jpg,,validation,Healthy Leaf,1
+sample_0007,D:\MaizeLeaf\Dataset\Healthy Leaf\1772179784151.jpg,Dataset\Healthy Leaf\1772179784151.jpg,,validation,Healthy Leaf,1
+sample_0008,D:\MaizeLeaf\Dataset\Healthy Leaf\1772179784304.jpg,Dataset\Healthy Leaf\1772179784304.jpg,,validation,Healthy Leaf,1
+sample_0009,D:\MaizeLeaf\Dataset\Healthy Leaf\1772179787384.jpg,Dataset\Healthy Leaf\1772179787384.jpg,,validation,Healthy Leaf,1
+sample_0010,D:\MaizeLeaf\Dataset\Healthy Leaf\1772179789690.jpg,Dataset\Healthy Leaf\1772179789690.jpg,,validation,Healthy Leaf,1
+sample_0011,D:\MaizeLeaf\Dataset\Leaf Spot\1772179050585.jpg,Dataset\Leaf Spot\1772179050585.jpg,,validation,Leaf Spot,2
+sample_0012,D:\MaizeLeaf\Dataset\Leaf Spot\1772179051091.jpg,Dataset\Leaf Spot\1772179051091.jpg,,validation,Leaf Spot,2
+sample_0013,D:\MaizeLeaf\Dataset\Leaf Spot\1772179051907.jpg,Dataset\Leaf Spot\1772179051907.jpg,,validation,Leaf Spot,2
+sample_0014,D:\MaizeLeaf\Dataset\Leaf Spot\1772179051963.jpg,Dataset\Leaf Spot\1772179051963.jpg,,validation,Leaf Spot,2
+sample_0015,D:\MaizeLeaf\Dataset\Leaf Spot\1772179052193.jpg,Dataset\Leaf Spot\1772179052193.jpg,,validation,Leaf Spot,2
+sample_0016,D:\MaizeLeaf\Dataset\Magnesium Deficiency\1772178296827.jpg,Dataset\Magnesium Deficiency\1772178296827.jpg,,validation,Magnesium Deficiency,3
+sample_0017,D:\MaizeLeaf\Dataset\Magnesium Deficiency\1772178419554.jpg,Dataset\Magnesium Deficiency\1772178419554.jpg,,validation,Magnesium Deficiency,3
+sample_0018,D:\MaizeLeaf\Dataset\Magnesium Deficiency\1772178419686.jpg,Dataset\Magnesium Deficiency\1772178419686.jpg,,validation,Magnesium Deficiency,3
+sample_0019,D:\MaizeLeaf\Dataset\Magnesium Deficiency\1772178422737.jpg,Dataset\Magnesium Deficiency\1772178422737.jpg,,validation,Magnesium Deficiency,3
+sample_0020,D:\MaizeLeaf\Dataset\Magnesium Deficiency\1772178422867.jpg,Dataset\Magnesium Deficiency\1772178422867.jpg,,validation,Magnesium Deficiency,3
+sample_0021,D:\MaizeLeaf\Dataset\Nitrogen Deficiency\1772178079990.jpg,Dataset\Nitrogen Deficiency\1772178079990.jpg,,validation,Nitrogen Deficiency,4
+sample_0022,D:\MaizeLeaf\Dataset\Nitrogen Deficiency\1772178080972.jpg,Dataset\Nitrogen Deficiency\1772178080972.jpg,,validation,Nitrogen Deficiency,4
+sample_0023,D:\MaizeLeaf\Dataset\Nitrogen Deficiency\1772178082137.jpg,Dataset\Nitrogen Deficiency\1772178082137.jpg,,validation,Nitrogen Deficiency,4
+sample_0024,D:\MaizeLeaf\Dataset\Nitrogen Deficiency\1772178082391.jpg,Dataset\Nitrogen Deficiency\1772178082391.jpg,,validation,Nitrogen Deficiency,4
+sample_0025,D:\MaizeLeaf\Dataset\Nitrogen Deficiency\1772178082916.jpg,Dataset\Nitrogen Deficiency\1772178082916.jpg,,validation,Nitrogen Deficiency,4
+sample_0026,D:\MaizeLeaf\Dataset\Northern Leaf Blight\1772179521610.jpg,Dataset\Northern Leaf Blight\1772179521610.jpg,,validation,Northern Leaf Blight,5
+sample_0027,D:\MaizeLeaf\Dataset\Northern Leaf Blight\1772179521782.jpg,Dataset\Northern Leaf Blight\1772179521782.jpg,,validation,Northern Leaf Blight,5
+sample_0028,D:\MaizeLeaf\Dataset\Northern Leaf Blight\1772179523966.jpg,Dataset\Northern Leaf Blight\1772179523966.jpg,,validation,Northern Leaf Blight,5
+sample_0029,D:\MaizeLeaf\Dataset\Northern Leaf Blight\1772179680291.jpg,Dataset\Northern Leaf Blight\1772179680291.jpg,,validation,Northern Leaf Blight,5
+sample_0030,D:\MaizeLeaf\Dataset\Northern Leaf Blight\1772179682953.jpg,Dataset\Northern Leaf Blight\1772179682953.jpg,,validation,Northern Leaf Blight,5
+sample_0031,D:\MaizeLeaf\Dataset\Phosphorus Deficiency\1772179967262.jpg,Dataset\Phosphorus Deficiency\1772179967262.jpg,,validation,Phosphorus Deficiency,6
+sample_0032,D:\MaizeLeaf\Dataset\Phosphorus Deficiency\1772179973020.jpg,Dataset\Phosphorus Deficiency\1772179973020.jpg,,validation,Phosphorus Deficiency,6
+sample_0033,D:\MaizeLeaf\Dataset\Phosphorus Deficiency\1772179973281.jpg,Dataset\Phosphorus Deficiency\1772179973281.jpg,,validation,Phosphorus Deficiency,6
+sample_0034,D:\MaizeLeaf\Dataset\Phosphorus Deficiency\1772179979373.jpg,Dataset\Phosphorus Deficiency\1772179979373.jpg,,validation,Phosphorus Deficiency,6
+sample_0035,D:\MaizeLeaf\Dataset\Phosphorus Deficiency\1772179980412.jpg,Dataset\Phosphorus Deficiency\1772179980412.jpg,,validation,Phosphorus Deficiency,6

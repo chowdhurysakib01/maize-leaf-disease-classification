@@ -1,0 +1,480 @@
+{
+    "run_name": "final_densenet121_seed42",
+    "status": "early_stopped",
+    "start_timestamp": {
+        "local": "2026-11-13T10:06:14.195714+06:00",
+        "utc": "2026-11-13T04:06:14.195714+00:00"
+    },
+    "end_timestamp": {
+        "local": "2026-11-13T11:10:18.458843+06:00",
+        "utc": "2026-11-13T05:10:18.458843+00:00"
+    },
+    "total_training_time_seconds": 3844.2630301000027,
+    "total_training_time_minutes": 64.0710505016667,
+    "total_training_time_hours": 1.0678508416944452,
+    "epochs_completed": 21,
+    "batch_records_saved": 8379,
+    "best_epoch": 14,
+    "best_metric": {
+        "name": "val_macro_f1",
+        "value": 0.9387936003901646
+    },
+    "additional_information": {
+        "model": "densenet121",
+        "run_name": "final_densenet121_seed42",
+        "status": "early_stopped",
+        "best_epoch": 14,
+        "best_monitor": "val_macro_f1",
+        "best_monitor_value": 0.9387936003901646,
+        "epochs_completed_this_run": 21,
+        "total_training_time_seconds": 3338.1863662000687,
+        "total_training_time_minutes": 55.636439436667814,
+        "global_optimizer_steps": 6882,
+        "best_checkpoint": "D:\\MaizeLeaf\\Results\\densenet121\\final_densenet121_seed42\\checkpoints\\best_model.pth",
+        "best_checkpoint_size_mb": 80.53538417816162,
+        "total_parameters": 6961031,
+        "trainable_parameters": 6961031,
+        "frozen_parameters": 0,
+        "optimizer_parameters": 6961031,
+        "split_assignment_fingerprint_sha256": "8a64e1a8a53eecd2dd2eeedbfb63c7e783a193304a2529da1be4e8c7bff441de",
+        "validation_metrics": {
+            "accuracy": 0.9379432624113475,
+            "precision_macro": 0.9359554602996026,
+            "recall_macro": 0.9454920157377587,
+            "f1_macro": 0.9387936003901646,
+            "balanced_accuracy": 0.9454920157377587,
+            "roc_auc_ovr_macro": 0.9944643663359266,
+            "pr_auc_macro_average_precision": 0.9732732300807235
+        },
+        "validation_loss": 0.3318560229125598,
+        "training_curve_files": [
+            "D:\\MaizeLeaf\\Results\\densenet121\\final_densenet121_seed42\\training_curves\\loss_curve.png",
+            "D:\\MaizeLeaf\\Results\\densenet121\\final_densenet121_seed42\\training_curves\\accuracy_curve.png",
+            "D:\\MaizeLeaf\\Results\\densenet121\\final_densenet121_seed42\\training_curves\\macro_f1_curve.png",
+            "D:\\MaizeLeaf\\Results\\densenet121\\final_densenet121_seed42\\training_curves\\learning_rate_curve.png"
+        ],
+        "validation_artifacts": {
+            "metrics_json": "D:\\MaizeLeaf\\Results\\densenet121\\final_densenet121_seed42\\evaluation\\validation\\metrics.json",
+            "classification_report": "D:\\MaizeLeaf\\Results\\densenet121\\final_densenet121_seed42\\evaluation\\validation\\classification_report.csv",
+            "confusion_matrix_csv": "D:\\MaizeLeaf\\Results\\densenet121\\final_densenet121_seed42\\evaluation\\validation\\confusion_matrix.csv",
+            "normalized_confusion_matrix_csv": "D:\\MaizeLeaf\\Results\\densenet121\\final_densenet121_seed42\\evaluation\\validation\\normalized_confusion_matrix.csv",
+            "confusion_matrix_png": "D:\\MaizeLeaf\\Results\\densenet121\\final_densenet121_seed42\\evaluation\\validation\\confusion_matrix.png",
+            "normalized_confusion_matrix_png": "D:\\MaizeLeaf\\Results\\densenet121\\final_densenet121_seed42\\evaluation\\validation\\normalized_confusion_matrix.png",
+            "roc_auc_csv": "D:\\MaizeLeaf\\Results\\densenet121\\final_densenet121_seed42\\evaluation\\validation\\roc_auc_per_class.csv",
+            "pr_auc_csv": "D:\\MaizeLeaf\\Results\\densenet121\\final_densenet121_seed42\\evaluation\\validation\\pr_auc_per_class.csv",
+            "roc_curve_png": "D:\\MaizeLeaf\\Results\\densenet121\\final_densenet121_seed42\\evaluation\\validation\\roc_curves.png",
+            "pr_curve_png": "D:\\MaizeLeaf\\Results\\densenet121\\final_densenet121_seed42\\evaluation\\validation\\precision_recall_curves.png",
+            "roc_curve_data_csv": "D:\\MaizeLeaf\\Results\\densenet121\\final_densenet121_seed42\\evaluation\\validation\\roc_curve_data.csv",
+            "pr_curve_data_csv": "D:\\MaizeLeaf\\Results\\densenet121\\final_densenet121_seed42\\evaluation\\validation\\pr_curve_data.csv"
+        },
+        "prediction_export": {
+            "model_name": "densenet121",
+            "run_name": "final_densenet121_seed42",
+            "split_name": "validation",
+            "created_at": "2026-11-13T11:02:34.148282+06:00",
+            "completed_at": "2026-11-13T11:03:26.577962+06:00",
+            "elapsed_seconds": 52.430549999990035,
+            "images_per_second": 10.757087232541089,
+            "total_images": 564,
+            "correct_predictions": 529,
+            "incorrect_predictions": 35,
+            "accuracy": 0.9379432624113475,
+            "mean_confidence": 0.9812599930991518,
+            "num_classes": 7,
+            "class_names": [
+                "Fall Armyworm (Insect) Damage",
+                "Healthy Leaf",
+                "Leaf Spot",
+                "Magnesium Deficiency",
+                "Nitrogen Deficiency",
+                "Northern Leaf Blight",
+                "Phosphorus Deficiency"
+            ],
+            "per_class_summary": {
+                "Fall Armyworm (Insect) Damage": {
+                    "class_index": 0,
+                    "total_images": 126,
+                    "correct_predictions": 111,
+                    "incorrect_predictions": 15,
+                    "accuracy": 0.8809523809523809
+                },
+                "Healthy Leaf": {
+                    "class_index": 1,
+                    "total_images": 75,
+                    "correct_predictions": 75,
+                    "incorrect_predictions": 0,
+                    "accuracy": 1.0
+                },
+                "Leaf Spot": {
+                    "class_index": 2,
+                    "total_images": 61,
+                    "correct_predictions": 59,
+                    "incorrect_predictions": 2,
+                    "accuracy": 0.9672131147540983
+                },
+                "Magnesium Deficiency": {
+                    "class_index": 3,
+                    "total_images": 83,
+                    "correct_predictions": 81,
+                    "incorrect_predictions": 2,
+                    "accuracy": 0.9759036144578314
+                },
+                "Nitrogen Deficiency": {
+                    "class_index": 4,
+                    "total_images": 64,
+                    "correct_predictions": 63,
+                    "incorrect_predictions": 1,
+                    "accuracy": 0.984375
+                },
+                "Northern Leaf Blight": {
+                    "class_index": 5,
+                    "total_images": 80,
+                    "correct_predictions": 68,
+                    "incorrect_predictions": 12,
+                    "accuracy": 0.85
+                },
+                "Phosphorus Deficiency": {
+                    "class_index": 6,
+                    "total_images": 75,
+                    "correct_predictions": 72,
+                    "incorrect_predictions": 3,
+                    "accuracy": 0.96
+                }
+            },
+            "confusion_matrix": [
+                [
+                    111,
+                    6,
+                    5,
+                    0,
+                    1,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    75,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    59,
+                    0,
+                    1,
+                    1,
+                    0
+                ],
+                [
+                    1,
+                    0,
+                    1,
+                    81,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    1,
+                    0,
+                    63,
+                    0,
+                    0
+                ],
+                [
+                    4,
+                    0,
+                    5,
+                    1,
+                    2,
+                    68,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    2,
+                    1,
+                    0,
+                    0,
+                    72
+                ]
+            ],
+            "device": "cuda:0",
+            "amp": {
+                "enabled": true,
+                "dtype": "float16",
+                "grad_scaler": true,
+                "reason": "CUDA FP16 mixed precision enabled."
+            },
+            "batch_size": 8,
+            "num_batches": 71,
+            "num_workers": 4,
+            "pin_memory": true,
+            "split_assignment_fingerprint_sha256": "8a64e1a8a53eecd2dd2eeedbfb63c7e783a193304a2529da1be4e8c7bff441de",
+            "dataset_metadata": {
+                "project_root": "D:\\MaizeLeaf",
+                "dataset_directory": "D:\\MaizeLeaf\\Dataset",
+                "class_names": [
+                    "Fall Armyworm (Insect) Damage",
+                    "Healthy Leaf",
+                    "Leaf Spot",
+                    "Magnesium Deficiency",
+                    "Nitrogen Deficiency",
+                    "Northern Leaf Blight",
+                    "Phosphorus Deficiency"
+                ],
+                "class_to_idx": {
+                    "Fall Armyworm (Insect) Damage": 0,
+                    "Healthy Leaf": 1,
+                    "Leaf Spot": 2,
+                    "Magnesium Deficiency": 3,
+                    "Nitrogen Deficiency": 4,
+                    "Northern Leaf Blight": 5,
+                    "Phosphorus Deficiency": 6
+                },
+                "num_classes": 7,
+                "split_counts": {
+                    "train": 2623,
+                    "validation": 564,
+                    "test": 562
+                },
+                "training_class_counts": {
+                    "Fall Armyworm (Insect) Damage": 586,
+                    "Healthy Leaf": 347,
+                    "Leaf Spot": 284,
+                    "Magnesium Deficiency": 387,
+                    "Nitrogen Deficiency": 297,
+                    "Northern Leaf Blight": 372,
+                    "Phosphorus Deficiency": 350
+                },
+                "split_assignment_fingerprint_sha256": "8a64e1a8a53eecd2dd2eeedbfb63c7e783a193304a2529da1be4e8c7bff441de",
+                "split_unit": "image",
+                "group_ids_available": false,
+                "test_partition_policy": "Held out; not used during training or validation-based model selection.",
+                "split_metadata": {
+                    "split_assignment_fingerprint_sha256": "8a64e1a8a53eecd2dd2eeedbfb63c7e783a193304a2529da1be4e8c7bff441de",
+                    "split_unit": "image",
+                    "grouping_method": "Stratified random image-level split. Plant/session identifiers unavailable.",
+                    "random_seed": 42,
+                    "split_ratios": {
+                        "train": 0.7,
+                        "validation": 0.15,
+                        "test": 0.15
+                    },
+                    "effective_dataset_fingerprint_sha256": "ca1eb0c56e0a2a10a184cc32a374aefbe9fdae10283136fa8409ad06318d9fbe"
+                }
+            },
+            "training_metadata": {
+                "best_epoch": 14,
+                "best_monitor": "val_macro_f1",
+                "best_monitor_value": 0.9387936003901646,
+                "training_config_path": "D:\\MaizeLeaf\\Results\\densenet121\\final_densenet121_seed42\\training_config.json"
+            },
+            "output_csv": "D:\\MaizeLeaf\\Results\\densenet121\\final_densenet121_seed42\\evaluation\\validation\\predictions.csv",
+            "metadata_path": "D:\\MaizeLeaf\\Results\\densenet121\\final_densenet121_seed42\\evaluation\\validation\\predictions_metadata.json",
+            "csv_sha256": "7e8d3c656d572228d7fc0bc1b7cf9f1cd615458d055942ed17e88e7306dbe728",
+            "probability_columns": [
+                "prob_class_0",
+                "prob_class_1",
+                "prob_class_2",
+                "prob_class_3",
+                "prob_class_4",
+                "prob_class_5",
+                "prob_class_6"
+            ]
+        },
+        "test_partition_accessed": false,
+        "post_training_pipeline": {
+            "project": "Maize Leaf Classification",
+            "pipeline_status": "completed",
+            "started_at": "2026-11-13T11:03:28.739478+06:00",
+            "finished_at": "2026-11-13T11:10:18.454112+06:00",
+            "duration_seconds": 409.7152630999917,
+            "duration_minutes": 6.828587718333195,
+            "device": "cuda:0",
+            "llm_model": "qwen2.5:3b",
+            "shap_enabled": false,
+            "test_partition_accessed": false,
+            "xai_samples_per_class": 5,
+            "completed_stages": [
+                "efficiency_benchmark",
+                "error_analysis",
+                "gradcam",
+                "gradcam_plus_plus",
+                "lime",
+                "llm_reports"
+            ],
+            "failed_stages": [],
+            "skipped_stages": [],
+            "stage_results": {
+                "efficiency_benchmark": {
+                    "stage": "efficiency_benchmark",
+                    "status": "completed",
+                    "started_at": "2026-11-13T11:03:28.739478+06:00",
+                    "finished_at": "2026-11-13T11:03:38.380228+06:00",
+                    "duration_seconds": 9.640125799982343,
+                    "return_code": 0,
+                    "error": null,
+                    "command": [
+                        "D:\\MaizeLeaf\\.venv\\Scripts\\python.exe",
+                        "-m",
+                        "src.benchmarking.efficiency_benchmark",
+                        "--run-dir",
+                        "D:\\MaizeLeaf\\Results\\densenet121\\final_densenet121_seed42",
+                        "--device",
+                        "cuda:0",
+                        "--batch-sizes",
+                        "1",
+                        "8",
+                        "16",
+                        "--warmup",
+                        "5",
+                        "--iterations",
+                        "20",
+                        "--amp",
+                        "--amp-dtype",
+                        "float16"
+                    ],
+                    "log_file": "D:\\MaizeLeaf\\Results\\densenet121\\final_densenet121_seed42\\pipeline_logs\\efficiency_benchmark.log"
+                },
+                "error_analysis": {
+                    "stage": "error_analysis",
+                    "status": "completed",
+                    "started_at": "2026-11-13T11:03:38.381648+06:00",
+                    "finished_at": "2026-11-13T11:03:50.013417+06:00",
+                    "duration_seconds": 11.631577000021935,
+                    "return_code": 0,
+                    "error": null,
+                    "command": [
+                        "D:\\MaizeLeaf\\.venv\\Scripts\\python.exe",
+                        "-m",
+                        "src.evaluation.error_analysis",
+                        "--evaluation-dir",
+                        "D:\\MaizeLeaf\\Results\\densenet121\\final_densenet121_seed42\\evaluation\\validation",
+                        "--top-k",
+                        "10",
+                        "--confidence-threshold",
+                        "0.8",
+                        "--contact-sheet-limit",
+                        "48"
+                    ],
+                    "log_file": "D:\\MaizeLeaf\\Results\\densenet121\\final_densenet121_seed42\\pipeline_logs\\error_analysis.log"
+                },
+                "gradcam": {
+                    "stage": "gradcam",
+                    "status": "completed",
+                    "started_at": "2026-11-13T11:03:50.014420+06:00",
+                    "finished_at": "2026-11-13T11:04:12.972672+06:00",
+                    "duration_seconds": 22.957932099991012,
+                    "return_code": 0,
+                    "error": null,
+                    "command": [
+                        "D:\\MaizeLeaf\\.venv\\Scripts\\python.exe",
+                        "-m",
+                        "src.explainability.gradcam",
+                        "--run-dir",
+                        "D:\\MaizeLeaf\\Results\\densenet121\\final_densenet121_seed42",
+                        "--device",
+                        "cuda:0",
+                        "--samples-per-class",
+                        "5",
+                        "--sample-strategy",
+                        "balanced",
+                        "--target-class",
+                        "predicted",
+                        "--seed",
+                        "42"
+                    ],
+                    "log_file": "D:\\MaizeLeaf\\Results\\densenet121\\final_densenet121_seed42\\pipeline_logs\\gradcam.log"
+                },
+                "gradcam_plus_plus": {
+                    "stage": "gradcam_plus_plus",
+                    "status": "completed",
+                    "started_at": "2026-11-13T11:04:12.973679+06:00",
+                    "finished_at": "2026-11-13T11:04:35.729790+06:00",
+                    "duration_seconds": 22.755954499996733,
+                    "return_code": 0,
+                    "error": null,
+                    "command": [
+                        "D:\\MaizeLeaf\\.venv\\Scripts\\python.exe",
+                        "-m",
+                        "src.explainability.gradcam_plus_plus",
+                        "--run-dir",
+                        "D:\\MaizeLeaf\\Results\\densenet121\\final_densenet121_seed42",
+                        "--device",
+                        "cuda:0",
+                        "--samples-per-class",
+                        "5",
+                        "--sample-strategy",
+                        "balanced",
+                        "--target-class",
+                        "predicted",
+                        "--seed",
+                        "42"
+                    ],
+                    "log_file": "D:\\MaizeLeaf\\Results\\densenet121\\final_densenet121_seed42\\pipeline_logs\\gradcam_plus_plus.log"
+                },
+                "lime": {
+                    "stage": "lime",
+                    "status": "completed",
+                    "started_at": "2026-11-13T11:04:35.730806+06:00",
+                    "finished_at": "2026-11-13T11:09:06.173704+06:00",
+                    "duration_seconds": 270.4425596999936,
+                    "return_code": 0,
+                    "error": null,
+                    "command": [
+                        "D:\\MaizeLeaf\\.venv\\Scripts\\python.exe",
+                        "-m",
+                        "src.explainability.lime_explainer",
+                        "--run-dir",
+                        "D:\\MaizeLeaf\\Results\\densenet121\\final_densenet121_seed42",
+                        "--device",
+                        "cuda:0",
+                        "--samples-per-class",
+                        "5",
+                        "--sample-strategy",
+                        "balanced",
+                        "--target-class",
+                        "predicted",
+                        "--seed",
+                        "42"
+                    ],
+                    "log_file": "D:\\MaizeLeaf\\Results\\densenet121\\final_densenet121_seed42\\pipeline_logs\\lime.log"
+                },
+                "llm_reports": {
+                    "stage": "llm_reports",
+                    "status": "completed",
+                    "started_at": "2026-11-13T11:09:06.174708+06:00",
+                    "finished_at": "2026-11-13T11:10:18.454112+06:00",
+                    "duration_seconds": 72.27938580000773,
+                    "return_code": 0,
+                    "error": null,
+                    "command": [
+                        "D:\\MaizeLeaf\\.venv\\Scripts\\python.exe",
+                        "D:\\MaizeLeaf\\LLM\\report_generator.py",
+                        "--run-dir",
+                        "D:\\MaizeLeaf\\Results\\densenet121\\final_densenet121_seed42",
+                        "--model",
+                        "qwen2.5:3b",
+                        "--timeout",
+                        "1800"
+                    ],
+                    "log_file": "D:\\MaizeLeaf\\Results\\densenet121\\final_densenet121_seed42\\pipeline_logs\\llm_reports.log"
+                }
+            }
+        },
+        "pipeline_status": "completed",
+        "pipeline_summary_path": "D:\\MaizeLeaf\\Results\\densenet121\\final_densenet121_seed42\\pipeline_summary.json",
+        "post_training_pipeline_time_seconds": 409.7152630999917,
+        "post_training_pipeline_time_minutes": 6.828587718333195,
+        "total_run_time_seconds": 3844.2612284999923,
+        "total_run_time_minutes": 64.07102047499987
+    }
+}

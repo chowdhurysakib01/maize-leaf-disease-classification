@@ -1,0 +1,10 @@
+{
+    "model_name": "custom_cnn",
+    "best_epoch": 38,
+    "best_metric_name": "val_macro_f1",
+    "best_metric_value": 0.7835084620551293,
+    "checkpoint": "D:\\MaizeLeaf\\Results\\custom_cnn\\final_custom_cnn_seed42\\checkpoints\\best_model.pth",
+    "created_at": "2026-11-12T15:58:06.321500+00:00",
+    "completed_epoch": 38,
+    "global_step": 12457
+}

@@ -1,0 +1,68 @@
+Stage: efficiency_benchmark
+Started: 2026-11-16T18:42:32.792937+06:00
+Command: D:\MaizeLeaf\.venv\Scripts\python.exe -m src.benchmarking.efficiency_benchmark --run-dir D:\MaizeLeaf\Results\small_vit\final_small_vit_seed123 --device cuda:0 --batch-sizes 1 8 16 --warmup 5 --iterations 20 --amp --amp-dtype float16
+
+
+============================================================================
+MAIZE LEAF - EFFICIENCY BENCHMARKING ENGINE
+============================================================================
+Run directory : D:\MaizeLeaf\Results\small_vit\final_small_vit_seed123
+Device        : cuda:0
+GPU           : NVIDIA GeForce RTX 3060 Laptop GPU
+[PASS] Fixed split fingerprint
+
+BUILDING MODEL
+Loading best checkpoint...
+[PASS] Model architecture reconstructed
+[PASS] Best checkpoint loaded
+
+MODEL INFORMATION
+Total parameters     : 2,856,583
+Trainable parameters : 2,856,583
+Frozen parameters    : 0
+Checkpoint size      : 32.80 MB
+
+COMPUTATIONAL COMPLEXITY
+MACs/image : 641,197,632
+FLOPs/image: 1,282,395,264
+
+INFERENCE BENCHMARK
+AMP        : True
+Warmup     : 5
+Iterations : 20
+
+----------------------------------------------------------------------
+Benchmarking batch size: 1
+Mean latency : 5.8134 ms
+Median       : 5.8348 ms
+P95          : 6.5026 ms
+Throughput   : 169.68 images/sec
+Peak GPU RAM : 13.77783203125 MB
+[PASS] Batch benchmark
+
+----------------------------------------------------------------------
+Benchmarking batch size: 8
+Mean latency : 5.6141 ms
+Median       : 5.5501 ms
+P95          : 5.8873 ms
+Throughput   : 1415.69 images/sec
+Peak GPU RAM : 52.91015625 MB
+[PASS] Batch benchmark
+
+----------------------------------------------------------------------
+Benchmarking batch size: 16
+Mean latency : 5.7080 ms
+Median       : 5.5374 ms
+P95          : 6.4203 ms
+Throughput   : 2783.16 images/sec
+Peak GPU RAM : 61.9677734375 MB
+[PASS] Batch benchmark
+
+============================================================================
+EFFICIENCY BENCHMARK COMPLETED
+============================================================================
+Training time : 02:06:05
+JSON          : D:\MaizeLeaf\Results\small_vit\final_small_vit_seed123\benchmarking\efficiency_benchmark.json
+CSV           : D:\MaizeLeaf\Results\small_vit\final_small_vit_seed123\benchmarking\efficiency_benchmark.csv
+Report        : D:\MaizeLeaf\Results\small_vit\final_small_vit_seed123\benchmarking\efficiency_benchmark_report.txt
+============================================================================

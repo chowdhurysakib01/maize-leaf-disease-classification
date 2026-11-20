@@ -1,0 +1,6 @@
+{
+  "status": "failed",
+  "error": "ValueError('Invalid run status: completed_with_warnings')",
+  "timestamp_local": "2026-11-16T16:02:47.904064+06:00",
+  "last_completed_epoch": 19
+}

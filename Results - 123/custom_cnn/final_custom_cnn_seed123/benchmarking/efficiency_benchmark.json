@@ -1,0 +1,179 @@
+{
+    "model_name": "custom_cnn",
+    "run_name": "final_custom_cnn_seed123",
+    "timestamp": "2026-11-16T05:43:57.813894+06:00",
+    "device": "cuda:0",
+    "gpu_name": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "gpu_total_memory_gb": 5.99951171875,
+    "pytorch_version": "2.15.0+cu132",
+    "cuda_version": "13.2",
+    "image_size": 224,
+    "num_classes": 7,
+    "split_assignment_fingerprint_sha256": "8a64e1a8a53eecd2dd2eeedbfb63c7e783a193304a2529da1be4e8c7bff441de",
+    "checkpoint": "D:\\MaizeLeaf\\Results\\custom_cnn\\final_custom_cnn_seed123\\checkpoints\\best_model.pth",
+    "training_duration_seconds": 7480.4741835999985,
+    "training_duration_formatted": "02:04:40",
+    "amp": {
+        "enabled": true,
+        "dtype": "float16",
+        "reason": "CUDA FP16 mixed precision enabled."
+    },
+    "model_metadata": {
+        "model_name": "custom_cnn",
+        "display_name": "Custom CNN",
+        "num_classes": 7,
+        "pretrained_requested": false,
+        "pretrained_used": false,
+        "freeze_backbone": false,
+        "architecture": {
+            "model_name": "CustomCNN",
+            "architecture_type": "Custom CNN",
+            "input_channels": 3,
+            "num_classes": 7,
+            "base_channels": 32,
+            "stage_channels": [
+                32,
+                64,
+                128,
+                256
+            ],
+            "number_of_stages": 4,
+            "convolutions_per_stage": 2,
+            "global_pooling": "AdaptiveAvgPool2d(1)",
+            "classifier_dropout": 0.35,
+            "spatial_dropout": 0.05,
+            "pretrained": false,
+            "output_activation": "None (raw logits)"
+        },
+        "parameters": {
+            "total_parameters": 1175015,
+            "trainable_parameters": 1175015,
+            "frozen_parameters": 0,
+            "non_trainable_percentage": 0.0,
+            "trainable_percentage": 100.0,
+            "buffer_elements": 1928
+        }
+    },
+    "model_information": {
+        "total_parameters": 1175015,
+        "trainable_parameters": 1175015,
+        "frozen_parameters": 0,
+        "trainable_percentage": 100.0,
+        "frozen_percentage": 0.0,
+        "parameter_storage_bytes": 4700060,
+        "parameter_storage_mb": 4.482326507568359,
+        "buffer_storage_bytes": 7744,
+        "state_dict_storage_bytes": 4707804,
+        "state_dict_storage_mb": 4.489711761474609,
+        "best_checkpoint_bytes": 14165939,
+        "best_checkpoint_mb": 13.509692192077637,
+        "factory_parameter_information": {
+            "total_parameters": 1175015,
+            "trainable_parameters": 1175015,
+            "frozen_parameters": 0,
+            "non_trainable_percentage": 0.0,
+            "trainable_percentage": 100.0,
+            "buffer_elements": 1928
+        }
+    },
+    "operation_information": {
+        "input_shape": [
+            1,
+            3,
+            224,
+            224
+        ],
+        "macs_per_image": 2586674944,
+        "gmacs_per_image": 2.586674944,
+        "flops_per_image": 5173349888,
+        "gflops_per_image": 5.173349888,
+        "operation_breakdown_macs": {
+            "macs": 2586674944,
+            "conv1d_macs": 0,
+            "conv2d_macs": 2586673152,
+            "conv_transpose_macs": 0,
+            "linear_macs": 1792,
+            "attention_macs": 0
+        },
+        "counting_method": "Forward-hook estimate: convolution, linear and MultiheadAttention operations.",
+        "excluded_operations": [
+            "Elementwise operations",
+            "ReLU and other activations",
+            "Batch normalization",
+            "Pooling",
+            "Softmax",
+            "Custom functional operations not represented by counted modules"
+        ],
+        "flops_convention": "1 MAC = 2 FLOPs (one multiplication and one addition)."
+    },
+    "inference_benchmarks": [
+        {
+            "batch_size": 1,
+            "status": "success",
+            "warmup_iterations": 5,
+            "measurement_iterations": 20,
+            "total_images": 20,
+            "mean_latency_ms": 2.7117567896842956,
+            "median_latency_ms": 2.6680320501327515,
+            "p95_latency_ms": 2.8715519070625306,
+            "minimum_latency_ms": 2.565119981765747,
+            "maximum_latency_ms": 2.934783935546875,
+            "per_image_mean_latency_ms": 2.7117567896842956,
+            "throughput_images_per_second": 355.0840039982165,
+            "measurement_wall_seconds": 0.05632470000000467,
+            "gpu_peak_allocated_mb": 17.359375,
+            "gpu_peak_reserved_mb": 24.0,
+            "gpu_additional_peak_allocated_mb": 12.28564453125,
+            "gpu_additional_peak_reserved_mb": 0.0
+        },
+        {
+            "batch_size": 8,
+            "status": "success",
+            "warmup_iterations": 5,
+            "measurement_iterations": 20,
+            "total_images": 160,
+            "mean_latency_ms": 7.266304016113281,
+            "median_latency_ms": 7.26476788520813,
+            "p95_latency_ms": 7.2783358812332155,
+            "minimum_latency_ms": 7.258111953735352,
+            "maximum_latency_ms": 7.292928218841553,
+            "per_image_mean_latency_ms": 0.9082880020141602,
+            "throughput_images_per_second": 1097.9238260459451,
+            "measurement_wall_seconds": 0.1457295999998678,
+            "gpu_peak_allocated_mb": 108.11083984375,
+            "gpu_peak_reserved_mb": 126.0,
+            "gpu_additional_peak_allocated_mb": 99.017578125,
+            "gpu_additional_peak_reserved_mb": 0.0
+        },
+        {
+            "batch_size": 16,
+            "status": "success",
+            "warmup_iterations": 5,
+            "measurement_iterations": 20,
+            "total_images": 320,
+            "mean_latency_ms": 13.822259092330933,
+            "median_latency_ms": 13.821951866149902,
+            "p95_latency_ms": 13.827328157424926,
+            "minimum_latency_ms": 13.813759803771973,
+            "maximum_latency_ms": 13.832192420959473,
+            "per_image_mean_latency_ms": 0.8638911932706833,
+            "throughput_images_per_second": 1155.6794058668538,
+            "measurement_wall_seconds": 0.27689339999960794,
+            "gpu_peak_allocated_mb": 211.72265625,
+            "gpu_peak_reserved_mb": 224.0,
+            "gpu_additional_peak_allocated_mb": 198.03564453125,
+            "gpu_additional_peak_reserved_mb": 0.0
+        }
+    ],
+    "benchmark_methodology": {
+        "input_source": "Synthetic random tensors",
+        "dataset_accessed": false,
+        "train_images_used": false,
+        "validation_images_used": false,
+        "test_images_used": false,
+        "model_mode": "eval",
+        "gradient_calculation": false,
+        "warmup_excluded_from_latency": true,
+        "throughput_includes_python_loop_overhead": true
+    }
+}

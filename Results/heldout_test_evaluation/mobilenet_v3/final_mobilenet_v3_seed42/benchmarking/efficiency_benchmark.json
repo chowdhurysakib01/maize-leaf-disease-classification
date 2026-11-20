@@ -1,0 +1,41 @@
+{
+  "benchmark_type": "synthetic_input_inference_benchmark",
+  "note": "Synthetic tensors are used; test images and labels are not used for timing.",
+  "device": "cuda:0",
+  "image_size": 224,
+  "checkpoint_size_mb": 48.535,
+  "parameters": 4210999,
+  "parameters_millions": 4.211,
+  "batch_results": [
+    {
+      "batch_size": 1,
+      "iterations": 20,
+      "total_elapsed_seconds": 0.2814854000171181,
+      "batch_latency_ms": 14.074270000855904,
+      "per_image_latency_ms": 14.074270000855904,
+      "throughput_images_per_second": 71.05164246097216,
+      "peak_gpu_allocated_mb": 386.81884765625,
+      "status": "completed"
+    },
+    {
+      "batch_size": 8,
+      "iterations": 20,
+      "total_elapsed_seconds": 0.23568869999144226,
+      "batch_latency_ms": 11.784434999572113,
+      "per_image_latency_ms": 1.4730543749465141,
+      "throughput_images_per_second": 678.8615661497964,
+      "peak_gpu_allocated_mb": 414.95556640625,
+      "status": "completed"
+    },
+    {
+      "batch_size": 16,
+      "iterations": 20,
+      "total_elapsed_seconds": 0.22139469999819994,
+      "batch_latency_ms": 11.069734999909997,
+      "per_image_latency_ms": 0.6918584374943748,
+      "throughput_images_per_second": 1445.3823872143362,
+      "peak_gpu_allocated_mb": 447.11181640625,
+      "status": "completed"
+    }
+  ]
+}

@@ -1,0 +1,563 @@
+﻿relative_path,class_name,class_index,group_id,split,width,height,sha256
+Dataset/Fall Armyworm (Insect) Damage/1772179291531.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,086913639890b28cf19af36bedd050ae174d367df5ea151c20dd1226e2329cd2
+Dataset/Leaf Spot/1772179051464.jpg,Leaf Spot,2,,test,3472,4640,533c817eda1ca558d30de7f32398d109d254ed954902645429ba5200b1fad943
+Dataset/Fall Armyworm (Insect) Damage/1772179289555.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,c36cbb848dbaf215c2c0e02c22acafd0b6738dfa271c0e54f0d5222d61c662fb
+Dataset/Magnesium Deficiency/1772178419554.jpg,Magnesium Deficiency,3,,test,3472,4640,d3385ae47f267d9ddcff35450dcf2f78f9607f7fa9cfe622b46e0583f3e3e4e2
+Dataset/Magnesium Deficiency/1772178297233.jpg,Magnesium Deficiency,3,,test,3472,4640,4dcd16d0b91189013f914cff7068f13d60ee01bd6ea57fb2ff3f89f6dc9d7bab
+Dataset/Magnesium Deficiency/1772178422867.jpg,Magnesium Deficiency,3,,test,3472,4640,0fda9b1150a7a2c266a6c137996784ffcebf4bed8a26948ffbebc325165e6a1f
+Dataset/Fall Armyworm (Insect) Damage/1772179292942.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,7d914dbc661b69a47f13ef8b0cfc289b0adf92bf04752b9620354b2bbe9713e5
+Dataset/Northern Leaf Blight/1772179523926.jpg,Northern Leaf Blight,5,,test,3472,4640,f11b84bf28923dd10cb2c584a03fec249460d4ad5fa9efa5656a8accd4ff1d90
+Dataset/Phosphorus Deficiency/1772179973990.jpg,Phosphorus Deficiency,6,,test,3472,4640,281973a81bde3735657a9f10fa8cb254af1a9fe42bf86f3d2a86491e00d0c170
+Dataset/Fall Armyworm (Insect) Damage/1772179284496.jpg,Fall Armyworm (Insect) Damage,0,,test,4640,3472,d9354497fe5ac363770a1fe69b6cbeb99f9946ca72b4da5c6be6a24f2e44a7d8
+Dataset/Phosphorus Deficiency/1772179977311.jpg,Phosphorus Deficiency,6,,test,3472,4640,253cb659e49f107d95ba97ca2839d5aec5980f56afc55c6b049a8875590e67bd
+Dataset/Fall Armyworm (Insect) Damage/1772178762158.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,187177bc50637c886f977df1115ee68c9bc2bdf2a97dc0879ac01d84941c339b
+Dataset/Nitrogen Deficiency/1772178082103.jpg,Nitrogen Deficiency,4,,test,3472,4640,47ce552475657d4c36e2974f79d72b46ac7d34e17b91aa69001675f444b4a5df
+Dataset/Northern Leaf Blight/1772179680524.jpg,Northern Leaf Blight,5,,test,960,1280,726f71d6bc45426bbfdb3daa6fbcc25e0607e625597780a4e0433aa022bf4eb5
+Dataset/Leaf Spot/1772179047305.jpg,Leaf Spot,2,,test,4640,3472,4daafc9f5769cbc9935cf66df094f881387b24d87a2624728ab7e1936f3def86
+Dataset/Fall Armyworm (Insect) Damage/1772178761088.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,4320aebab5d40983a1e45b8b0efefa74d78d4a690fb688ab8962879301a140df
+Dataset/Phosphorus Deficiency/1772179972812.jpg,Phosphorus Deficiency,6,,test,3472,4640,576d1024785bf8b3df809f7f8a04b925f75227280708fa1b3543b86ad08a6eb5
+Dataset/Northern Leaf Blight/1772179524741.jpg,Northern Leaf Blight,5,,test,3472,4640,e3e05b2cf6726ee36e865878eceb52b56581b323c185783b84eeb81c78355d57
+Dataset/Nitrogen Deficiency/1772178080653.jpg,Nitrogen Deficiency,4,,test,4640,3472,f7270d48653a0209f3d2a20501a80faa5034a7f7db52eee7a4f93ba26edd05d6
+Dataset/Nitrogen Deficiency/1772178079990.jpg,Nitrogen Deficiency,4,,test,960,1280,dda91b09298dd7aa65ce5afaf44d641db36c6c3ab02cdf0dee0ab4d5570063a1
+Dataset/Magnesium Deficiency/1772178300059.jpg,Magnesium Deficiency,3,,test,3472,4640,13cd44a96125c9a68d948d3cd884973a5ff3b1bbba07dad8310ec2c4b769c9cd
+Dataset/Nitrogen Deficiency/1772178079874.jpg,Nitrogen Deficiency,4,,test,1280,960,4f103a07f71c04721bebfcfafc2041cad32fe1fd9cd41985a645e792e7c6d472
+Dataset/Northern Leaf Blight/1772179682147.jpg,Northern Leaf Blight,5,,test,3472,4640,70000fc6b503b4d21e2fa5d98ac7e3cd0d4f1e211b31b18fffecc66372c93a9c
+Dataset/Magnesium Deficiency/1772178299069.jpg,Magnesium Deficiency,3,,test,3472,4640,959f7d77422f2559fe16fed8a8812fcf0b5231dd4efac4e4a2be88ae043cdf46
+Dataset/Northern Leaf Blight/1772179521610.jpg,Northern Leaf Blight,5,,test,4640,3472,b9d7c4cd929c418ad79b61fb7286f7e1c2222c7ad8fe736232eede7838a82445
+Dataset/Fall Armyworm (Insect) Damage/1772178760063.jpg,Fall Armyworm (Insect) Damage,0,,test,4640,3472,ada25945ea1edcef7abc856ef1fbf07f420278cbf9bb82190c9bd6ce209754f3
+Dataset/Magnesium Deficiency/1772178420971.jpg,Magnesium Deficiency,3,,test,3472,4640,022dbe7f073852e6eaf74c0578346303ab6ec643613e7e3b14bea4efeebe2100
+Dataset/Northern Leaf Blight/1772179682615.jpg,Northern Leaf Blight,5,,test,3472,4640,7f414946b8777910313935acd4b2fc7fa9d519c32ee762dd21fc3c2341544381
+Dataset/Leaf Spot/1772179049757.jpg,Leaf Spot,2,,test,4640,3472,9b062d74de802aba61bdb24ff25c0a96512a8a4f276bb67675ff76616dc2030c
+Dataset/Fall Armyworm (Insect) Damage/1772178762176.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,92ae3a7ffdb4faeb3ab04d726925241456ca98481006c212512df9e2b034cbe7
+Dataset/Leaf Spot/1772179051819.jpg,Leaf Spot,2,,test,4640,3472,7e15a47857f368a2ee38805ce9a57dcef442bbe7e820a1dab07f3564598e8c85
+Dataset/Leaf Spot/1772179051921.jpg,Leaf Spot,2,,test,4640,3472,e0754ce6a35adfa6d9530787b1120dad909c5553528aaf3d7660595d058b6421
+Dataset/Healthy Leaf/1772179789753.jpg,Healthy Leaf,1,,test,3472,4640,d9daf207354b5f418184567b766e8c116754ab01811ad44b47272389381817e1
+Dataset/Phosphorus Deficiency/1772179978608.jpg,Phosphorus Deficiency,6,,test,3472,4640,67cc4963a6f90b22003098cb0beb1855e90fe9087b17ff720eb82cd72aacd3a8
+Dataset/Fall Armyworm (Insect) Damage/1772179291745.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,91d3478986d547cf12cf65b0b19f1e9eaf17f4b01b3e1dfc4323dff3e9687cb7
+Dataset/Northern Leaf Blight/1772179682400.jpg,Northern Leaf Blight,5,,test,3472,4640,882084f860228e90f1fad9b66629f5f97b826ebe25d6ae62fa6ea65628e09884
+Dataset/Healthy Leaf/1772179786423.jpg,Healthy Leaf,1,,test,3472,4640,87134c87aa7dee7185f88c15019a8a762126842d62859fbfe33ecab43b5858e8
+Dataset/Nitrogen Deficiency/1772178080955.jpg,Nitrogen Deficiency,4,,test,3472,4640,09398e3d7cd0680a738c15a4496e0e9fef48688ef30fcb62d08fa51086ff32a2
+Dataset/Northern Leaf Blight/1772179526451.jpg,Northern Leaf Blight,5,,test,3472,4640,88451562afda66f123936928856055463017525dc4af0dc711c1916885cd8906
+Dataset/Leaf Spot/1772179049812.jpg,Leaf Spot,2,,test,3472,4640,cfaa3e2bf8ce02561fbd9b27163673ec69e492609d27e65925491d3c65c501a6
+Dataset/Healthy Leaf/1772179787846.jpg,Healthy Leaf,1,,test,960,1280,2ebb12868fdc5949b4dcfd0ef8fa9c73608ac074888c20bcf9bad77b3db9987a
+Dataset/Northern Leaf Blight/1772179682528.jpg,Northern Leaf Blight,5,,test,4640,3472,b09534d22df327b978b422f4a3aa570a17dcfda6f5392518a5cdc97f3e09af7f
+Dataset/Northern Leaf Blight/1772179521671.jpg,Northern Leaf Blight,5,,test,3472,4640,a0e63799a5003e33be3878e65da6495c1e2acaa8c989fb33dcae978cd58ddba7
+Dataset/Northern Leaf Blight/1772179521889.jpg,Northern Leaf Blight,5,,test,4640,3472,886714f0b1cb193941e75655479d1cad48582bc91339de823ca3274c0cb4355d
+Dataset/Fall Armyworm (Insect) Damage/1772179288020.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,26d0c758c0ac110ab82b62f687ce9ae7048b2f0db1d68f3c3f5b6e1a47dd2179
+Dataset/Fall Armyworm (Insect) Damage/1772179290019.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,0d36e9443d244e7401d3194c77c7fad5698b2dd1e7c926d23f836ea241d9a899
+Dataset/Phosphorus Deficiency/1772179976072.jpg,Phosphorus Deficiency,6,,test,4640,3472,d5918a0ef68cad6c1a34686f7197e8e2d190604ace65a03da0841134dc18d4e2
+Dataset/Phosphorus Deficiency/1772179977756.jpg,Phosphorus Deficiency,6,,test,3472,4640,f46fff973d11a34a8752f22213238e31dd7f4a7947e308104ef0033d553822d0
+Dataset/Northern Leaf Blight/1772179522800.jpg,Northern Leaf Blight,5,,test,3472,4640,9885dd9b41624c29213c0e4495507fa9397db1431329854d888e13d4dfdf293d
+Dataset/Fall Armyworm (Insect) Damage/1772178761967.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,eb48547d2e0ad2d803ab23b98a0b742a950fc808a0da6ecbc258341a4fdec7b2
+Dataset/Phosphorus Deficiency/1772179977062.jpg,Phosphorus Deficiency,6,,test,4640,3472,4c2696d9bbacfb69b825390abe40b5f4249637d5a0030611d68cad0f861e33d6
+Dataset/Northern Leaf Blight/1772179681519.jpg,Northern Leaf Blight,5,,test,4640,3472,b2e6c29fedda8519ee2faf134c98cd713a056a389dbe5d7b79f0e6ba3a122b06
+Dataset/Northern Leaf Blight/1772179681106.jpg,Northern Leaf Blight,5,,test,3472,4640,ee2e226f1654fa7085f5a29db523c606541880d90e96aa1a4c9aedf12ea2b41b
+Dataset/Nitrogen Deficiency/1772178082282.jpg,Nitrogen Deficiency,4,,test,3472,4640,4fb95eb1992d55e12901487e6173eabebb7d7fab1a28d3b8164ffcf3344ff412
+Dataset/Phosphorus Deficiency/1772179979104.jpg,Phosphorus Deficiency,6,,test,4640,3472,437dab68491ef29e071b640e6d5e2f545b076687055740e79611f3fe672db5cf
+Dataset/Healthy Leaf/1772179784304.jpg,Healthy Leaf,1,,test,4640,3472,eacbc461ba4c83c1ec69062a70e96710df1981a9148dd9d7108b76a1ccd3a193
+Dataset/Phosphorus Deficiency/1772179969685.jpg,Phosphorus Deficiency,6,,test,3472,4640,0070999f6eef7f5bc8c6c7d13272446f104354a36470cc3bcaa2ba0ab79d88d1
+Dataset/Healthy Leaf/1772179789086.jpg,Healthy Leaf,1,,test,3472,4640,f843f693e79ef91cad647d5923b79b1fa8332b15911f7d3c0432445c2f93b087
+Dataset/Phosphorus Deficiency/1772179969153.jpg,Phosphorus Deficiency,6,,test,4640,3472,8bd6b5a2a5176fad2edf5fe5d956aef4c4840d16559ecb7117d9a304206795c2
+Dataset/Phosphorus Deficiency/1772179968018.jpg,Phosphorus Deficiency,6,,test,4640,3472,ceeff3cbfa2933e1d1a625feb252157b344677f9ddcb32d0e14159017075200e
+Dataset/Phosphorus Deficiency/1772179977144.jpg,Phosphorus Deficiency,6,,test,4640,3472,b0cc3925a8ce0053bb8248f22ef12d7c592fe9f472321b555f860224b1e74919
+Dataset/Fall Armyworm (Insect) Damage/1772179283479.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,c1c9f1afb07d1b6b4cc7a0a9f12755807de0cef324ea56c5efcf50c632ee1aef
+Dataset/Fall Armyworm (Insect) Damage/1772179287091.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,5a09986e0f4a07bbaa1da72d59276130b68d05db2878aa7742441afd63c9a1f1
+Dataset/Leaf Spot/1772179051907.jpg,Leaf Spot,2,,test,4640,3472,1484442d88dc6b0bc6f51c5547b0cc871d552e924e1ac20b776f5646401f098d
+Dataset/Fall Armyworm (Insect) Damage/1772179284115.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,694577cf4d08891dbcb075735f516b3e21163c674332774c7835765cf761eb71
+Dataset/Fall Armyworm (Insect) Damage/1772178760168.jpg,Fall Armyworm (Insect) Damage,0,,test,4640,3472,df4f829153818fa823ac7b106355780e5f02d3948c0f2a5a4a954fe0a555ba37
+Dataset/Fall Armyworm (Insect) Damage/1772178759926.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,99c0e71ef85c9a62af750e13bc6e1e4d53714623ae155d235233cc9fb0b177e7
+Dataset/Nitrogen Deficiency/1772178081148.jpg,Nitrogen Deficiency,4,,test,4640,3472,33e5739e9179a0f6c9dadff7365fe0188ad1e33d66f58ce8b78529a4834cfd4b
+Dataset/Magnesium Deficiency/1772178299828.jpg,Magnesium Deficiency,3,,test,3472,4640,cc4acfad1ac9922b2c7ffeb0854dfb95220bbc2c7bee9a9e88f4700e7adf4486
+Dataset/Phosphorus Deficiency/1772179968707.jpg,Phosphorus Deficiency,6,,test,3472,4640,b4ca9a560094f44457d6c9e566dcfe44c5abb03574577a05561183e98a7f165c
+Dataset/Fall Armyworm (Insect) Damage/1772178763068.jpg,Fall Armyworm (Insect) Damage,0,,test,4640,3472,f7aefd0402111102ce0fcd0da938d1b3254bb82f21e9a6e25e0101f4e1d42122
+Dataset/Fall Armyworm (Insect) Damage/1772179283063.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,59569d9c77d14c127c08c9c8aab1f953bee0baa33b656c60cf34c23ba1aa8f49
+Dataset/Leaf Spot/1772179049723.jpg,Leaf Spot,2,,test,3472,4640,417a4c945bcb45944e5f9b57b212002524af827fd41342cf8c2afd8c35649199
+Dataset/Nitrogen Deficiency/1772178082137.jpg,Nitrogen Deficiency,4,,test,3472,4640,b8200a6c44f452963ee39559ac4f34e2c23560242f76136da8ebffd71359f4d7
+Dataset/Fall Armyworm (Insect) Damage/1772178761175.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,179e80bb943dd0140edbd493ba170aa78ec58eb92fb446c4b639de7aff4ae9eb
+Dataset/Healthy Leaf/1772179786833.jpg,Healthy Leaf,1,,test,3472,4640,ec072c2af28ebf74562f6a766d7e024bb894305d226f4b4563ed4a1d981742d6
+Dataset/Nitrogen Deficiency/1772178081320.jpg,Nitrogen Deficiency,4,,test,3472,4640,f31667e03f0d22ad50cb1a4bd9a0d7df26eff763fd246545bd7d0cf4fccb679f
+Dataset/Northern Leaf Blight/1772179683609.jpg,Northern Leaf Blight,5,,test,3472,4640,ac4f1c869abdf9229afc807196c8086ed1b7b92ff7981f1a01ab83d1ad826155
+Dataset/Northern Leaf Blight/1772179524368.jpg,Northern Leaf Blight,5,,test,3472,4640,140d6fa48d4fd93809fac1a4c88318e039ed428f8c13754b435136d1e1a15eb8
+Dataset/Fall Armyworm (Insect) Damage/1772179287791.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,5ea91e738ac85cbd94dfcb87e2dbbcc8c351d46e5828b6dfc7738bbd9dd075c0
+Dataset/Fall Armyworm (Insect) Damage/1772179291853.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,dedd6812d227f8c3aa2cde650212ffb94ec1d52a1b129666de3296f9befbf0af
+Dataset/Leaf Spot/1772179047542.jpg,Leaf Spot,2,,test,4640,3472,499425cb43579d4da1939d60560c1099f9475b88ded46df17fd9cad3d156aad0
+Dataset/Magnesium Deficiency/1772178420280.jpg,Magnesium Deficiency,3,,test,3472,4640,ac7e6ac7e8a89c7f533c9d834ff1da2de4765a524bd790ae66057e28ae28ff5f
+Dataset/Leaf Spot/1772179050585.jpg,Leaf Spot,2,,test,3472,4640,cc25a2fa93463bc93568e45d73bad9407eade574bf4c893a49b52482f245ed96
+Dataset/Fall Armyworm (Insect) Damage/1772178759371.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,78b0d6a419304a7b731dce218a51f1ed8576fdb69f670345ab58973d9c00b585
+Dataset/Northern Leaf Blight/1772179682116.jpg,Northern Leaf Blight,5,,test,4640,3472,7be45a2950bdf9537c6b86c074494175cd9ef787bf423071633f6fad3dec408d
+Dataset/Healthy Leaf/1772179784768.jpg,Healthy Leaf,1,,test,4640,3472,5292b841eeae15c7c40fe048ae707fe63d1648a5108b783be66301bf65cacdef
+Dataset/Northern Leaf Blight/1772179680010.jpg,Northern Leaf Blight,5,,test,960,1280,0bd7ad67cacdf63cc8b1b36954033cba26f041dcfb9d007765572a3dce9fe50b
+Dataset/Fall Armyworm (Insect) Damage/1772179284148.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,8f7b2a6bf33a622b071e96888e81ad4754adfecf95097821f046b05e38e2e90e
+Dataset/Northern Leaf Blight/1772179523966.jpg,Northern Leaf Blight,5,,test,3472,4640,7703899d01a345ab97c2d1290e943a73594add6f28abe75f4bc0b1518635eab1
+Dataset/Healthy Leaf/1772179785164.jpg,Healthy Leaf,1,,test,3472,4640,877498cf26b80fdd5477e39dfae3aa8077541d3dc88571f367b3118e404a5f47
+Dataset/Fall Armyworm (Insect) Damage/1772179292985.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,4d029bce47b5ffe39b04e16b1121f1735ab6265b7da63a69194fa6d211e18cf9
+Dataset/Phosphorus Deficiency/1772179973568.jpg,Phosphorus Deficiency,6,,test,4640,3472,d2b801a9ef8e7607a004230268092e316495ea3d9c3aab85afae6e77228ece60
+Dataset/Phosphorus Deficiency/1772179968283.jpg,Phosphorus Deficiency,6,,test,3472,4640,3db841c924042df9120c81f5875ad0131c8a86e727067c1bdc95c00828cf2ff4
+Dataset/Phosphorus Deficiency/1772179980461.jpg,Phosphorus Deficiency,6,,test,3472,4640,fb4775db3b5cf0d981d3c1589761bca642677851b9be5e696cec0b1dfcb78ec3
+Dataset/Healthy Leaf/1772179784107.jpg,Healthy Leaf,1,,test,4640,3472,1be0a54fceb5b9ec71218f6adae44928aebf70bca4c780b9309b0cf66450c92c
+Dataset/Nitrogen Deficiency/1772178082822.jpg,Nitrogen Deficiency,4,,test,3472,4640,bd0e94d2930e279b064f1d4eda8b807a02a30baded7cc36dec7e4532c4ed79ab
+Dataset/Healthy Leaf/1772179788449.jpg,Healthy Leaf,1,,test,960,1280,ec7be0684c90efeca97c4d70c408dc4f141421f5bdddbd38360418aaec57410e
+Dataset/Phosphorus Deficiency/1772179969273.jpg,Phosphorus Deficiency,6,,test,4640,3472,78dea6d69f2f07384d0ab08da240ffaa754dacea84772e7097966d15145d0bc0
+Dataset/Fall Armyworm (Insect) Damage/1772179288154.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,64468944418426925622460d1a95434f1e2baf1fc91626ce2703e5d23ace3b1f
+Dataset/Phosphorus Deficiency/1772179975164.jpg,Phosphorus Deficiency,6,,test,4640,3472,6de34808e3e9a1b15323bb31d5ffe30ac1f86e64f095b65390f3520408f44872
+Dataset/Fall Armyworm (Insect) Damage/1772179288469.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,9d1b8ad88a0e74f33007a1ccdddc0134a2a7b1355de3a04de061e3e7535c6577
+Dataset/Leaf Spot/1772179051104.jpg,Leaf Spot,2,,test,3472,4640,5879b6af010c68f0d97a1a29a1d3198ad9e060361d2fd3ff20af258c91c5363b
+Dataset/Magnesium Deficiency/1772178295879.jpg,Magnesium Deficiency,3,,test,3472,4640,0c9771e3d147074d12162404b604ece96fbbc02cc5efe1d38d9d41878d5abf3f
+Dataset/Fall Armyworm (Insect) Damage/1772179285953.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,83c83e065f7c58907fbe387aa0c400b90fb9f45d40629b6637dae30fe450f808
+Dataset/Nitrogen Deficiency/1772178081859.jpg,Nitrogen Deficiency,4,,test,3472,4640,b21523a3b2c581ba1f8fb6f67b0d08e61e2001d0a9f8ab5ca1350a3347b4fd64
+Dataset/Nitrogen Deficiency/1772178082391.jpg,Nitrogen Deficiency,4,,test,3472,4640,20c8194eb5ec8d25d3d4b52b067ac82a0a220ac9374768d473f809fdf7b940f9
+Dataset/Leaf Spot/1772179048824.jpg,Leaf Spot,2,,test,4640,3472,e441a5023687caeb53b70907cf524ece45f70edc2f7149a227397bf201ea2305
+Dataset/Fall Armyworm (Insect) Damage/1772179292732.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,e94a807ab5d224beb7057ba59b7058ce1051cf2f18c584bed9de9c7cf0e34fff
+Dataset/Northern Leaf Blight/1772179683589.jpg,Northern Leaf Blight,5,,test,3472,4640,89267e22dea05ba6e35c27d874ab322010813b419aad36b60fd7ca5c88be14f2
+Dataset/Phosphorus Deficiency/1772179971308.jpg,Phosphorus Deficiency,6,,test,3472,4640,1536908dcd657706682b8aaed92fb83870954631f4793450c8822254781af00e
+Dataset/Phosphorus Deficiency/1772179975018.jpg,Phosphorus Deficiency,6,,test,3472,4640,cf82faa9998535c0ecaecb871b2baf43d99ce69c77e82063819034dbc47b152a
+Dataset/Healthy Leaf/1772179789361.jpg,Healthy Leaf,1,,test,4640,3472,db926faf4ef59f13082fe3d0c67cac0c8d2f6978fdea75217076f63e28c71b20
+Dataset/Magnesium Deficiency/1772178299221.jpg,Magnesium Deficiency,3,,test,3472,4640,218884167485ea412cd6887f24e26215f7943469c59d373269c1272c44075f59
+Dataset/Phosphorus Deficiency/1772179978213.jpg,Phosphorus Deficiency,6,,test,3472,4640,e7d0e76a5e040a2800747cfd4f6801cad3eafb9073ea83d002a7afd4d62b2c90
+Dataset/Northern Leaf Blight/1772179679963.jpg,Northern Leaf Blight,5,,test,960,1280,794ec20bb5f2115a375c19617b2125a2931c31783f7f3928b080b5fa5fe76eeb
+Dataset/Magnesium Deficiency/1772178422284.jpg,Magnesium Deficiency,3,,test,3472,4640,0157dbdf1bf6a96bf7bdbd7d533cd6fabcc38723a419ff74fd36e33413bd8f6e
+Dataset/Magnesium Deficiency/1772178297874.jpg,Magnesium Deficiency,3,,test,4640,3472,1ddd24d61de9c5497c90cb79b43db9a709dff0fd6beb27b789ec267d5edd306c
+Dataset/Leaf Spot/1772179048836.jpg,Leaf Spot,2,,test,4640,3472,4b1ec0f10df489bc302b422fc949b44607902db59e978e69bea70b8ecce5037b
+Dataset/Magnesium Deficiency/1772178298233.jpg,Magnesium Deficiency,3,,test,4640,3472,7fd2d8b983dca8eb025cdc09c8133c9b2b50dec9ec3dfac4c3f8e5868f969a84
+Dataset/Phosphorus Deficiency/1772179968487.jpg,Phosphorus Deficiency,6,,test,3472,4640,0becf408100da0600ef5bde94c74541720fd425fad9e0f7e60c446b1e75cd10f
+Dataset/Fall Armyworm (Insect) Damage/1772178762743.jpg,Fall Armyworm (Insect) Damage,0,,test,4640,3472,2278563a82760c9454096d678b2ca0b76fae0c45c20dba8d5684ccd2fb1e54f5
+Dataset/Fall Armyworm (Insect) Damage/1772179285071.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,a8439908ba1656add8e43b5afa19cc83fda4a15d610c6ebeb6b24d33f1d98326
+Dataset/Northern Leaf Blight/1772179680278.jpg,Northern Leaf Blight,5,,test,960,1280,e11235473aea7a4507979850d0e990da9d00070a790e4b60938bf6d94d2b206f
+Dataset/Nitrogen Deficiency/1772178080294.jpg,Nitrogen Deficiency,4,,test,960,1280,bc286162498d44600d8f7bb43ce472fa0576629eff1752b246d17486b9afd642
+Dataset/Magnesium Deficiency/1772178421738.jpg,Magnesium Deficiency,3,,test,3472,4640,1f5f1047866865d4a4e5ce0a9ff98946fe613f059f43067ca6eed6b6664c7574
+Dataset/Phosphorus Deficiency/1772179972040.jpg,Phosphorus Deficiency,6,,test,4640,3472,a96b2a5c256ba1037fdd934c4a5f348c5898bc0c108215e635a9d23d38aa76d4
+Dataset/Fall Armyworm (Insect) Damage/1772179283896.jpg,Fall Armyworm (Insect) Damage,0,,test,4640,3472,33c6386922321cc373a6b979394b17d48143e9ceffed5cbf9b5a9a7a171b198f
+Dataset/Fall Armyworm (Insect) Damage/1772179283170.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,bb5541360361a30632d4bb7140ed300503b212fc1c27e5d8848871ed2be44243
+Dataset/Northern Leaf Blight/1772179525910.jpg,Northern Leaf Blight,5,,test,3471,4641,942c154e00566bd32f6a56604081e1754cb984559e6c9fa8d3bfcb1eb8e91a11
+Dataset/Healthy Leaf/1772179784394.jpg,Healthy Leaf,1,,test,3472,4640,8cc664237a8f22f72b85247a247c2d3b2c6ee19036de536d59a4f21b3616615c
+Dataset/Phosphorus Deficiency/1772179973281.jpg,Phosphorus Deficiency,6,,test,3472,4640,b18eae2c9d514624360cfde0cc01ae657509021922e62b3499973aa7ba63cd67
+Dataset/Fall Armyworm (Insect) Damage/1772179292636.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,472f3e2e59300848b5afad9ee6c2df06b009a385b22892d0e7ad837ad5dc0ab5
+Dataset/Leaf Spot/1772179048711.jpg,Leaf Spot,2,,test,3471,4641,4ba70d6e5ab09dc51a581b3e98762b1dc8ddac20f3acf849cd5202a1ea2a65d5
+Dataset/Healthy Leaf/1772179780863.jpg,Healthy Leaf,1,,test,1200,1600,f95ab59389269cc372ecb4c080de4166b72dbd103f5e1aad1275059fc555afcb
+Dataset/Healthy Leaf/1772179785400.jpg,Healthy Leaf,1,,test,3472,4640,accedc4b162c3248b3acc6f532b7bd0b89ed9d034b5aa4979353b1fee2230232
+Dataset/Magnesium Deficiency/1772178419047.jpg,Magnesium Deficiency,3,,test,3472,4640,37c69e54228fb6ee1f965f6aa74850cd37590900cc7201af77e5276be0ab106c
+Dataset/Leaf Spot/1772179051892.jpg,Leaf Spot,2,,test,4640,3472,c09f3e7ba71fdc56445afda8977fec28a4445b85524089ac8e2eb75ba7165c17
+Dataset/Healthy Leaf/1772179791678.jpg,Healthy Leaf,1,,test,3472,4640,24df4f4014520644a9f2036bf8b1371cb70fde3dd7594beaf2e085aebfcff596
+Dataset/Magnesium Deficiency/1772178418662.jpg,Magnesium Deficiency,3,,test,3472,4640,6e09e9b270bc90a8a37a00d1ff6a9a42ba9922aa78aa26a56eaf4636a5ccce1f
+Dataset/Leaf Spot/1772179047974.jpg,Leaf Spot,2,,test,3472,4640,b4506860ffb0df0ac3c106808922d9ce49ae2507ae90394a701f7c3ce528e3ab
+Dataset/Fall Armyworm (Insect) Damage/1772179293046.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,907a2840260b7259f5c8a6cdbc1f09daa909cecc0605a6c65a86852ba5f64eb1
+Dataset/Nitrogen Deficiency/1772178081940.jpg,Nitrogen Deficiency,4,,test,3472,4640,23f097772a8d3980d69c5d216949b2cb4e9d90e3f303b1a58ddf19736ea8078d
+Dataset/Northern Leaf Blight/1772179683033.jpg,Northern Leaf Blight,5,,test,3472,4640,964aced9d8dbe729a0b767f325a52afff5fef3fbf3ec3783e5b0edc8018c9e84
+Dataset/Magnesium Deficiency/1772178420417.jpg,Magnesium Deficiency,3,,test,3472,4640,6489864e4c11ff89a787d706a1aacbee11807e7de5c0faae378d852a1adacf00
+Dataset/Fall Armyworm (Insect) Damage/1772179289768.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,ae45e492cd180b98a84a87b1feec28a6a950876f48cb4039eb743c076284db62
+Dataset/Northern Leaf Blight/1772179522375.jpg,Northern Leaf Blight,5,,test,4640,3472,e3140d078d5a256ac3de17b08f7e317a0af15b0eca4bcf2ff0c694d3c03e411c
+Dataset/Healthy Leaf/1772179787384.jpg,Healthy Leaf,1,,test,3472,4640,da9faa0bee916da31340f976d57221e289ef57cbee8ea27ce84365f1ac8ff1ad
+Dataset/Nitrogen Deficiency/1772178080776.jpg,Nitrogen Deficiency,4,,test,4640,3472,d3fef6ef092fe47feb04c6c8f3bb7a66e867f384dbac690c66cb5c82e846d644
+Dataset/Magnesium Deficiency/1772178297359.jpg,Magnesium Deficiency,3,,test,3472,4640,b3435a6639ce6614f7a9d274c488beed463864f29321d0ff35d1fcb61f4d7d0d
+Dataset/Phosphorus Deficiency/1772179978652.jpg,Phosphorus Deficiency,6,,test,3472,4640,4119da076146a32fa0e60e119080565ec18465fffc5216ff243108b4114614b1
+Dataset/Magnesium Deficiency/1772178296827.jpg,Magnesium Deficiency,3,,test,3472,4640,fb0c58912fd6d954056def10da59bb95a169b923b7f310e2f2d1c991ee866894
+Dataset/Healthy Leaf/1772179790405.jpg,Healthy Leaf,1,,test,4640,3472,628987d0cbda866f6899159c8787bdac32aafbd26b4d08b513293783e5739a86
+Dataset/Magnesium Deficiency/1772178419861.jpg,Magnesium Deficiency,3,,test,3472,4640,fa2fe604b85872c61908fca769c14391ad43baa6ddf6a5489738e83047259629
+Dataset/Fall Armyworm (Insect) Damage/1772179290987.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,64afe6f1e47f8f0ea6d90bd0bc69e93d5f127239637d5c3d62a055f6ef5d0e11
+Dataset/Healthy Leaf/1772179790310.jpg,Healthy Leaf,1,,test,3472,4640,1455307d07c4c11dd0474bbcd0c82c9856bdbaeed08abaa18ee281aa91b9a8dd
+Dataset/Healthy Leaf/1772179783389.jpg,Healthy Leaf,1,,test,3472,4640,eb73c220396f78ea9808a5804bf845b6a6d3c7f44630db0a6eb4b8503c80f025
+Dataset/Magnesium Deficiency/1772178299983.jpg,Magnesium Deficiency,3,,test,3472,4640,b8f9c7a58a9f49734f862bb0dc317f37190e4882789348fb940a0b7dc5cf8e32
+Dataset/Phosphorus Deficiency/1772179974554.jpg,Phosphorus Deficiency,6,,test,3472,4640,428e6155b7d9131cd3b1cb3701180d1c0f1fa5c4ea2479a36a3ea805686e8968
+Dataset/Fall Armyworm (Insect) Damage/1772178759265.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,fda509430cd269eac8c7fac995b82e7e75d016340d9c6923f527705b77e315c6
+Dataset/Northern Leaf Blight/1772179681203.jpg,Northern Leaf Blight,5,,test,3472,4640,fc713ccceb307a41332508e1178769bd948d3ffb8b027db359e491a57e86ed5f
+Dataset/Fall Armyworm (Insect) Damage/1772178763329.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,93c132d3feaae8badf762ce1d218fa194f7e64ca1eef3c2d8ac5de67ecab0ee4
+Dataset/Fall Armyworm (Insect) Damage/1772178761930.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,37fd96e4dd92056f1b92a7702bb3599497bb6179ecc42ee61d172a73a26eeba8
+Dataset/Northern Leaf Blight/1772179524872.jpg,Northern Leaf Blight,5,,test,3472,4640,0bba788113548d2381e16e4822c22e44c1707b737bb2f97f0aa31f938c6885bf
+Dataset/Phosphorus Deficiency/1772179975575.jpg,Phosphorus Deficiency,6,,test,3472,4640,450a819b26d40dc99d5bc48ee83781e82af76ffffe64851e9aa240e8d6a5a89f
+Dataset/Leaf Spot/1772179050711.jpg,Leaf Spot,2,,test,3472,4640,8d00b6af2134ac5f9d1a4085773c997ca37bb06bbe4de59f99e0a101671836a1
+Dataset/Magnesium Deficiency/1772178419631.jpg,Magnesium Deficiency,3,,test,3472,4640,eaf2eaa6d736f78293da26bb1fb343a21e675094cb4e2d9590b3dc39ee1a620e
+Dataset/Fall Armyworm (Insect) Damage/1772179287852.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,c769593fd7488f09e862a3a6ee7098ebfda822136b554011ac814ed4e9e4ae2f
+Dataset/Healthy Leaf/1772179787159.jpg,Healthy Leaf,1,,test,3472,4640,adc1feceafcd4a27b053b6208356c8116944dc924a61773a52d3b78871f922e8
+Dataset/Northern Leaf Blight/1772179682586.jpg,Northern Leaf Blight,5,,test,3472,4640,f52b9dea6b5e218df9f0aa0f943caf053a7dc01ca7211e0cb41dc2025f190d10
+Dataset/Healthy Leaf/1772179787265.jpg,Healthy Leaf,1,,test,4640,3472,c749de79653f0557307878a0c274ccc21b0c8f925e02946c82f822a2039dcc83
+Dataset/Healthy Leaf/1772179784954.jpg,Healthy Leaf,1,,test,3472,4640,6ca17d216177b784441c77ffc42f12554c695ccc4363bb9516f98b5ba3d996d3
+Dataset/Fall Armyworm (Insect) Damage/1772178762719.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,f782a68521a1309a090f82c8500131cfcd5adf0ee811304da272b5dacfef0025
+Dataset/Healthy Leaf/1772179785580.jpg,Healthy Leaf,1,,test,4640,3472,11c54ed29dc747ec61ae4a8274ec98f02aa8a185fc854f210322ed33bbf62acc
+Dataset/Healthy Leaf/1772179789797.jpg,Healthy Leaf,1,,test,3472,4640,7e08a56565a812669fafeb8504a15eebb66b44505e1f554ff9d43c30e2b698bc
+Dataset/Nitrogen Deficiency/1772178083088.jpg,Nitrogen Deficiency,4,,test,3472,4640,3eb521eedf545b501655999f9640fbeaac3e479cdbac1b39299e53505b01cd58
+Dataset/Phosphorus Deficiency/1772179979373.jpg,Phosphorus Deficiency,6,,test,4640,3472,8749ddb94c6b41a407e73b7dd088dcead7cfe94e3bad7fda79392f3cd23d0585
+Dataset/Magnesium Deficiency/1772178298861.jpg,Magnesium Deficiency,3,,test,4640,3472,0d00c30dcebb3cf96505ec15b54a1fe62a7e1af42721c729dfe84227dd543b69
+Dataset/Phosphorus Deficiency/1772179967262.jpg,Phosphorus Deficiency,6,,test,4640,3472,586fe59d3fadfc240531e8d472fcf36d79fced0b46068b5af9463fd21b39df6b
+Dataset/Fall Armyworm (Insect) Damage/1772179290827.jpg,Fall Armyworm (Insect) Damage,0,,test,4640,3472,e9195bbc4fab28487c4c70319873dd9a3046f0d9b6f2ce84e5ca9c563066dd70
+Dataset/Northern Leaf Blight/1772179680250.jpg,Northern Leaf Blight,5,,test,960,1280,04b77a4cdb6570dfe185989b639baa0fbca31c57881dd60eb74692946543d2cc
+Dataset/Phosphorus Deficiency/1772179971357.jpg,Phosphorus Deficiency,6,,test,3472,4640,fd50524bf1f25c50a3bbf5b01b21d6bec3644e85212dc6c8ec8160cf887b0ab9
+Dataset/Magnesium Deficiency/1772178297619.jpg,Magnesium Deficiency,3,,test,3472,4640,e7f3c4b540da6a1976a7671dab303fd9450f23f14f1bb6d9a7738c25ec7876d1
+Dataset/Healthy Leaf/1772179788132.jpg,Healthy Leaf,1,,test,960,1280,0902bbdde8cea8ceba48183f9459541a634c8a5f2201f3015e19e4b2dd80e334
+Dataset/Nitrogen Deficiency/1772178081302.jpg,Nitrogen Deficiency,4,,test,3472,4640,24f5677d308823c839c240224a7aebfc41b5278c212ea3a4c5aa9e7e8718158d
+Dataset/Phosphorus Deficiency/1772179969502.jpg,Phosphorus Deficiency,6,,test,3472,4640,d412a910102fb7790c4dd3b8cee2bea3e71b1372ff596b65dd1a6cb1f1707ba0
+Dataset/Fall Armyworm (Insect) Damage/1772178759344.jpg,Fall Armyworm (Insect) Damage,0,,test,4640,3472,17f4ab26c248ee0355ddbf8de2caa7186bf6c40489dc7d3eaa090ff4895da356
+Dataset/Magnesium Deficiency/1772178298835.jpg,Magnesium Deficiency,3,,test,3472,4640,ee8e970b7c227b6a01397cc56de784710c804071559d0b7a76d11c1e69661ba2
+Dataset/Phosphorus Deficiency/1772179973518.jpg,Phosphorus Deficiency,6,,test,4640,3472,2668c4c8536e814e444104551b92311fcb44d9583542e656a6dbc9595fc715d0
+Dataset/Phosphorus Deficiency/1772179973020.jpg,Phosphorus Deficiency,6,,test,3472,4640,afa90ad45a97bd5575867a0b095354c4eacc63dd10e9acca6757e7af968e1c24
+Dataset/Leaf Spot/1772179052594.jpg,Leaf Spot,2,,test,3472,4640,2f44f5e8ca86a361d455017b7be12ddbf9a815c5b6c082acac62309645cd2310
+Dataset/Northern Leaf Blight/1772179524639.jpg,Northern Leaf Blight,5,,test,3472,4640,58b054f2aff2fda1facff77d8e2c8ee368728ec000cea86f11db22e4b844f995
+Dataset/Leaf Spot/1772179052221.jpg,Leaf Spot,2,,test,4640,3472,5df0c63885d52cf0419976520ab991bb31e12871b421232401e84239e3bfd547
+Dataset/Fall Armyworm (Insect) Damage/1772178762021.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,deb2323f98af2504bf79233d56eebfedf8c04a95e135c33a3262e6c45b5e0638
+Dataset/Leaf Spot/1772179051134.jpg,Leaf Spot,2,,test,3472,4640,0c82f3b684af2bda34567cfa8062a8222f0d094c945e9aa2fcba39cf61f74694
+Dataset/Northern Leaf Blight/1772179523734.jpg,Northern Leaf Blight,5,,test,3472,4640,6f292f3a4118fa10f9a73b290396ab41e6756aa914193511eb6d64c5dcc3acd2
+Dataset/Healthy Leaf/1772179790522.jpg,Healthy Leaf,1,,test,3472,4640,277a45c57cb14cf5a15ba1c8595bf6a392468c54971e1a78448586ccc01f5701
+Dataset/Nitrogen Deficiency/1772178080315.jpg,Nitrogen Deficiency,4,,test,960,1280,baa2d2b8ab32be8738425307e1ea0cac9cb5cb48c38c84b0bca63d6a4a7c966e
+Dataset/Healthy Leaf/1772179788087.jpg,Healthy Leaf,1,,test,960,1280,817d925d36e790fbc1494fe9700d441eb8dc5e6874145f40973b9e65d2a84f4c
+Dataset/Nitrogen Deficiency/1772178081704.jpg,Nitrogen Deficiency,4,,test,3472,4640,d7f7ace00f2391ed8eed5b6dc3d4526d7261671bea7f3808dddd9898856b0d62
+Dataset/Leaf Spot/1772179051703.jpg,Leaf Spot,2,,test,3472,4640,1cf4d43d32709d3871bb81ab83058bf578c6c7dc481faf789b87f83688dbedf0
+Dataset/Healthy Leaf/1772179792392.jpg,Healthy Leaf,1,,test,3280,2464,4f8d5fe02e6973c4f2ae68c7403659b6052e39b8c3aedb9f27b6022849eae316
+Dataset/Northern Leaf Blight/1772179527437.jpg,Northern Leaf Blight,5,,test,3472,4640,86612e57f40aa56c33161173981971e8d67ed8eb87298d9102fc14a4c943180d
+Dataset/Northern Leaf Blight/1772179526957.jpg,Northern Leaf Blight,5,,test,4640,3472,0dac60851bca7e4bfe4118f7d838ea5c09649ee0268b9233fcf611924db01e0b
+Dataset/Fall Armyworm (Insect) Damage/1772178759951.jpg,Fall Armyworm (Insect) Damage,0,,test,4640,3472,0038e2a27b59bec13a7133574cb1f6b5a657f1be1a7965d2dc5a0eeff625323c
+Dataset/Magnesium Deficiency/1772178300109.jpg,Magnesium Deficiency,3,,test,3472,4640,326aa261d12e25336d140ab93276671b99844d19be20769baf2d6c7d59b84bda
+Dataset/Healthy Leaf/1772179792441.jpg,Healthy Leaf,1,,test,3472,4640,eb8771baed98b8e4917629581609e7bda8f0497120b27e68e177a3a643109c6e
+Dataset/Magnesium Deficiency/1772178421788.jpg,Magnesium Deficiency,3,,test,3472,4640,188ffe662899f9bbaa62e41f2449d42a8f7abb5517eae17ca0169a1f933d559d
+Dataset/Northern Leaf Blight/1772179522846.jpg,Northern Leaf Blight,5,,test,3472,4640,6f356b07cd6e23058a9f34338f5e6b453a658e8545b07f36d535992df83b3108
+Dataset/Magnesium Deficiency/1772178419907.jpg,Magnesium Deficiency,3,,test,3472,4640,7d7f3032cea05f831dab1db276845bd1a9f219dec748bd0b5a65a4b3b4aa0b5c
+Dataset/Fall Armyworm (Insect) Damage/1772179288945.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,69a77697e2315f2769eb0121d849e7b4efe138a8bc345c39a2bc61551ad9da71
+Dataset/Northern Leaf Blight/1772179524052.jpg,Northern Leaf Blight,5,,test,3472,4640,3afdab754c53a18af8eda0dcf1b5060ba7a7347269c11c3bb6f0a73468e59073
+Dataset/Healthy Leaf/1772179784653.jpg,Healthy Leaf,1,,test,3472,4640,80ccb347f0037750db52478859114be7fa0b3bf77d147a460968639fc187cf94
+Dataset/Fall Armyworm (Insect) Damage/1772179292432.jpg,Fall Armyworm (Insect) Damage,0,,test,4640,3472,a12f083c8918fc2283de5e141d729501983d03243c9e771c5b8332a5bada278a
+Dataset/Magnesium Deficiency/1772178421833.jpg,Magnesium Deficiency,3,,test,3472,4640,99e03963e2517714a6aabe3713e4ff8516a2f125ab41aeb3215caf9d4487875b
+Dataset/Phosphorus Deficiency/1772179976336.jpg,Phosphorus Deficiency,6,,test,3472,4640,26d6255184203221fa455a1e3cfbe46d4216e1da85e9783e733c8b5a9fb2036f
+Dataset/Nitrogen Deficiency/1772178080972.jpg,Nitrogen Deficiency,4,,test,4640,3472,19c85dd9c653d4f2b1457a0b5cf6e058d3e2f556db09ad45b78b4e4fb7fd24de
+Dataset/Magnesium Deficiency/1772178300122.jpg,Magnesium Deficiency,3,,test,3472,4640,3b3ca7c095e9f8cf760300d6903c74e8355a22408b5981fea8d2bcbfe2b9e1aa
+Dataset/Magnesium Deficiency/1772178299927.jpg,Magnesium Deficiency,3,,test,3472,4640,d5fe1103123955590661f51a8d06bbfcf57ee76347a82c8f26cd34f97cf8e84f
+Dataset/Northern Leaf Blight/1772179679996.jpg,Northern Leaf Blight,5,,test,960,1280,8043ea2a4a51c582aa3af67b235644234accf68fd2125ff162875ef75ab8673a
+Dataset/Magnesium Deficiency/1772178297346.jpg,Magnesium Deficiency,3,,test,3472,4640,cf0badd964bba03104d7ce9fed50af51e76b5bd1d66b128473c8d364ce9a9827
+Dataset/Leaf Spot/1772179048259.jpg,Leaf Spot,2,,test,3472,4640,08cccc52dc2aaf56a09ec9cb157c72ddcf33c5ebc503e80e75bbfb50b44f8c2d
+Dataset/Leaf Spot/1772179048740.jpg,Leaf Spot,2,,test,3471,4641,789dffe19a0e310f03fd62cf07e5e75d7a2c8f2a2cf1074a7e59240d206fc529
+Dataset/Northern Leaf Blight/1772179521419.jpg,Northern Leaf Blight,5,,test,3472,4640,146cf6adb5e01443259ab9b72cf241a00b233b7e2aa1131aa4f654145f33801c
+Dataset/Phosphorus Deficiency/1772179967632.jpg,Phosphorus Deficiency,6,,test,3472,4640,25559d11418a0b7b85b96bad92cc8359e577c5ac1eea5b5dd587ccfbdce694ff
+Dataset/Nitrogen Deficiency/1772178080877.jpg,Nitrogen Deficiency,4,,test,3472,4640,a30407608fb2d3c9dba9f9d4451fe648eaa7550ec246ca36c3e752ae52d0033f
+Dataset/Healthy Leaf/1772179790059.jpg,Healthy Leaf,1,,test,3472,4640,e39dee96b68cad8e5c678bb465d7b861219480af395bb42e93f1502e0e3b8b11
+Dataset/Nitrogen Deficiency/1772178082205.jpg,Nitrogen Deficiency,4,,test,3472,4640,f17a9c53474acee7ed9c102703fe901efbe2504fb5e621522782b3a980a1a759
+Dataset/Healthy Leaf/1772179784895.jpg,Healthy Leaf,1,,test,3472,4640,c3efbc6191ed0a0312cc269e66a933f54bbc1f66e614d3b4546315d50e53af5d
+Dataset/Magnesium Deficiency/1772178422611.jpg,Magnesium Deficiency,3,,test,3472,4640,abc09283a7ebe1c25e6efb0fe339a6df14c336bc39c030a15f40c1223cc020d1
+Dataset/Phosphorus Deficiency/1772179971954.jpg,Phosphorus Deficiency,6,,test,4640,3472,84ba0994ba9e5563ac34bd7b2725179bdf5eaae9facee5ff880ac984cd761320
+Dataset/Northern Leaf Blight/1772179526067.jpg,Northern Leaf Blight,5,,test,3472,4640,7f14f1a8b6ecc835d29eda4705c691f98e31ad567da13ad33d1c337ac6e9c370
+Dataset/Nitrogen Deficiency/1772178080412.jpg,Nitrogen Deficiency,4,,test,960,1280,77df8babea5b4058457bc6062c9c5e7dabe21c869cd598c35137045d8505f4ac
+Dataset/Leaf Spot/1772179051963.jpg,Leaf Spot,2,,test,3472,4640,f015c68d0c38d46f305ae5d5664cec070abd3d0ab15795e74271c7efc48623b8
+Dataset/Northern Leaf Blight/1772179523250.jpg,Northern Leaf Blight,5,,test,3472,4640,40a2ad70313a48ca3149d96b9461a924c9164182d975fbde8ab860c38276da8c
+Dataset/Magnesium Deficiency/1772178297548.jpg,Magnesium Deficiency,3,,test,4640,3472,03e76da849be25a16438d690b99d17d05bbfc55e7573dcd0c82841f290d851e5
+Dataset/Fall Armyworm (Insect) Damage/1772178761187.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,b332eba0c48f82c4eb1b728810163d31fd8e70aaaf326db45de4cd4213926b13
+Dataset/Nitrogen Deficiency/1772178080221.jpg,Nitrogen Deficiency,4,,test,960,1280,b7ba37de1c616999c218fcbff38627f9887f317c5257ea37e691279cdf56e81b
+Dataset/Leaf Spot/1772179052499.jpg,Leaf Spot,2,,test,4640,3472,5c567c15d3a4e2229896a9017543c13e01efd1dd2d8f91d947b4679c476595d8
+Dataset/Healthy Leaf/1772179782570.jpg,Healthy Leaf,1,,test,1200,1600,cfd37798486389b3990bd7e45e524cbf6bce9a6132b99074c88779548f0d0c7f
+Dataset/Healthy Leaf/1772179786984.jpg,Healthy Leaf,1,,test,3472,4640,a0a283d4750a3e3cd9a69a10aa4554b960db3c149c2a54a76de9ff1b63b19a2c
+Dataset/Magnesium Deficiency/1772178296136.jpg,Magnesium Deficiency,3,,test,3472,4640,4648759fa11dfe14822c7525a308ece7c1e2cbb5fb3250abce373b4d7512dcd8
+Dataset/Fall Armyworm (Insect) Damage/1772178762754.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,c8880f720829b9dd02083df4a343b5f555d15e32780cf0f774a712a8c3311eff
+Dataset/Northern Leaf Blight/1772179525128.jpg,Northern Leaf Blight,5,,test,3472,4640,7ce98087e627ec788a26d626fccd2e5595586647db1339a72022393b1ff37eab
+Dataset/Leaf Spot/1772179050446.jpg,Leaf Spot,2,,test,4640,3472,ad345a34b4a25fac0b2d26217a963036c27d85292d1f20245c6dd9ddaba9a6cf
+Dataset/Fall Armyworm (Insect) Damage/1772178762035.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,83027180bfa309f06c8875fd907a0b81a8fc8c2846eb410f4ea5e4db596202e2
+Dataset/Magnesium Deficiency/1772178295652.jpg,Magnesium Deficiency,3,,test,3472,4640,0da0234ffc93d801eede16033b16e0917abc35e9b7ff025675d3783f4c96cce9
+Dataset/Magnesium Deficiency/1772178296278.jpg,Magnesium Deficiency,3,,test,3472,4640,8ec64a136f80269d2fe41c0d403df5b34b3fea8a92bb69cdbc12a99f3310f1f0
+Dataset/Nitrogen Deficiency/1772178082030.jpg,Nitrogen Deficiency,4,,test,4640,3472,4d8b81095a46e763263207d73c8f8ccf3030b44b45fa0044525c79942b7ae813
+Dataset/Fall Armyworm (Insect) Damage/1772179291901.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,044a5a8983bda130fb417122b03b27845eb7d6558c11ce717f5243601f4ad0b2
+Dataset/Leaf Spot/1772179049167.jpg,Leaf Spot,2,,test,4640,3472,0f43cf62937782193a30727afa81690115d0181ccff01321a613ee13ca999912
+Dataset/Northern Leaf Blight/1772179681660.jpg,Northern Leaf Blight,5,,test,3472,4640,5de2513928c4d4633334b7842b3e24144e126d5c63a8971d71ba291d67fe95d7
+Dataset/Healthy Leaf/1772179788350.jpg,Healthy Leaf,1,,test,960,1280,88b561057a30ad8eeb4d572f65928bac5fe271e9e96b99a283455c3af1cbc0ea
+Dataset/Leaf Spot/1772179051632.jpg,Leaf Spot,2,,test,3471,4641,3fffe4d76409fc3fe4d7b345d6dcfe3a4d56aa18dcf95b04c7a6aa89ba04fefa
+Dataset/Healthy Leaf/1772179788624.jpg,Healthy Leaf,1,,test,3472,4640,ea48abcd83e4636f16adf7d0e331692f605f2fbbf79c260524e41bb2ec04cc36
+Dataset/Fall Armyworm (Insect) Damage/1772179290089.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,5c7760ccf8812af923bf05d0b351f54994593fa1b6a4097131b2de5e72ac3f58
+Dataset/Fall Armyworm (Insect) Damage/1772179289891.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,14206f177b1d1616f7326dfce063b7487d0109245231d4cdfb6347aa41fa7764
+Dataset/Healthy Leaf/1772179784151.jpg,Healthy Leaf,1,,test,3472,4640,a1cc6270a9e5d86155a4a78a5d31b455e5b38dd242c7de31510bf91d5b6c0604
+Dataset/Magnesium Deficiency/1772178420202.jpg,Magnesium Deficiency,3,,test,4640,3472,815ad3e5273ab41b32d46d7467bff860dd4fc7b85afeba53486814fbc5c10dc1
+Dataset/Healthy Leaf/1772179784740.jpg,Healthy Leaf,1,,test,4640,3472,1b443eb82409ab8993b3787ba19b5be08f4eeed7287fe35f88c20b0b6d47092f
+Dataset/Healthy Leaf/1772179791384.jpg,Healthy Leaf,1,,test,3472,4640,80d93d37378cd7cc0ae65a1911defefc0ab2ac3821dc05ec5053f3b1f68f98f0
+Dataset/Healthy Leaf/1772179787306.jpg,Healthy Leaf,1,,test,3472,4640,66833c43a48982042b0eca035d85dd20dfe89808148596c892382ab5d75f748e
+Dataset/Northern Leaf Blight/1772179680291.jpg,Northern Leaf Blight,5,,test,960,1280,7525a6fb699a2d4f2e23f73444543afc159bdf593dba822703992886c1262afd
+Dataset/Fall Armyworm (Insect) Damage/1772178761728.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,323f4e3543251f6c37923cce6ee8dddbbea237f63d2872051832083d5fb6d459
+Dataset/Nitrogen Deficiency/1772178082916.jpg,Nitrogen Deficiency,4,,test,3472,4640,eacc55e19b4b5f76326df20281842c980cf3de4aed6f5984482bf76a436c71f2
+Dataset/Healthy Leaf/1772179784872.jpg,Healthy Leaf,1,,test,3472,4640,a2963f902d3c7da97bd3f3b4a72ac51ca45ce62e762d27bd9ee51fd33962a719
+Dataset/Healthy Leaf/1772179785758.jpg,Healthy Leaf,1,,test,4640,3472,e74a08de836ec1a6cdcdbdda502db1c12d58b51ccc898465b517107baf141700
+Dataset/Phosphorus Deficiency/1772179969702.jpg,Phosphorus Deficiency,6,,test,3472,4640,3b9af5497f82a0f3e08b763098341aacaeb94f44cbc8c5689411cc32c6789060
+Dataset/Northern Leaf Blight/1772179683936.jpg,Northern Leaf Blight,5,,test,4640,3472,5efe6160fb5d993e21f61076ad3856db4d0366f553740a33ef913c51b8267f63
+Dataset/Fall Armyworm (Insect) Damage/1772179283559.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,b32de9df119231423daee2dad7da8cc1ec90a2379e6b8025d728f2ae753139f5
+Dataset/Fall Armyworm (Insect) Damage/1772179293083.jpg,Fall Armyworm (Insect) Damage,0,,test,4640,3472,1584bd02a8979c1933023af3a962ee0e98fd68065e4aa98ce974d067a02aebf3
+Dataset/Fall Armyworm (Insect) Damage/1772178759543.jpg,Fall Armyworm (Insect) Damage,0,,test,4640,3472,8415c9a41f2745b02b1cca5c4c0e28a93d83314a2e679f6917f775a47fcaa4d3
+Dataset/Fall Armyworm (Insect) Damage/1772179288961.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,c0b58cfe5f7e6f41196020e346c85cab3ba55582c60177d3d09133044107a15d
+Dataset/Phosphorus Deficiency/1772179972354.jpg,Phosphorus Deficiency,6,,test,3472,4640,3eea40b5a1072b1ab191ab2d332300ee9a98b3ffc9e7f31156de41a285d40cc9
+Dataset/Phosphorus Deficiency/1772179967182.jpg,Phosphorus Deficiency,6,,test,4640,3472,bfca312a616eb6b0dacb0671cf6ddc87ee2a2212514b6e4e3a3da810b03e57bb
+Dataset/Leaf Spot/1772179049497.jpg,Leaf Spot,2,,test,4640,3472,e3d5d2cd418d924ba42cca2d710f23f3169e728d5939120493f0308393c4b975
+Dataset/Northern Leaf Blight/1772179680305.jpg,Northern Leaf Blight,5,,test,960,1280,0dccca684e9de8ed39e7272e13690bbb47004e016999d42f57a0521d629a1bf6
+Dataset/Healthy Leaf/1772179785007.jpg,Healthy Leaf,1,,test,4640,3472,7d46e0f0c6c2ce9baba52ed0c9b572a696be96950937511171890b00a0de588e
+Dataset/Fall Armyworm (Insect) Damage/1772178759573.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,bd25143ddf290286b630111f90af4a4762c78c83bb3c29ad08ceb4586c05d5d6
+Dataset/Fall Armyworm (Insect) Damage/1772179290207.jpg,Fall Armyworm (Insect) Damage,0,,test,4640,3472,7fed7a6856fa52f7bbb38ca0556f58d56adddda43613fd550b39cf84f21a4620
+Dataset/Magnesium Deficiency/1772178296093.jpg,Magnesium Deficiency,3,,test,4640,3472,defef0356431dc2c7f41ccc8d278ac94a0e45edb13d6d1b8367ac59279e6bd52
+Dataset/Phosphorus Deficiency/1772179974499.jpg,Phosphorus Deficiency,6,,test,4640,3472,2a52ce17ea47154465c54233a3f96b0f231b933d3308ac2a8ac08bc9e773601b
+Dataset/Fall Armyworm (Insect) Damage/1772178758949.jpg,Fall Armyworm (Insect) Damage,0,,test,4640,3472,da97211ce61435709c3c9fbd382130f05885770abab5ef9789bcfd52868fa428
+Dataset/Phosphorus Deficiency/1772179970377.jpg,Phosphorus Deficiency,6,,test,3472,4640,92e9e207edfce2785610208cc02b17346716cd822d17a3cf90acd8fdc3f1efa6
+Dataset/Nitrogen Deficiency/1772178082087.jpg,Nitrogen Deficiency,4,,test,3472,4640,603c6f11b5540b17789684ae02fd18ec143badc079ec97937e63b004e95a6f5f
+Dataset/Magnesium Deficiency/1772178419659.jpg,Magnesium Deficiency,3,,test,3472,4640,4df971d9870915327c45af41d5778f0dc52fc1353323c7fe1c93c1705cc1b50a
+Dataset/Phosphorus Deficiency/1772179980318.jpg,Phosphorus Deficiency,6,,test,4640,3472,3901611294f37b5f8931ff8a45c7b932fd357115359e563f54d6a5225fd5ee2f
+Dataset/Leaf Spot/1772179050738.jpg,Leaf Spot,2,,test,3472,4640,ef74d4a1426b0bf19ac9084d72762b5c235ee3af4bdb16df9b5a36c18c429429
+Dataset/Nitrogen Deficiency/1772178080808.jpg,Nitrogen Deficiency,4,,test,3472,4640,50221325a54800e091ac0a7fa013c9ec6b4b263f485bd99440190756ad1d4373
+Dataset/Magnesium Deficiency/1772178297642.jpg,Magnesium Deficiency,3,,test,3472,4640,23bbb4768330a6f461c39081ba67d3a3a8ab0376f88c5c98eb8ffba120288c5a
+Dataset/Fall Armyworm (Insect) Damage/1772179290717.jpg,Fall Armyworm (Insect) Damage,0,,test,4640,3472,5cd9b58a9351d6bb426e50177f4152f0d7c2a0ec05477171e509d63b1c059772
+Dataset/Fall Armyworm (Insect) Damage/1772178761139.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,7e5713fff8e6083b5fabb1313f8123cedd711efe8f45d803ea63a6a1afabbe2d
+Dataset/Fall Armyworm (Insect) Damage/1772178762437.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,5eec2b101916a2ef1a0474f399b333f6cc74625cbfa19549cbc757d348d49ed2
+Dataset/Magnesium Deficiency/1772178297412.jpg,Magnesium Deficiency,3,,test,3472,4640,e3e59046345ad8e94a63f9c67282e2471b182dba99c0584a4ee447250d0a0b38
+Dataset/Healthy Leaf/1772179782478.jpg,Healthy Leaf,1,,test,1200,1600,1de9c9cf1dfaf035ca97dc5049c8baafdcd0a705c19fd724c798552de67e76ce
+Dataset/Nitrogen Deficiency/1772178080089.jpg,Nitrogen Deficiency,4,,test,960,1280,bed71bb0e0b004a139327a308d29570da3d5eebc7cc9d84f1b4e745b2476ef1c
+Dataset/Leaf Spot/1772179050137.jpg,Leaf Spot,2,,test,4640,3472,f87ee6ffdf07f58739a11c74e1c64b41671713f54a08de0553388bae437863c9
+Dataset/Leaf Spot/1772179047825.jpg,Leaf Spot,2,,test,3472,4640,beebd226df2036ac77377dd5e7a8a4878f07a3eaf5ea4d63e4c0410d2c830695
+Dataset/Fall Armyworm (Insect) Damage/1772178762005.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,b9f7541a946dfafd741e2ba8d7715efbe4b84582b1d18b583e10e98cf8897c2b
+Dataset/Northern Leaf Blight/1772179526698.jpg,Northern Leaf Blight,5,,test,3472,4640,9122b7cf56c37e309634cb9117819eae2f32beee69495796f05bb2fe2cd9f4b9
+Dataset/Phosphorus Deficiency/1772179968583.jpg,Phosphorus Deficiency,6,,test,3472,4640,990fae36380ad24fd46f83d4f5307a00a3aa95e2aa3f4267c9594e4c5c5cd2c5
+Dataset/Nitrogen Deficiency/1772178082587.jpg,Nitrogen Deficiency,4,,test,4640,3472,7017b00d02edc0ba8d2911e5c88db0401bdcef2045a786a9975025bb49f624fa
+Dataset/Leaf Spot/1772179052306.jpg,Leaf Spot,2,,test,3472,4640,39c740faf4875f8a435d014ca3bcbced51092a3fe175b8bec53c99b5a029fc6d
+Dataset/Fall Armyworm (Insect) Damage/1772179292303.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,15e6fe11956e99ffbc4fabafe526c1ea556dd69c85e5137058c702c3e501f2ba
+Dataset/Magnesium Deficiency/1772178295123.jpg,Magnesium Deficiency,3,,test,4640,3472,3aed3526062158488136242f4fa38ad22ca55679d6bb6dd62eabe395864b56de
+Dataset/Fall Armyworm (Insect) Damage/1772178760501.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,81a631842d11348f4fe9e87f68ec6aa876bddc201bf6a9ece43460b7223e3735
+Dataset/Fall Armyworm (Insect) Damage/1772179291939.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,dba7b1eae3169f92120f241ea17053ffc31f20a02c2f45f7a4a112bfdac1078a
+Dataset/Phosphorus Deficiency/1772179973638.jpg,Phosphorus Deficiency,6,,test,3472,4640,b4606cf8133db49e6d7a50d489c67675b8a950b7f1225890574f59e6ecfc6bbb
+Dataset/Magnesium Deficiency/1772178422270.jpg,Magnesium Deficiency,3,,test,3472,4640,d5ff5648e44af8397dda7ba4fff09a3bdc405a913b0a5df8a1b6b9c6c60d9ab9
+Dataset/Leaf Spot/1772179049798.jpg,Leaf Spot,2,,test,3472,4640,d7b85e0a8dedc2485003af836aee081177ee7d78dd50e08a524780e36945d5f1
+Dataset/Magnesium Deficiency/1772178297467.jpg,Magnesium Deficiency,3,,test,3472,4640,6a459b01c9cfedec4913c126e4c9a4ab7fcba3e330d8041347a15b90a112e20c
+Dataset/Northern Leaf Blight/1772179682645.jpg,Northern Leaf Blight,5,,test,3472,4640,18cf7501d62f1cff347c5762e78f92b6cd7330b931bdfd7894aaf6228e3cb09e
+Dataset/Phosphorus Deficiency/1772179977695.jpg,Phosphorus Deficiency,6,,test,3472,4640,15de44f40520417ca3b23ac709eb778a290ccb1956a591c34db473be664d6d3d
+Dataset/Nitrogen Deficiency/1772178081434.jpg,Nitrogen Deficiency,4,,test,3472,4640,19dfae2a14725710379b54f2a9a27c131bd73ff0f0df5eac2180fea0fae42561
+Dataset/Magnesium Deficiency/1772178422058.jpg,Magnesium Deficiency,3,,test,3472,4640,1824a22d97a0b1d7699894e3dc23a09149f8d04d57b93c538f969ddfba887842
+Dataset/Magnesium Deficiency/1772178296387.jpg,Magnesium Deficiency,3,,test,3472,4640,55ea77acc78cb88fa3989ce34cfd8cf04527070df7f02301c5e0a4b0e3d9898d
+Dataset/Nitrogen Deficiency/1772178082508.jpg,Nitrogen Deficiency,4,,test,3472,4640,3fc2e530742377c4c37868ce017a32e96603f2c09e39b8becf514591ec6c607a
+Dataset/Leaf Spot/1772179052403.jpg,Leaf Spot,2,,test,4640,3472,a6cb2320267118372556a74ce55f5ae152b7fe7189bb1d0dd23bf485a6f363ad
+Dataset/Nitrogen Deficiency/1772178082797.jpg,Nitrogen Deficiency,4,,test,3472,4640,1251c7a51a9c4e5cc9db81cacce59d936429152ca960dd76394c94de2a062f20
+Dataset/Phosphorus Deficiency/1772179974238.jpg,Phosphorus Deficiency,6,,test,4640,3472,bb783b9919f8b1ae813033b4af566a7d87968a7baa9b3841a65353904c6d7e35
+Dataset/Fall Armyworm (Insect) Damage/1772178760050.jpg,Fall Armyworm (Insect) Damage,0,,test,4640,3472,c769ceb6a153693944171a223d5bd01d7ec5e852483afdf81e4578499cd01c2c
+Dataset/Magnesium Deficiency/1772178300012.jpg,Magnesium Deficiency,3,,test,3472,4640,aa2a54c011de9b1ab4767734e7c82265a5946eb364b168aa760e5122f6209f6b
+Dataset/Magnesium Deficiency/1772178296338.jpg,Magnesium Deficiency,3,,test,3472,4640,26b8ffab1a29fa21c6492cdaa989279bcf1c1ccf900a0508e635b14d4570e080
+Dataset/Healthy Leaf/1772179792886.jpg,Healthy Leaf,1,,test,3472,4640,c550a76da21679bac1ea56d6d4f5258d45a45ed2bf244523f275b0f39299aa72
+Dataset/Healthy Leaf/1772179787892.jpg,Healthy Leaf,1,,test,960,1280,0f8584a537f7fbd151a3c9ceca6cd8f4878399a3c2ac5b90d9464f600a3483a6
+Dataset/Nitrogen Deficiency/1772178080154.jpg,Nitrogen Deficiency,4,,test,1280,960,fc64115149ca1d6e72f4202b5f2de672f0149fdd44a8115a0dc02e556ef38c28
+Dataset/Leaf Spot/1772179052714.jpg,Leaf Spot,2,,test,3472,4640,8723eba3146418ddc601a57575dd70fd043b14f03174d193d5ad7db1341aee6c
+Dataset/Leaf Spot/1772179049320.jpg,Leaf Spot,2,,test,4640,3472,668f6e569d31627a7ed45635f4d7e496a35b21123a126dd96eeda9fb79cca0e8
+Dataset/Nitrogen Deficiency/1772178082972.jpg,Nitrogen Deficiency,4,,test,3472,4640,6690151bb46bf847fdc3350bd5f1d3f63a4ae3f531c337f14a1cd72f69c07213
+Dataset/Phosphorus Deficiency/1772179976666.jpg,Phosphorus Deficiency,6,,test,4640,3472,41d6a2083a1b188466f01914ba18fdfb18f33fe89a46494683bf7fd80f8027e9
+Dataset/Leaf Spot/1772179050097.jpg,Leaf Spot,2,,test,3472,4640,f52355da901f85a9ad6b6d370ebab86c3a0b0e4dddb69c5ce0b06d771188e891
+Dataset/Fall Armyworm (Insect) Damage/1772179289333.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,4896033ea684c772f529bb12fff03a988d0f88889f41997aac2861f20b7a6d3f
+Dataset/Fall Armyworm (Insect) Damage/1772178763340.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,4eea2f0c62ddf5d4117c129be658dbd1576463c504a7a5f47514a48f5543784c
+Dataset/Leaf Spot/1772179047556.jpg,Leaf Spot,2,,test,4640,3472,54c423e39d23464a81c199442109bab059a90164e6f17cc7b0a7aeb1de1f5260
+Dataset/Leaf Spot/1772179048115.jpg,Leaf Spot,2,,test,4640,3472,0ad6efa3e4392f6245f6edecb00a14d39402fc4afbdfc6d3546d0eb09b1d3d02
+Dataset/Healthy Leaf/1772179783480.jpg,Healthy Leaf,1,,test,3472,4640,4af09f66e1b87db7f89e7201a33e594165c79df8ad7c5d3d15fd4b98b70604b8
+Dataset/Phosphorus Deficiency/1772179976575.jpg,Phosphorus Deficiency,6,,test,3472,4640,6fce7ba4db08e46aca28ead7f2cc46bea081243197dfffe8824001968cac80d6
+Dataset/Fall Armyworm (Insect) Damage/1772179285740.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,64795863de54ddfdba73c923a85b611a4055934c278e4617f48484a6565b3cd7
+Dataset/Nitrogen Deficiency/1772178079821.jpg,Nitrogen Deficiency,4,,test,960,1280,613291122aec606b3773f545e0257ece373a6814c0ac8bb9193d93a8964cf59e
+Dataset/Healthy Leaf/1772179786649.jpg,Healthy Leaf,1,,test,3472,4640,a89411274e29934a331c4095c74d4df9c8e1fafb5d0456bebfc9a155d431cd61
+Dataset/Healthy Leaf/1772179782184.jpg,Healthy Leaf,1,,test,1200,1600,04b19336e140df2d96923a38821de2898a3ed963a119eb63cf4fbb7540320c99
+Dataset/Phosphorus Deficiency/1772179971798.jpg,Phosphorus Deficiency,6,,test,3472,4640,366c106075026e416674368df1ce52d61796d3993373a9875513f824a92c09f4
+Dataset/Northern Leaf Blight/1772179680891.jpg,Northern Leaf Blight,5,,test,960,1280,b98ef28118ab83632d71dd492b78e2c1030b4008cb9d1a3e1f61adcc4d68e8f8
+Dataset/Fall Armyworm (Insect) Damage/1772179291924.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,16cd048f3e0197bd5e226cb086acf039cfcfd377830888a5038cf3432e256463
+Dataset/Fall Armyworm (Insect) Damage/1772178760864.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,9fa418f11699912228e087a051aab9dfb7ba54325717997368133c17755fd5ee
+Dataset/Leaf Spot/1772179047418.jpg,Leaf Spot,2,,test,3472,4640,bf22a945e04e6b223fa8a21a6771bc3911a1b2198ba81bcdb7c0f389fee824a4
+Dataset/Nitrogen Deficiency/1772178080981.jpg,Nitrogen Deficiency,4,,test,4640,3472,98414987fe3a8e5bdaf4a91b68786b4acdff0008df604de5746cea6ddd4d4847
+Dataset/Magnesium Deficiency/1772178420993.jpg,Magnesium Deficiency,3,,test,4640,3472,2e317a19d19bfb5c8414afbb07cf7886965d7729358ba99b6bb890d48354fb7a
+Dataset/Northern Leaf Blight/1772179521466.jpg,Northern Leaf Blight,5,,test,3472,4640,140ffedc98b1bfb0c533c00406177c503f64e7dc1a3f4d3743ff55a353212a25
+Dataset/Leaf Spot/1772179051091.jpg,Leaf Spot,2,,test,3472,4640,7022b187f350d1c20392cff060b9bd9673ae8d48259f169be393db6d98567018
+Dataset/Fall Armyworm (Insect) Damage/1772178760355.jpg,Fall Armyworm (Insect) Damage,0,,test,4640,3472,4871f3485587db49f42f9f267f8a3950775bc8ec2aa3a2b10dd9366b3eab32ea
+Dataset/Northern Leaf Blight/1772179680150.jpg,Northern Leaf Blight,5,,test,960,1280,fed0929eedd313fd5e5b29b36f6d2e10351190e6df45beaa04333459f6bc3eed
+Dataset/Northern Leaf Blight/1772179526858.jpg,Northern Leaf Blight,5,,test,3472,4640,75cf5a64e6ccfac193d84c04bfacd0441d2431906c9a3fb78435adf60dd37d90
+Dataset/Northern Leaf Blight/1772179525765.jpg,Northern Leaf Blight,5,,test,4640,3472,83b35ef8ebe48f7886e5cd230addbafb5e606add7a8deb95a2be241a9dc6cf73
+Dataset/Magnesium Deficiency/1772178418876.jpg,Magnesium Deficiency,3,,test,3472,4640,056db98e783e2e5b3b0a2dfb534d9f83167f483601490dd66b0748d870981f95
+Dataset/Leaf Spot/1772179049332.jpg,Leaf Spot,2,,test,4640,3472,7dc19d27cb9296ecc92ff558a0d3e426405c22d038c18cdeda8de55048c3fb00
+Dataset/Fall Armyworm (Insect) Damage/1772178761894.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,d3d1c7b6eb5065ae51195ad17e3d11da774b4ce3cce205e42aed1094b9cc34af
+Dataset/Magnesium Deficiency/1772178298704.jpg,Magnesium Deficiency,3,,test,4640,3472,eb83b5d8435b05b54f2a06f9d084aa2ad6639d99fa1737f9e2fbbb361459f95d
+Dataset/Northern Leaf Blight/1772179680934.jpg,Northern Leaf Blight,5,,test,960,1280,4a73aac560f09d72e21c914fd83cda3dca5fce29912e16b075997f39546590bf
+Dataset/Fall Armyworm (Insect) Damage/1772179288321.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,52be620010e230eeea3bbd87752381739eb2f7ebe5a63732beebbdd4c930a321
+Dataset/Northern Leaf Blight/1772179524850.jpg,Northern Leaf Blight,5,,test,3472,4640,f0f11926525d2e524eb758e0523547c3f83950d46915f836ef5d2efea3a48262
+Dataset/Northern Leaf Blight/1772179680797.jpg,Northern Leaf Blight,5,,test,960,1280,034a7075d90c97aa4f4dd7dbe83fc89799265ba0e62659b4674a6f2ed0c7a268
+Dataset/Healthy Leaf/1772179785667.jpg,Healthy Leaf,1,,test,3472,4640,008bcd0e81fde8b895e3dec03f101596a7d55cb5a903c083b0e25deb90b25518
+Dataset/Phosphorus Deficiency/1772179971989.jpg,Phosphorus Deficiency,6,,test,4640,3472,d7ad0499812c06168cac20317fd6c5a109719a113f6114dc4e6eb57f15f06a21
+Dataset/Leaf Spot/1772179052073.jpg,Leaf Spot,2,,test,4640,3472,1f6d239341118c5ab4635782886c2e8d2dfe09f22d98043e5b3b665400c4ab5c
+Dataset/Phosphorus Deficiency/1772179973668.jpg,Phosphorus Deficiency,6,,test,3472,4640,0083ee9c969cea1ab300732a29a2b3bc03a860ea325052d965042a5e607a9364
+Dataset/Nitrogen Deficiency/1772178081401.jpg,Nitrogen Deficiency,4,,test,4640,3472,2e118fea436290259fa9742eb7116fbb77e30a8dd86e42f29f4302921b5109ad
+Dataset/Magnesium Deficiency/1772178419686.jpg,Magnesium Deficiency,3,,test,3472,4640,d7ae78427d95eaf04dddcddf5a08e0ea70e0978036fac880de175a565abde8e0
+Dataset/Magnesium Deficiency/1772178422737.jpg,Magnesium Deficiency,3,,test,3472,4640,820e252f6f3525bbb504a16f2adbca0b3c36f8b03068ee6ca858d414f7ad6659
+Dataset/Magnesium Deficiency/1772178419817.jpg,Magnesium Deficiency,3,,test,3472,4640,65c659978b5930d662857af750275f61c6cf59e1992f5ed7f155bdc837f7a761
+Dataset/Nitrogen Deficiency/1772178083161.jpg,Nitrogen Deficiency,4,,test,3472,4640,42890670f0e812f329336ec23576a02b87ac6ef37f5a8f19d2b15e95672e48c7
+Dataset/Fall Armyworm (Insect) Damage/1772178762876.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,a98527f3c97f0c0d8032d481ecde3500bd54c9519aa96c6332ace08c685d2e02
+Dataset/Leaf Spot/1772179050016.jpg,Leaf Spot,2,,test,3472,4640,5cf1764345bd4fa84c00b886699e7b8c26280fb334ca8d8a5862f1c0f3a06d53
+Dataset/Leaf Spot/1772179051674.jpg,Leaf Spot,2,,test,3472,4640,511d71d51fd5b89abb7a947fdd733e8f18b6448f9295204601ad347fbf50b66c
+Dataset/Northern Leaf Blight/1772179680136.jpg,Northern Leaf Blight,5,,test,960,1280,61d7708cdda8fcb7ce02e6fa2147bf63249295dcaa925ad739b90dbaf8652bd2
+Dataset/Fall Armyworm (Insect) Damage/1772179286037.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,93d3fbfebeb137cc62a74e625851a9f1edc2bdbb96623524e6996fb0bb0b55be
+Dataset/Healthy Leaf/1772179789690.jpg,Healthy Leaf,1,,test,3472,4640,dbe661af54c22c8ab59f8edebacc5de4034e34c680d2583e2daef58673fba46b
+Dataset/Fall Armyworm (Insect) Damage/1772179290500.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,5a6c3afec93d3389eb48e1d70466695d1ac7ecaddb91128b7c60d29a04c3b6d1
+Dataset/Nitrogen Deficiency/1772178081259.jpg,Nitrogen Deficiency,4,,test,4640,3472,ccfff060310ebf5bf19c53c34428faf85720d8ddcc757c89c1e933888628e6ad
+Dataset/Nitrogen Deficiency/1772178080257.jpg,Nitrogen Deficiency,4,,test,960,1280,cc0a3df91456474144e3708fc1e452cdf45ce6b8dd89caf2ecf97112b098bd56
+Dataset/Leaf Spot/1772179048144.jpg,Leaf Spot,2,,test,3472,4640,97fa6b9c4c21aebb4b3c5d1b9388665a569acd5a88f64e63f1ed059497f9b57a
+Dataset/Fall Armyworm (Insect) Damage/1772179284615.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,e4f47c46685d59b15b78a284935edfbf2246d21443173bac90258797d87107c8
+Dataset/Fall Armyworm (Insect) Damage/1772179284083.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,842d7bd5c35ae96a752743149ab42a549733dbcf25cb2b43b997346601a53f3f
+Dataset/Fall Armyworm (Insect) Damage/1772178762781.jpg,Fall Armyworm (Insect) Damage,0,,test,4640,3472,c4ecee85e382b808e82215aa5bb822abee202564cfcc6aed5891793c9372d642
+Dataset/Northern Leaf Blight/1772179682983.jpg,Northern Leaf Blight,5,,test,3472,4640,3b9efe79c86e46cab717e22f5683e5f2fba06a644ca8998487c0feecca25918c
+Dataset/Magnesium Deficiency/1772178296744.jpg,Magnesium Deficiency,3,,test,3472,4640,ace2e3e3257bb87ed54ce59fb49fa5cc52f8c12a332f6b2e2ab27e78fed39a8b
+Dataset/Healthy Leaf/1772179783615.jpg,Healthy Leaf,1,,test,4640,3472,7ff925c0291f1f735f62a6625df460314c94a074c32d23e92881f0b8d9dba826
+Dataset/Magnesium Deficiency/1772178299276.jpg,Magnesium Deficiency,3,,test,3472,4640,3a81a00e8cd6f034ff22cfbc2a5d343729e80cb6f4434b563491460e31d5bd0a
+Dataset/Northern Leaf Blight/1772179527188.jpg,Northern Leaf Blight,5,,test,3472,4640,e9e4c3b3010aa5a3f6d55ca1743f087e6f9bd90d3e923a2c0873c629bf66e001
+Dataset/Phosphorus Deficiency/1772179978369.jpg,Phosphorus Deficiency,6,,test,3472,4640,f50069398de72574bd5330030cb8a5c0f999afad76b0c664bb561c0ab4fd9538
+Dataset/Fall Armyworm (Insect) Damage/1772179291200.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,2dbc3ab78efd3d783120fc5c4b1eee2f7e4fe9eb1b2c3091a220dbfcffbd2ba9
+Dataset/Fall Armyworm (Insect) Damage/1772179289990.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,c4a1e353ea8fb1fc69500b5448b095f85891a8eb8de18a0707246efa6867b16e
+Dataset/Magnesium Deficiency/1772178418168.jpg,Magnesium Deficiency,3,,test,3472,4640,4df62ac207019beeb2c4efce78a296b680c7fab2916f514f37a875e6e76e4032
+Dataset/Healthy Leaf/1772179789866.jpg,Healthy Leaf,1,,test,3472,4640,3f93b3ac0c633dc9d553a174dc9384534ebaa278c4ca2464bdc23cad083e7f67
+Dataset/Nitrogen Deficiency/1772178082172.jpg,Nitrogen Deficiency,4,,test,3472,4640,dfafa830ed2577f8c3dc04b4963ac46e82ae0dc86602ae877f75fc5f096c9ad2
+Dataset/Fall Armyworm (Insect) Damage/1772178762707.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,a1ab2eb27a4121df7a73e807dd160b012ef0bac3521b18970f1380a2d0752ae9
+Dataset/Healthy Leaf/1772179784853.jpg,Healthy Leaf,1,,test,3472,4640,fc11869c1f6be453906295c89c340a2bb4d4acf85cc006db3b9b4a442772ae1d
+Dataset/Northern Leaf Blight/1772179681471.jpg,Northern Leaf Blight,5,,test,3472,4640,d8cfa196372a4308740e8f316ffa6a3d0446fa896ca279e70072a595baddcffb
+Dataset/Magnesium Deficiency/1772178297775.jpg,Magnesium Deficiency,3,,test,4640,3472,aa747fc770aff303923bf81eba98e8340d3183a187ee170198146c13bcd0c9fd
+Dataset/Phosphorus Deficiency/1772179977591.jpg,Phosphorus Deficiency,6,,test,3472,4640,cb9d9bcfecb09ad7ed2d2685334629d0e5a66fac6e9ad1f81d7472ebd8bb30b4
+Dataset/Magnesium Deficiency/1772178296488.jpg,Magnesium Deficiency,3,,test,4640,3472,9355b9f77f4314f86abe786381f835232d5482116e250c106739c63b34f3de51
+Dataset/Northern Leaf Blight/1772179526203.jpg,Northern Leaf Blight,5,,test,3472,4640,903ae6c76ff5d7c1b9ad3295af69405e4a82df5df4cc14fdfbfa4349e5f243bc
+Dataset/Northern Leaf Blight/1772179682953.jpg,Northern Leaf Blight,5,,test,3472,4640,9100cd6f55fdd47fe513fee79bcf50862388b3f68075e44ee275a2ea1e59159a
+Dataset/Magnesium Deficiency/1772178298848.jpg,Magnesium Deficiency,3,,test,3472,4640,8b23b289d9bd3860f010080ea86f889530fc70893b276d651d2dce1c5de8d657
+Dataset/Magnesium Deficiency/1772178295763.jpg,Magnesium Deficiency,3,,test,3472,4640,901209e2cb8ee8ac1879ee506a2a65e1af125e7b7ecc1580527883b3197710c5
+Dataset/Magnesium Deficiency/1772178299996.jpg,Magnesium Deficiency,3,,test,3472,4640,45e90c4d14b9b68feb656efb0d0c17e3cf80c7eb87b15361d16c4b53573eaedc
+Dataset/Fall Armyworm (Insect) Damage/1772179290358.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,2c34e8ac828c45be863407a373a377c294871d78d0abc87f487b44366f75ffb5
+Dataset/Fall Armyworm (Insect) Damage/1772178761630.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,d818c21b4b63f2e879738ec1ce02211a51a3f0effd19e71dea8b05bb41bbb7fe
+Dataset/Healthy Leaf/1772179781413.jpg,Healthy Leaf,1,,test,1200,1600,06608ff144556cd549293dbdb0db3056aaf41caaa6bdcb69839ff77fd8acb118
+Dataset/Fall Armyworm (Insect) Damage/1772179282994.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,23565dd96d2dafd484caecf0193ea70926bf770970599d4678c2a3c26aebd519
+Dataset/Fall Armyworm (Insect) Damage/1772178760302.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,50db95a3b9c151f30f6abc46586a6f3684b6c004658dc799f9b4bb393dc42323
+Dataset/Phosphorus Deficiency/1772179973161.jpg,Phosphorus Deficiency,6,,test,3472,4640,9ba0317de52a4c34935ee22b5ecc348b9a911bea8b882e9c052b767f125dc336
+Dataset/Fall Armyworm (Insect) Damage/1772179283638.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,71381849df60e91958d3f2cce280f253eaca717d9b9a29284d48bdc14b286d59
+Dataset/Phosphorus Deficiency/1772179973902.jpg,Phosphorus Deficiency,6,,test,3472,4640,729f5fc1ce7f1233d7aae89a0e2cd2004be3e95437f59472b4139bc92ce53b32
+Dataset/Leaf Spot/1772179050167.jpg,Leaf Spot,2,,test,4640,3472,fac86e183f272ff2bd7e349962a554c5036c0edc5a9f03dafb5a194c86262e3d
+Dataset/Nitrogen Deficiency/1772178081743.jpg,Nitrogen Deficiency,4,,test,3472,4640,bd9442b3227b2faa9c82beb5dd310d20d91cf58baba0e6055e9e50ec1f4263b7
+Dataset/Healthy Leaf/1772179790226.jpg,Healthy Leaf,1,,test,3472,4640,5bc554e98d9e7fe99f78e57bf63eb2d41ee293c6f7e2194055a4f27ae67f8030
+Dataset/Magnesium Deficiency/1772178296570.jpg,Magnesium Deficiency,3,,test,3472,4640,e38568634894523191c5edebbdcbadb4ed1a60ea7e12852e4c7fc194eed630de
+Dataset/Healthy Leaf/1772179781291.jpg,Healthy Leaf,1,,test,1200,1600,3789a48db3cdb0518465263d58c5ce133734caff34633a42734a42758f414051
+Dataset/Healthy Leaf/1772179780891.jpg,Healthy Leaf,1,,test,1200,1600,58b1277e80b9d57ab01794baf0f8ffd64dd2fc9c6958e97b715fb60f548bd274
+Dataset/Fall Armyworm (Insect) Damage/1772179290245.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,275a93bfd3039508a2a0a108fa768701eb8c140e2c4c8c9f0866b29b155c1508
+Dataset/Fall Armyworm (Insect) Damage/1772178759296.jpg,Fall Armyworm (Insect) Damage,0,,test,4640,3472,d716e39aa3a209a84156d1591534c039793f0b3e302947e7af82924ca9642a4b
+Dataset/Healthy Leaf/1772179783928.jpg,Healthy Leaf,1,,test,3472,4640,8ac4711e3ce6d53dfc46d88aae258d4cc3123c2e7f376a4bc66fe14bee4e991a
+Dataset/Fall Armyworm (Insect) Damage/1772178760248.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,92f069224a55fe1fdc41f24cb6c56ed99d1a2e22d2d2922e139306f4559797df
+Dataset/Magnesium Deficiency/1772178422595.jpg,Magnesium Deficiency,3,,test,3472,4640,40881e04e8a52887d8a8452c3a8ec235539581039e39f4e54ba873bc7eaf8d2a
+Dataset/Northern Leaf Blight/1772179524661.jpg,Northern Leaf Blight,5,,test,3472,4640,8f7fefbb73a88fd98ba99660274dd3cb858b5a3703ff6f8ff82f0916f0f4cdb2
+Dataset/Nitrogen Deficiency/1772178081900.jpg,Nitrogen Deficiency,4,,test,3472,4640,04acf125292c2fd8595294d40d0147b21fd50ab8bd3b7763c287b686982fc71c
+Dataset/Magnesium Deficiency/1772178296063.jpg,Magnesium Deficiency,3,,test,4640,3472,9230ac13982213244b835f8c8615a363175f74348bbe3fda085517bf649f882f
+Dataset/Phosphorus Deficiency/1772179976929.jpg,Phosphorus Deficiency,6,,test,4640,3472,82ccf9c59ab41bdf253223c018a4622423f7829c39b1155576a4f82bb33e054a
+Dataset/Northern Leaf Blight/1772179524540.jpg,Northern Leaf Blight,5,,test,4640,3472,ec96410fec33777e2bb83b10ad828649b29ef9479d76dea8bf72d54f79a37ce0
+Dataset/Nitrogen Deficiency/1772178079997.jpg,Nitrogen Deficiency,4,,test,960,1280,49400da5e5fb24577b3c15cd4c853d7dcad96ce44f1c21b31f2e42e8e69c0947
+Dataset/Magnesium Deficiency/1772178296682.jpg,Magnesium Deficiency,3,,test,3472,4640,54321b48abe692bf87d4379831867d003092312f99c01aee07026613c2e5130c
+Dataset/Nitrogen Deficiency/1772178081867.jpg,Nitrogen Deficiency,4,,test,3472,4640,76ca1351ec1a35798b46c1ab8d5466a3f766e09ed81fd8f4fd21359d577accd1
+Dataset/Magnesium Deficiency/1772178420612.jpg,Magnesium Deficiency,3,,test,3472,4640,be7d9ecc2c6b1d26c8650c691c955dd7288a2b073a3d25b617114738df940768
+Dataset/Fall Armyworm (Insect) Damage/1772178763019.jpg,Fall Armyworm (Insect) Damage,0,,test,4640,3472,38b5516545cbe2b89b3e90cbe81d555dfa483df264995c880353ca0e085d4683
+Dataset/Fall Armyworm (Insect) Damage/1772179291029.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,4faf30a21c6b87723acd8b8e2483f926ba1e7097068a39ee1cfbebd2174fbc06
+Dataset/Leaf Spot/1772179047360.jpg,Leaf Spot,2,,test,4640,3472,5b5740b17051c63dd7903a6641431684c34410d45c45bce4ba443e9b3a097aa9
+Dataset/Healthy Leaf/1772179790285.jpg,Healthy Leaf,1,,test,4640,3472,4fc250fd706c2c8dd9b72172978844f092614cdd985c81ba6819a34a552d503f
+Dataset/Phosphorus Deficiency/1772179970240.jpg,Phosphorus Deficiency,6,,test,4640,3472,fd1651645e74f941dd54e7ffcd2e89b2e93c28552a5ea62e5772c84b973e29bf
+Dataset/Magnesium Deficiency/1772178297062.jpg,Magnesium Deficiency,3,,test,3472,4640,d00162280ef4e0b8436b8a277719e94dc0140537e894551427287f57a9ce786c
+Dataset/Northern Leaf Blight/1772179681767.jpg,Northern Leaf Blight,5,,test,4640,3472,62afea34a79641ca573ca7c097535015c6d65192538db7712aa0a166ba3bc7f6
+Dataset/Nitrogen Deficiency/1772178081671.jpg,Nitrogen Deficiency,4,,test,3472,4640,eb15ff7f710d76444702a7559b745fd5865f7a9ffda8932c8090aca3884ff230
+Dataset/Fall Armyworm (Insect) Damage/1772179288249.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,05c0b851155e18e84d740874916623852d45eb8d7cc087d67f73886e99af8a30
+Dataset/Phosphorus Deficiency/1772179980720.jpg,Phosphorus Deficiency,6,,test,4640,3472,fea2de2ff9013db0a2195995695bd0f9d78ac2ba41f4f07db2bf88e6061bd2f3
+Dataset/Fall Armyworm (Insect) Damage/1772178760922.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,fa83c5239af0232842a7cf828787e666063c9c3fff304f4bbe349292c386aec2
+Dataset/Fall Armyworm (Insect) Damage/1772179288702.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,226d6e4c1a0f4e11d822834b5ed3d4270b6b66993bf7472581f18f311f04c1f9
+Dataset/Magnesium Deficiency/1772178297321.jpg,Magnesium Deficiency,3,,test,3472,4640,cd81532b4771fc54fb73ce3a34b510395a684f3acd2d5f6215627e5c8832af03
+Dataset/Phosphorus Deficiency/1772179969347.jpg,Phosphorus Deficiency,6,,test,4640,3472,6c4800f3cd152c1ab47060dfe366d590d61c0d55c6138a036d72744fd3de726f
+Dataset/Nitrogen Deficiency/1772178081478.jpg,Nitrogen Deficiency,4,,test,4640,3472,0c3812ec78a10bdb75c07a79c37fc2561452d8740947d78043486cea79991a59
+Dataset/Phosphorus Deficiency/1772179969033.jpg,Phosphorus Deficiency,6,,test,3472,4640,443a55186fce20b14e9a0af87d1bf8d837b728221c1f61c4d9dba3ff075d27a4
+Dataset/Leaf Spot/1772179047811.jpg,Leaf Spot,2,,test,3472,4640,68e060b46f3e3adb2a6467c4ef2ac32c691d164e54ac0eca67d06f8afe8d4c0d
+Dataset/Fall Armyworm (Insect) Damage/1772178759735.jpg,Fall Armyworm (Insect) Damage,0,,test,4640,3472,bd3639868666eb03d68f9fa397b9f874f0233e7f6970cc494d6ee18d445e6d32
+Dataset/Nitrogen Deficiency/1772178081591.jpg,Nitrogen Deficiency,4,,test,3472,4640,2818c82b5092ef4f243bb6e01463c33f2445b28309c250cc2587a4925de57cd9
+Dataset/Fall Armyworm (Insect) Damage/1772178762242.jpg,Fall Armyworm (Insect) Damage,0,,test,4640,3472,7075e582759ec8f9c6d1c11fe452b3dc14bf32906ae9f09556c5172ff906a4f1
+Dataset/Phosphorus Deficiency/1772179978789.jpg,Phosphorus Deficiency,6,,test,3472,4640,2cab9fbe73e5dd0b87cf99ee9f40c1e06933e1320980727b0e9ffc0a4996dee6
+Dataset/Phosphorus Deficiency/1772179971526.jpg,Phosphorus Deficiency,6,,test,3472,4640,85eef6d68cd157e67bab7b748a68314666c54af38c75b98a35d2aad5a6071980
+Dataset/Magnesium Deficiency/1772178295838.jpg,Magnesium Deficiency,3,,test,4640,3472,334df53f688541cc6f76786b3930896e95c6eec1173a4671d49abfff9b1f66a8
+Dataset/Northern Leaf Blight/1772179521858.jpg,Northern Leaf Blight,5,,test,4640,3472,c5e8215da4b18f8c1647c4511661d79ac66ac38c4a579c5216aaab19159385c4
+Dataset/Fall Armyworm (Insect) Damage/1772179292864.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,ca7e8ae919b7c5c13bd942a002f8ce9a1cf1137874106ae1fe7c2727721514e5
+Dataset/Northern Leaf Blight/1772179521782.jpg,Northern Leaf Blight,5,,test,3472,4640,85a31360ea267c2ce9d0b22a6889c8190523f2a45639adba20d2af6cba3d29fe
+Dataset/Nitrogen Deficiency/1772178081065.jpg,Nitrogen Deficiency,4,,test,3472,4640,80c430254867b8ab2b445efa17216beb8c50d980bb8c6515d004ce58001c171b
+Dataset/Fall Armyworm (Insect) Damage/1772179289240.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,7002a46f8729ddb73b130d52a1246626bea3b8f07f0d0eef7a3aaf2a897c8447
+Dataset/Healthy Leaf/1772179789668.jpg,Healthy Leaf,1,,test,4640,3472,0549dc53285bc0a357a15b553698ac033b38cbd6360f4918994c0a69cf30e1ed
+Dataset/Nitrogen Deficiency/1772178081876.jpg,Nitrogen Deficiency,4,,test,3472,4640,57a922d602d0d941bf8f1c963644f96d5081f0c3be734b3ccb7a9a8e29577c4d
+Dataset/Healthy Leaf/1772179790497.jpg,Healthy Leaf,1,,test,3472,4640,ccee6f870303a03de7a3adf96cc78952fd288c154774ea05660f57c3f77b39a7
+Dataset/Phosphorus Deficiency/1772179967330.jpg,Phosphorus Deficiency,6,,test,4640,3472,69f2c04721c6707a4d1740a3f3ddd092184d62c4a73d1ccb003b96d09b34d781
+Dataset/Northern Leaf Blight/1772179681798.jpg,Northern Leaf Blight,5,,test,3472,4640,2d229a4fd020ac204a1fc121e917348ce2bd26a3d87174a1645dc068799d75d0
+Dataset/Nitrogen Deficiency/1772178081751.jpg,Nitrogen Deficiency,4,,test,4640,3472,ced1cc30b7fdfb8db38f421f6780e4e394cb3c0613d326fda367fc0883b25f07
+Dataset/Northern Leaf Blight/1772179525489.jpg,Northern Leaf Blight,5,,test,3472,4640,f390ee0e6130557d177e8a8ae91a540a85240312ff28850ef87d691faa5bc48e
+Dataset/Healthy Leaf/1772179790038.jpg,Healthy Leaf,1,,test,3472,4640,ac69e757b5d3b884ffce2873d1c4e4c0040dbe6a1760ff5c17c53c884ff93e40
+Dataset/Fall Armyworm (Insect) Damage/1772179291276.jpg,Fall Armyworm (Insect) Damage,0,,test,4640,3472,f25a953213922dfa1c80172f318becdb57065d743177e5b871ffe052f8f4c567
+Dataset/Fall Armyworm (Insect) Damage/1772178760235.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,a1a492fea8f0f1626e0b0fe218a05975f599ca2e147884ba5728007f8ac6847d
+Dataset/Leaf Spot/1772179047231.jpg,Leaf Spot,2,,test,3472,4640,615e22b6393e3005aa3553bc5a792743443a05b22ac26766dba3aebf5163579a
+Dataset/Northern Leaf Blight/1772179526291.jpg,Northern Leaf Blight,5,,test,3472,4640,8b6be940aaf2aafb866ac6a67ce4a2a29297e8581d07bd4d66e06733b2f88a05
+Dataset/Leaf Spot/1772179050520.jpg,Leaf Spot,2,,test,3471,4641,e909d1494dbd527a16bb3fceaa850672a55de1ae756bd6579d5c48980dfa2fcc
+Dataset/Northern Leaf Blight/1772179683527.jpg,Northern Leaf Blight,5,,test,4640,3472,155e74d40512c1d2d7a5f0e84d0ffa5c6fb1fedb45aec07ef0ca081b94102827
+Dataset/Fall Armyworm (Insect) Damage/1772178759875.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,c17b18c850b063646f7c15ec4a1ea883b4a70cc37a61a63704adb6b64d67ef5c
+Dataset/Leaf Spot/1772179052100.jpg,Leaf Spot,2,,test,3471,4641,3c88c9adc20f8eb53799b91d9b918bd4750b5819943b5dd97a4dbbf1cce5baf9
+Dataset/Leaf Spot/1772179052272.jpg,Leaf Spot,2,,test,3471,4641,dce6c280b420aa8ca288090a62b346306a8a5c0e6e0c7cae1f8873ceca8fdfd5
+Dataset/Fall Armyworm (Insect) Damage/1772179292526.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,eefd306414e2b6eeb7f261d02b1aca5312ec064c24ea2c175645096c50f3dc32
+Dataset/Northern Leaf Blight/1772179522733.jpg,Northern Leaf Blight,5,,test,3472,4640,138f3b60470f6087c2b7a9a7699f27f615226ded092677bae6ef6d152c82419a
+Dataset/Fall Armyworm (Insect) Damage/1772179289205.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,3bc722be40f001ac565609082851209af1d16945206c8c04a31ffc99ebb021c4
+Dataset/Phosphorus Deficiency/1772179968626.jpg,Phosphorus Deficiency,6,,test,3472,4640,712f321336cad42bd12673e4c5f039d4637d48cb9a7a9669b9cfb3d393cf80dd
+Dataset/Phosphorus Deficiency/1772179971636.jpg,Phosphorus Deficiency,6,,test,3472,4640,324c13107c9724f50aad5a6b63862f95f4701f83d238b8785c6a7c60c14a2808
+Dataset/Nitrogen Deficiency/1772178081090.jpg,Nitrogen Deficiency,4,,test,4640,3472,eac4e4ab0c80c6984ceeb8ab1bfef254c57a61d5053f141f675eb6e59f9061a9
+Dataset/Phosphorus Deficiency/1772179976907.jpg,Phosphorus Deficiency,6,,test,4640,3472,fa229e89bd3b14b65b3e1d294621cff4f99af746995df00c748f8849caf86ef9
+Dataset/Phosphorus Deficiency/1772179977451.jpg,Phosphorus Deficiency,6,,test,3472,4640,bcc8c25bf54e57e6b39938fdf96fc0f6a4d547ca2af2215033bdfaa7ce45825d
+Dataset/Fall Armyworm (Insect) Damage/1772179292242.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,7423f6b0d36ca6d2b6bace714d50a2a0e89b2be90d6571431d5e5cdf36c304d9
+Dataset/Phosphorus Deficiency/1772179973216.jpg,Phosphorus Deficiency,6,,test,3472,4640,7f01f6b373c09d9455c30a252e9d15acc1d3f0a0245fee5c67d0a9522141ea04
+Dataset/Magnesium Deficiency/1772178295635.jpg,Magnesium Deficiency,3,,test,4640,3472,492737c2bc14245aa5eeb95f5557718095e8ae66967aca51c9001f19ef0ed68c
+Dataset/Fall Armyworm (Insect) Damage/1772179285155.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,403796a29d514e28fc722893911956bac72154541fd9d711d05fe8a9cf57ec70
+Dataset/Healthy Leaf/1772179782155.jpg,Healthy Leaf,1,,test,1200,1600,f005517ea3df0330c7a02c0842ed8b6029300a97464c5c20f90c6e2e14cd7345
+Dataset/Northern Leaf Blight/1772179521045.jpg,Northern Leaf Blight,5,,test,3472,4640,0e943abea63163d68d7744146fd56dfb78fa28a087f549554ddcd5d955c71a7f
+Dataset/Northern Leaf Blight/1772179523787.jpg,Northern Leaf Blight,5,,test,3472,4640,510afd4f91c4cc5bd100f9dd13a1fc15cd990497a17b8d9c75f46b6d2368c826
+Dataset/Leaf Spot/1772179049945.jpg,Leaf Spot,2,,test,3472,4640,48be9ad7c770468487090d2914ca01081539dbd7c266efe7358ba10db87d7abc
+Dataset/Healthy Leaf/1772179787204.jpg,Healthy Leaf,1,,test,3472,4640,5e41dfd4bcd7653639c7ba94010ab79b6c5debe7208b53c3bfee74c950a667ed
+Dataset/Fall Armyworm (Insect) Damage/1772178762842.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,5a4a58adfd3eedf703f2eea84956fced61c2ec2a9fe9a3597161c60fe3e912b7
+Dataset/Northern Leaf Blight/1772179681627.jpg,Northern Leaf Blight,5,,test,3472,4640,e20579234edef87323cf3a7bd3fe12f78161c8371a8800d7bee06396a7ee591f
+Dataset/Leaf Spot/1772179051271.jpg,Leaf Spot,2,,test,3472,4640,f5f5f7f53ed83065308e68072f16270e27129af06da0e1e57e2b763810f703a0
+Dataset/Fall Armyworm (Insect) Damage/1772179283705.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,32d5fff86b7471fdcf39c2a22da574412bea19133a22f085dc55ed97ca8185ba
+Dataset/Leaf Spot/1772179050372.jpg,Leaf Spot,2,,test,3472,4640,65397dc87e54a149fd0d5d7992abc842a7ae2d0eae12b69dc142e88e2c1f1137
+Dataset/Phosphorus Deficiency/1772179969946.jpg,Phosphorus Deficiency,6,,test,4640,3472,033164ded2b209ba992b14465505cea1cddc68ec38e3af330aa1e9f69e59236e
+Dataset/Fall Armyworm (Insect) Damage/1772179292928.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,7332e33ebdd9582fdc821430d04cc49b19cb758e7e7f541e138fcd8693876094
+Dataset/Nitrogen Deficiency/1772178079982.jpg,Nitrogen Deficiency,4,,test,960,1280,dd576c0d481adacb560be304bed9ab0ae367f8ffe1a22c9576804538a0b6cc37
+Dataset/Healthy Leaf/1772179784675.jpg,Healthy Leaf,1,,test,3472,4640,c9ab2800d22762c798fff1607823595024fb9504888bac941ecd81835b9e335c
+Dataset/Northern Leaf Blight/1772179681437.jpg,Northern Leaf Blight,5,,test,3472,4640,16a916b5ccdee1c0758732f14d39a6dd3e9f73c1394a45a9c48abfe1d18d76fc
+Dataset/Nitrogen Deficiency/1772178080005.jpg,Nitrogen Deficiency,4,,test,1280,960,0101c1f72476996eb005b5704febcc4356ac663fc6f36bcf9ddd5a061aad8649
+Dataset/Healthy Leaf/1772179787773.jpg,Healthy Leaf,1,,test,960,1280,eda63799ac3d31a9ef849a10ee302069600a4065a6e69d5ce4cf3d7d63d17f40
+Dataset/Phosphorus Deficiency/1772179980412.jpg,Phosphorus Deficiency,6,,test,4640,3472,5a00c9fea56a0d28e100979bdd7e07b2f64d4fb6018fa2611398101f1ba3db0c
+Dataset/Nitrogen Deficiency/1772178080544.jpg,Nitrogen Deficiency,4,,test,4640,3472,80ddb497e74c8ea256f56ef2b93419ca09de370715bd0c81f72adfacc85bdec6
+Dataset/Northern Leaf Blight/1772179683407.jpg,Northern Leaf Blight,5,,test,3472,4640,4f4cdfda832d5449fb8d63ab9a90ddfc3da684fb720460d659db6400f437af7c
+Dataset/Fall Armyworm (Insect) Damage/1772178762081.jpg,Fall Armyworm (Insect) Damage,0,,test,4640,3472,1f8002fc2143ed996443e335b9bcc3c7582e4b585e5b0345eaf6daec59a2bf16
+Dataset/Healthy Leaf/1772179785845.jpg,Healthy Leaf,1,,test,3472,4640,954a14f938a10fa17e4d11e7d3d6ba5876f38487d4de52ef0235feee2d449c0d
+Dataset/Nitrogen Deficiency/1772178083232.jpg,Nitrogen Deficiency,4,,test,3472,4640,c4a6215611c198adf9f4986b9e99fed0454e87859582dbf33dfcc78118b0e5a4
+Dataset/Healthy Leaf/1772179787912.jpg,Healthy Leaf,1,,test,960,1280,6b4e64223933c74a9937ce41487787aa5fc4d0fa64294a9aa5e3192932dc9cbf
+Dataset/Nitrogen Deficiency/1772178082229.jpg,Nitrogen Deficiency,4,,test,3472,4640,da24efc4461ecb55bd8162ee8c09bfedd859bf6f0b98032df72ce4da853f1bef
+Dataset/Nitrogen Deficiency/1772178082619.jpg,Nitrogen Deficiency,4,,test,4640,3472,2d2a71c3ae1646f335ac85b0a6ae9df28527d849326e18e7abad50666b6519ae
+Dataset/Fall Armyworm (Insect) Damage/1772178761299.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,5868d3868d39b343745c13bb76a71b97600529f77004fa23357e15bf2b6288ed
+Dataset/Magnesium Deficiency/1772178298979.jpg,Magnesium Deficiency,3,,test,3472,4640,f0ef9816d6979516b495a6c2e25ed7ed3a5cd64d69a08f19c80af40fb706af69
+Dataset/Healthy Leaf/1772179783645.jpg,Healthy Leaf,1,,test,3472,4640,b086957978b8fb6555e75e67ed4b8d54f4bd2930c13714cb83657cf4e824a49f
+Dataset/Fall Armyworm (Insect) Damage/1772178760678.jpg,Fall Armyworm (Insect) Damage,0,,test,4640,3472,5535543e773d439ef4c982569782c0bcad49629ca8910720957738a9542cbf96
+Dataset/Nitrogen Deficiency/1772178081467.jpg,Nitrogen Deficiency,4,,test,3472,4640,9933e83dd830158c633bf825ee718651ee1cf0009e25515b0b3ebae323a775b1
+Dataset/Magnesium Deficiency/1772178296033.jpg,Magnesium Deficiency,3,,test,3472,4640,c23ac4d13bdd36b73cb1920d97b86ac17afc600fe486c4c4ef3adb7567131504
+Dataset/Leaf Spot/1772179052526.jpg,Leaf Spot,2,,test,3472,4640,520b9fda65fcffb879be3e1f2bf66ed6b7c1dfce461f4b151ff3c0f8b3058786
+Dataset/Fall Armyworm (Insect) Damage/1772178763448.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,517a7365fb188261b3ace370225b55b7481b59d140015e5275dcc3453312eb78
+Dataset/Magnesium Deficiency/1772178299258.jpg,Magnesium Deficiency,3,,test,3472,4640,f4e615660cf04a0dfbb968a0c77e1bde27d2d7d83514cad98be9656c4081b70c
+Dataset/Magnesium Deficiency/1772178299636.jpg,Magnesium Deficiency,3,,test,3472,4640,a2728c5d49e204e7fe8efee1d6a29f806f969b530efa0aa3fb0d8a26dfff7590
+Dataset/Fall Armyworm (Insect) Damage/1772179291324.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,3638e6f2448f3edf1010cb73a84382a611f2edf2b55e627b0211ceebbe6bf30b
+Dataset/Phosphorus Deficiency/1772179973385.jpg,Phosphorus Deficiency,6,,test,3472,4640,8cf02c36ba52d343b12032a7ac19839e8203e7e5a74fa8ac1837c01090bd03d0
+Dataset/Northern Leaf Blight/1772179523831.jpg,Northern Leaf Blight,5,,test,3472,4640,6b499727121211a447b258e33bcb7c7de393e8c7c3f767168307bf071906a5b5
+Dataset/Magnesium Deficiency/1772178299817.jpg,Magnesium Deficiency,3,,test,3472,4640,c08bb08717c2b664f945dc0b16536006b5819899f49f6055a4c76fe1ddcad910
+Dataset/Northern Leaf Blight/1772179682314.jpg,Northern Leaf Blight,5,,test,3472,4640,4215d8dfaa9875714f6b45e2752e14aa5053f2c6beaf4eb236c1b02f7d941bc7
+Dataset/Healthy Leaf/1772179788536.jpg,Healthy Leaf,1,,test,960,1280,3d4a2b743234373391bc9d149e212c92e68cae3b63b38aaa59872e7a038431dc
+Dataset/Phosphorus Deficiency/1772179976490.jpg,Phosphorus Deficiency,6,,test,3472,4640,3549d29f42ef6be5d745c489890741f2b598d23df8a41fa494d098a2033dc00c
+Dataset/Healthy Leaf/1772179792775.jpg,Healthy Leaf,1,,test,3472,4640,7a1a9388821b23327bbfa5013c922e3003a0e2f674a190b9cd541d7b0d5c461e
+Dataset/Fall Armyworm (Insect) Damage/1772179290948.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,e750148d6215d677976bf6671c71f586ff49b2bf5e7a385ea43983162a84d4ec
+Dataset/Northern Leaf Blight/1772179521642.jpg,Northern Leaf Blight,5,,test,3472,4640,33b451405f2af583ec95515241931935a698b695d842e26f894866ed25c9a0ff
+Dataset/Phosphorus Deficiency/1772179972682.jpg,Phosphorus Deficiency,6,,test,4640,3472,336969e3a4a49c84948e1c24a99b39764b75ea4fabc238ba2411d952d2ddc812
+Dataset/Nitrogen Deficiency/1772178082337.jpg,Nitrogen Deficiency,4,,test,3472,4640,d9ab05af4c1f11e971b11a1d9589ddaf182ef175fbe9bb958b03b41d091e2d9a
+Dataset/Magnesium Deficiency/1772178421282.jpg,Magnesium Deficiency,3,,test,3472,4640,740a93339843376ba0434c06fb1cc854d546e375454ca28ee6875b3e7fb60793
+Dataset/Healthy Leaf/1772179784028.jpg,Healthy Leaf,1,,test,3472,4640,e2f500a7bb79e5b7f7fc886d8a595a3ea46bd8d9b06fbbaf7179782117541f39
+Dataset/Healthy Leaf/1772179784612.jpg,Healthy Leaf,1,,test,3472,4640,05b4f312decfdffee5430fca87a5189eb3ebd4b1ddceb4984290c2a89a95577e
+Dataset/Fall Armyworm (Insect) Damage/1772179293117.jpg,Fall Armyworm (Insect) Damage,0,,test,4640,3472,d494ce7d1cc319c3d2848bb44a601e50e863b4797fa9832cfbdab53ea0ee543c
+Dataset/Nitrogen Deficiency/1772178083177.jpg,Nitrogen Deficiency,4,,test,3472,4640,49582146cb8888bb9c65e48e0ff2126d950513d42e172589b9a55305d736afc2
+Dataset/Nitrogen Deficiency/1772178080947.jpg,Nitrogen Deficiency,4,,test,3472,4640,f08f84802fa66e5e0d9c6962b5969c542c7bf09c42a64875cb4959dcf218f826
+Dataset/Phosphorus Deficiency/1772179972642.jpg,Phosphorus Deficiency,6,,test,4640,3472,4cd9bb6744e1f66c97b7cf5b4e3e0314e51be6288a26c1ba4b9ec884ee5b9045
+Dataset/Fall Armyworm (Insect) Damage/1772178760368.jpg,Fall Armyworm (Insect) Damage,0,,test,4640,3472,7e6432f591f71b6ab7d06fec92a07987809dc972ef7605fb47134ebc2fad326b
+Dataset/Fall Armyworm (Insect) Damage/1772179286919.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,040043bc923e685fb38fb0937869e478a8dcde248fa7e9d47c797c508e029a06
+Dataset/Magnesium Deficiency/1772178298767.jpg,Magnesium Deficiency,3,,test,3472,4640,a9790d9a478bc741ea34a98ea08be66f1a5eb0cf51933b7b18eadb0de5c9835b
+Dataset/Phosphorus Deficiency/1772179968690.jpg,Phosphorus Deficiency,6,,test,3472,4640,32bcd2a3764cb7605556dc4493b6a1ee2e5b0e2b0998ab33c6c5b51246bd4c48
+Dataset/Magnesium Deficiency/1772178300220.jpg,Magnesium Deficiency,3,,test,3472,4640,cee13d158c4a657bea420f99ea6487f21ab76e26859aeb3586c05f0e5c8b8dd2
+Dataset/Magnesium Deficiency/1772178296544.jpg,Magnesium Deficiency,3,,test,3472,4640,ab043a60b30f8c96d4ed749f34e8760fc31f8751767712ad7190c6a9f0e8faed
+Dataset/Fall Armyworm (Insect) Damage/1772179285968.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,5b9d3d6cde279ddaf451ef2f3f8773e2131084d22c748be84155480642bdea8b
+Dataset/Leaf Spot/1772179047908.jpg,Leaf Spot,2,,test,3472,4640,734221be26b7e1d46f2f6aac889ecec015bc9ed3479e572c97fb263179ebec53
+Dataset/Magnesium Deficiency/1772178421425.jpg,Magnesium Deficiency,3,,test,3472,4640,0ec3dc0adb3d638d46af51334c2dd8c0174096d2bfd92fb0f77c9c34a6cc8e74
+Dataset/Leaf Spot/1772179052193.jpg,Leaf Spot,2,,test,3472,4640,fd2b93cebc6b5f3a50c5056e00d1699af7547c282754cae3a9038f42e53ce4c7
+Dataset/Fall Armyworm (Insect) Damage/1772178761918.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,06b3580b29f508aad1987f321886edfb34cd60acaf5926818a7233a52aafd14d
+Dataset/Leaf Spot/1772179050084.jpg,Leaf Spot,2,,test,3472,4640,81f06f15bde6be3bf9e233e136b7f6f559187026b499eb17a1b10af72c6a2397
+Dataset/Nitrogen Deficiency/1772178080560.jpg,Nitrogen Deficiency,4,,test,4640,3472,b9f1e932f2e4abdef0b874d31a5cbd1a386ae709d9a70f8140ecfaf8a83bd741
+Dataset/Magnesium Deficiency/1772178422229.jpg,Magnesium Deficiency,3,,test,4640,3472,06ff64155831d57d22ee3abc3174e10b756e10b06ffd46328076315939c5e5a9
+Dataset/Fall Armyworm (Insect) Damage/1772179285859.jpg,Fall Armyworm (Insect) Damage,0,,test,3472,4640,1618ae3d6cf7ce53a860205e9d1b71031d5c9aa0e0a0681f32c747a3749fd858
+Dataset/Northern Leaf Blight/1772179683726.jpg,Northern Leaf Blight,5,,test,3472,4640,989cc6220cc23b65985c14367cbfc4c6ee77b15fad0d6ebc826392e4f6f0c8a8

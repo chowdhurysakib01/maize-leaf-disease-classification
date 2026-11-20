@@ -1,0 +1,65 @@
+{
+  "model_metadata": {
+    "model_name": "mobilenet_v3",
+    "display_name": "MobileNetV3-Large",
+    "num_classes": 7,
+    "pretrained_requested": true,
+    "pretrained_used": true,
+    "freeze_backbone": false,
+    "architecture": {
+      "model_name": "MobileNetV3-Large",
+      "architecture_type": "Lightweight CNN",
+      "variant": "MobileNetV3-Large",
+      "main_blocks": "Inverted Residual Blocks",
+      "squeeze_excitation": true,
+      "activation": "Hard-Swish",
+      "num_classes": 7,
+      "input_channels": 3,
+      "pretrained": true,
+      "pretrained_source": "ImageNet",
+      "freeze_backbone": false,
+      "feature_dimensions": 960,
+      "classifier": "Sequential(\n  (0): Linear(in_features=960, out_features=1280, bias=True)\n  (1): Hardswish()\n  (2): Dropout(p=0.2, inplace=True)\n  (3): Linear(in_features=1280, out_features=7, bias=True)\n)",
+      "dropout": 0.2,
+      "global_pooling": "Adaptive Average Pooling",
+      "output_activation": "None (raw logits)",
+      "gradcam_target_layer": "backbone.features[-1]",
+      "torchvision_version": "0.29.2+cu132"
+    },
+    "parameters": {
+      "total_parameters": 4210999,
+      "trainable_parameters": 4210999,
+      "frozen_parameters": 0,
+      "non_trainable_percentage": 0.0,
+      "trainable_percentage": 100.0,
+      "buffer_elements": 24446
+    }
+  },
+  "parameter_information": {
+    "total_parameters": 4210999,
+    "trainable_parameters": 4210999,
+    "frozen_parameters": 0,
+    "non_trainable_percentage": 0.0,
+    "trainable_percentage": 100.0,
+    "buffer_elements": 24446
+  },
+  "optimizer_information": {
+    "optimizer": "AdamW",
+    "parameter_groups": 1,
+    "total_optimized_parameters": 4210999,
+    "groups": [
+      {
+        "group": 0,
+        "parameters": 4210999,
+        "learning_rate": 0.0001,
+        "weight_decay": 0.0001,
+        "momentum": null,
+        "betas": [
+          0.9,
+          0.999
+        ]
+      }
+    ]
+  },
+  "parameter_and_buffer_storage_estimate_mb": 16.157115936279297
+}

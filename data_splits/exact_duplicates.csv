@@ -1,0 +1,6 @@
+﻿sha256,class_name,kept_path,excluded_path,duplicate_group_size,action
+84c72e6370dd0994a941653ccdfe3d2f7797f8e32da9bb247ee1453cf588fd92,Leaf Spot,Dataset/Leaf Spot/1772179050858.jpg,Dataset/Leaf Spot/1772179050871.jpg,2,excluded_from_split
+15c9b4c1e933f1d991c4e079e037fcd4f2fe6aff1db460f3ff4b2cc8a9457898,Northern Leaf Blight,Dataset/Northern Leaf Blight/1772179680948.jpg,Dataset/Northern Leaf Blight/1772179681071.jpg,2,excluded_from_split
+7ac159e8b6b55243511faf94aae9201a2d44b1b5bb4a1f64ded5eb909a7dcbc6,Northern Leaf Blight,Dataset/Northern Leaf Blight/1772179680964.jpg,Dataset/Northern Leaf Blight/1772179681024.jpg,2,excluded_from_split
+1d2d9891d659192bd7431e8626b36ad65e5d303b3ccaf015170efa55ec507b6a,Northern Leaf Blight,Dataset/Northern Leaf Blight/1772179680979.jpg,Dataset/Northern Leaf Blight/1772179681037.jpg,2,excluded_from_split
+12dffea65475d9fa540c88690f5c45f90126e7286b35efe2f48f51e79e5bfb3f,Northern Leaf Blight,Dataset/Northern Leaf Blight/1772179680994.jpg,Dataset/Northern Leaf Blight/1772179681054.jpg,2,excluded_from_split

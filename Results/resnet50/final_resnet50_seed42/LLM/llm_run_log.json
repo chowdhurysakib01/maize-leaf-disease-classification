@@ -1,0 +1,7 @@
+{
+    "completed": true,
+    "model": "qwen2.5:3b",
+    "run_name": "final_resnet50_seed42",
+    "elapsed_seconds": 43.09,
+    "completed_at": "2026-11-12T23:45:17.209996"
+}

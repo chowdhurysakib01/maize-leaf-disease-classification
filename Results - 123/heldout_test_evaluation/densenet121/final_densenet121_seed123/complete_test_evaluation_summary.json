@@ -1,0 +1,80 @@
+{
+  "status": "completed",
+  "model": "densenet121",
+  "display_name": "densenet121",
+  "run_name": "final_densenet121_seed123",
+  "seed": 123,
+  "source_run_directory": "D:\\MaizeLeaf\\Results\\densenet121\\final_densenet121_seed123",
+  "checkpoint_path": "D:\\MaizeLeaf\\Results\\densenet121\\final_densenet121_seed123\\checkpoints\\best_model.pth",
+  "checkpoint_sha256": "93ef2b065ff5a2dba537f9459df6fbbd28402658f9ffde121f4b5a3a7ea6f51b",
+  "checkpoint_size_mb": 80.535,
+  "test_samples": 562,
+  "test_accuracy": 0.9395017793594306,
+  "test_precision_macro": 0.93746675453572,
+  "test_recall_macro": 0.9464754515972537,
+  "test_macro_f1": 0.9398450419352852,
+  "test_balanced_accuracy": 0.9464754515972537,
+  "test_roc_auc_ovr_macro": 0.9910828717419361,
+  "test_pr_auc_macro_average_precision": 0.9650780388001445,
+  "test_ece_10_bins": 0.04982171920978669,
+  "test_multiclass_brier_score": 0.10969951767515115,
+  "parameters": 6961031,
+  "parameters_millions": 6.961,
+  "benchmark_batch_results": [
+    {
+      "batch_size": 1,
+      "iterations": 20,
+      "total_elapsed_seconds": 0.4884404999902472,
+      "batch_latency_ms": 24.42202499951236,
+      "per_image_latency_ms": 24.42202499951236,
+      "throughput_images_per_second": 40.946645498068534,
+      "peak_gpu_allocated_mb": 302.32568359375,
+      "status": "completed"
+    },
+    {
+      "batch_size": 8,
+      "iterations": 20,
+      "total_elapsed_seconds": 0.46426539999083616,
+      "batch_latency_ms": 23.213269999541808,
+      "per_image_latency_ms": 2.901658749942726,
+      "throughput_images_per_second": 344.630463530468,
+      "peak_gpu_allocated_mb": 339.3720703125,
+      "status": "completed"
+    },
+    {
+      "batch_size": 16,
+      "iterations": 20,
+      "total_elapsed_seconds": 0.44850810000207275,
+      "batch_latency_ms": 22.425405000103638,
+      "per_image_latency_ms": 1.4015878125064773,
+      "throughput_images_per_second": 713.4765236090968,
+      "peak_gpu_allocated_mb": 382.1220703125,
+      "status": "completed"
+    }
+  ],
+  "xai": {
+    "status": "completed",
+    "samples_per_class": 5,
+    "images_per_method": 35
+  },
+  "metric_artifacts": {
+    "metrics_json": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\densenet121\\final_densenet121_seed123\\evaluation\\test\\metrics.json",
+    "classification_report": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\densenet121\\final_densenet121_seed123\\evaluation\\test\\classification_report.csv",
+    "confusion_matrix_csv": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\densenet121\\final_densenet121_seed123\\evaluation\\test\\confusion_matrix.csv",
+    "normalized_confusion_matrix_csv": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\densenet121\\final_densenet121_seed123\\evaluation\\test\\normalized_confusion_matrix.csv",
+    "confusion_matrix_png": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\densenet121\\final_densenet121_seed123\\evaluation\\test\\confusion_matrix.png",
+    "normalized_confusion_matrix_png": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\densenet121\\final_densenet121_seed123\\evaluation\\test\\normalized_confusion_matrix.png",
+    "roc_auc_csv": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\densenet121\\final_densenet121_seed123\\evaluation\\test\\roc_auc_per_class.csv",
+    "pr_auc_csv": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\densenet121\\final_densenet121_seed123\\evaluation\\test\\pr_auc_per_class.csv",
+    "roc_curve_png": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\densenet121\\final_densenet121_seed123\\evaluation\\test\\roc_curves.png",
+    "pr_curve_png": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\densenet121\\final_densenet121_seed123\\evaluation\\test\\precision_recall_curves.png",
+    "roc_curve_data_csv": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\densenet121\\final_densenet121_seed123\\evaluation\\test\\roc_curve_data.csv",
+    "pr_curve_data_csv": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\densenet121\\final_densenet121_seed123\\evaluation\\test\\pr_curve_data.csv"
+  },
+  "test_manifest_sha256": "60502c39895885eebbad0957c5916c3fbdf93dba9694e41180ed9bc044f7250b",
+  "split_assignment_fingerprint_sha256": "8a64e1a8a53eecd2dd2eeedbfb63c7e783a193304a2529da1be4e8c7bff441de",
+  "test_partition_accessed": true,
+  "training_or_finetuning_performed": false,
+  "elapsed_seconds": 432.3813586999895,
+  "note": null
+}

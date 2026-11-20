@@ -1,0 +1,75 @@
+========================================================================================
+MAIZE LEAF CLASSIFICATION - EFFICIENCY BENCHMARK REPORT
+========================================================================================
+
+Model: riceleaf_dmnet
+Run: finetuned_eval_seed123_b4_complete
+Timestamp: 2026-11-17T15:52:32.785324+06:00
+Device: cuda
+GPU: NVIDIA GeForce RTX 3060 Laptop GPU
+Image size: 224x224
+Classes: 7
+
+MODEL PARAMETERS
+----------------------------------------------------------------------------------------
+Total parameters: 13,745,531
+Trainable parameters: 13,745,531
+Frozen parameters: 0
+Parameter storage: 52.435 MB
+State dict storage: 52.852 MB
+Best checkpoint size: 53.186 MB
+
+COMPUTATIONAL COMPLEXITY
+----------------------------------------------------------------------------------------
+MACs/image: 3,075,426,884
+GMACs/image: 3.075427
+FLOPs/image: 6,150,853,768
+GFLOPs/image: 6.150854
+
+NOTE: MAC/FLOP counts are estimates from supported module hooks. See JSON for excluded operations.
+
+TRAINING INFORMATION
+----------------------------------------------------------------------------------------
+Total training duration: N/A
+Training duration seconds: None
+
+INFERENCE PERFORMANCE
+----------------------------------------------------------------------------------------
+
+Batch size: 1
+Status: success
+Mean latency: 43.9738 ms
+Median latency: 43.8006 ms
+P95 latency: 48.5749 ms
+Per-image latency: 43.9738 ms
+Throughput: 22.6863 images/sec
+GPU peak allocated: 61.9541015625 MB
+GPU peak reserved: 86.0 MB
+
+Batch size: 8
+Status: success
+Mean latency: 39.0115 ms
+Median latency: 38.8577 ms
+P95 latency: 41.2253 ms
+Per-image latency: 4.8764 ms
+Throughput: 204.8672 images/sec
+GPU peak allocated: 97.1181640625 MB
+GPU peak reserved: 126.0 MB
+
+Batch size: 16
+Status: success
+Mean latency: 37.6464 ms
+Median latency: 37.4989 ms
+P95 latency: 38.5863 ms
+Per-image latency: 2.3529 ms
+Throughput: 424.5684 images/sec
+GPU peak allocated: 140.33984375 MB
+GPU peak reserved: 186.0 MB
+
+========================================================================================
+END OF EFFICIENCY BENCHMARK REPORT
+========================================================================================
+
+CHECKPOINT PROVENANCE
+ImageNet pretrained MobileNetV3-Large + DenseNet121, then fine-tuned.
+The benchmark reconstructed the architecture from the saved checkpoint without downloading weights.

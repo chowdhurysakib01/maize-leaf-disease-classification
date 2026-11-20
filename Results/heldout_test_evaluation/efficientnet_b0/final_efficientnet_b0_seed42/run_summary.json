@@ -1,0 +1,13 @@
+{
+  "model": "efficientnet_b0",
+  "run_name": "final_efficientnet_b0_seed42",
+  "seed": 42,
+  "status": "heldout_test_evaluation",
+  "source_checkpoint": "D:\\MaizeLeaf\\Results\\efficientnet_b0\\final_efficientnet_b0_seed42\\checkpoints\\best_model.pth",
+  "source_run_directory": "D:\\MaizeLeaf\\Results\\efficientnet_b0\\final_efficientnet_b0_seed42",
+  "checkpoint_sha256": "e27d6ce8e30a80a45d5cd227cd4d348ed43c8daef2c3e779d5b69ed6c0566e87",
+  "split_assignment_fingerprint_sha256": "8a64e1a8a53eecd2dd2eeedbfb63c7e783a193304a2529da1be4e8c7bff441de",
+  "test_manifest_sha256": "60502c39895885eebbad0957c5916c3fbdf93dba9694e41180ed9bc044f7250b",
+  "test_partition_accessed": true,
+  "training_or_finetuning_performed": false
+}

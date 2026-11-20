@@ -1,0 +1,34 @@
+{
+    "project": "Maize Leaf Classification",
+    "verification_time_utc": "2026-11-11T10:07:12.094276+00:00",
+    "status": "PASSED",
+    "num_classes": 7,
+    "class_names": [
+        "Fall Armyworm (Insect) Damage",
+        "Healthy Leaf",
+        "Leaf Spot",
+        "Magnesium Deficiency",
+        "Nitrogen Deficiency",
+        "Northern Leaf Blight",
+        "Phosphorus Deficiency"
+    ],
+    "original_images": 3754,
+    "effective_images": 3749,
+    "excluded_duplicate_copies": 5,
+    "duplicate_groups": 5,
+    "split_counts": {
+        "train": 2623,
+        "validation": 564,
+        "test": 562
+    },
+    "seed": 42,
+    "fingerprints": {
+        "source": "38200f93a22c02e2f7673e0a02b0bc42a08394213b353425f63f914d964cfa2b",
+        "effective": "ca1eb0c56e0a2a10a184cc32a374aefbe9fdae10283136fa8409ad06318d9fbe",
+        "split": "8a64e1a8a53eecd2dd2eeedbfb63c7e783a193304a2529da1be4e8c7bff441de"
+    },
+    "same_split_required_for_all_models": true,
+    "group_level_leakage_verified": false,
+    "image_level_overlap_verified": true,
+    "exact_duplicate_integrity_verified": true
+}

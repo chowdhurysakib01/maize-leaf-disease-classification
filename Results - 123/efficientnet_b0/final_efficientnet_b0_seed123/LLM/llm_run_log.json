@@ -1,0 +1,7 @@
+{
+    "completed": true,
+    "model": "qwen2.5:3b",
+    "run_name": "final_efficientnet_b0_seed123",
+    "elapsed_seconds": 1442.82,
+    "completed_at": "2026-11-16T12:52:05.065691"
+}

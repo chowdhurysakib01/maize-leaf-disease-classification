@@ -1,0 +1,74 @@
+{
+  "model_metadata": {
+    "model_name": "small_vit",
+    "display_name": "Small Vision Transformer",
+    "num_classes": 7,
+    "pretrained_requested": false,
+    "pretrained_used": false,
+    "freeze_backbone": false,
+    "architecture": {
+      "model_name": "SmallViT",
+      "architecture_type": "Vision Transformer",
+      "pretrained": false,
+      "pretrained_source": "None - trained from scratch",
+      "input_channels": 3,
+      "image_size": 224,
+      "patch_size": 16,
+      "patches_per_side": 14,
+      "total_patches": 196,
+      "sequence_length": 197,
+      "class_token": true,
+      "positional_embedding": "Learnable",
+      "embedding_dimension": 192,
+      "transformer_depth": 6,
+      "attention_heads": 3,
+      "mlp_ratio": 4.0,
+      "normalization": "LayerNorm",
+      "activation": "GELU",
+      "num_classes": 7,
+      "classifier": "Linear(in_features=192, out_features=7, bias=True)",
+      "dropout": 0.1,
+      "attention_dropout": 0.0,
+      "freeze_backbone": false,
+      "gradcam_target_layer": "blocks[-1].norm2",
+      "gradcam_reshape": "reshape_transform",
+      "output_activation": "None (raw logits)",
+      "torchvision_version": "0.29.2+cu132"
+    },
+    "parameters": {
+      "total_parameters": 2856583,
+      "trainable_parameters": 2856583,
+      "frozen_parameters": 0,
+      "non_trainable_percentage": 0.0,
+      "trainable_percentage": 100.0,
+      "buffer_elements": 0
+    }
+  },
+  "parameter_information": {
+    "total_parameters": 2856583,
+    "trainable_parameters": 2856583,
+    "frozen_parameters": 0,
+    "non_trainable_percentage": 0.0,
+    "trainable_percentage": 100.0,
+    "buffer_elements": 0
+  },
+  "optimizer_information": {
+    "optimizer": "AdamW",
+    "parameter_groups": 1,
+    "total_optimized_parameters": 2856583,
+    "groups": [
+      {
+        "group": 0,
+        "parameters": 2856583,
+        "learning_rate": 0.0001,
+        "weight_decay": 0.0001,
+        "momentum": null,
+        "betas": [
+          0.9,
+          0.999
+        ]
+      }
+    ]
+  },
+  "parameter_and_buffer_storage_estimate_mb": 10.89699935913086
+}

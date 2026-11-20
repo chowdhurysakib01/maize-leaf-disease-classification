@@ -1,0 +1,70 @@
+{
+  "model_metadata": {
+    "model_name": "resnet50",
+    "display_name": "ResNet50",
+    "num_classes": 7,
+    "pretrained_requested": true,
+    "pretrained_used": true,
+    "freeze_backbone": false,
+    "architecture": {
+      "model_name": "ResNet50",
+      "architecture_type": "Residual CNN",
+      "depth": 50,
+      "block_type": "Bottleneck",
+      "block_configuration": [
+        3,
+        4,
+        6,
+        3
+      ],
+      "num_classes": 7,
+      "input_channels": 3,
+      "pretrained": true,
+      "pretrained_source": "ImageNet",
+      "freeze_backbone": false,
+      "feature_dimensions": 2048,
+      "classifier": "Linear(in_features=2048, out_features=7, bias=True)",
+      "dropout": 0.0,
+      "global_pooling": "Adaptive Average Pooling",
+      "output_activation": "None (raw logits)",
+      "gradcam_target_layer": "backbone.layer4[-1]",
+      "torchvision_version": "0.29.2+cu132"
+    },
+    "parameters": {
+      "total_parameters": 23522375,
+      "trainable_parameters": 23522375,
+      "frozen_parameters": 0,
+      "non_trainable_percentage": 0.0,
+      "trainable_percentage": 100.0,
+      "buffer_elements": 53173
+    }
+  },
+  "parameter_information": {
+    "total_parameters": 23522375,
+    "trainable_parameters": 23522375,
+    "frozen_parameters": 0,
+    "non_trainable_percentage": 0.0,
+    "trainable_percentage": 100.0,
+    "buffer_elements": 53173
+  },
+  "optimizer_information": {
+    "optimizer": "AdamW",
+    "parameter_groups": 1,
+    "total_optimized_parameters": 23522375,
+    "groups": [
+      {
+        "group": 0,
+        "name": "all_trainable",
+        "parameters": 23522375,
+        "learning_rate": 0.0001,
+        "weight_decay": 0.0001,
+        "momentum": null,
+        "betas": [
+          0.9,
+          0.999
+        ]
+      }
+    ]
+  },
+  "parameter_and_buffer_storage_estimate_mb": 89.93378067016602
+}

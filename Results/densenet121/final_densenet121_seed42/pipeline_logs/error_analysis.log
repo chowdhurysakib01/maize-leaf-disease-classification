@@ -1,0 +1,56 @@
+Stage: error_analysis
+Started: 2026-11-13T11:03:38.381648+06:00
+Command: D:\MaizeLeaf\.venv\Scripts\python.exe -m src.evaluation.error_analysis --evaluation-dir D:\MaizeLeaf\Results\densenet121\final_densenet121_seed42\evaluation\validation --top-k 10 --confidence-threshold 0.8 --contact-sheet-limit 48
+
+
+============================================================================
+MAIZE LEAF - ERROR ANALYSIS ENGINE
+============================================================================
+Evaluation directory: D:\MaizeLeaf\Results\densenet121\final_densenet121_seed42\evaluation\validation
+[PASS] Fixed split fingerprint verified
+
+Number of classes: 7
+0: Fall Armyworm (Insect) Damage
+1: Healthy Leaf
+2: Leaf Spot
+3: Magnesium Deficiency
+4: Nitrogen Deficiency
+5: Northern Leaf Blight
+6: Phosphorus Deficiency
+
+LOADING PREDICTIONS
+[PASS] Predictions loaded: 564
+[PASS] Correct: 529
+[PASS] Incorrect: 35
+[PASS] Accuracy: 0.937943
+[PASS] Seven-class probability verification
+
+GENERATING ERROR ANALYSIS ARTIFACTS
+[PASS] confusion_matrix.csv
+[PASS] normalized_confusion_matrix.csv
+[PASS] per_class_error_analysis.csv
+[PASS] confusion_pairs.csv
+[PASS] misclassified_predictions.csv
+[PASS] high_confidence_errors.csv
+[PASS] confidence_bins.csv
+[PASS] confusion_matrix.png
+[PASS] normalized_confusion_matrix.png
+[PASS] class_wise_error_rates.png
+[PASS] top_confusion_pairs.png
+[PASS] confidence_distribution.png
+[PASS] confidence_reliability.png
+[PASS] misclassified_contact_sheet.jpg
+[PASS] error_analysis_summary.json
+[PASS] error_analysis_report.txt
+
+============================================================================
+ERROR ANALYSIS COMPLETED
+============================================================================
+Total predictions       : 564
+Correct                 : 529
+Incorrect               : 35
+Accuracy                : 0.937943
+Macro-F1                : 0.938794
+High-confidence errors  : 23
+Output directory        : D:\MaizeLeaf\Results\densenet121\final_densenet121_seed42\evaluation\validation\error_analysis
+============================================================================

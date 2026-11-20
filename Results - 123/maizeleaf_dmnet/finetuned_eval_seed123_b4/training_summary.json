@@ -1,0 +1,56 @@
+{
+  "model_name": "riceleaf_dmnet_finetuned",
+  "base_model": "RiceLeaf-DMNet v2",
+  "source_checkpoint": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\final_riceleaf_dmnet_v2_seed123\\checkpoints\\best_model.pth",
+  "source_best_epoch": 18,
+  "source_recorded_val_macro_f1": 0.9345986191136497,
+  "fine_tuning_objective": "balanced_class_weighted_cross_entropy",
+  "loss_name": "cross_entropy",
+  "class_weighting": "inverse_frequency",
+  "class_weights_from_training_split": {
+    "Fall Armyworm (Insect) Damage": 0.6394441723823547,
+    "Healthy Leaf": 1.0798683166503906,
+    "Leaf Spot": 1.3194165229797363,
+    "Magnesium Deficiency": 0.9682539701461792,
+    "Nitrogen Deficiency": 1.2616642713546753,
+    "Northern Leaf Blight": 1.0072964429855347,
+    "Phosphorus Deficiency": 1.0706121921539307
+  },
+  "best_checkpoint_selection_metric": "validation_macro_f1",
+  "reproduced_baseline_val_loss": 0.4400316004391716,
+  "reproduced_baseline_val_accuracy": 0.9343971631205674,
+  "reproduced_baseline_val_macro_f1": 0.9345986191136497,
+  "best_finetuned_val_macro_f1": 0.9496709418459977,
+  "absolute_macro_f1_change": 0.015072322732347931,
+  "best_epoch": 10,
+  "best_stage": "full",
+  "split_assignment_fingerprint_sha256": "8a64e1a8a53eecd2dd2eeedbfb63c7e783a193304a2529da1be4e8c7bff441de",
+  "train_images": 2623,
+  "validation_images": 564,
+  "test_set_accessed": false,
+  "stages": [
+    {
+      "stage": "classifier_only",
+      "requested_epochs": 3,
+      "completed_epochs": 3,
+      "trainable_parameters": 1187335,
+      "best_macro_f1_after_stage": 0.939486568470252
+    },
+    {
+      "stage": "progressive",
+      "requested_epochs": 6,
+      "completed_epochs": 6,
+      "trainable_parameters": 8159315,
+      "best_macro_f1_after_stage": 0.946391698025076
+    },
+    {
+      "stage": "full",
+      "requested_epochs": 12,
+      "completed_epochs": 8,
+      "trainable_parameters": 13745531,
+      "best_macro_f1_after_stage": 0.9496709418459977
+    }
+  ],
+  "history_csv": "D:\\MaizeLeaf\\Results\\finetuned_eval_seed123_b4\\history.csv",
+  "best_checkpoint": "D:\\MaizeLeaf\\Results\\finetuned_eval_seed123_b4\\checkpoints\\best_model.pth"
+}

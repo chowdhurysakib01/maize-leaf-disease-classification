@@ -1,0 +1,40 @@
+{
+  "epochs_completed": 15,
+  "best_epoch_from_training_summary": 8,
+  "best_epoch_metrics": {
+    "epoch": 8.0,
+    "stage": "progressive",
+    "stage_epoch": 5.0,
+    "train_loss": 0.05570771867872754,
+    "validation_loss": 0.5912820139024769,
+    "validation_accuracy": 0.9397163120567376,
+    "validation_macro_f1": 0.9400874296815038,
+    "learning_rates": "[6.29199655051467e-08, 6.29199655051467e-08, 2.772793194500448e-07, 2.772793194500448e-07]",
+    "elapsed_seconds": 155.765
+  },
+  "last_epoch_metrics": {
+    "epoch": 15.0,
+    "stage": "full",
+    "stage_epoch": 6.0,
+    "train_loss": 0.04192899798097038,
+    "validation_loss": 0.6050832248915161,
+    "validation_accuracy": 0.9343971631205674,
+    "validation_macro_f1": 0.9345506211557081,
+    "learning_rates": "[2.55e-07, 1.005e-06, 1.005e-06]",
+    "elapsed_seconds": 212.166
+  },
+  "baseline_validation": {
+    "loss": 0.6120102853749608,
+    "accuracy": 0.9379432624113475,
+    "macro_f1": 0.9369143790276306
+  },
+  "best_finetuned_validation_macro_f1": 0.9400874296815038,
+  "absolute_macro_f1_change": 0.0031730506538731884,
+  "last_epoch_train_validation_loss_gap": 0.5631542269105457,
+  "interpretation_note": "A positive train-validation loss gap alone does not prove overfitting; inspect the full curves and validation metrics together.",
+  "plots": {
+    "training_validation_loss": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\finetuned_eval_seed42\\fine_tuning\\training_curves\\training_validation_loss.png",
+    "validation_metrics": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\finetuned_eval_seed42\\fine_tuning\\training_curves\\validation_metrics.png",
+    "learning_rate": "D:\\MaizeLeaf\\Results\\riceleaf_dmnet\\finetuned_eval_seed42\\fine_tuning\\training_curves\\learning_rate.png"
+  }
+}

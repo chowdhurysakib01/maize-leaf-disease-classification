@@ -1,0 +1,18 @@
+﻿actual_class,predicted_class,actual_class_index,predicted_class_index,confusion_count,percentage_of_actual_class
+Fall Armyworm (Insect) Damage,Leaf Spot,0,2,8,6.349206349206349
+Northern Leaf Blight,Leaf Spot,5,2,8,10.126582278481013
+Fall Armyworm (Insect) Damage,Healthy Leaf,0,1,6,4.761904761904762
+Magnesium Deficiency,Healthy Leaf,3,1,3,3.614457831325301
+Fall Armyworm (Insect) Damage,Magnesium Deficiency,0,3,2,1.5873015873015872
+Nitrogen Deficiency,Leaf Spot,4,2,2,3.125
+Nitrogen Deficiency,Northern Leaf Blight,4,5,2,3.125
+Northern Leaf Blight,Fall Armyworm (Insect) Damage,5,0,2,2.5316455696202533
+Phosphorus Deficiency,Leaf Spot,6,2,2,2.666666666666667
+Phosphorus Deficiency,Magnesium Deficiency,6,3,2,2.666666666666667
+Leaf Spot,Nitrogen Deficiency,2,4,1,1.639344262295082
+Leaf Spot,Northern Leaf Blight,2,5,1,1.639344262295082
+Magnesium Deficiency,Nitrogen Deficiency,3,4,1,1.2048192771084338
+Magnesium Deficiency,Phosphorus Deficiency,3,6,1,1.2048192771084338
+Northern Leaf Blight,Nitrogen Deficiency,5,4,1,1.2658227848101267
+Phosphorus Deficiency,Fall Armyworm (Insect) Damage,6,0,1,1.3333333333333335
+Phosphorus Deficiency,Nitrogen Deficiency,6,4,1,1.3333333333333335

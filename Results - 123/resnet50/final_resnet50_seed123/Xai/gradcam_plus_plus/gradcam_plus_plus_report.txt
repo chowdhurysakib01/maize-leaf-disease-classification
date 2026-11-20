@@ -1,0 +1,384 @@
+==============================================================================
+MAIZE LEAF CLASSIFICATION - GRAD-CAM++ REPORT
+==============================================================================
+
+Model: resnet50
+Run: final_resnet50_seed123
+Checkpoint: D:\MaizeLeaf\Results\resnet50\final_resnet50_seed123\checkpoints\best_model.pth
+Checkpoint epoch: 5
+Partition: validation
+Target layer: backbone.layer4.2
+Target class policy: predicted
+Samples explained: 35
+
+OVERALL SUMMARY
+------------------------------------------------------------------------------
+Correct: 24
+Incorrect: 11
+Subset accuracy: 0.685714
+Mean confidence: 0.944283
+Mean CAM intensity: 0.118606
+Mean CAM time: 0.048126
+Total runtime: 18.6636
+
+CLASS-WISE SUMMARY
+------------------------------------------------------------------------------
+
+Fall Armyworm (Insect) Damage
+  Selected: 5
+  Correct: 3
+  Incorrect: 2
+  Subset accuracy: 0.6
+  Mean confidence: 0.8482068181037903
+  Mean CAM intensity: 0.09832460433244705
+
+Healthy Leaf
+  Selected: 5
+  Correct: 4
+  Incorrect: 1
+  Subset accuracy: 0.8
+  Mean confidence: 0.8950440168380738
+  Mean CAM intensity: 0.13969334214925766
+
+Leaf Spot
+  Selected: 5
+  Correct: 3
+  Incorrect: 2
+  Subset accuracy: 0.6
+  Mean confidence: 0.9125838875770569
+  Mean CAM intensity: 0.13349349647760392
+
+Magnesium Deficiency
+  Selected: 5
+  Correct: 5
+  Incorrect: 0
+  Subset accuracy: 1.0
+  Mean confidence: 0.9668769598007202
+  Mean CAM intensity: 0.09408775568008423
+
+Nitrogen Deficiency
+  Selected: 5
+  Correct: 3
+  Incorrect: 2
+  Subset accuracy: 0.6
+  Mean confidence: 0.9975453376770019
+  Mean CAM intensity: 0.12451096177101136
+
+Northern Leaf Blight
+  Selected: 5
+  Correct: 3
+  Incorrect: 2
+  Subset accuracy: 0.6
+  Mean confidence: 0.9982375144958496
+  Mean CAM intensity: 0.12468102872371674
+
+Phosphorus Deficiency
+  Selected: 5
+  Correct: 3
+  Incorrect: 2
+  Subset accuracy: 0.6
+  Mean confidence: 0.9914877057075501
+  Mean CAM intensity: 0.11545372009277344
+
+SAMPLE DETAILS
+------------------------------------------------------------------------------
+
+Sample: sample_0001
+Actual: Fall Armyworm (Insect) Damage
+Predicted: Fall Armyworm (Insect) Damage
+Confidence: 0.999390
+Correct: True
+Target class: Fall Armyworm (Insect) Damage
+CAM mean: 0.072526
+
+Sample: sample_0002
+Actual: Fall Armyworm (Insect) Damage
+Predicted: Fall Armyworm (Insect) Damage
+Confidence: 0.999825
+Correct: True
+Target class: Fall Armyworm (Insect) Damage
+CAM mean: 0.084242
+
+Sample: sample_0003
+Actual: Fall Armyworm (Insect) Damage
+Predicted: Fall Armyworm (Insect) Damage
+Confidence: 0.518994
+Correct: True
+Target class: Fall Armyworm (Insect) Damage
+CAM mean: 0.120099
+
+Sample: sample_0004
+Actual: Fall Armyworm (Insect) Damage
+Predicted: Northern Leaf Blight
+Confidence: 0.879991
+Correct: False
+Target class: Northern Leaf Blight
+CAM mean: 0.099882
+
+Sample: sample_0005
+Actual: Fall Armyworm (Insect) Damage
+Predicted: Leaf Spot
+Confidence: 0.842834
+Correct: False
+Target class: Leaf Spot
+CAM mean: 0.114874
+
+Sample: sample_0006
+Actual: Healthy Leaf
+Predicted: Healthy Leaf
+Confidence: 0.999898
+Correct: True
+Target class: Healthy Leaf
+CAM mean: 0.123627
+
+Sample: sample_0007
+Actual: Healthy Leaf
+Predicted: Healthy Leaf
+Confidence: 0.999848
+Correct: True
+Target class: Healthy Leaf
+CAM mean: 0.139338
+
+Sample: sample_0008
+Actual: Healthy Leaf
+Predicted: Healthy Leaf
+Confidence: 0.999998
+Correct: True
+Target class: Healthy Leaf
+CAM mean: 0.173318
+
+Sample: sample_0009
+Actual: Healthy Leaf
+Predicted: Healthy Leaf
+Confidence: 0.976552
+Correct: True
+Target class: Healthy Leaf
+CAM mean: 0.126076
+
+Sample: sample_0010
+Actual: Healthy Leaf
+Predicted: Leaf Spot
+Confidence: 0.498925
+Correct: False
+Target class: Leaf Spot
+CAM mean: 0.136108
+
+Sample: sample_0011
+Actual: Leaf Spot
+Predicted: Leaf Spot
+Confidence: 0.998466
+Correct: True
+Target class: Leaf Spot
+CAM mean: 0.140494
+
+Sample: sample_0012
+Actual: Leaf Spot
+Predicted: Nitrogen Deficiency
+Confidence: 0.717050
+Correct: False
+Target class: Nitrogen Deficiency
+CAM mean: 0.092988
+
+Sample: sample_0013
+Actual: Leaf Spot
+Predicted: Leaf Spot
+Confidence: 0.986621
+Correct: True
+Target class: Leaf Spot
+CAM mean: 0.080446
+
+Sample: sample_0014
+Actual: Leaf Spot
+Predicted: Healthy Leaf
+Confidence: 0.864615
+Correct: False
+Target class: Healthy Leaf
+CAM mean: 0.206372
+
+Sample: sample_0015
+Actual: Leaf Spot
+Predicted: Leaf Spot
+Confidence: 0.996167
+Correct: True
+Target class: Leaf Spot
+CAM mean: 0.147167
+
+Sample: sample_0016
+Actual: Magnesium Deficiency
+Predicted: Magnesium Deficiency
+Confidence: 0.999436
+Correct: True
+Target class: Magnesium Deficiency
+CAM mean: 0.069056
+
+Sample: sample_0017
+Actual: Magnesium Deficiency
+Predicted: Magnesium Deficiency
+Confidence: 0.999904
+Correct: True
+Target class: Magnesium Deficiency
+CAM mean: 0.146853
+
+Sample: sample_0018
+Actual: Magnesium Deficiency
+Predicted: Magnesium Deficiency
+Confidence: 0.999998
+Correct: True
+Target class: Magnesium Deficiency
+CAM mean: 0.097845
+
+Sample: sample_0019
+Actual: Magnesium Deficiency
+Predicted: Magnesium Deficiency
+Confidence: 0.999926
+Correct: True
+Target class: Magnesium Deficiency
+CAM mean: 0.069365
+
+Sample: sample_0020
+Actual: Magnesium Deficiency
+Predicted: Magnesium Deficiency
+Confidence: 0.835121
+Correct: True
+Target class: Magnesium Deficiency
+CAM mean: 0.087320
+
+Sample: sample_0021
+Actual: Nitrogen Deficiency
+Predicted: Nitrogen Deficiency
+Confidence: 1.000000
+Correct: True
+Target class: Nitrogen Deficiency
+CAM mean: 0.193042
+
+Sample: sample_0022
+Actual: Nitrogen Deficiency
+Predicted: Leaf Spot
+Confidence: 0.995822
+Correct: False
+Target class: Leaf Spot
+CAM mean: 0.083873
+
+Sample: sample_0023
+Actual: Nitrogen Deficiency
+Predicted: Nitrogen Deficiency
+Confidence: 0.999850
+Correct: True
+Target class: Nitrogen Deficiency
+CAM mean: 0.120650
+
+Sample: sample_0024
+Actual: Nitrogen Deficiency
+Predicted: Nitrogen Deficiency
+Confidence: 0.999996
+Correct: True
+Target class: Nitrogen Deficiency
+CAM mean: 0.151308
+
+Sample: sample_0025
+Actual: Nitrogen Deficiency
+Predicted: Fall Armyworm (Insect) Damage
+Confidence: 0.992060
+Correct: False
+Target class: Fall Armyworm (Insect) Damage
+CAM mean: 0.073683
+
+Sample: sample_0026
+Actual: Northern Leaf Blight
+Predicted: Leaf Spot
+Confidence: 0.994891
+Correct: False
+Target class: Leaf Spot
+CAM mean: 0.102810
+
+Sample: sample_0027
+Actual: Northern Leaf Blight
+Predicted: Fall Armyworm (Insect) Damage
+Confidence: 0.999065
+Correct: False
+Target class: Fall Armyworm (Insect) Damage
+CAM mean: 0.059221
+
+Sample: sample_0028
+Actual: Northern Leaf Blight
+Predicted: Northern Leaf Blight
+Confidence: 0.999998
+Correct: True
+Target class: Northern Leaf Blight
+CAM mean: 0.172170
+
+Sample: sample_0029
+Actual: Northern Leaf Blight
+Predicted: Northern Leaf Blight
+Confidence: 0.999964
+Correct: True
+Target class: Northern Leaf Blight
+CAM mean: 0.127156
+
+Sample: sample_0030
+Actual: Northern Leaf Blight
+Predicted: Northern Leaf Blight
+Confidence: 0.997269
+Correct: True
+Target class: Northern Leaf Blight
+CAM mean: 0.162048
+
+Sample: sample_0031
+Actual: Phosphorus Deficiency
+Predicted: Leaf Spot
+Confidence: 0.985632
+Correct: False
+Target class: Leaf Spot
+CAM mean: 0.157440
+
+Sample: sample_0032
+Actual: Phosphorus Deficiency
+Predicted: Phosphorus Deficiency
+Confidence: 0.999995
+Correct: True
+Target class: Phosphorus Deficiency
+CAM mean: 0.137140
+
+Sample: sample_0033
+Actual: Phosphorus Deficiency
+Predicted: Phosphorus Deficiency
+Confidence: 0.993542
+Correct: True
+Target class: Phosphorus Deficiency
+CAM mean: 0.088889
+
+Sample: sample_0034
+Actual: Phosphorus Deficiency
+Predicted: Phosphorus Deficiency
+Confidence: 0.999549
+Correct: True
+Target class: Phosphorus Deficiency
+CAM mean: 0.094029
+
+Sample: sample_0035
+Actual: Phosphorus Deficiency
+Predicted: Leaf Spot
+Confidence: 0.978720
+Correct: False
+Target class: Leaf Spot
+CAM mean: 0.099771
+
+DATA INTEGRITY
+------------------------------------------------------------------------------
+Split fingerprint: 8a64e1a8a53eecd2dd2eeedbfb63c7e783a193304a2529da1be4e8c7bff441de
+Seed: 123
+Validation manifest only: YES
+Train manifest loaded: NO
+Test manifest loaded: NO
+Test set used: NO
+Group IDs available: False
+
+LIMITATIONS
+------------------------------------------------------------------------------
+Grad-CAM++ is a post-hoc explanation method.
+Highlighted regions do not establish biological causality.
+Heatmap intensity is not disease severity.
+The balanced subset is not a replacement for full validation metrics.
+Visual interpretation requires domain expertise.
+
+==============================================================================

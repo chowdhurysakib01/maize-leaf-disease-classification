@@ -1,0 +1,25 @@
+{
+    "run_name": "final_densenet121_seed123",
+    "status": "failed",
+    "start_timestamp": {
+        "local": "2026-11-16T14:57:34.449169+06:00",
+        "utc": "2026-11-16T08:57:34.449169+00:00"
+    },
+    "end_timestamp": {
+        "local": "2026-11-16T16:02:47.897012+06:00",
+        "utc": "2026-11-16T10:02:47.897012+00:00"
+    },
+    "total_training_time_seconds": 3913.4366886999996,
+    "total_training_time_minutes": 65.22394481166666,
+    "total_training_time_hours": 1.087065746861111,
+    "epochs_completed": 19,
+    "batch_records_saved": 7581,
+    "best_epoch": 12,
+    "best_metric": {
+        "name": "val_macro_f1",
+        "value": 0.9468749594783396
+    },
+    "additional_information": {
+        "error": "ValueError('Invalid run status: completed_with_warnings')"
+    }
+}

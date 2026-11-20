@@ -1,0 +1,80 @@
+{
+  "status": "completed",
+  "model": "efficientnet_b0",
+  "display_name": "efficientnet_b0",
+  "run_name": "final_efficientnet_b0_seed123",
+  "seed": 123,
+  "source_run_directory": "D:\\MaizeLeaf\\Results\\efficientnet_b0\\final_efficientnet_b0_seed123",
+  "checkpoint_path": "D:\\MaizeLeaf\\Results\\efficientnet_b0\\final_efficientnet_b0_seed123\\checkpoints\\best_model.pth",
+  "checkpoint_sha256": "cf437b140aac51d5da48ec0ee29f426c18cf3eddbe8cdbd34818959ab089555c",
+  "checkpoint_size_mb": 46.429,
+  "test_samples": 562,
+  "test_accuracy": 0.9217081850533808,
+  "test_precision_macro": 0.9205761874734987,
+  "test_recall_macro": 0.9283210739407766,
+  "test_macro_f1": 0.9210542491707524,
+  "test_balanced_accuracy": 0.9283210739407766,
+  "test_roc_auc_ovr_macro": 0.9945100084266635,
+  "test_pr_auc_macro_average_precision": 0.9701823442235327,
+  "test_ece_10_bins": 0.03449051808665468,
+  "test_multiclass_brier_score": 0.12358561307044162,
+  "parameters": 4016515,
+  "parameters_millions": 4.0165,
+  "benchmark_batch_results": [
+    {
+      "batch_size": 1,
+      "iterations": 20,
+      "total_elapsed_seconds": 0.27138120000017807,
+      "batch_latency_ms": 13.569060000008903,
+      "per_image_latency_ms": 13.569060000008903,
+      "throughput_images_per_second": 73.69707260483364,
+      "peak_gpu_allocated_mb": 355.60595703125,
+      "status": "completed"
+    },
+    {
+      "batch_size": 8,
+      "iterations": 20,
+      "total_elapsed_seconds": 0.32502800002112053,
+      "batch_latency_ms": 16.251400001056027,
+      "per_image_latency_ms": 2.0314250001320033,
+      "throughput_images_per_second": 492.26528172835293,
+      "peak_gpu_allocated_mb": 394.46142578125,
+      "status": "completed"
+    },
+    {
+      "batch_size": 16,
+      "iterations": 20,
+      "total_elapsed_seconds": 0.2863379000045825,
+      "batch_latency_ms": 14.316895000229124,
+      "per_image_latency_ms": 0.8948059375143202,
+      "throughput_images_per_second": 1117.5607559979967,
+      "peak_gpu_allocated_mb": 438.86767578125,
+      "status": "completed"
+    }
+  ],
+  "xai": {
+    "status": "completed",
+    "samples_per_class": 5,
+    "images_per_method": 35
+  },
+  "metric_artifacts": {
+    "metrics_json": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\efficientnet_b0\\final_efficientnet_b0_seed123\\evaluation\\test\\metrics.json",
+    "classification_report": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\efficientnet_b0\\final_efficientnet_b0_seed123\\evaluation\\test\\classification_report.csv",
+    "confusion_matrix_csv": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\efficientnet_b0\\final_efficientnet_b0_seed123\\evaluation\\test\\confusion_matrix.csv",
+    "normalized_confusion_matrix_csv": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\efficientnet_b0\\final_efficientnet_b0_seed123\\evaluation\\test\\normalized_confusion_matrix.csv",
+    "confusion_matrix_png": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\efficientnet_b0\\final_efficientnet_b0_seed123\\evaluation\\test\\confusion_matrix.png",
+    "normalized_confusion_matrix_png": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\efficientnet_b0\\final_efficientnet_b0_seed123\\evaluation\\test\\normalized_confusion_matrix.png",
+    "roc_auc_csv": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\efficientnet_b0\\final_efficientnet_b0_seed123\\evaluation\\test\\roc_auc_per_class.csv",
+    "pr_auc_csv": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\efficientnet_b0\\final_efficientnet_b0_seed123\\evaluation\\test\\pr_auc_per_class.csv",
+    "roc_curve_png": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\efficientnet_b0\\final_efficientnet_b0_seed123\\evaluation\\test\\roc_curves.png",
+    "pr_curve_png": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\efficientnet_b0\\final_efficientnet_b0_seed123\\evaluation\\test\\precision_recall_curves.png",
+    "roc_curve_data_csv": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\efficientnet_b0\\final_efficientnet_b0_seed123\\evaluation\\test\\roc_curve_data.csv",
+    "pr_curve_data_csv": "D:\\MaizeLeaf\\Results\\heldout_test_evaluation\\efficientnet_b0\\final_efficientnet_b0_seed123\\evaluation\\test\\pr_curve_data.csv"
+  },
+  "test_manifest_sha256": "60502c39895885eebbad0957c5916c3fbdf93dba9694e41180ed9bc044f7250b",
+  "split_assignment_fingerprint_sha256": "8a64e1a8a53eecd2dd2eeedbfb63c7e783a193304a2529da1be4e8c7bff441de",
+  "test_partition_accessed": true,
+  "training_or_finetuning_performed": false,
+  "elapsed_seconds": 406.8349841000163,
+  "note": null
+}
